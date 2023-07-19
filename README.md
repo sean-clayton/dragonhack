@@ -10,7 +10,6 @@ It is made with the following goals:
 - Easily ran in cooperative or solo modes with little-to-no outside supplements necessary.
 - Easily able to adapt monsters and NPCs from material published for other similar games, but also easy to create your own from scratch.
 - Player character death is not an extremely rare occurence.
-- 
 - Easily hackable and open-source.
 
 ## COPYING
