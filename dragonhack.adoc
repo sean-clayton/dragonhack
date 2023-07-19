@@ -144,9 +144,10 @@ When your character suffers the consequences for an action, the GM chooses one. 
 
 == Credits
 
-This work is takes direct inspiration from https://johnharper.itch.io/world-of-dungeons[World of Dungeons], https://dungeon-world.com/[Dungeon World], and many hacks around built around those games -- to take what makes those games great and put a new spin on them.
+{doctitle} takes direct inspiration from https://johnharper.itch.io/world-of-dungeons[World of Dungeons], https://dungeon-world.com/[Dungeon World], and many hacks around built around those games -- to take what makes those games great and put a new spin on them.
+{doctitle} also takes inspiration from https://freeleaguepublishing.com/en/games/forbidden-lands/[Forbidden Lands].
 
-This work uses work from https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
+{doctitle} uses work from https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
 
-The material and content of this work is licensed under the https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International license].
+The material and content of {doctitle} is licensed under the https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International license].
 The source code of this work is licensed under the https://www.gnu.org/licenses/agpl-3.0.en.html[GNU Affero General Public license].
