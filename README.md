@@ -21,7 +21,7 @@ The _mechanics and content_ of this work is licensed under the [CC-BY-SA 4.0][] 
 
 If you are taking the _source code_ and using it in something you are making, that falls under the [AGPL v3][] license stipulations. If you are taking the _mechanics and content_ and using those in something you are making, that falls under the [CC-BY-SA 4.0][] license stipulations.
 
-It is possible you take _both the source code and the mechanics and content_ for the same project. The resulting code for such a project falls under AGPL v3 and the resulting mechanics and content fall under [CC-BY-SA 4.0][].
+It is possible you take _both the source code and the mechanics and content_ for the same project. The resulting code for such a project falls under [AGPL v3][] and the resulting mechanics and content fall under [CC-BY-SA 4.0][].
 
 You can find [a copy of the AGPL v3 here](LICENSE-AGPL). You can find [a copy of the CC-BY-SA 4.0 license here](LICENSE-CC-BY-SA-4.0).
 
