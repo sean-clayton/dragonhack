@@ -27,9 +27,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: github-pages
-          path: |
-            ./
-            !./*.adoc
+          path: index.html
   deploy:
     # Add a dependency to the build job
     needs: build
