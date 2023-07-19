@@ -22,12 +22,12 @@ jobs:
       - id: adocbuild
         uses: tonynv/asciidoctor-action@master
         with:
-          program: "asciidoctor -o index.html dragonhack.adoc"
+          program: "asciidoctor -o dist/index.html dragonhack.adoc"
       - name: Archive artifacts
         uses: actions/upload-pages-artifact@v1
         with:
           name: github-pages
-          path: index.html
+          path: dist
   deploy:
     # Add a dependency to the build job
     needs: build
