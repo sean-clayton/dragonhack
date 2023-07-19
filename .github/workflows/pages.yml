@@ -19,14 +19,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - id: adocbuild
-        uses: tonynv/asciidoctor-action@master
-        with:
-          program: "asciidoctor -o dist/index.html dragonhack.adoc"
       - name: Move assets to dist
         run: |
           mkdir -p ./dist/fonts
           cp -r ./fonts/* ./dist/fonts/
+      - id: adocbuild
+        uses: tonynv/asciidoctor-action@master
+        with:
+          program: "asciidoctor -o dist/index.html dragonhack.adoc"
       - name: Archive artifacts
         uses: actions/upload-pages-artifact@v1
         with:
