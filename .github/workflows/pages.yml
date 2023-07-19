@@ -24,7 +24,7 @@ jobs:
         with:
           program: "asciidoctor -o index.html dragonhack.adoc"
       - name: Archive artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           name: github-pages
           path: index.html
