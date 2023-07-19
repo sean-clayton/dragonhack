@@ -1,2 +1,2 @@
 @default:
-  asciidoctor dragonhack.adoc
+  asciidoctor *.adoc

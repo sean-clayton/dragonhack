@@ -22,7 +22,7 @@ jobs:
       - id: adocbuild
         uses: tonynv/asciidoctor-action@master
         with:
-          program: "asciidoctor dragonhack.adoc"
+          program: "asciidoctor -o index.html dragonhack.adoc"
   deploy:
     # Add a dependency to the build job
     needs: build
