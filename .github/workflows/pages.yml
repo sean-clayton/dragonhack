@@ -19,15 +19,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # Includes the AsciiDoctor GitHub Pages Action to convert adoc files to html and publish to gh-pages branch
-      - name: asciidoctor-ghpages
-        uses: manoelcampos/asciidoctor-ghpages-action@v2
+      - id: adocbuild
+        uses: tonynv/asciidoctor-action@master
         with:
-          pdf_build: false
-          # asciidoctor_params: --attribute=nofooter
-          # adoc_file_ext: .ascii # default is .adoc
-          # source_dir: docs/ # default is .
-          # slides_build:
-          # pre_build:
-          # post_build:
+          program: "asciidoctor dragonhack.adoc"
+      - name: Deploy docs to ghpages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_branch: gh-pages
+          publish_dir: ./
