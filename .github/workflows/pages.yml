@@ -23,6 +23,10 @@ jobs:
         uses: tonynv/asciidoctor-action@master
         with:
           program: "asciidoctor -o dist/index.html dragonhack.adoc"
+      - name: Move assets to dist
+        run: |
+          mkdir -p ./dist/fonts
+          cp -r ./fonts/* ./dist/fonts/
       - name: Archive artifacts
         uses: actions/upload-pages-artifact@v1
         with:

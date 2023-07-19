@@ -1,5 +1,180 @@
 @import "https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css";
-@import "https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/alegreya-v35-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/fonts/alegreya-v35-latin-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/alegreya-v35-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 500;
+  src: url("/fonts/alegreya-v35-latin-500italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/alegreya-v35-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 600;
+  src: url("/fonts/alegreya-v35-latin-600italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/alegreya-v35-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 700;
+  src: url("/fonts/alegreya-v35-latin-700italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/alegreya-v35-latin-800.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 800;
+  src: url("/fonts/alegreya-v35-latin-800italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/alegreya-v35-latin-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 900;
+  src: url("/fonts/alegreya-v35-latin-900italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/alegreya-sc-v25-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/fonts/alegreya-sc-v25-latin-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/alegreya-sc-v25-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 500;
+  src: url("/fonts/alegreya-sc-v25-latin-500italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/alegreya-sc-v25-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 700;
+  src: url("/fonts/alegreya-sc-v25-latin-700italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/alegreya-sc-v25-latin-800.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 800;
+  src: url("/fonts/alegreya-sc-v25-latin-800italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/alegreya-sc-v25-latin-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 900;
+  src: url("/fonts/alegreya-sc-v25-latin-900italic.woff2") format("woff2");
+}
 
 :root {
   --alegreya-font-family: "Alegreya";
