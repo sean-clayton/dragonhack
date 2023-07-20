@@ -17,12 +17,17 @@ along with this program. If not, see https://www.gnu.org/licenses/.
 Sean-Patrick Ortencio Clayton
 1st Edition PRE-ALPHA DRAFT
 :doctype: book
+:title-page:
 :stylesheet: styles.css
 :sectnums:
 :sectnumlevels: 0
 :!version-label:
 :toc: right
 :toclevels: 6
+:imagesdir: images
+:favicon: images/dragonhack-logo.svg
+
+image::dragonhack-logotype.svg[Static,480,align=center]
 
 == Rules
 
@@ -39,8 +44,8 @@ Heart:: Courage, emotion, and understanding.
 ==== Attributes
 
 Each character will start with a total of 4 attribute points.
-No attribute may have more than 2 points into it.
-Your class will provide 
+Your class will provide two attributes for you, and you will add two attributes anywhere else.
+No attribute may have more than 2 points into it during creation.
 
 === Rolling the Dice
 
