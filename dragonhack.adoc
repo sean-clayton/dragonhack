@@ -83,6 +83,7 @@ State what your goal is and the approach your character will take to make it hap
 * Possible consequences if you fail and if you succeed.
 
 You have [term]#advantage# if your character has an appropriate skill related to this action, an effect is increasing your character's abilities, or is being assisted by someone who likewise has an appropriate skill or effect.
+
 .Take Action
 [action]
 --
