@@ -190,6 +190,7 @@ Re-roll all dice that is not a 6 or a 1, and then do the following in order:
 [.lead]
 When your character suffers the consequences for an action, the GM chooses one. If the circumstances call for it, the GM chooses two:
 
+* The most obvious outcome occurs.
 * A success only in name -- they did not get _everything_ they wanted.
 * The character spends [term]#2 willpower# and the approach succeeds without any further complications.
 * The approach results in [term]#reduced reward#.
