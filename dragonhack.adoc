@@ -30,14 +30,17 @@ Sean-Patrick Ortencio Clayton
 
 [horizontal]
 Force:: Physical strength and grit.
-Control:: Fine precision and cunning.
+Edge:: Fine precision and cunning.
 Mind:: Mental fortitude and perception.
 Heart:: Courage, emotion, and understanding.
 
 === Character Creation
 
+==== Attributes
+
 Each character will start with a total of 4 attribute points.
 No attribute may have more than 2 points into it.
+Your class will provide 
 
 === Rolling the Dice
 
@@ -47,11 +50,14 @@ To make this easier to write, multiple dice rolled at once is noted as xd, where
 For example, a roll of a single die is written as 1d, and a roll of two dice is written as 2d.
 
 When rolling dice in this manner, you are rolling a number of dice and only considering the highest result of the pool of dice you are rolling.
-// TODO: Add reference to section on damage dice.
-Rolling dice when dealing damage is not done in this manner, and it is explained later on how that works.
 
 It is possible to roll 0d.
 To do this, roll 2d, and then only consider the lowest of the two as your result.
+
+Rolling dice when dealing damage often shows a + and a number next to a dice roll, and is noted as xd+y.
+This means you roll x dice as normal and then add y to the result.
+For example, 2d+4 means you roll 2d as described above, and then add 4 to the result.
+If 2d results in a 3, then you add 4 which results in a final result of 7.
 
 ==== Risk
 
@@ -160,19 +166,19 @@ You achieve much more than you had expected.
 [action]
 --
 [.lead]
-When you see the dice results of your action, but want to push your luck for a better result...
+When you see the dice results of your action, but want to push your luck for a better result, and you haven't [term]#pushed your luck# already for this roll...
 
-Re-roll any dice that is not a 6 or a 1, and then do the following in order:
+Re-roll all dice that is not a 6 or a 1, and then do the following in order:
 
 . On a **4/5**, choose two which do not happen. On a **1–3**, choose one:
   * Your character is hurt in their great effort.
-    Suffer a [term]#harm#.
+    Suffer a [term]#harm# or 1d damage.
   * The opportunity has mostly been lost.
     The approach results in [term]#low reward#.
   * Your character ends up in a dangerous situation.
     Their next [term]#action taken# in this scene, unless the situation drastically changes, will be at a [term]#great risk#.
-. Add [term]#1 willpower#, and then add [term]#1 more willpower# for each 6.
-  If you rolled 0d, both dice must be 6.
+. Take 1 damage for each dice showing a 1.
+. Add [term]#1 willpower#, and then add [term]#1 more willpower# for each dice showing a 1.
 . Interpret the action again with the new results.
 --
 
