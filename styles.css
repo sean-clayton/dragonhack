@@ -224,6 +224,17 @@ dt {
   font-family: var(--heading-font-family);
 }
 
+h2,
+h3 {
+  font-weight: 500;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
 a {
   font-weight: bold;
   color: inherit;
@@ -232,15 +243,15 @@ a {
 
 .action {
   margin: 1.5rem 0;
-  border-bottom: 3px solid black;
-  background-color: #f6f6f6;
+  border-bottom: 3px solid rgb(59 59 59);
+  background-color: rgb(241 241 241);
 }
 
 .action .title {
   font-weight: bold;
   font-style: normal;
   font-size: x-large;
-  background: black;
+  background: rgb(59 59 59);
   color: white;
   padding: 0 0.25rem;
 }
@@ -291,4 +302,5 @@ dd > .paragraph > p {
 
 #header h1 {
   font-weight: 600;
+  letter-spacing: -0.075em;
 }

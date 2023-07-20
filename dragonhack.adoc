@@ -26,19 +26,54 @@ Sean-Patrick Ortencio Clayton
 
 == Rules
 
-=== Characters
+=== Attributes
+
+[horizontal]
+Force:: Physical strength and grit.
+Control:: Fine precision and cunning.
+Mind:: Mental fortitude and perception.
+Heart:: Courage, emotion, and understanding.
+
+=== Character Creation
+
+Each character will start with a total of 4 attribute points.
+No attribute may have more than 2 points into it.
 
 === Rolling the Dice
+
+Only six-sided dice are used in {doctitle}.
+In most rolls, you will be rolling multiple dice.
+To make this easier to write, multiple dice rolled at once is noted as xd, where x is the number of dice rolled.
+For example, a roll of a single die is written as 1d, and a roll of two dice is written as 2d.
+
+When rolling dice in this manner, you are rolling a number of dice and only considering the highest result of the pool of dice you are rolling.
+// TODO: Add reference to section on damage dice.
+Rolling dice when dealing damage is not done in this manner, and it is explained later on how that works.
+
+It is possible to roll 0d.
+To do this, roll 2d, and then only consider the lowest of the two as your result.
 
 ==== Risk
 
 The core mechanic in {doctitle} is to [term]#take action#.
+[term]#Taking action# is all about acting in the face of danger or some other kind of risk.
 
-.Take Action
-[action]
+.Beware rolling dice too much!
+[sidebar]
 --
-[.lead]
-When your character acts by taking a risk...
+Rolling dice in {doctitle} should happen _only_ when the action and drama call for it.
+Constant dice-throwing can make a session take much longer than it should.
+If there is no risk, then there shouldn't be any rolling.
+It's much easier and quicker to just let the players succeed and move along.
+
+In a deadly combat where you are outmatched or when traversing through a deadly dungeon is a perfect time and place to roll to find out what happens.
+There's lots of risk in those situations, so let the rolls tell us what happens!
+
+In other times, though, when there is no risk being taken, then don't ask for a roll.
+Let the players succeed and move along until we get to a point where tension, action, and drama are back.
+--
+
+==== Taking Action
 
 State what your goal is and the approach your character will take to make it happen. The GM will tell you the following:
 
@@ -48,28 +83,30 @@ State what your goal is and the approach your character will take to make it hap
 * Possible consequences if you fail and if you succeed.
 
 You have [term]#advantage# if your character has an appropriate skill related to this action, an effect is increasing your character's abilities, or is being assisted by someone who likewise has an appropriate skill or effect.
+.Take Action
+[action]
+--
+[.lead]
+When your character acts by taking a risk...
 
-Roll the dice:
-
-- 1d for each dot in the [term]#attribute#.
+- 1d for each point in the [term]#attribute#.
 - +1d if you have [term]#advantage#.
 - +1d if you accept a [term]#devil's bargain#.
 
-'''
-
+[]
 Low Risk::
 +
 [.lead]
 You act on your terms. You exploit a dominant advantage.
 +
-* On a 12+,
+* **Critical:**
   a success with [term]#increased reward#.
-* On a 10+,
+* **6:**
   things go as planned and all is well. A success.
-* On a 7–9,
+* **4/5:**
   your character has a sudden realization that their approach will certainly succeed, but with a cost.
   They can try a different approach, or continue on and [term]#suffer the consequences#.
-* On a 6-,
+* **1–3:**
   your character fails before any consequences occur, but a new [term]#risky# opportunity lies before them.
   They can attempt again with that approach or try something else.
 Risky::
@@ -77,27 +114,27 @@ Risky::
 [.lead]
 You go head to head. You act under fire. You take a chance.
 +
-* On a 12+,
+* **Critical:**
   a success with [term]#increased reward#.
-* On a 10+,
+* **6:**
   a success, and you realize what was at stake.
-* On a 7–9,
+* **4/5:**
   overall a success, but you must [term]#suffer the consequences#.
-* On a 6-,
+* **1–3:**
   things do not go your way. [term]#Mark XP# and you must [term]#suffer the consequences#.
 Great Risk::
 +
 [.lead]
 You overreach your capabilities. You’re in serious trouble.
 +
-* On a 12+,
+* **Critical:**
   a success with [term]#increased reward#.
-* On a 10+,
+* **6:**
   a success, narrowly avoiding the consequences.
-* On a 7–9,
+* **4/5:**
   technically a success, but there is a severe cost.
   [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
-* On a 6-,
+* **1–3:**
   the worst outcome has happened.
   [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
 --
@@ -126,14 +163,15 @@ When you see the dice results of your action, but want to push your luck for a b
 
 Re-roll any dice that is not a 6 or a 1, and then do the following in order:
 
-. Add [term]#1 willpower# and re-calculate your roll result.
-. On a 6-, choose which one does not happen:
+. On a **4/5**, choose two which do not happen. On a **1–3**, choose one:
   * Your character is hurt in their great effort.
     Suffer a [term]#harm#.
   * The opportunity has mostly been lost.
     The approach results in [term]#low reward#.
   * Your character ends up in a dangerous situation.
-    [term]#Taking further action# in this scene, unless the situation drastically changes, will be a [term]#great risk#.
+    Their next [term]#action taken# in this scene, unless the situation drastically changes, will be at a [term]#great risk#.
+. Add [term]#1 willpower#, and then add [term]#1 more willpower# for each 6.
+  If you rolled 0d, both dice must be 6.
 . Interpret the action again with the new results.
 --
 
@@ -160,9 +198,9 @@ When your character suffers the consequences for an action, the GM chooses one. 
 == Credits
 
 {doctitle} takes direct inspiration from https://johnharper.itch.io/world-of-dungeons[World of Dungeons], https://dungeon-world.com/[Dungeon World], and many hacks around built around those games -- to take what makes those games great and put a new spin on them.
-{doctitle} also takes inspiration from https://freeleaguepublishing.com/en/games/forbidden-lands/[Forbidden Lands].
+{doctitle} also takes inspiration from https://www.ironswornrpg.com/[Ironsworn] and https://freeleaguepublishing.com/en/games/forbidden-lands/[Forbidden Lands].
 
 {doctitle} uses work from https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
 
 The material and content of {doctitle} is licensed under the https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International license].
-The source code of this work is licensed under the https://www.gnu.org/licenses/agpl-3.0.en.html[GNU Affero General Public license].
+The source code of {doctitle} is licensed under the https://www.gnu.org/licenses/agpl-3.0.en.html[GNU Affero General Public license].
