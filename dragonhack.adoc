@@ -26,6 +26,7 @@ Sean-Patrick Ortencio Clayton
 :toclevels: 6
 :imagesdir: images
 :favicon: images/dragonhack-logo.svg
+:repo-url: https://github.com/sean-clayton/dragonhack
 
 image::dragonhack-logotype.svg[Static,480,align=center]
 
@@ -218,4 +219,4 @@ When your character suffers the consequences for an action, the GM chooses one. 
 Spiked dragon head icon in the {doctitle} logo by https://delapouite.com/[Delapouite] under http://creativecommons.org/licenses/by/3.0/[CC BY 3.0].
 
 The material and content of {doctitle} is licensed under the https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International license].
-The source code of {doctitle} is licensed under the https://www.gnu.org/licenses/agpl-3.0.en.html[GNU Affero General Public license].
+The {repo-url}[source code of {doctitle}] is licensed under the https://www.gnu.org/licenses/agpl-3.0.en.html[GNU Affero General Public license].
