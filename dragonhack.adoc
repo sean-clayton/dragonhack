@@ -35,9 +35,9 @@ image::dragonhack-logotype.svg[Static,480,align=center]
 === Attributes
 
 [horizontal]
-Force:: Physical strength and grit.
-Edge:: Fine precision and cunning.
-Mind:: Mental fortitude and perception.
+Force:: Physical strength, might, and grit.
+Edge:: Haste, precision, and cunning.
+Mind:: Mental fortitude, intellect, and perception.
 Heart:: Courage, emotion, and understanding.
 
 === Character Creation
