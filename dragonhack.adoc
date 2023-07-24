@@ -89,6 +89,8 @@ For example, delving into dungeons or ancient ruins can always be a deadly ventu
 While you are exploring these dark places, it can exhausting to always be tense, on the lookout, or being ready to act on a moment's notice.
 It's exhaustion of the mind and body.
 
+Each character has 8 exhaustion.
+
 === Rolling the Dice
 
 Only six-sided dice are used in {doctitle}.
