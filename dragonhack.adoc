@@ -72,9 +72,9 @@ The following are the skills in {doctitle}:
 * [term]#Aim#
 * [term]#Analyze#
 * [term]#Athletics#
+* [term]#Care#
 * [term]#Influence#
 * [term]#Magick#
-* [term]#Medicine#
 * [term]#Melee#
 * [term]#Secrecy#
 
