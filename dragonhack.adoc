@@ -17,7 +17,7 @@ along with this program. If not, see https://www.gnu.org/licenses/.
 Sean-Patrick Ortencio Clayton
 1st Edition PRE-ALPHA DRAFT
 :doctype: book
-:title-page:
+:!showtitle:
 :stylesheet: styles.css
 :sectnums:
 :sectnumlevels: 0
@@ -28,25 +28,66 @@ Sean-Patrick Ortencio Clayton
 :favicon: images/dragonhack-logo.svg
 :repo-url: https://github.com/sean-clayton/dragonhack
 
-image::dragonhack-logotype.svg[Static,480,align=center]
+[#subtitle]
+--
+image::dragonhack-logotype.svg[Static,480,id=logo,align=center,alt=DragonHack]
 
-== Rules
+[.text-center]
+Basic
+--
+
+== Character Creation
+
+Here are the steps to character creation in {doctitle}:
+
+. Assign [term]#attribute points#.
+. Choose a [term]#path# and its <<_skills,[term]#skill points#>>.
+. Apply four more <<_skills,[term]#skill points#>>.
+. Choose a [term]#kin#.
+. Choose [term]#equipment#.
 
 === Attributes
 
+Each PC will start with an array of attribute points: 2, 1, 1.
+Assign these points to any of the [term]#attributes# --
+[term]#force#, [term]#edge#, [term]#mind#, or [term]#heart#.
+
 [horizontal]
-Force:: Physical strength, might, and grit.
+Force:: Aggression, might, and intimidation.
 Edge:: Haste, precision, and cunning.
 Mind:: Mental fortitude, intellect, and perception.
-Heart:: Courage, emotion, and understanding.
+Heart:: Courage, diplomacy, and understanding.
 
-=== Character Creation
+==== Luck
 
-==== Attributes
+Luck is a special attribute.
+Luck is almost never used as the attribute when [term]#taking action# during typical play.
+It is instead primarily used to change the outcome of your roll when [term]#taking action#.
 
-Each character will start with a total of 4 attribute points.
-Your class will provide two attributes for you, and you will add two attributes anywhere else.
-No attribute may have more than 2 points into it during creation.
+=== Skills
+
+Skills are general abilities that increase your chances of succeeding when [term]#taking action#.
+The following are the skills in {doctitle}:
+
+* [term]#Aim#
+* [term]#Analyze#
+* [term]#Athletics#
+* [term]#Influence#
+* [term]#Magick#
+* [term]#Medicine#
+* [term]#Melee#
+* [term]#Secrecy#
+
+Your [term]#path# will provide three points to skills.
+After applying the skills from your [term]#path#, add four more points into your skills.
+No skill can exceed 2 points applied during character creation.
+
+=== Exhaustion
+
+Exhaustion represents your character wearing down in dangerous situations.
+For example, delving into dungeons or ancient ruins can always be a deadly venture.
+While you are exploring these dark places, it can exhausting to always be tense, on the lookout, or being ready to act on a moment's notice.
+It's exhaustion of the mind and body.
 
 === Rolling the Dice
 
@@ -70,31 +111,22 @@ If 2d results in a 3, then you add 4 which results in a final result of 7.
 The core mechanic in {doctitle} is to [term]#take action#.
 [term]#Taking action# is all about acting in the face of danger or some other kind of risk.
 
-.Beware rolling dice too much!
-[sidebar]
---
-Rolling dice in {doctitle} should happen _only_ when the action and drama call for it.
-Constant dice-throwing can make a session take much longer than it should.
-If there is no risk, then there shouldn't be any rolling.
-It's much easier and quicker to just let the players succeed and move along.
-
-In a deadly combat where you are outmatched or when traversing through a deadly dungeon is a perfect time and place to roll to find out what happens.
-There's lots of risk in those situations, so let the rolls tell us what happens!
-
-In other times, though, when there is no risk being taken, then don't ask for a roll.
-Let the players succeed and move along until we get to a point where tension, action, and drama are back.
---
-
 ==== Taking Action
 
-State what your goal is and the approach your character will take to make it happen. The GM will tell you the following:
+State what your goal is and the approach your character will take to make it happen.
+You choose a relevent [term]#skill# to the approach.
+The GM has the ultimate say in the skill, but should be biased towards your choice.
+The GM will tell you the following:
 
 * The [term]#attribute# you will use.
 * The level of [term]#risk# the approach takes.
 * The level of [term]#reward# given if the approach succeeds.
 * Possible consequences if you fail and if you succeed.
 
-You have [term]#advantage# if your character has an appropriate skill related to this action, an effect is increasing your character's abilities, or is being assisted by someone who likewise has an appropriate skill or effect.
+You have [term]#advantage# if...
+
+* An applicable effect (such as a magical item that provides [term]#advantage#) is increasing your character's abilities.
+* Your character is being assisted by someone who has an appropriate skill or effect.
 
 .Take Action
 [action]
@@ -103,10 +135,12 @@ You have [term]#advantage# if your character has an appropriate skill related to
 When your character acts by taking a risk...
 
 - 1d for each point in the [term]#attribute#.
+- 1d for each point in the relevent [term]#skill#.
 - +1d if you have [term]#advantage#.
 - +1d if you accept a [term]#devil's bargain#.
 
-[]
+[horizontal]
+[.risk]
 Low Risk::
 +
 [.lead]
@@ -122,6 +156,7 @@ You act on your terms. You exploit a dominant advantage.
 * **1–3:**
   your character fails before any consequences occur, but a new [term]#risky# opportunity lies before them.
   They can attempt again with that approach or try something else.
+
 Risky::
 +
 [.lead]
@@ -135,6 +170,7 @@ You go head to head. You act under fire. You take a chance.
   overall a success, but you must [term]#suffer the consequences#.
 * **1–3:**
   things do not go your way. [term]#Mark XP# and you must [term]#suffer the consequences#.
+
 Great Risk::
 +
 [.lead]
@@ -155,46 +191,18 @@ You overreach your capabilities. You’re in serious trouble.
 ==== Reward
 
 Low Reward::
-+
 You achieve something, but not nearly as much as you'd like.
 
 Moderate Reward::
-+
 You achieve a moderate outcome.
 
 Great Reward::
-+
 You achieve much more than you had expected.
-
-==== Pushing Your Luck
-
-.Push Your Luck
-[action]
---
-[.lead]
-When you see the dice results of your action, but want to push your luck for a better result, and you haven't [term]#pushed your luck# already for this roll...
-
-Re-roll all dice that is not a 6 or a 1, and then do the following in order:
-
-. On a **4/5**, choose two which do not happen. On a **1–3**, choose one:
-  * Your character is hurt in their great effort.
-    Suffer a [term]#harm# or 1d damage.
-  * The opportunity has mostly been lost.
-    The approach results in [term]#low reward#.
-  * Your character ends up in a dangerous situation.
-    Their next [term]#action taken# in this scene, unless the situation drastically changes, will be at a [term]#great risk#.
-. Take 1 damage for each dice showing a 1.
-. Add [term]#1 willpower#, and then add [term]#1 more willpower# for each dice showing a 1.
-. Interpret the action again with the new results.
---
 
 ==== Suffering Consequences
 
-.Suffering the Consequences
-[action]
---
-[.lead]
-When your character suffers the consequences for an action, the GM chooses one. If the circumstances call for it, the GM chooses two:
+The GM chooses the consequences when the PCs [term]#suffer the consequences# while [term]#taking action#.
+This is where the GM gets to shine -- these consequnces will provide the backbone of drama and action in {doctitle}.
 
 * The most obvious outcome occurs.
 * A success only in name -- they did not get _everything_ they wanted.
@@ -204,19 +212,65 @@ When your character suffers the consequences for an action, the GM chooses one. 
 * Reveal a looming threat.
 * Inflict a [term]#harm# or destroy [term]#gear#.
 * Deal damage.
-** ... and it's messy.
+** _wip_ and it's messy.
 * The character's [term]#dark past# has caught up to them.
 * Utilize your prep to modify the scene or situation.
+
+==== Push Yourself
+
+==== Resisting Consequences
+
+After seeing the roll result when [term]#taking action#, you can choose to [term]#resist# the consequences.
+Take the following steps:
+
+. If you have <<_armor,[term]#armor#>> and the fiction allows for it, you can mark one wear off of the applicable armor and automatically succeed at resisting.
+. Explain how your character is resisting or reducing the severity of the consequences.
+. If you haven't already succeeded at resisting, take the [term]#resist# action. The GM will tell you which [term]#attribute# you will use.
+
+.Resist
+[action]
 --
+[.lead]
+When your character resists the consequences of their actions...
+
+Roll 1d for each point in the [term]#attribute#.
+
+[horizontal]
+* **Critical:**
+  You do it with complete ease.
+* **6:**
+  With a little effort you do it. [term]#Mark 1 exhaustion#.
+* **4/5:**
+  your character has a sudden realization that their approach will certainly succeed, but with a cost.
+  They can try a different approach, or continue on and [term]#suffer the consequences#.
+* **1–3:**
+  your character fails before any consequences occur, but a new [term]#risky# opportunity lies before them.
+  They can attempt again with that approach or try something else.
+--
+
+== GM Advice
+
+=== Asking for Rolls
+
+Rolling dice in {doctitle} should happen _only_ when the action and drama call for it.
+Constant dice-throwing can make a session take much longer than it should.
+If there is no risk, then there shouldn't be any rolling.
+It's much easier and quicker to just let the players succeed and move along.
+
+In a deadly combat where you are outmatched or when traversing through a deadly dungeon is a perfect time and place to roll to find out what happens.
+There's lots of risk in those situations, so let the rolls tell us what happens!
+
+In other times, though, when there is no risk being taken, then don't ask for a roll.
+Let the players succeed and move along until we get to a point where tension, action, and drama are back.
 
 == Credits
 
-{doctitle} takes direct inspiration from https://johnharper.itch.io/world-of-dungeons[World of Dungeons], https://dungeon-world.com/[Dungeon World], and many hacks around built around those games -- to take what makes those games great and put a new spin on them.
+The material and content of {doctitle} is licensed under the link:LICENSE-CC-BY-SA-4.0[Creative Commons Attribution-ShareAlike 4.0 International license].
+The {repo-url}[source code of {doctitle}] is licensed under the link:LICENSE-AGPL[GNU Affero General Public license].
+
+{doctitle} takes direct inspiration from https://www.bladesinthedark.com[Blades in the Dark], https://johnharper.itch.io/world-of-dungeons[World of Dungeons], https://dungeon-world.com/[Dungeon World], and the many games derived from those.
 {doctitle} also takes inspiration from https://www.ironswornrpg.com/[Ironsworn] and https://freeleaguepublishing.com/en/games/forbidden-lands/[Forbidden Lands].
 
 {doctitle} uses work from https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
 
 Spiked dragon head icon in the {doctitle} logo by https://delapouite.com/[Delapouite] under http://creativecommons.org/licenses/by/3.0/[CC BY 3.0].
-
-The material and content of {doctitle} is licensed under the https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International license].
-The {repo-url}[source code of {doctitle}] is licensed under the https://www.gnu.org/licenses/agpl-3.0.en.html[GNU Affero General Public license].

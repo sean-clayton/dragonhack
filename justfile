@@ -1,4 +1,7 @@
-@default:
+default:
+  watchexec -e adoc,css asciidoctor *.adoc
+
+@build:
   asciidoctor *.adoc
 
 @clean:

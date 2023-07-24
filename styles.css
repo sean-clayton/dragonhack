@@ -186,6 +186,11 @@
   --term-font-family: var(--alegreya-sc-font-family);
 }
 
+html {
+  font-size: 16px;
+  font-size: 100%;
+}
+
 .toc a {
   font-family: var(--primary-font-family);
 }
@@ -253,20 +258,38 @@ a {
   font-size: x-large;
   background: rgb(59 59 59);
   color: white;
-  padding: 0 0.25rem;
+  padding: 0 0.5rem;
+  margin: 0;
 }
 
 .action .content {
-  padding: 0.25rem;
+  padding: 1rem 0 0;
+}
+
+.action .content > .paragraph {
+  padding: 0 0.5rem;
+}
+
+.action .content table {
+  margin: 0;
+}
+
+.action .content table td {
+  padding: 0.5rem;
 }
 
 .lead {
   font-style: italic;
 }
 
-dd .paragraph.lead > p {
+dd .paragraph.lead > p,
+.hdlist2 > p {
   margin: 0;
   font-style: normal;
+}
+
+td.hdlist1 {
+  padding-bottom: 0;
 }
 
 li p {
@@ -301,6 +324,43 @@ dd > .paragraph > p {
 }
 
 #header h1 {
+  font-weight: 600;
+  letter-spacing: -0.075em;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+p,
+blockquote,
+dt,
+td.content,
+td.hdlist1,
+span.alt,
+summary {
+  font-size: 1.25rem;
+}
+
+td.hdlist1 {
+  white-space: nowrap;
+}
+
+#logo {
+  margin: 0;
+  margin-bottom: -2rem;
+}
+
+#subtitle p {
+  font-size: 3rem;
+  font-family: var(--heading-font-family);
+  margin: 0;
+  line-height: 1;
   font-weight: 600;
   letter-spacing: -0.075em;
 }
