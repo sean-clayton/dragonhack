@@ -30,21 +30,27 @@ Sean-Patrick Ortencio Clayton
 
 [#subtitle]
 --
-image::dragonhack-logotype.svg[Static,480,id=logo,align=center,alt=DragonHack]
+image::dragonhack-logotype.svg[Static,480,id=logo,align=center,alt=DragonHack,link=#]
 
 [.text-center]
 Basic
 --
 
-== Character Creation
+== The Basics
 
-Here are the steps to character creation in {doctitle}:
+Creating a character in {doctitle} is quite easy.
+Here is a summary of the steps to make a new character:
 
-. Assign [term]#attribute points#.
-. Choose a [term]#path# and its <<_skills,[term]#skill points#>>.
+. Assign <<_attributes,[term]#attribute points#>>.
+. Choose a <<_paths,[term]#path#>> and apply its <<_skills,[term]#skill points#>>.
 . Apply four more <<_skills,[term]#skill points#>>.
-. Choose a [term]#kin#.
-. Choose [term]#equipment#.
+. Look at your <<_paths,[term]#path#>> and...
+  * Answer all questions and make all choices.
+  * Apply its <<_gear,[term]#gear#>>.
+  * Determine your max <<_exhaustion_scars,[term]#exhaustion#>>.
+. Choose a <<_kin,[term]#kin#>>.
+. Set a <<_dark_desire,[term]#dark desire#>> and a <<_bonds,[term]#bond#>>.
+. Choose more <<_gear,[term]#gear#>>.
 
 === Attributes
 
@@ -58,38 +64,38 @@ Edge:: Haste, precision, and cunning.
 Mind:: Mental fortitude, intellect, and perception.
 Heart:: Courage, diplomacy, and understanding.
 
-==== Luck
-
-Luck is a special attribute.
-Luck is almost never used as the attribute when [term]#taking action# during typical play.
-It is instead primarily used to change the outcome of your roll when [term]#taking action#.
-
 === Skills
 
 Skills are general abilities that increase your chances of succeeding when [term]#taking action#.
 The following are the skills in {doctitle}:
 
 * [term]#Aim#
-* [term]#Analyze#
 * [term]#Athletics#
 * [term]#Care#
 * [term]#Influence#
 * [term]#Magick#
 * [term]#Melee#
 * [term]#Secrecy#
+* [term]#Study#
+* [term]#Survey#
 
-Your [term]#path# will provide three points to skills.
+Your [term]#path# will provide three points to skills, two of which goes into a single skill.
 After applying the skills from your [term]#path#, add four more points into your skills.
-No skill can exceed 2 points applied during character creation.
+Only one skill can have 2 points applied at the beginning of the game.
+All other skills you choose can only have 1 point applied.
 
-=== Exhaustion
+=== Exhaustion &amp; Scars
 
 Exhaustion represents your character wearing down in dangerous situations.
 For example, delving into dungeons or ancient ruins can always be a deadly venture.
 While you are exploring these dark places, it can exhausting to always be tense, on the lookout, or being ready to act on a moment's notice.
-It's exhaustion of the mind and body.
+It's exhaustion of the mind and body. Each character starts with 8 exhaustion.
 
-Each character has 8 exhaustion.
+=== Paths
+
+=== Kin
+
+Your kin 
 
 === Rolling the Dice
 
@@ -108,12 +114,12 @@ This means you roll x dice as normal and then add y to the result.
 For example, 2d+4 means you roll 2d as described above, and then add 4 to the result.
 If 2d results in a 3, then you add 4 which results in a final result of 7.
 
-==== Risk
+=== Risk
 
 The core mechanic in {doctitle} is to [term]#take action#.
 [term]#Taking action# is all about acting in the face of danger or some other kind of risk.
 
-==== Taking Action
+=== Taking Action
 
 State what your goal is and the approach your character will take to make it happen.
 You choose a relevent [term]#skill# to the approach.
@@ -139,11 +145,10 @@ When your character acts by taking a risk...
 - 1d for each point in the [term]#attribute#.
 - 1d for each point in the relevent [term]#skill#.
 - +1d if you have [term]#advantage#.
-- +1d if you accept a [term]#devil's bargain#.
 
 [horizontal]
 [.risk]
-Low Risk::
+Minor Risk::
 +
 [.lead]
 You act on your terms. You exploit a dominant advantage.
@@ -159,7 +164,7 @@ You act on your terms. You exploit a dominant advantage.
   your character fails before any consequences occur, but a new [term]#risky# opportunity lies before them.
   They can attempt again with that approach or try something else.
 
-Risky::
+Moderate Risk::
 +
 [.lead]
 You go head to head. You act under fire. You take a chance.
@@ -173,7 +178,7 @@ You go head to head. You act under fire. You take a chance.
 * **1–3:**
   things do not go your way. [term]#Mark XP# and you must [term]#suffer the consequences#.
 
-Great Risk::
+Major Risk::
 +
 [.lead]
 You overreach your capabilities. You’re in serious trouble.
@@ -190,37 +195,133 @@ You overreach your capabilities. You’re in serious trouble.
   [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
 --
 
-==== Reward
+=== Reward
 
-Low Reward::
+Minor Reward::
 You achieve something, but not nearly as much as you'd like.
 
 Moderate Reward::
 You achieve a moderate outcome.
 
-Great Reward::
+Major Reward::
 You achieve much more than you had expected.
 
-==== Suffering Consequences
+.Dice Odds
+[sidebar]
+--
+[cols="1,3,3,3,3",stripes=even]
+|===
+| Dice | Critical | Success | Partial | Fail
+
+| 0 | 0% | 3% | 22% | 75%
+
+| 1 | 0% | 17% | 33% | 50%
+
+| 2 | 3% | 28% | 44% | 25%
+
+| 3 | 7% | 35% | 45% | 13%
+
+| 4 | 13% | 39% | 42% | 6%
+
+| 5 | 20% | 40% | 37% | 3%
+
+|===
+--
+
+=== Damage
+
+If you are intending to do damage with a roll...
+
+* **Critical:**
+  You do 1 damage for every 6 rolled.
+* **6:**
+  You do 1 damage.
+* **4/5:**
+  The GM has discretion here, but typically you do 1 damage and [term]#suffer the consequences#.
+* **1–3:**
+  You do no damage and [term]#suffer the consequences#.
+
+This is just the typical case with damage.
+Feel free to change the damage depending on the [term]#reward# level of the approach.
+The fiction should be consulted first when determining damage.
+
+=== Double Down
+
+After seeing the roll result when [term]#taking action#, you can choose to [term]#double down# and make an extra effort to succeed.
+Take the following steps:
+
+. Put all dice that show a 6 or a 1 to the side.
+. Re-roll all remaining dice.
+. For every dice that shows a 1, take a [term]#minor harm#.
+. Consider this new roll your result and proceed with resolving [term]#take action#.
+
+.Doubling Down
+[example]
+--
+**Bob:** Alice, what do you do?
+
+**Alice:** Alright, I want to slash at this troll while his back is to me!
+
+**Bob:** Awesome, that'll be with Force, standard risk and you can finish him off if you succeed here. Otherwise, this thing will try to smash down on your companions.
+
+**Alice:** Can't have that. Okay, three dice... <rolls>... 1, 3, and 4 -- failure it looks like.
+Actually, no. I'm doubling down.
+<re-rolls the 3 and 4>
+A 2 and 6 -- a success!
+
+**Bob:** Okay, awesome -- yeah, you're able to do it.
+You still have that 1 though, so add a minor harm that says "leg cut" -- you swung your sword so hard to get the troll that you also swiped your leg just a bit.
+--
+
+=== Suffering Consequences
 
 The GM chooses the consequences when the PCs [term]#suffer the consequences# while [term]#taking action#.
 This is where the GM gets to shine -- these consequnces will provide the backbone of drama and action in {doctitle}.
 
 * The most obvious outcome occurs.
 * A success only in name -- they did not get _everything_ they wanted.
-* The character spends [term]#2 willpower# and the approach succeeds without any further complications.
 * The approach results in [term]#reduced reward#.
 * Reveal a dark truth.
 * Reveal a looming threat.
 * Inflict a [term]#harm# or destroy [term]#gear#.
-* Deal damage.
-** _wip_ and it's messy.
-* The character's [term]#dark past# has caught up to them.
+* The character succumbs to their [term]#dark desire#.
 * Utilize your prep to modify the scene or situation.
+* A _coup de grâce_ on a PC with an existing [term]#major harm# -- finish them off!
 
-==== Push Yourself
+=== Harm &amp; Trauma
 
-==== Resisting Consequences
+There are four levels of [term]#harm# in {doctitle}.
+[term]#minor harm#, [term]#moderate harm#, [term]#major harm#, and [term]#fatal harm#.
+
+[term]#Minor harm# represents smaller conditions and injuries such as a black eye, being dizzy, or being distracted.
+Each PC can have up to three minor harm.
+Minor harm [term]#reduces your effect# when [term]#taking action#.
+
+[term]#Moderate harm# represents dangerous conditions such as a broken finger, 
+Each PC can have up to two moderate harm.
+Moderate harm reduces your dice pool by one when rolling dice.
+
+[term]#Major harm# represents potentially deadly conditions such as a shattered leg, being impaled, being terrified, or losing control over your mind.
+Each PC can only have one major harm.
+Major harm takes a PC out of action almost always and they need immediate attention.
+If a character has a major harm and the fiction allows for it, they are susceptible to a _coup de grâce_.
+
+[term]#Fatal harm# represents an end to a PC, such as decapitation, their soul being ripped out and destroyed, or 
+Each PC will die when gaining a fatal harm.
+Fatal harm triggers the PC's <<_doomed,[term]#doomed#>> ability.
+After completing their doomed ability, they die.
+
+When you are taking a specific level of harm, but you already have the maximum allowed amount of harm for that level, you instead take a harm of the next highest tier.
+For example, if a character already has three minor harm and has to mark another minor harm, they must mark a moderate harm if possible.
+
+==== Doomed
+
+When a PC suffers a fatal harm, they become doomed.
+The doomed state represents when a character knows they will die,
+but they get the final say in what happens.
+Each [term]#path# states what happens and is possible when a PC becomes doomed.
+
+=== Resisting Consequences
 
 After seeing the roll result when [term]#taking action#, you can choose to [term]#resist# the consequences.
 Take the following steps:
@@ -243,14 +344,38 @@ Roll 1d for each point in the [term]#attribute#.
 * **6:**
   With a little effort you do it. [term]#Mark 1 exhaustion#.
 * **4/5:**
-  your character has a sudden realization that their approach will certainly succeed, but with a cost.
-  They can try a different approach, or continue on and [term]#suffer the consequences#.
+  [term]#Mark 2 exhaustion#.
 * **1–3:**
-  your character fails before any consequences occur, but a new [term]#risky# opportunity lies before them.
-  They can attempt again with that approach or try something else.
+  You cut it close. [term]#Mark 3 exhaustion#.
 --
 
-== GM Advice
+=== Gathering Information
+
+=== Advancement
+
+== Tags
+
+== Monsters & Foes
+
+== Spells & Sorcery
+
+== Artifacts
+
+== Running the Game
+
+////
+I use the phrase "GMs only" here so players are somewhat discouraged from
+looking at this section and pointing to a section, saying
+"this is how you're supposed to run it!"
+
+The overall intent in this section is to help new GMs understand how this kind
+of game *generally* runs. It is also meant to be a useful reference for
+all GMs  to come here (during or even after session) and understanding
+the game and how it runs.
+////
+
+This section is designed to be useful for GMs only.
+Within you will find guidance, examples, and advice to assist you running a game of {doctitle}.
 
 === Asking for Rolls
 
