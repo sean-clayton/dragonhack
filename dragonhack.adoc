@@ -15,13 +15,14 @@ along with this program. If not, see https://www.gnu.org/licenses/.
 
 = DragonHack
 Sean-Patrick Ortencio Clayton
-1st Edition PRE-ALPHA DRAFT
+v1: PRE-ALPHA DRAFT
 :doctype: book
 :!showtitle:
 :stylesheet: styles.css
+:sectanchors:
 :sectnums:
 :sectnumlevels: 0
-:!version-label:
+:version-label: Edition
 :toc: right
 :toclevels: 6
 :imagesdir: images
@@ -36,7 +37,110 @@ image::dragonhack-logotype.svg[Static,480,id=logo,align=center,alt=DragonHack,li
 Basic
 --
 
-== The Basics
+<<<
+
+[preface]
+== Preface
+
+**Some acknowledgements:**
+
+{doctitle} is inspired by several games.
+Here is a non-exhaustive list in alphabetical order:
+
+* https://www.bladesinthedark.com[Blades in the Dark] by John Harper.
+* https://dungeon-world.com/[Dungeon World] by Sage LaTorra and Adam Koebel.
+* https://freeleaguepublishing.com/en/games/forbidden-lands/[Forbidden Lands] by the workers at Fria Ligan.
+* https://www.ironswornrpg.com/[Ironsworn] by Shawn Tomkin.
+* https://johnharper.itch.io/world-of-dungeons[World of Dungeons] by John Harper.
+* ... and the many games derived from those.
+
+If you enjoy {doctitle}, then be sure to check out these other games!
+
+<<<
+
+== Part One: The Basics
+
+=== Playing {doctitle}
+
+To play {doctitle}, you create your character, make some decisions about the world you inhabit, and set the story in motion.
+When you encounter something dangerous or otherwise act by taking risks, your choices and the dice determine the outcome.
+
+{doctitle} supports three modes of play.
+
+Guided::
+  One or more players take the role of their characters, the protagonists in your story, while a group mediator/gamemaster (GM) moderates the session.
+  The GM helps bring the world to life, portrays the people and creatures you encounter, and makes decisions about the outcome of your actions.
+Cooperative (Co-Op)::
+  You and one or more friends play together to overcome challenges and complete quests.
+  A GM is not required.
+  The {doctitle} game system will help you explore the dramatic stories of your characters and their fateful vows.
+Solo::
+  As with cooperative play, no GM is necessary.
+  You portray a lone heroic character in a dangerous world.
+  Good luck!
+
+[sidebar]
+--
+{doctitle} is primarily intended for small group play or solo.
+One to four players (plus a GM in guided mode) is ideal.
+The characters portrayed by other players are referred to in these rules as your allies.
+--
+
+==== What You Need to Play
+
+{doctitle} requires some materials. Here is what you'll need:
+
+* Two ten-sided dice (d10) for each player. These are [term]#challenge dice#.
+* Two six-sided dice (d6) for each player. These are [term]#action dice#.
+* Optionally, a set of percentile dice (d100) to use as [term]#oracle dice#.
+* A printed character sheet for each player.
+
+==== Mechanics and the Fiction
+
+{doctitle} uses various mechanics, such as rolling dice and managing the stats and resources on your character sheet.
+As a player, you will often make decisions based on a desired mechanical outcome.
+For example, you might choose a particular action to get a bonus or advantage on your die roll.
+The basic mechanics of {doctitle} are introduced in this chapter.
+
+{doctitle} is also heavily reliant on the fiction, which is the imagined characters, situations, and places within your game.
+You will play from the perspective of your character.
+You will interpret actions and events in a way that is consistent with the dramatic, fictional reality you have forged for your story and your world.
+
+==== Your Character
+
+You use your character sheet to track your stats, gear, and overall condition.
+
+However, your character is more than these mechanical bits.
+You are a character in a rich story.
+You have hopes and fears, virtues and failings.
+You have a history.
+You are, or were, part of a community.
+This is the fiction of your character.
+Consider a few of these details as you create your character, but don’t sweat it -- you’ll evolve it through play.
+At the start of your game, put your character on stage to see what happens. 
+Fill in the blanks -- for your character and your world -- as you go.
+
+=== The Action Roll
+
+=== Progress Tracks
+
+=== Harm
+
+=== Exhaustion
+
+=== Paths
+
+=== Oracles
+
+=== Equipment
+
+=== The Flow of Play
+
+== Part Two: Your Character
+
+== OLD STUFF BELOW
+
+=== Creating a Character
 
 Creating a character in {doctitle} is quite easy.
 Here is a summary of the steps to make a new character:
@@ -351,7 +455,17 @@ Roll 1d for each point in the [term]#attribute#.
 
 === Gathering Information
 
+.Gather Information
+[action]
+--
+Gather dice like you would [term]#taking action# and roll.
+
+
+--
+
 === Advancement
+
+== Characters
 
 == Tags
 
@@ -395,8 +509,7 @@ Let the players succeed and move along until we get to a point where tension, ac
 The material and content of {doctitle} is licensed under the link:LICENSE-CC-BY-SA-4.0[Creative Commons Attribution-ShareAlike 4.0 International license].
 The {repo-url}[source code of {doctitle}] is licensed under the link:LICENSE-AGPL[GNU Affero General Public license].
 
-{doctitle} takes direct inspiration from https://www.bladesinthedark.com[Blades in the Dark], https://johnharper.itch.io/world-of-dungeons[World of Dungeons], https://dungeon-world.com/[Dungeon World], and the many games derived from those.
-{doctitle} also takes inspiration from https://www.ironswornrpg.com/[Ironsworn] and https://freeleaguepublishing.com/en/games/forbidden-lands/[Forbidden Lands].
+{doctitle} uses work from https://www.ironswornrpg.com[Ironsworn] by Shawn Tomkin, licensed for our use under the https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License].
 
 {doctitle} uses work from https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
 
