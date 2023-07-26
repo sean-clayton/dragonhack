@@ -126,7 +126,7 @@ Fill in the blanks -- for your character and your world -- as you go.
 
 === Harm
 
-=== Exhaustion
+=== Exertion
 
 === Paths
 
@@ -138,6 +138,23 @@ Fill in the blanks -- for your character and your world -- as you go.
 
 == Part Two: Your Character
 
+=== Character Basics
+
+==== Attributes
+
+==== Exertion
+
+=== Debilities
+
+==== Harm
+
+==== Scars
+
+== Part Three: Foes and Encounters
+
+== Part Four: Oracles
+
+////
 == OLD STUFF BELOW
 
 === Creating a Character
@@ -476,6 +493,7 @@ Gather dice like you would [term]#taking action# and roll.
 == Artifacts
 
 == Running the Game
+////
 
 ////
 I use the phrase "GMs only" here so players are somewhat discouraged from
@@ -486,6 +504,8 @@ The overall intent in this section is to help new GMs understand how this kind
 of game *generally* runs. It is also meant to be a useful reference for
 all GMs  to come here (during or even after session) and understanding
 the game and how it runs.
+////
+
 ////
 
 This section is designed to be useful for GMs only.
@@ -504,13 +524,15 @@ There's lots of risk in those situations, so let the rolls tell us what happens!
 In other times, though, when there is no risk being taken, then don't ask for a roll.
 Let the players succeed and move along until we get to a point where tension, action, and drama are back.
 
+////
+
 == Credits
 
 The material and content of {doctitle} is licensed under the link:LICENSE-CC-BY-SA-4.0[Creative Commons Attribution-ShareAlike 4.0 International license].
 The {repo-url}[source code of {doctitle}] is licensed under the link:LICENSE-AGPL[GNU Affero General Public license].
 
-{doctitle} uses work from https://www.ironswornrpg.com[Ironsworn] by Shawn Tomkin, licensed for our use under the https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License].
+{doctitle} uses the work of https://www.ironswornrpg.com[Ironsworn] by Shawn Tomkin, licensed for our use under the https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License].
 
-{doctitle} uses work from https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
+{doctitle} uses the work of https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
 
 Spiked dragon head icon in the {doctitle} logo by https://delapouite.com/[Delapouite] under http://creativecommons.org/licenses/by/3.0/[CC BY 3.0].
