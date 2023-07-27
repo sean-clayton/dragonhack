@@ -130,6 +130,7 @@ There are three levels of risk.
 
 Minor Risk::
   Something bad could happen, but not very likely.
+  Failure is not something to really worry about.
 Moderate Risk::
   There's danger here if any failure were to occur.
 Major Risk::
@@ -214,11 +215,14 @@ You act on your terms. You exploit a dominant advantage.
 +
 * **Critical Hit:**
   A success with [term]#increased reward#.
+  [term]#Gain +3 momentum#.
 * **Hit:**
   Things go as planned and all is well. A success.
+  [term]#Gain +2 momentum#.
 * **Weak Hit:**
   Your character has a sudden realization that their approach will certainly succeed, but with a cost.
   They can try a different approach, or continue on and [term]#suffer the consequences#.
+  [term]#Gain +1 momentum#.
 * **Miss:**
   Your character fails before any consequences occur, but a new [term]#risky# opportunity lies before them.
   They can attempt again with that approach or try something else.
@@ -230,16 +234,17 @@ You go head to head. You act under fire. You take a chance.
 +
 * **Critical Hit:**
   A success with [term]#increased reward#.
+  [term]#Gain +1 momentum#.
 * **Hit:**
   A success, and you realize what was at stake.
 * **Weak Hit:**
   Overall a success, but you must [term]#suffer the consequences#.
 * **Miss:**
   Things do not go your way.
-  [term]#Mark XP# and you must [term]#suffer the consequences#.
+  [term]#Gain +1 XP# and you must [term]#suffer the consequences#.
 * **Critical Miss:**
   Things do not go your way.
-  [term]#Mark XP# and you must [term]#suffer the consequences#.
+  [term]#Gain +1 XP# and you must [term]#suffer the consequences#.
 
 Major Risk::
 +
@@ -252,20 +257,92 @@ You overreach your capabilities. You’re in serious trouble.
   A success, narrowly avoiding the consequences.
 * **Weak Hit:**
   Technically a success, but there is a severe cost.
-  [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
+  [term]#Gain +1 XP# and you must [term]#suffer the consequences# accordingly.
 * **Miss:**
   The worst outcome has happened.
-  [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
+  [term]#Gain +1 XP# and you must [term]#suffer the consequences# accordingly.
 * **Critical Miss:**
   The worst outcome has happened, but somehow it got way worse.
-  [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
+  [term]#Gain +1 XP# and you must [term]#suffer the consequences# accordingly.
 --
+
+=== Momentum
+
+Momentum is a special mechanic which is central to playing {doctitle}.
+Your momentum value ranges from a 0 to 3 and represents how you are faring.
+
+==== Gaining Momentum
+
+You gain momentum primarily through [term]#taking action# and succeeding what you set out to accomplish.
+
+Abilities, items, and other things can grant momentum as well.
+
+==== Losing Momentum
+
+Momentum is a resource that can be attacked when [term]#suffering the consequences#.
+Some monsters can have abilities that let them reduce your momentum.
+Some abilities give you the option of spending momentum in exchange for increased power.
+The most common way to lose momentum is by [term]#spending momentum#.
+
+==== Spending Momentum
+
+[term]#Spending momentum# is a powerful option to use your built up successes to turn the tides when the action and drama is high.
+When you have momentum, after you make an action roll, you may add your current momentum value to your action score to improve your result.
+After you do this you go down to 0 momentum, and explain how you overcame and powered through the challenges.
+
+You cannot gain momentum when spending momentum.
+
+.Spending Momentum
+[example]
+Your momentum value is 3 and your action score is 4.
+You roll a 5 and an 8 on your challenge dice.
+A miss.
+You may burn momentum to add your momentum value, 3, to the action score to make it 7.
+This shifts your result from a miss to a weak hit.
+You change your momentum from 3 to 0 and continue play.
+
+==== Momentum Damage
+
+Momentum can be damaged, resulting in a reduction of the maximum momentum you can have.
+As you gain debilitaties or otherwise suffer other negative consequences, your momentum is damaged.
+Almost always the reduction in momentum is tied to a negative effect on you, so if you lose the effect your maximum momentum will increase towards the original amount of 5.
+The negative effect or whatever else that damages your momentum will say how much damage it does to it.
+Often it is just 1 damage.
 
 === Progress Tracks
 
 === Harm
 
 === Exertion
+
+==== Resisting Consequences
+
+After seeing the roll result when [term]#taking action#, you can choose to [term]#resist# the consequences.
+Take the following steps:
+
+. If you have <<_armor,[term]#armor#>> and the fiction allows for it, you can mark one wear off of the applicable armor and automatically succeed at resisting without any costs.
+. Explain how your character or armor is resisting or reducing the severity of the consequences.
+. If you haven't already succeeded at resisting at this step (by having some sort of armor), take the [term]#resist# action.
+  The GM will tell you which [term]#attribute# you will use.
+
+.Resist
+[action]
+--
+[.lead]
+When your character resists the consequences of their actions...
+
+Roll [term]#+force# if resisting physical consequences, [term]#+mind# if resisting mental consequences, or [term]#+heart# if resisting any other consequences.
+
+[horizontal]
+* **Critical Hit:**
+  You do it with complete ease.
+* **Hit:**
+  With a little effort you do it. [term]#Mark 1 exertion#.
+* **Weak Hit:**
+  [term]#Mark 2 exertion#.
+* **Miss:**
+  You cut it close. [term]#Mark 3 exertion#.
+--
 
 === Paths
 
