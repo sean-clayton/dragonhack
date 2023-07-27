@@ -295,12 +295,14 @@ You cannot gain momentum when spending momentum.
 
 .Spending Momentum
 [example]
+--
 Your momentum value is 3 and your action score is 4.
 You roll a 5 and an 8 on your challenge dice.
 A miss.
 You may burn momentum to add your momentum value, 3, to the action score to make it 7.
 This shifts your result from a miss to a weak hit.
 You change your momentum from 3 to 0 and continue play.
+--
 
 ==== Momentum Damage
 
@@ -350,7 +352,7 @@ or [term]#+momentum# if resisting any other kind of harm.
   You cut it close. [term]#Mark 3 exertion#.
 --
 
-==== Armor
+===== Armor
 
 If you have a type of [term]#armor# that applies to the situation, you can mark wear on the armor to reduce or avoid a consequence, instead of rolling to resist.
 
@@ -359,7 +361,15 @@ When the progress track is filled, it is destroyed or otherwise rendered unusabl
 
 Armor also states what kind of damage they can effectively resist against.
 Using an armor to resist types of damage they are not effective against will result in greater wear or exertion costs.
-For example, leather armors typically can only resist against slashing attacks of small weapons like daggers and shivs, but piercing attacks such as arrows and stabbing motions can still penetrate them.
+
+.Leather Armor
+[example]
+--
+Leather armors have 3 wear and typically can only resist against attacks of small weapons like daggers and shivs, but piercing attacks such as arrows can still penetrate them.
+They can possibly protect against slashing attacks from larger weapons or from blunt force, but it will take more wear.
+An attack like a shank from a dagger would only take one wear.
+An attack like a sword slashing against them would require [term]#resisting# and spending 2 wear.
+--
 
 Armor can be repaired completely in the fiction by visiting an armorsmith or some other way of armor being repaired.
 Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor.
@@ -383,6 +393,10 @@ Human people.
 ==== Hobbitfolk
 
 Small people.
+
+==== Goblin
+
+Small people with pointy ears.
 
 ==== Dwarf
 
@@ -426,6 +440,22 @@ Edge:: Haste, precision, and cunning.
 Mystery:: Mysticism, arkane, and other magicks.
 Mind:: Mental fortitude, intellect, and perception.
 Heart:: Bravery, inpsiration, and understanding.
+
+==== Skills
+
+Skills are general abilities that increase your chances of succeeding when [term]#taking action#.
+The following are the skills in {doctitle}:
+
+* [term]#Accuracy#
+* [term]#Athletics#
+* [term]#Care#
+* [term]#Influence#
+* [term]#Discretion#
+* [term]#Study#
+* [term]#Survey#
+
+Your <<_paths,[term]#path#>> will provide 2 skills.
+After applying the skills from your [term]#path#, choose 2 more skills.
 
 ==== Exertion
 
