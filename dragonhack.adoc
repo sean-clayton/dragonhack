@@ -24,7 +24,6 @@ v1: PRE-ALPHA DRAFT
 :sectnumlevels: 0
 :version-label: Edition
 :toc: right
-:toclevels: 6
 :imagesdir: images
 :favicon: images/dragonhack-logo.svg
 :repo-url: https://github.com/sean-clayton/dragonhack
@@ -58,7 +57,7 @@ If you enjoy {doctitle}, then be sure to check out these other games!
 
 <<<
 
-== Part One: The Basics
+== The Basics
 
 === Playing {doctitle}
 
@@ -120,7 +119,147 @@ Consider a few of these details as you create your character, but don’t sweat 
 At the start of your game, put your character on stage to see what happens. 
 Fill in the blanks -- for your character and your world -- as you go.
 
-=== The Action Roll
+=== Rolling Dice
+
+The core mechanic in {doctitle} is to [term]#take action#.
+[term]#Taking action# is all about acting in the face of danger or some other kind of risk.
+
+==== Risk
+
+There are three levels of risk.
+
+Minor Risk::
+  Something bad could happen, but not very likely.
+Moderate Risk::
+  There's danger here if any failure were to occur.
+Major Risk::
+  If things go bad, they will go _very_ bad.
+  Success here is absolutely paramount.
+
+==== Reward
+
+There are three levels of reward.
+
+Minor Reward::
+  You achieve something, but not nearly as much as you'd like.
+  If you were stabbing something, it's technically stabbed, but not as much as you'd hope.
+  If you were avoiding a danger, you technically avoid it, but you wish you did more.
+Moderate Reward::
+  You achieve a satisfactory outcome.
+  If you were stabbing something, it's stabbed.
+  If you were avoiding a danger, it was avoided.
+Major Reward::
+  You achieve much more than you had expected.
+  If you were stabbing something, it sinks in like a hot knife through melted butter.
+  If you were avoiding a danger, it is completely avoided, and probably is no longer dangerous for a time.
+
+==== Taking Action
+
+State what your goal is and the approach your character will take to make it happen.
+You choose a relevent [term]#skill# to the approach.
+The GM has the ultimate say in the skill, but should be biased towards your choice.
+The GM will tell you the following:
+
+* The [term]#attribute# you will use.
+* The level of [term]#risk# the approach takes.
+* The level of [term]#reward# given if the approach succeeds.
+* Possible consequences if you fail and if you succeed.
+
+You have [term]#advantage# if...
+
+* An applicable effect (such as a magical item that provides [term]#advantage#) is increasing your character's abilities.
+* Your character is being assisted by someone who has an appropriate skill or effect.
+
+When you [term]#take action#, you roll multiple dice at once.
+
+- **Challenge dice:** Two ten-sided dice (d10)
+- **Action dice:**
+  One six-sided dice (d6).
+  If you have [term]#advantage#, re-roll the action die and take the highest.
+
+Add the attribute to your action die.
+The total of your action die and your attribute is your action score.
+
+There are five possible results when rolling the dice to [term]#take action#:
+
+[horizontal]
+Critical Hit::
+  Your action score is greater than all of the challenge dice.
+  Both challenge dice are the same number.
+Strong Hit::
+  Your action score is greater than all of the challenge dice.
+Weak Hit::
+  Your action score is greater than only one of two challenge dice.
+Miss::
+  Your action score is not greater than any of the challenge dice.
+Critical Miss::
+  Your action score is not greater than any of the challenge dice.
+  The challenge dice are the same number.
+
+To determine the outcome of your action, compare the action score to each of the challenge dice.
+You want it to be greater than the individual value of those dice.
+
+.Take Action
+[action]
+--
+[.lead]
+When your character acts by taking a risk, state what your goal is and the approach your character will take to make it happen...
+
+[horizontal]
+[.risk]
+Minor Risk::
++
+[.lead]
+You act on your terms. You exploit a dominant advantage.
++
+* **Critical Hit:**
+  A success with [term]#increased reward#.
+* **Hit:**
+  Things go as planned and all is well. A success.
+* **Weak Hit:**
+  Your character has a sudden realization that their approach will certainly succeed, but with a cost.
+  They can try a different approach, or continue on and [term]#suffer the consequences#.
+* **Miss:**
+  Your character fails before any consequences occur, but a new [term]#risky# opportunity lies before them.
+  They can attempt again with that approach or try something else.
+
+Moderate Risk::
++
+[.lead]
+You go head to head. You act under fire. You take a chance.
++
+* **Critical Hit:**
+  A success with [term]#increased reward#.
+* **Hit:**
+  A success, and you realize what was at stake.
+* **Weak Hit:**
+  Overall a success, but you must [term]#suffer the consequences#.
+* **Miss:**
+  Things do not go your way.
+  [term]#Mark XP# and you must [term]#suffer the consequences#.
+* **Critical Miss:**
+  Things do not go your way.
+  [term]#Mark XP# and you must [term]#suffer the consequences#.
+
+Major Risk::
++
+[.lead]
+You overreach your capabilities. You’re in serious trouble.
++
+* **Critical Hit:**
+  A success with [term]#increased reward#.
+* **Hit:**
+  A success, narrowly avoiding the consequences.
+* **Weak Hit:**
+  Technically a success, but there is a severe cost.
+  [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
+* **Miss:**
+  The worst outcome has happened.
+  [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
+* **Critical Miss:**
+  The worst outcome has happened, but somehow it got way worse.
+  [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
+--
 
 === Progress Tracks
 
@@ -136,7 +275,7 @@ Fill in the blanks -- for your character and your world -- as you go.
 
 === The Flow of Play
 
-== Part Two: Your Character
+== Your Character
 
 === Character Basics
 
@@ -150,9 +289,104 @@ Fill in the blanks -- for your character and your world -- as you go.
 
 ==== Scars
 
-== Part Three: Foes and Encounters
+=== Paths
 
-== Part Four: Oracles
+=== Experience
+
+=== Equipment
+
+=== Character Creation Summary
+
+[appendix]
+== Foes and Encounters
+
+Every monster has moves that describe its behavior and abilities.
+Just like the normal consequences, they’re things that you do when there’s a lull in the action or when the PCs give you a golden opportunity.
+
+Each monster has an instinct that describe its goals at a high level.
+Some monsters live for conquest, or treasure, or simply for blood.
+The monster’s instinct is the guide to how to use it in the fiction.
+
+The monster’s description is where all its other features come from.
+The description is how you know what the monster really is, the other elements just reflect the description.
+
+Abilities dictate how much [term]#harm# the monster can inflict at once.
+A monster deals its damage to another monster or a PC whenever it causes them physical harm.
+Some abilities are special, like ones that can only be triggered by a critical failure, or a clock being completed.
+
+Each monster has tags that describe how it deals damage, including the range(s) of its abilities.
+When trying to attack something out of its range (too close or too far) the monster’s out of luck, no damage.
+Any tag that can go on a weapon (like messy or slow) can also go on a monster.
+
+There are special tags that apply only to monsters.
+These tags, listed below, describe the key attributes of the monster -- qualities that describe how big they are and how, if at all, they organize themselves.
+
+A monster’s HP is a measure of how much damage it can take before it dies.
+At 0 HP it’s dead or out of action, unless otherwise stated.
+
+Some monsters have progress tracks associated with them.
+Each track is different and have different effects, such as a timer until a special ability goes off.
+Sometimes it can represent a temporary vulnerability, like a troll when it is attacked by fire.
+
+Some monsters are lucky enough to enjoy armor.
+It’s just like player armor: when a monster with armor takes damage it can mark a use of the armor to negate it.
+
+Special qualities describe innate aspects of the monster that are important to play.
+These are a guide to the fiction, and therefore the moves.
+A quality like intangible means just what it says: mundane stuff just passes through it.
+That means swinging a mundane sword at it will have extremely little [term]#reward#, and damage isn't a possibility for a start.
+
+=== Sample Monster
+
+.Lich
+[monster]
+--
+16 HP +
+2 Armor (Magical) +
+_Solitary_, _Magical_, _Intelligent_, _Cautious_, _Hoarder_, _Construct_
+
+Motivation: To un-live
+
+.Attacks
+Magical Energy Blast::
+  Moderate harm, ignores armor.
+  _Near_, _Far_.
+Blunt Staff::
+  Minor harm.
+  _Close_.
+Magical Eruption □□□□::
+  Severe harm, ignores armor, triggered by progress track completion.
+  _Near_, _Far_.
+
+.Special Abilities
+* Cast a perfected spell of death or destruction
+* Set a ritual or great working into motion
+* Reveal a preparation or plan already completed
+--
+
+
+[appendix]
+== Oracles
+
+=== Using the Oracles
+
+==== Oracles in Solo and Co-Op Play
+
+==== Oracles in Guided Play
+
+==== How to Use an Oracle
+
+===== When Answers Lead to More Questions
+
+===== Oracle Tables and Matches
+
+=== Action Oracle
+
+=== Theme Oracle
+
+=== Combat Action Oracle
+
+=== Exploration Oracle
 
 ////
 == OLD STUFF BELOW
@@ -531,8 +765,10 @@ Let the players succeed and move along until we get to a point where tension, ac
 The material and content of {doctitle} is licensed under the link:LICENSE-CC-BY-SA-4.0[Creative Commons Attribution-ShareAlike 4.0 International license].
 The {repo-url}[source code of {doctitle}] is licensed under the link:LICENSE-AGPL[GNU Affero General Public license].
 
+{doctitle} uses the work of https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
+
 {doctitle} uses the work of https://www.ironswornrpg.com[Ironsworn] by Shawn Tomkin, licensed for our use under the https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License].
 
-{doctitle} uses the work of https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
+{doctitle} uses the work of https://dungeon-world.com/[Dungeon World] by Sage LaTorra and Adam Koebel, licensed for our use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
 
 Spiked dragon head icon in the {doctitle} logo by https://delapouite.com/[Delapouite] under http://creativecommons.org/licenses/by/3.0/[CC BY 3.0].

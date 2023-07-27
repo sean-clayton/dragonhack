@@ -224,6 +224,7 @@ h6,
 .sidebarblock .content .title,
 .exampleblock .title,
 .action .title,
+.monster .title,
 dt {
   color: inherit;
   font-family: var(--heading-font-family);
@@ -252,7 +253,8 @@ a {
   background-color: rgb(241 241 241);
 }
 
-.action .title {
+.action > .title,
+.monster > .title {
   font-weight: bold;
   font-style: normal;
   font-size: x-large;
@@ -262,8 +264,23 @@ a {
   margin: 0;
 }
 
-.action .content {
+.action .content,
+.monster .content {
   padding: 1rem 0 0;
+}
+
+.action > .content > .title,
+.monster > .content > div > .title {
+  font-weight: bold;
+  font-style: normal;
+  font-size: larger;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  margin: 0;
+}
+
+.monster {
+  border-bottom: 3px solid rgb(59 59 59);
 }
 
 .action .content > .paragraph {
@@ -316,11 +333,13 @@ ul li:has(p) {
 
 dd > .paragraph.lead > p {
   font-size: initial;
-  /* font-style: italic; */
 }
 
-dd > .paragraph > p {
-  margin: 0;
+dd > .paragraph > p,
+dl > dd,
+dl > dd > p,
+dl > dt {
+  margin-bottom: 0.25rem;
 }
 
 #header h1 {
