@@ -157,8 +157,8 @@ Major Reward::
 ==== Taking Action
 
 State what your goal is and the approach your character will take to make it happen.
-You choose a relevent [term]#skill# to the approach.
-The GM has the ultimate say in the skill, but should be biased towards your choice.
+You choose one relevent [term]#skill# to aid your approach.
+The GM has the ultimate say if the skill is relevent, but should be biased towards your choice.
 The GM will tell you the following:
 
 * The [term]#attribute# you will use.
@@ -178,8 +178,9 @@ When you [term]#take action#, you roll multiple dice at once.
   One six-sided dice (d6).
   If you have [term]#advantage#, re-roll the action die and take the highest.
 
-Add the attribute to your action die.
-The total of your action die and your attribute is your action score.
+Add the attribute value to your action die.
+Add the skill value to your action die if you have one.
+The total of your action die, your attribute, and any additional bonuses (such as a skill bonus) is your action score.
 
 There are five possible results when rolling the dice to [term]#take action#:
 
@@ -315,12 +316,12 @@ Often it is just 1 damage.
 
 === Exertion
 
-==== Resisting Consequences
+==== Resistance and Armor
 
 After seeing the roll result when [term]#taking action#, you can choose to [term]#resist# the consequences.
 Take the following steps:
 
-. If you have <<_armor,[term]#armor#>> and the fiction allows for it, you can mark one wear off of the applicable armor and automatically succeed at resisting without any costs.
+. If you are wielding, wearing, or otherwise protected by <<_armor,[term]#armor#>> that is effective against this kind of damage and the fiction allows for it, you can mark one wear off of the applicable armor and automatically succeed at resisting without any costs.
 . Explain how your character or armor is resisting or reducing the severity of the consequences.
 . If you haven't already succeeded at resisting at this step (by having some sort of armor), take the [term]#resist# action.
   The GM will tell you which [term]#attribute# you will use.
@@ -331,7 +332,12 @@ Take the following steps:
 [.lead]
 When your character resists the consequences of their actions...
 
-Roll [term]#+force# if resisting physical consequences, [term]#+mind# if resisting mental consequences, or [term]#+heart# if resisting any other consequences.
+Roll [term]#+force# if resisting physical consequences through sheer might and endurance,
+[term]#+edge# if resisting physical consequences through quickness or precision,
+[term]#+mind# if resisting mental consequences,
+[term]#+heart# if resisting emotional damage,
+// huehuehuehue
+or [term]#+momentum# if resisting any other kind of harm.
 
 [horizontal]
 * **Critical Hit:**
@@ -343,6 +349,22 @@ Roll [term]#+force# if resisting physical consequences, [term]#+mind# if resisti
 * **Miss:**
   You cut it close. [term]#Mark 3 exertion#.
 --
+
+==== Armor
+
+If you have a type of [term]#armor# that applies to the situation, you can mark wear on the armor to reduce or avoid a consequence, instead of rolling to resist.
+
+Each armor will have its own wear progress track.
+When the progress track is filled, it is destroyed or otherwise rendered unusable.
+
+Armor also states what kind of damage they can effectively resist against.
+Using an armor to resist types of damage they are not effective against will result in greater wear or exertion costs.
+For example, leather armors typically can only resist against slashing attacks of small weapons like daggers and shivs, but piercing attacks such as arrows and stabbing motions can still penetrate them.
+
+Armor can be repaired completely in the fiction by visiting an armorsmith or some other way of armor being repaired.
+Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor.
+
+==== Death
 
 === Paths
 
@@ -357,6 +379,17 @@ Roll [term]#+force# if resisting physical consequences, [term]#+mind# if resisti
 === Character Basics
 
 ==== Attributes
+
+Each PC will start with an array of attribute points: 3, 2, 1, 1, 0.
+Assign these points to any of the [term]#attributes# --
+[term]#force#, [term]#edge#, [term]#mystery#, [term]#mind#, or [term]#heart#.
+
+[horizontal]
+Force:: Aggression, might, and intimidation.
+Edge:: Haste, precision, and cunning.
+Mystery:: Mysticism, arkane, and other magicks.
+Mind:: Mental fortitude, intellect, and perception.
+Heart:: Bravery, inpsiration, and understanding.
 
 ==== Exertion
 
