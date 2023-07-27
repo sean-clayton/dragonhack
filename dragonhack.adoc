@@ -368,6 +368,42 @@ Mundane armor can be partially repaired with the proper tools and know-how by th
 
 === Paths
 
+==== Warrior
+
+==== Mystic
+
+==== Scoundrel
+
+=== Kin
+
+==== Human
+
+Human people.
+
+==== Hobbitfolk
+
+Small people.
+
+==== Dwarf
+
+Small people with beards.
+
+==== Vyrmit
+
+Mouse/rat/hamster people.
+
+==== Kolussar
+
+Ancient human/dwarf people.
+
+==== Testadar
+
+Turtle/tortoise people.
+
+==== Kyrfit
+
+Raven/crow/rook people.
+
 === Oracles
 
 === Equipment
