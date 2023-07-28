@@ -340,6 +340,7 @@ Roll [term]#+force# if resisting physical consequences through sheer might and e
 [term]#+mind# if resisting mental consequences,
 [term]#+heart# if resisting emotional damage,
 // huehuehuehue
+[term]#+mystery# if resisting arkane/magick/occult consequences,
 or [term]#+momentum# if resisting any other kind of harm.
 
 [horizontal]
