@@ -18,6 +18,7 @@ Sean-Patrick Ortencio Clayton
 v1: PRE-ALPHA DRAFT
 :doctype: book
 :!showtitle:
+:icons: font
 :stylesheet: styles.css
 :sectanchors:
 :sectnums:
@@ -345,11 +346,13 @@ or [term]#+momentum# if resisting any other kind of harm.
 * **Critical Hit:**
   You do it with complete ease.
 * **Hit:**
-  With a little effort you do it. [term]#Mark 1 exertion#.
+  The consequence is avoided.
 * **Weak Hit:**
-  [term]#Mark 2 exertion#.
+  The consequence is reduced.
+  You can [term]#mark 1 exertion# to avoid it completely.
 * **Miss:**
-  You cut it close. [term]#Mark 3 exertion#.
+  The consequence still happens.
+  You can [term]#mark 1 exertion# to avoid reduce it or [term]#mark 2 exertion# to avoid it completely.
 --
 
 ===== Armor
@@ -447,12 +450,17 @@ Skills are general abilities that increase your chances of succeeding when [term
 The following are the skills in {doctitle}:
 
 * [term]#Accuracy#
-* [term]#Athletics#
 * [term]#Care#
-* [term]#Influence#
+* [term]#Charm#
+* [term]#Command#
 * [term]#Discretion#
+* [term]#Finesse#
+* [term]#Focus#
+* [term]#Frighten#
+* [term]#Notice#
 * [term]#Study#
-* [term]#Survey#
+* [term]#Wreck#
+* [term]#Wrestle#
 
 Your <<_paths,[term]#path#>> will provide 2 skills.
 After applying the skills from your [term]#path#, choose 2 more skills.

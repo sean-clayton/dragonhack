@@ -383,3 +383,8 @@ td.hdlist1 {
   font-weight: 600;
   letter-spacing: -0.075em;
 }
+
+.admonitionblock td.icon [class^="fa icon-"],
+.admonitionblock td.icon .icon-tip::before {
+  text-shadow: none;
+}
