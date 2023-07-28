@@ -18,6 +18,7 @@ Sean-Patrick Ortencio Clayton
 v1: PRE-ALPHA DRAFT
 :doctype: book
 :!showtitle:
+:showcommentary:
 :icons: font
 :stylesheet: styles.css
 :sectanchors:
@@ -335,12 +336,19 @@ Take the following steps:
 [.lead]
 When your character resists the consequences of their actions...
 
+ifdef::showcommentary[]
+.Regarding rolling resist...
+[NOTE]
+These could be done much better.
+I don't know if I want every stat in play here.
+Maybe as monsters are made and more kinds of damage are revealed in the game, they'll make this clearer to handle.
+endif::[]
+
 Roll [term]#+force# if resisting physical consequences through sheer might and endurance,
 [term]#+edge# if resisting physical consequences through quickness or precision,
-[term]#+mind# if resisting mental consequences,
 [term]#+heart# if resisting emotional damage,
 // huehuehuehue
-[term]#+mystery# if resisting arkane/magick/occult consequences,
+[term]#+mind# or [term]#+mystery#, whichever is higher, if resisting non-physical/non-emotional arkane/magick/occult consequences,
 or [term]#+momentum# if resisting any other kind of harm.
 
 [horizontal]
