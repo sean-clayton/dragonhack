@@ -117,14 +117,50 @@ You have hopes and fears, virtues and failings.
 You have a history.
 You are, or were, part of a community.
 This is the fiction of your character.
-Consider a few of these details as you create your character, but don’t sweat it -- you’ll evolve it through play.
+Consider a few of these details as you create your character, but don't sweat it -- you'll evolve it through play.
 At the start of your game, put your character on stage to see what happens. 
 Fill in the blanks -- for your character and your world -- as you go.
 
 === Rolling Dice
 
-The core mechanic in {doctitle} is to [term]#take action#.
-[term]#Taking action# is all about acting in the face of danger or some other kind of risk.
+==== The Challenge Roll
+
+The core mechanic in {doctitle} is the challenge roll.
+To perform a challenge roll, you roll multiple dice at once:
+
+- **Challenge dice:** Two ten-sided dice (d10)
+- **Action die:**
+  One six-sided dice (d6).
+  If you have [term]#advantage#, roll two and drop the lowest.
+
+When making a challenge roll, you often with an attribute or other number, called a [term]#stat#.
+For example, if you roll with the [term]#heart# attribute and its value is 3, this is written as "Roll [term]#+heart#" and you would add 3 to your action die.
+If you roll with [term]#momentum# and its value is 2, this is written as "Roll [term]#+momentum#" and you would add 2 to your action die.
+
+The total of your action die, your stat, and any additional bonuses is your action score.
+
+There are five possible results of a challenge roll:
+
+[horizontal]
+Critical Hit::
+  Your action score is greater than all of the challenge dice.
+  Both challenge dice are the same number.
+Strong Hit::
+  Your action score is greater than all of the challenge dice.
+Weak Hit::
+  Your action score is greater than only one of two challenge dice.
+Miss::
+  Your action score is not greater than any of the challenge dice.
+Critical Miss::
+  Your action score is not greater than any of the challenge dice.
+  The challenge dice are the same number.
+
+=== Taking Action
+
+When a player character does something challenging, we [term]#take action# to see how it turns out.
+An action is challenging if there's an obstacle to the PC's goal that's dangerous or troublesome in some way.
+We don't make an action roll unless the PC is put to the test.
+If their action is something that we'd expect them to simply accomplish, then we let them accomplish it without making any rolls.
 
 ==== Risk
 
@@ -156,8 +192,6 @@ Major Reward::
   If you were stabbing something, it sinks in like a hot knife through melted butter.
   If you were avoiding a danger, it is completely avoided, and probably is no longer dangerous for a time.
 
-==== Taking Action
-
 State what your goal is and the approach your character will take to make it happen.
 You choose one relevent [term]#skill# to aid your approach.
 The GM has the ultimate say if the skill is relevent, but should be biased towards your choice.
@@ -173,41 +207,14 @@ You have [term]#advantage# if...
 * An applicable effect (such as a magical item that provides [term]#advantage#) is increasing your character's abilities.
 * Your character is being assisted by someone who has an appropriate skill or effect.
 
-When you [term]#take action#, you roll multiple dice at once.
-
-- **Challenge dice:** Two ten-sided dice (d10)
-- **Action dice:**
-  One six-sided dice (d6).
-  If you have [term]#advantage#, re-roll the action die and take the highest.
-
-Add the attribute value to your action die.
-Add the skill value to your action die if you have one.
-The total of your action die, your attribute, and any additional bonuses (such as a skill bonus) is your action score.
-
-There are five possible results when rolling the dice to [term]#take action#:
-
-[horizontal]
-Critical Hit::
-  Your action score is greater than all of the challenge dice.
-  Both challenge dice are the same number.
-Strong Hit::
-  Your action score is greater than all of the challenge dice.
-Weak Hit::
-  Your action score is greater than only one of two challenge dice.
-Miss::
-  Your action score is not greater than any of the challenge dice.
-Critical Miss::
-  Your action score is not greater than any of the challenge dice.
-  The challenge dice are the same number.
-
-To determine the outcome of your action, compare the action score to each of the challenge dice.
-You want it to be greater than the individual value of those dice.
-
 .Take Action
 [action]
 --
 [.lead]
 When your character acts by taking a risk, state what your goal is and the approach your character will take to make it happen...
+
+Roll [term]#+attribute#.
+Add the skill value to your action die if you have one.
 
 [horizontal]
 [.risk]
@@ -252,7 +259,7 @@ You go head to head. You act under fire. You take a chance.
 Major Risk::
 +
 [.lead]
-You overreach your capabilities. You’re in serious trouble.
+You overreach your capabilities. You're in serious trouble.
 +
 * **Critical Hit:**
   A success with [term]#increased reward#.
@@ -317,6 +324,51 @@ Often it is just 1 damage.
 === Progress Tracks
 
 === Harm
+
+=== Fortune Roll
+
+The fortune roll is a tool the GM can use to disclaim decision making.
+You use a fortune roll in two different ways:
+
+. **When you need to make a determination about a situation the PCs aren’t directly involved in** and don’t want to simply decide the outcome.
+. **When an outcome is uncertain**, but no other roll applies to the situation at hand.
+
+When you make a fortune roll you may assess [term]#any attribute or other stat# to determine the stat of the roll, and then perform a regular [term]#challenge roll#.
+
+If no stat applies, roll [term]#+0# for sheer luck or roll [term]#+1–3# based on the situation at hand.
+
+Sometimes you are forced to make a fortune roll.
+This can be with a specific attribute or stat, or with a number added.
+For example, making a fortune roll with heart, if its value is 3, it is written as "Roll [term]#fortune +heart#" and you would add 3 to the action die.
+Making a fortune roll with +2 is written as "Roll [term]#fortune +2#" and you would add 2 to the action die.
+
+.Fortune Roll
+[action]
+--
+* **Critical Hit**: Exceptional result / Major, extreme reward.
+* **Hit**: Good result / Moderate,  full reward.
+* **Partial Hit**: Mixed result / Minor, partial reward.
+* **Miss**: Bad result / Poor, little reward.
+--
+
+=== Surveying
+
+.Surveying
+[action]
+--
+When you search an area, ask questions, conduct an investigation, or follow a track, [term]#roll fortune +wits#.
+If you act within a community or ask questions of a person with whom you share a bond, add +1.
+
+* **Major**:
+  You get exceptional details.
+  The information is complete and follow-up questions may expand into related areas or reveal more than you hoped for.
+* **Moderate**:
+  You get good details.
+  Clarifying and follow-up questions are possible.
+* **Minor**:
+  You get incomplete or partial information.
+  More information gathering will be needed to get all the answers.
+--
 
 === Exertion
 
@@ -387,6 +439,8 @@ Armor can be repaired completely in the fiction by visiting an armorsmith or som
 Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor.
 
 ==== Death
+
+=== Fortune
 
 === Paths
 
@@ -494,13 +548,13 @@ After applying the skills from your [term]#path#, choose 2 more skills.
 == Foes and Encounters
 
 Every monster has moves that describe its behavior and abilities.
-Just like the normal consequences, they’re things that you do when there’s a lull in the action or when the PCs give you a golden opportunity.
+Just like the normal consequences, they're things that you do when there's a lull in the action or when the PCs give you a golden opportunity.
 
 Each monster has an instinct that describe its goals at a high level.
 Some monsters live for conquest, or treasure, or simply for blood.
-The monster’s instinct is the guide to how to use it in the fiction.
+The monster's instinct is the guide to how to use it in the fiction.
 
-The monster’s description is where all its other features come from.
+The monster's description is where all its other features come from.
 The description is how you know what the monster really is, the other elements just reflect the description.
 
 Abilities dictate how much [term]#harm# the monster can inflict at once.
@@ -508,21 +562,21 @@ A monster deals its damage to another monster or a PC whenever it causes them ph
 Some abilities are special, like ones that can only be triggered by a critical failure, or a clock being completed.
 
 Each monster has tags that describe how it deals damage, including the range(s) of its abilities.
-When trying to attack something out of its range (too close or too far) the monster’s out of luck, no damage.
+When trying to attack something out of its range (too close or too far) the monster's out of luck, no damage.
 Any tag that can go on a weapon (like messy or slow) can also go on a monster.
 
 There are special tags that apply only to monsters.
 These tags, listed below, describe the key attributes of the monster -- qualities that describe how big they are and how, if at all, they organize themselves.
 
-A monster’s HP is a measure of how much damage it can take before it dies.
-At 0 HP it’s dead or out of action, unless otherwise stated.
+A monster's HP is a measure of how much damage it can take before it dies.
+At 0 HP it's dead or out of action, unless otherwise stated.
 
 Some monsters have progress tracks associated with them.
 Each track is different and have different effects, such as a timer until a special ability goes off.
 Sometimes it can represent a temporary vulnerability, like a troll when it is attacked by fire.
 
 Some monsters are lucky enough to enjoy armor.
-It’s just like player armor: when a monster with armor takes damage it can mark a use of the armor to negate it.
+It's just like player armor: when a monster with armor takes damage it can mark a use of the armor to negate it.
 
 Special qualities describe innate aspects of the monster that are important to play.
 These are a guide to the fiction, and therefore the moves.
@@ -557,6 +611,79 @@ Magical Eruption □□□□::
 * Reveal a preparation or plan already completed
 --
 
+=== Dragons
+
+==== The Tyranical Dragon of Flame
+
+==== The Elder Dragon
+
+==== The Blood Dragon
+
+==== The Necrotic Dragon
+
+=== Animals
+
+=== Animals, Ferocious
+
+=== Eldritch Horrors
+
+==== Occulug
+
+==== Shoggoth
+
+=== Demons
+
+=== Goblins
+
+=== Golems
+
+=== Giants
+
+=== Mythical Creatures
+
+=== Oozes
+
+=== Orcs
+
+=== People, Mundane
+
+=== People, Magical
+
+=== Raised Undead
+
+=== Spiders
+
+=== Vampires
+
+=== Wyrms
+
+.Wyvern
+[monster]
+--
+6HP || _Flying_
+
+.Attacks
+* **Claws & Bite** Moderate Harm
+* **Tail Whip** Minor Harm
+
+.Consequences
+* **Poisonous Barbs (miss)** Moderate poison 4. Resist +force.
+--
+
+.Kobold
+[monster]
+--
+1HP
+
+.Attacks
+* **Spear or Dagger** Minor Harm
+
+.Rewards
+* **Cowardly** Another one flees after seeing their dead comrade.
+
+.Consequences
+* **Gang** Another creeps behind you or an ally with a dagger.
+--
 
 [appendix]
 == Oracles
@@ -729,7 +856,7 @@ You go head to head. You act under fire. You take a chance.
 Major Risk::
 +
 [.lead]
-You overreach your capabilities. You’re in serious trouble.
+You overreach your capabilities. You're in serious trouble.
 +
 * **Critical:**
   a success with [term]#increased reward#.
