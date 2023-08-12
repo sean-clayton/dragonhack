@@ -89,7 +89,9 @@ One to four players (plus a GM in guided mode) is ideal.
 
 {doctitle} requires some materials. Here is what you'll need:
 
-* Three six-sided dice (d6) for each player. These are used for [term]#action dice# and [term]#oracle dice#.
+* Several six-sided dice for each player.
+  Three at the least, but more cannot hurt.
+  These are used for [term]#action dice#, [term]#oracle dice#, and rolling things like [term]#damage#.
 * A character sheet for each player.
 
 ==== Mechanics and the Fiction
@@ -119,13 +121,35 @@ Fill in the blanks -- for your character and your world -- as you go.
 
 === Rolling Dice
 
+The only dice used in {doctitle} are six-sided dice.
+
+When we roll multiple dice, we shorten it to just the number of dice followed by a D, eg: Rolling two dice is 2D, and rolling 1 dice is 1D.
+
+Sometimes you add or subtract a number to the total of the dice.
+This has a + or - after the dice along with the number that is to be added or subtracted, respectively.
+For example, if we want to add 1 to the total of a 2D roll, it looks like 2D+1.
+If we want to subtract 1 from the total of a 2D roll, it looks like 2D-1.
+
+Sometimes we want to roll multiple dice and not add them together, but take the best or worst of the dice rolled.
+This is written as B[ ] or W[ ] with the number of dice in between the brackets.
+For example, if we want to roll 2D and keep only the best of the two, it looks like B[2D].
+If we want to roll 2D and keep only the worst of the two, it looks like W[2D].
+
+We can also take multiple of the best or multiple of the worst.
+This looks like the previous form, but with a number after the B or W, before the brackets.
+For example, if we want to roll 3D and take the best two, it looks like B2[3D].
+If we want to roll 3D and take the worst two, it looks like W2[3D].
+
+And like rolling dice normally, we can still add a number to the total to these best of/worst of forms.
+For example, B2[3D]+4 adds 4 to the total of the best two dice of the three rolled.
+W2[3D]-1 subtracts 1 from the total of the worst two dice of the three rolled.
+
 ==== The Challenge Roll
 
 The core mechanic in {doctitle} is the challenge roll.
 To perform a challenge roll, you roll multiple dice at once:
 
-- **Action dice:**
-  Three six-sided dice (d6).
+- **Action dice:** Three dice (3D).
 
 When making a challenge roll, you often with an attribute or other number, called a [term]#stat#.
 For example, if you roll with the [term]#heart# attribute and its value is 3, this is written as "Roll [term]#+heart#" and you would add 3 to your action dice.
@@ -145,6 +169,19 @@ Miss::
   Your action score is 9-.
 Critical Miss::
   Your action score is 9- and at least two dice have the same value.
+
+==== Surge Points
+
+When you land a [term]#critical hit#, whatever number you rolled multiple times, multiply it by 2 and that's your [term]#surge points# for that action.
+
+For example, if you roll your dice and get a 3, 3, and 3, that's only a 9, but after adding your modifier (let's say a +3), and a +1 from a skill, you got a 13 total action score.
+You rolled multiple of the same number (3), so that makes it a critical hit.
+The number you rolled multiple times is 3, so we multiply that by two to get the surge points available to you: 6.
+
+You use surge points through abilities and features of your <<_paths,[term]#paths#>>.
+
+Any surge points you do not use, you do not maintain.
+Use them or lose them.
 
 === Taking Action
 
@@ -443,33 +480,81 @@ In order to gain a second [term]#Tier III# ability, you must have at least three
 
 Human people.
 
+.Age ranges
+[horizontal]
+Adult:: 16–25
+Middle Aged:: 26–45
+Old:: 50+
+
 ==== Hobbitfolk
 
 Small people.
+
+.Age ranges
+[horizontal]
+Adult:: 20–29
+Middle Aged:: 30–69
+Old:: 70+
 
 ==== Goblin
 
 Small people with pointy ears.
 
+.Age ranges
+[horizontal]
+Adult:: 11–15
+Middle Aged:: 16–29
+Old:: 30+
+
 ==== Dwarf
 
 Small people with beards.
+
+.Age ranges
+[horizontal]
+Adult:: 25–50
+Middle Aged:: 51–99
+Old:: 100+
 
 ==== Vyrmit
 
 Mouse/rat/hamster people.
 
+.Age ranges
+[horizontal]
+Adult:: 11–15
+Middle Aged:: 16–29
+Old:: 30+
+
 ==== Kolussar
 
 Ancient human/dwarf people.
+
+.Age ranges
+[horizontal]
+Adult:: 30–55
+Middle Aged:: 56–120
+Old:: 121+
 
 ==== Testadar
 
 Turtle/tortoise people.
 
+.Age ranges
+[horizontal]
+Adult:: 50–70
+Middle Aged:: 71–199
+Old:: 200+
+
 ==== Kyrfit
 
 Raven/crow/rook people.
+
+.Age ranges
+[horizontal]
+Adult:: 16–25
+Middle Aged:: 26–45
+Old:: 50+
 
 === Oracles
 
@@ -483,7 +568,11 @@ Raven/crow/rook people.
 
 ==== Attributes
 
-Each PC will start with an array of attribute points: 3, 2, 1, 1, 0, -1.
+Each PC will start with an array of attribute points depending on their age.
+
+* *Adult* 3, 2, 1, 1, 0, -1.
+* *Middle Aged/Old* 2, 2, 1, 0, 0, -1.
+
 Assign these points to any of the [term]#attributes# --
 [term]#force#, [term]#edge#, [term]#mystery#, [term]#mind#, or [term]#heart#.
 
@@ -494,6 +583,13 @@ Shadow:: Sneakiness, deceptiveness, and cunning.
 Mystery:: Mysticism, arkane, and other magicks.
 Mind:: Mental fortitude, intellect, and perception.
 Heart:: Bravery, inpsiration, and understanding.
+
+Your age will modify these.
+Different <<_kin,[term]#kin#>> have different age ranges for these age groups.
+
+* *Adult:* No changes.
+* *Middle Aged:* -1 to [term]#force# and +1 to [term]#heart#.
+* *Old:* Same as Middle Aged, but with +1 to [term]#mind#, also.
 
 ==== Skills
 
@@ -765,378 +861,6 @@ Magickal Eruption ○○○○::
 === Combat Action Oracle
 
 === Exploration Oracle
-
-////
-== OLD STUFF BELOW
-
-=== Creating a Character
-
-Creating a character in {doctitle} is quite easy.
-Here is a summary of the steps to make a new character:
-
-. Assign <<_attributes,[term]#attribute points#>>.
-. Choose a <<_paths,[term]#path#>> and apply its <<_skills,[term]#skill points#>>.
-. Apply four more <<_skills,[term]#skill points#>>.
-. Look at your <<_paths,[term]#path#>> and...
-  * Answer all questions and make all choices.
-  * Apply its <<_gear,[term]#gear#>>.
-  * Determine your max <<_exhaustion_scars,[term]#exhaustion#>>.
-. Choose a <<_kin,[term]#kin#>>.
-. Set a <<_dark_desire,[term]#dark desire#>> and a <<_bonds,[term]#bond#>>.
-. Choose more <<_gear,[term]#gear#>>.
-
-=== Attributes
-
-Each PC will start with an array of attribute points: 2, 1, 1.
-Assign these points to any of the [term]#attributes# --
-[term]#force#, [term]#edge#, [term]#mind#, or [term]#heart#.
-
-[horizontal]
-Force:: Aggression, might, and intimidation.
-Edge:: Haste, precision, and cunning.
-Mind:: Mental fortitude, intellect, and perception.
-Heart:: Courage, diplomacy, and understanding.
-
-=== Skills
-
-Skills are general abilities that increase your chances of succeeding when [term]#taking action#.
-The following are the skills in {doctitle}:
-
-* [term]#Aim#
-* [term]#Athletics#
-* [term]#Care#
-* [term]#Influence#
-* [term]#Magick#
-* [term]#Melee#
-* [term]#Secrecy#
-* [term]#Study#
-* [term]#Survey#
-
-Your [term]#path# will provide three points to skills, two of which goes into a single skill.
-After applying the skills from your [term]#path#, add four more points into your skills.
-Only one skill can have 2 points applied at the beginning of the game.
-All other skills you choose can only have 1 point applied.
-
-=== Exhaustion &amp; Scars
-
-Exhaustion represents your character wearing down in dangerous situations.
-For example, delving into dungeons or ancient ruins can always be a deadly venture.
-While you are exploring these dark places, it can exhausting to always be tense, on the lookout, or being ready to act on a moment's notice.
-It's exhaustion of the mind and body. Each character starts with 8 exhaustion.
-
-=== Paths
-
-=== Kin
-
-Your kin 
-
-=== Rolling the Dice
-
-Only six-sided dice are used in {doctitle}.
-In most rolls, you will be rolling multiple dice.
-To make this easier to write, multiple dice rolled at once is noted as xd, where x is the number of dice rolled.
-For example, a roll of a single die is written as 1d, and a roll of two dice is written as 2d.
-
-When rolling dice in this manner, you are rolling a number of dice and only considering the highest result of the pool of dice you are rolling.
-
-It is possible to roll 0d.
-To do this, roll 2d, and then only consider the lowest of the two as your result.
-
-Rolling dice when dealing damage often shows a + and a number next to a dice roll, and is noted as xd+y.
-This means you roll x dice as normal and then add y to the result.
-For example, 2d+4 means you roll 2d as described above, and then add 4 to the result.
-If 2d results in a 3, then you add 4 which results in a final result of 7.
-
-=== Risk
-
-The core mechanic in {doctitle} is to [term]#take action#.
-[term]#Taking action# is all about acting in the face of danger or some other kind of risk.
-
-=== Taking Action
-
-State what your goal is and the approach your character will take to make it happen.
-You choose a relevent [term]#skill# to the approach.
-The GM has the ultimate say in the skill, but should be biased towards your choice.
-The GM will tell you the following:
-
-* The [term]#attribute# you will use.
-* The level of [term]#risk# the approach takes.
-* The level of [term]#reward# given if the approach succeeds.
-* Possible consequences if you fail and if you succeed.
-
-You have [term]#advantage# if...
-
-* An applicable effect (such as a magical item that provides [term]#advantage#) is increasing your character's abilities.
-* Your character is being assisted by someone who has an appropriate skill or effect.
-
-.Take Action
-[action]
---
-[.lead]
-When your character acts by taking a risk...
-
-- 1d for each point in the [term]#attribute#.
-- 1d for each point in the relevent [term]#skill#.
-- +1d if you have [term]#advantage#.
-
-[horizontal]
-[.risk]
-Minor Risk::
-+
-[.lead]
-You act on your terms. You exploit a dominant advantage.
-+
-* **Critical:**
-  a success with [term]#increased reward#.
-* **6:**
-  things go as planned and all is well. A success.
-* **4/5:**
-  your character has a sudden realization that their approach will certainly succeed, but with a cost.
-  They can try a different approach, or continue on and [term]#suffer the consequences#.
-* **1–3:**
-  your character fails before any consequences occur, but a new [term]#risky# opportunity lies before them.
-  They can attempt again with that approach or try something else.
-
-Moderate Risk::
-+
-[.lead]
-You go head to head. You act under fire. You take a chance.
-+
-* **Critical:**
-  a success with [term]#increased reward#.
-* **6:**
-  a success, and you realize what was at stake.
-* **4/5:**
-  overall a success, but you must [term]#suffer the consequences#.
-* **1–3:**
-  things do not go your way. [term]#Mark XP# and you must [term]#suffer the consequences#.
-
-Major Risk::
-+
-[.lead]
-You overreach your capabilities. You're in serious trouble.
-+
-* **Critical:**
-  a success with [term]#increased reward#.
-* **6:**
-  a success, narrowly avoiding the consequences.
-* **4/5:**
-  technically a success, but there is a severe cost.
-  [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
-* **1–3:**
-  the worst outcome has happened.
-  [term]#Mark XP# and you must [term]#suffer the consequences# accordingly.
---
-
-=== Reward
-
-Minor Reward::
-You achieve something, but not nearly as much as you'd like.
-
-Moderate Reward::
-You achieve a moderate outcome.
-
-Major Reward::
-You achieve much more than you had expected.
-
-.Dice Odds
-[sidebar]
---
-[cols="1,3,3,3,3",stripes=even]
-|===
-| Dice | Critical | Success | Partial | Fail
-
-| 0 | 0% | 3% | 22% | 75%
-
-| 1 | 0% | 17% | 33% | 50%
-
-| 2 | 3% | 28% | 44% | 25%
-
-| 3 | 7% | 35% | 45% | 13%
-
-| 4 | 13% | 39% | 42% | 6%
-
-| 5 | 20% | 40% | 37% | 3%
-
-|===
---
-
-=== Damage
-
-If you are intending to do damage with a roll...
-
-* **Critical:**
-  You do 1 damage for every 6 rolled.
-* **6:**
-  You do 1 damage.
-* **4/5:**
-  The GM has discretion here, but typically you do 1 damage and [term]#suffer the consequences#.
-* **1–3:**
-  You do no damage and [term]#suffer the consequences#.
-
-This is just the typical case with damage.
-Feel free to change the damage depending on the [term]#reward# level of the approach.
-The fiction should be consulted first when determining damage.
-
-=== Double Down
-
-After seeing the roll result when [term]#taking action#, you can choose to [term]#double down# and make an extra effort to succeed.
-Take the following steps:
-
-. Put all dice that show a 6 or a 1 to the side.
-. Re-roll all remaining dice.
-. For every dice that shows a 1, take a [term]#minor harm#.
-. Consider this new roll your result and proceed with resolving [term]#take action#.
-
-.Doubling Down
-[example]
---
-**Bob:** Alice, what do you do?
-
-**Alice:** Alright, I want to slash at this troll while his back is to me!
-
-**Bob:** Awesome, that'll be with Force, standard risk and you can finish him off if you succeed here. Otherwise, this thing will try to smash down on your companions.
-
-**Alice:** Can't have that. Okay, three dice... <rolls>... 1, 3, and 4 -- failure it looks like.
-Actually, no. I'm doubling down.
-<re-rolls the 3 and 4>
-A 2 and 6 -- a success!
-
-**Bob:** Okay, awesome -- yeah, you're able to do it.
-You still have that 1 though, so add a minor harm that says "leg cut" -- you swung your sword so hard to get the troll that you also swiped your leg just a bit.
---
-
-=== Suffering Consequences
-
-The GM chooses the consequences when the PCs [term]#suffer the consequences# while [term]#taking action#.
-This is where the GM gets to shine -- these consequnces will provide the backbone of drama and action in {doctitle}.
-
-* The most obvious outcome occurs.
-* A success only in name -- they did not get _everything_ they wanted.
-* The approach results in [term]#reduced reward#.
-* Reveal a dark truth.
-* Reveal a looming threat.
-* Inflict a [term]#harm# or destroy [term]#gear#.
-* The character succumbs to their [term]#dark desire#.
-* Utilize your prep to modify the scene or situation.
-* A _coup de grâce_ on a PC with an existing [term]#major harm# -- finish them off!
-
-=== Harm &amp; Trauma
-
-There are four levels of [term]#harm# in {doctitle}.
-[term]#minor harm#, [term]#moderate harm#, [term]#major harm#, and [term]#fatal harm#.
-
-[term]#Minor harm# represents smaller conditions and injuries such as a black eye, being dizzy, or being distracted.
-Each PC can have up to three minor harm.
-Minor harm [term]#reduces your effect# when [term]#taking action#.
-
-[term]#Moderate harm# represents dangerous conditions such as a broken finger, 
-Each PC can have up to two moderate harm.
-Moderate harm reduces your dice pool by one when rolling dice.
-
-[term]#Major harm# represents potentially deadly conditions such as a shattered leg, being impaled, being terrified, or losing control over your mind.
-Each PC can only have one major harm.
-Major harm takes a PC out of action almost always and they need immediate attention.
-If a character has a major harm and the fiction allows for it, they are susceptible to a _coup de grâce_.
-
-[term]#Fatal harm# represents an end to a PC, such as decapitation, their soul being ripped out and destroyed, or 
-Each PC will die when gaining a fatal harm.
-Fatal harm triggers the PC's <<_doomed,[term]#doomed#>> ability.
-After completing their doomed ability, they die.
-
-When you are taking a specific level of harm, but you already have the maximum allowed amount of harm for that level, you instead take a harm of the next highest tier.
-For example, if a character already has three minor harm and has to mark another minor harm, they must mark a moderate harm if possible.
-
-==== Doomed
-
-When a PC suffers a fatal harm, they become doomed.
-The doomed state represents when a character knows they will die,
-but they get the final say in what happens.
-Each [term]#path# states what happens and is possible when a PC becomes doomed.
-
-=== Resisting Consequences
-
-After seeing the roll result when [term]#taking action#, you can choose to [term]#resist# the consequences.
-Take the following steps:
-
-. If you have <<_armor,[term]#armor#>> and the fiction allows for it, you can mark one wear off of the applicable armor and automatically succeed at resisting.
-. Explain how your character is resisting or reducing the severity of the consequences.
-. If you haven't already succeeded at resisting, take the [term]#resist# action. The GM will tell you which [term]#attribute# you will use.
-
-.Resist
-[action]
---
-[.lead]
-When your character resists the consequences of their actions...
-
-Roll 1d for each point in the [term]#attribute#.
-
-[horizontal]
-* **Critical:**
-  You do it with complete ease.
-* **6:**
-  With a little effort you do it. [term]#Mark 1 exhaustion#.
-* **4/5:**
-  [term]#Mark 2 exhaustion#.
-* **1–3:**
-  You cut it close. [term]#Mark 3 exhaustion#.
---
-
-=== Gathering Information
-
-.Gather Information
-[action]
---
-Gather dice like you would [term]#taking action# and roll.
-
-
---
-
-=== Advancement
-
-== Characters
-
-== Tags
-
-== Monsters & Foes
-
-== Spells & Sorcery
-
-== Artifacts
-
-== Running the Game
-////
-
-////
-I use the phrase "GMs only" here so players are somewhat discouraged from
-looking at this section and pointing to a section, saying
-"this is how you're supposed to run it!"
-
-The overall intent in this section is to help new GMs understand how this kind
-of game *generally* runs. It is also meant to be a useful reference for
-all GMs  to come here (during or even after session) and understanding
-the game and how it runs.
-////
-
-////
-
-This section is designed to be useful for GMs only.
-Within you will find guidance, examples, and advice to assist you running a game of {doctitle}.
-
-=== Asking for Rolls
-
-Rolling dice in {doctitle} should happen _only_ when the action and drama call for it.
-Constant dice-throwing can make a session take much longer than it should.
-If there is no risk, then there shouldn't be any rolling.
-It's much easier and quicker to just let the players succeed and move along.
-
-In a deadly combat where you are outmatched or when traversing through a deadly dungeon is a perfect time and place to roll to find out what happens.
-There's lots of risk in those situations, so let the rolls tell us what happens!
-
-In other times, though, when there is no risk being taken, then don't ask for a roll.
-Let the players succeed and move along until we get to a point where tension, action, and drama are back.
-
-////
 
 == Credits
 
