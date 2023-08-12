@@ -483,8 +483,8 @@ Human people.
 .Age ranges
 [horizontal]
 Adult:: 16–25
-Middle Aged:: 26–45
-Old:: 50+
+Middle Aged:: 26–59
+Old:: 60+
 
 ==== Hobbitfolk
 
@@ -512,9 +512,9 @@ Small people with beards.
 
 .Age ranges
 [horizontal]
-Adult:: 25–50
-Middle Aged:: 51–99
-Old:: 100+
+Adult:: 25–100
+Middle Aged:: 101–199
+Old:: 200+
 
 ==== Vyrmit
 
@@ -532,9 +532,9 @@ Ancient human/dwarf people.
 
 .Age ranges
 [horizontal]
-Adult:: 30–55
-Middle Aged:: 56–120
-Old:: 121+
+Adult:: 40–119
+Middle Aged:: 120–249
+Old:: 250+
 
 ==== Testadar
 
@@ -542,9 +542,9 @@ Turtle/tortoise people.
 
 .Age ranges
 [horizontal]
-Adult:: 50–70
-Middle Aged:: 71–199
-Old:: 200+
+Adult:: 50–150
+Middle Aged:: 151–299
+Old:: 300+
 
 ==== Kyrfit
 
@@ -552,9 +552,9 @@ Raven/crow/rook people.
 
 .Age ranges
 [horizontal]
-Adult:: 16–25
-Middle Aged:: 26–45
-Old:: 50+
+Adult:: 14–20
+Middle Aged:: 21–34
+Old:: 35+
 
 === Oracles
 
