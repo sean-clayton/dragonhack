@@ -43,8 +43,6 @@ Basic
 [preface]
 == Preface
 
-**Some acknowledgements:**
-
 {doctitle} is inspired by several games.
 Here is a non-exhaustive list in alphabetical order:
 
@@ -52,6 +50,7 @@ Here is a non-exhaustive list in alphabetical order:
 * https://dungeon-world.com/[Dungeon World] by Sage LaTorra and Adam Koebel.
 * https://freeleaguepublishing.com/en/games/forbidden-lands/[Forbidden Lands] by the workers at Fria Ligan.
 * https://www.ironswornrpg.com/[Ironsworn] by Shawn Tomkin.
+* The Streets of Marienburg.
 * https://johnharper.itch.io/world-of-dungeons[World of Dungeons] by John Harper.
 * ... and the many games derived from those.
 
@@ -84,17 +83,14 @@ Solo::
 --
 {doctitle} is primarily intended for small group play or solo.
 One to four players (plus a GM in guided mode) is ideal.
-The characters portrayed by other players are referred to in these rules as your allies.
 --
 
 ==== What You Need to Play
 
 {doctitle} requires some materials. Here is what you'll need:
 
-* Two ten-sided dice (d10) for each player. These are [term]#challenge dice#.
-* Two six-sided dice (d6) for each player. These are [term]#action dice#.
-* Optionally, a set of percentile dice (d100) to use as [term]#oracle dice#.
-* A printed character sheet for each player.
+* Three six-sided dice (d6) for each player. These are used for [term]#action dice# and [term]#oracle dice#.
+* A character sheet for each player.
 
 ==== Mechanics and the Fiction
 
@@ -128,32 +124,27 @@ Fill in the blanks -- for your character and your world -- as you go.
 The core mechanic in {doctitle} is the challenge roll.
 To perform a challenge roll, you roll multiple dice at once:
 
-- **Challenge dice:** Two ten-sided dice (d10)
-- **Action die:**
-  One six-sided dice (d6).
-  If you have [term]#advantage#, roll two and drop the lowest.
+- **Action dice:**
+  Three six-sided dice (d6).
 
 When making a challenge roll, you often with an attribute or other number, called a [term]#stat#.
-For example, if you roll with the [term]#heart# attribute and its value is 3, this is written as "Roll [term]#+heart#" and you would add 3 to your action die.
-If you roll with [term]#momentum# and its value is 2, this is written as "Roll [term]#+momentum#" and you would add 2 to your action die.
+For example, if you roll with the [term]#heart# attribute and its value is 3, this is written as "Roll [term]#+heart#" and you would add 3 to your action dice.
 
-The total of your action die, your stat, and any additional bonuses is your action score.
+The total of your action dice, your stat, and any additional bonuses is your action score.
 
 There are five possible results of a challenge roll:
 
 [horizontal]
 Critical Hit::
-  Your action score is greater than all of the challenge dice.
-  Both challenge dice are the same number.
+  Your action score is 13+ and at least two dice have the same value.
 Strong Hit::
-  Your action score is greater than all of the challenge dice.
+  Your action score is 13+.
 Weak Hit::
-  Your action score is greater than only one of two challenge dice.
+  Your action score is 10/11/12.
 Miss::
-  Your action score is not greater than any of the challenge dice.
+  Your action score is 9-.
 Critical Miss::
-  Your action score is not greater than any of the challenge dice.
-  The challenge dice are the same number.
+  Your action score is 9- and at least two dice have the same value.
 
 === Taking Action
 
@@ -193,19 +184,13 @@ Major Reward::
   If you were avoiding a danger, it is completely avoided, and probably is no longer dangerous for a time.
 
 State what your goal is and the approach your character will take to make it happen.
-You choose one relevent [term]#skill# to aid your approach.
-The GM has the ultimate say if the skill is relevent, but should be biased towards your choice.
+You choose the [term]#skill# you are using to act out your approach.
 The GM will tell you the following:
 
 * The [term]#attribute# you will use.
 * The level of [term]#risk# the approach takes.
 * The level of [term]#reward# given if the approach succeeds.
 * Possible consequences if you fail and if you succeed.
-
-You have [term]#advantage# if...
-
-* An applicable effect (such as a magical item that provides [term]#advantage#) is increasing your character's abilities.
-* Your character is being assisted by someone who has an appropriate skill or effect.
 
 .Take Action
 [action]
@@ -214,7 +199,6 @@ You have [term]#advantage# if...
 When your character acts by taking a risk, state what your goal is and the approach your character will take to make it happen...
 
 Roll [term]#+attribute#.
-Add the skill value to your action die if you have one.
 
 [horizontal]
 [.risk]
@@ -225,14 +209,11 @@ You act on your terms. You exploit a dominant advantage.
 +
 * **Critical Hit:**
   A success with [term]#increased reward#.
-  [term]#Gain +3 momentum#.
 * **Hit:**
   Things go as planned and all is well. A success.
-  [term]#Gain +2 momentum#.
 * **Weak Hit:**
   Your character has a sudden realization that their approach will certainly succeed, but with a cost.
   They can try a different approach, or continue on and [term]#suffer the consequences#.
-  [term]#Gain +1 momentum#.
 * **Miss:**
   Your character fails before any consequences occur, but a new [term]#risky# opportunity lies before them.
   They can attempt again with that approach or try something else.
@@ -244,15 +225,11 @@ You go head to head. You act under fire. You take a chance.
 +
 * **Critical Hit:**
   A success with [term]#increased reward#.
-  [term]#Gain +1 momentum#.
 * **Hit:**
   A success, and you realize what was at stake.
 * **Weak Hit:**
   Overall a success, but you must [term]#suffer the consequences#.
 * **Miss:**
-  Things do not go your way.
-  [term]#Gain +1 XP# and you must [term]#suffer the consequences#.
-* **Critical Miss:**
   Things do not go your way.
   [term]#Gain +1 XP# and you must [term]#suffer the consequences#.
 
@@ -271,55 +248,7 @@ You overreach your capabilities. You're in serious trouble.
 * **Miss:**
   The worst outcome has happened.
   [term]#Gain +1 XP# and you must [term]#suffer the consequences# accordingly.
-* **Critical Miss:**
-  The worst outcome has happened, but somehow it got way worse.
-  [term]#Gain +1 XP# and you must [term]#suffer the consequences# accordingly.
 --
-
-=== Momentum
-
-Momentum is a special mechanic which is central to playing {doctitle}.
-Your momentum value ranges from a 0 to 3 and represents how you are faring.
-
-==== Gaining Momentum
-
-You gain momentum primarily through [term]#taking action# and succeeding what you set out to accomplish.
-
-Abilities, items, and other things can grant momentum as well.
-
-==== Losing Momentum
-
-Momentum is a resource that can be attacked when [term]#suffering the consequences#.
-Some monsters can have abilities that let them reduce your momentum.
-Some abilities give you the option of spending momentum in exchange for increased power.
-The most common way to lose momentum is by [term]#spending momentum#.
-
-==== Spending Momentum
-
-[term]#Spending momentum# is a powerful option to use your built up successes to turn the tides when the action and drama is high.
-When you have momentum, after you make an action roll, you may add your current momentum value to your action score to improve your result.
-After you do this you go down to 0 momentum, and explain how you overcame and powered through the challenges.
-
-You cannot gain momentum when spending momentum.
-
-.Spending Momentum
-[example]
---
-Your momentum value is 3 and your action score is 4.
-You roll a 5 and an 8 on your challenge dice.
-A miss.
-You may burn momentum to add your momentum value, 3, to the action score to make it 7.
-This shifts your result from a miss to a weak hit.
-You change your momentum from 3 to 0 and continue play.
---
-
-==== Momentum Damage
-
-Momentum can be damaged, resulting in a reduction of the maximum momentum you can have.
-As you gain debilitaties or otherwise suffer other negative consequences, your momentum is damaged.
-Almost always the reduction in momentum is tied to a negative effect on you, so if you lose the effect your maximum momentum will increase towards the original amount of 5.
-The negative effect or whatever else that damages your momentum will say how much damage it does to it.
-Often it is just 1 damage.
 
 === Progress Tracks
 
@@ -398,14 +327,14 @@ endif::[]
 
 Roll [term]#+force# if resisting physical consequences through sheer might and endurance,
 [term]#+edge# if resisting physical consequences through quickness or precision,
+[term]#+shadow# if resisting detection or discovery through stealth or deception,
 [term]#+heart# if resisting emotional damage,
-// huehuehuehue
 [term]#+mind# or [term]#+mystery#, whichever is higher, if resisting non-physical/non-emotional arkane/magick/occult consequences,
-or [term]#+momentum# if resisting any other kind of harm.
+or [term]#+0# if resisting any other kind of harm.
 
 [horizontal]
 * **Critical Hit:**
-  You do it with complete ease.
+  You avoid all consequences with complete ease and end up in a 
 * **Hit:**
   The consequence is avoided.
 * **Weak Hit:**
@@ -440,15 +369,73 @@ Mundane armor can be partially repaired with the proper tools and know-how by th
 
 ==== Death
 
-=== Fortune
-
 === Paths
 
-==== Warrior
+ifdef::showcommentary[]
+.Regarding core paths
+[NOTE]
+Core paths are the core chassis of a character.
+They are essentially "classes" in other fantasy role-playing games.
+endif::[]
 
-==== Mystic
+There are two types of paths: core paths and focus paths.
+Your core path is the primary path your character takes.
+Focus paths are ways to shape your character into the concept you have in your mind.
 
-==== Scoundrel
+There are three core paths: The warrior, the mystic, and the scoundrel.
+The warrior knows their weapons and can kill many things with them.
+The mystic knows mystery and spells and can kill many things with it.
+The scoundrel has tricks, guile, and skulduggery and can kill many things through those.
+
+ifdef::showcommentary[]
+.Regarding focus paths
+[NOTE]
+Focus paths are the way to _really_ flesh out a character concept.
+Focus paths are a _great_ place to add homebrew content.
+These are like "subclasses" in other fantasy role-playing games.
+The goal of a focus path is to encourage roleplay by creating narrative requirements.
+This makes it really easy to understand the "why does my character have access to these new things?" question that can often arise when progressing characters mechanically.
+endif::[]
+
+There are also focus paths, which represent your character growing and changing in play.
+Focus paths have mechanical and narrative requirements in order for you to access them.
+For example, the Occultist focus path requires you to have witnessed or studied an occult ritual.
+The Cleric focus path requires you to have witnessed an act of chaos which causes you to devote your life and faith to a god.
+The Necromancer focus path requires you to have found the Tome of Skulls and studied it in the dead of night for several nights.
+There are many more focus paths, but they all give you access to a pool of abilities in various tiers and skill unique to the focus path.
+
+A focus path almost always has a way of it being lost, called [term]#losing focus#.
+When you meet the conditions to [term]#lose focus# on a focus path, you immediately lose the focus path and all of the abilities and other benefits of the path.
+You gain XP equal to half of the XP cost of the focus path divided by 2, rounding up.
+
+ifdef::showcommentary[]
+.Regarding losing focus paths
+[NOTE]
+Focus paths being able to be lost is a narrative enforcement, but also a gamey mechanic.
+Narratively, it makes sense for the paladin path to be lost when you forsake your oath.
+Mechanically, maybe you _really_ need XP and you don't feel like being a paladin makes sense for you anymore.
+The player can decide they want the XP and narratively make their character forsake their oath.
+The other players all get to enjoy a story of how a paladin has literally fell from grace and while the paladin player gets to enjoy the XP they wanted.
+Perhaps they really just wanted access to the Anti Paladin focus path which requires losing the paladin focus path?
+endif::[]
+
+ifdef::showcommentary[]
+.Regarding path power
+[NOTE]
+Paths are not meant to be a _huge_ power boost to characters.
+Magic items are meant to be the biggest power boost a character can get -- they break all the rules and even rewrite them.
+Paths are meant to be boosts, yes, but really they should increase versatility of a character.
+For example, the Mystic path gets new properties for their spells they cast.
+endif::[]
+
+==== Abilities
+
+Your paths give you access to abilities.
+Abilities have two key things to note about them: Their [term]#Tier# and their XP cost.
+You can always access [term]#Tier I# abilities as long as you spend their required XP cost.
+To gain an ability in [term]#Tier II# or above you must have N+2 abilities of the previous [term]#Tier# where N is the number of abilities you already have in the [term]#Tier# of the ability you are choosing.
+For example, in order to gain your first [term]#Tier II# ability, you must have two [term]#Tier I# abilities.
+In order to gain a second [term]#Tier III# ability, you must have at least three [term]#Tier II# abilities which means you must have at least four [term]#Tier I# abilities.
 
 === Kin
 
@@ -496,13 +483,14 @@ Raven/crow/rook people.
 
 ==== Attributes
 
-Each PC will start with an array of attribute points: 3, 2, 1, 1, 0.
+Each PC will start with an array of attribute points: 3, 2, 1, 1, 0, -1.
 Assign these points to any of the [term]#attributes# --
 [term]#force#, [term]#edge#, [term]#mystery#, [term]#mind#, or [term]#heart#.
 
 [horizontal]
 Force:: Aggression, might, and intimidation.
-Edge:: Haste, precision, and cunning.
+Edge:: Quickness, agility, and precision.
+Shadow:: Sneakiness, deceptiveness, and cunning.
 Mystery:: Mysticism, arkane, and other magicks.
 Mind:: Mental fortitude, intellect, and perception.
 Heart:: Bravery, inpsiration, and understanding.
@@ -513,20 +501,27 @@ Skills are general abilities that increase your chances of succeeding when [term
 The following are the skills in {doctitle}:
 
 * [term]#Accuracy#
+* [term]#Alchemicism#
+* [term]#Awareness#
 * [term]#Care#
 * [term]#Charm#
 * [term]#Command#
-* [term]#Discretion#
+* [term]#Deception#
+* [term]#Disarm Device#
 * [term]#Finesse#
+* [term]#Flexibility#
 * [term]#Focus#
 * [term]#Frighten#
-* [term]#Notice#
+* [term]#Leadership#
+* [term]#Stealth#
 * [term]#Study#
+* [term]#Tactics#
+* [term]#Treatment#
 * [term]#Wreck#
 * [term]#Wrestle#
 
-Your <<_paths,[term]#path#>> will provide 2 skills.
-After applying the skills from your [term]#path#, choose 2 more skills.
+Your <<_paths,[term]#core path#>> will provide skills.
+After applying the skills from your [term]#core path#, choose 2 more skills.
 
 ==== Exertion
 
@@ -534,9 +529,21 @@ After applying the skills from your [term]#path#, choose 2 more skills.
 
 ==== Harm
 
+This consequence represents a long-lasting debility (or death).
+When you suffer harm, record the specific injury on your character sheet equal to the tier of harm you suffer.
+The least deadly form of harm is tier I harm, and each tier above is an increase in deadliness.
+
+Your character suffers the penalty indicated at the tier if any or all harm recorded in that row applies to the situation at hand.
+So, if you have "`Drained`" and "`Battered`" tier I harm, you’ll suffer reduced effect when you try to run away from the constables.
+When you’re impaired by tier III harm, most characters are incapacitated and can’t do anything unless they have help from someone else or push themself to perform the action.
+
+If you need to mark a harm, but the tier is already filled, the harm moves up to the next tier.
+So, if you suffered a tier II harm but had no empty spaces in the second row, you’d have to record tier III harm instead.
+If you run out of spaces on the highest tier on your sheet and need to mark harm there, your character suffers a catastrophic, permanent consequence (loss of a limb, sudden death, etc., depending on the circumstances).
+
 ==== Scars
 
-=== Paths
+==== Doomed
 
 === Experience
 
@@ -544,8 +551,16 @@ After applying the skills from your [term]#path#, choose 2 more skills.
 
 === Character Creation Summary
 
+== Equipment
+
+== Alchemy
+
+== Magic
+
+== Exposure to Chaos
+
 [appendix]
-== Foes and Encounters
+== Monsters and Foes
 
 Every monster has moves that describe its behavior and abilities.
 Just like the normal consequences, they're things that you do when there's a lull in the action or when the PCs give you a golden opportunity.
@@ -583,27 +598,38 @@ These are a guide to the fiction, and therefore the moves.
 A quality like intangible means just what it says: mundane stuff just passes through it.
 That means swinging a mundane sword at it will have extremely little [term]#reward#, and damage isn't a possibility for a start.
 
+=== Running Encounters
+
+Here's some advice on running encounters.
+
+You'll notice that monsters in {doctitle} don't have rules on _when_ they deal their damage.
+That's because it's really up to the tone of game you want to play.
+You can take the approach that whenever a player must [term]#suffer the consequences# that they'll be dealt damage -- that's fine.
+The game you will get from that is a _very_ deadly one, though, as the resolution mechanic is weighted towards [term]#weak hits#, which will mean lots of damage will be flying around.
+
+It's can be a good idea to use <<_soft_moves,[term]#soft moves#>> at first during a actions scenes when consequences are being suffered, and afterwards move towards using <<_hard_moves,[term]#hard moves#>>.
+
 === Sample Monster
 
 .Lich
 [monster]
 --
-16 HP +
-2 Armor (Magical) +
+*HP* 16 ||
+*Magick Armor* ○○ ||
 _Solitary_, _Magical_, _Intelligent_, _Cautious_, _Hoarder_, _Construct_
 
 Motivation: To un-live
 
 .Attacks
-Magical Energy Blast::
-  Moderate harm, ignores armor.
+Magickal Energy Blast::
+  Moderate harm.
   _Near_, _Far_.
 Blunt Staff::
   Minor harm.
   _Close_.
-Magical Eruption □□□□::
+Magickal Eruption ○○○○::
   Severe harm, ignores armor, triggered by progress track completion.
-  _Near_, _Far_.
+  _Close_, _Near_, _Far_.
 
 .Special Abilities
 * Cast a perfected spell of death or destruction
@@ -623,7 +649,17 @@ Magical Eruption □□□□::
 
 === Animals
 
+==== Rats
+
 === Animals, Ferocious
+
+==== Dire Animals
+
+==== Bear
+
+==== Wolf
+
+=== Demons
 
 === Eldritch Horrors
 
@@ -631,29 +667,51 @@ Magical Eruption □□□□::
 
 ==== Shoggoth
 
-=== Demons
+=== Fae
 
-=== Goblins
+=== Hilltribe Foes
+
+==== Bugbears
+
+==== Goblins
+
+==== Giants
+
+==== Hobgoblins
+
+==== Orcs
+
+==== Trolls
 
 === Golems
-
-=== Giants
 
 === Mythical Creatures
 
 === Oozes
 
-=== Orcs
-
 === People, Mundane
 
 === People, Magical
 
-=== Raised Undead
+=== Undead
+
+==== Draugr
+
+==== Ghouls
+
+==== High Vampires
+
+==== Liches
+
+==== Skeletons
+
+==== Vampire Spawn
+
+==== Wraiths
+
+==== Zombies
 
 === Spiders
-
-=== Vampires
 
 === Wyrms
 

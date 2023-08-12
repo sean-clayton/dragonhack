@@ -1,6 +1,14 @@
 @import "https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css";
 
 @font-face {
+  font-family: "FDI Altmeister B";
+  src: url("fonts/fdialtmeisterb-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: "ss01" 1;
+}
+
+@font-face {
   font-display: swap;
   font-family: "Alegreya";
   font-style: normal;
@@ -177,10 +185,12 @@
 }
 
 :root {
+  --fdi-altmeister-b-font-family: "FDI Altmeister B";
   --alegreya-font-family: "Alegreya";
   --alegreya-sc-font-family: "Alegreya SC";
   --alegreya-sans-font-family: "Alegreya Sans";
   --alegreya-sans-sc-font-family: "Alegreya Sans SC";
+  --display-font-family: var(--fdi-altmeister-b-font-family);
   --heading-font-family: var(--alegreya-sc-font-family);
   --primary-font-family: var(--alegreya-font-family);
   --term-font-family: var(--alegreya-sc-font-family);
@@ -230,15 +240,30 @@ dt {
   font-family: var(--heading-font-family);
 }
 
+h1,
 h2,
-h3 {
-  font-weight: 500;
+#subtitle p {
+  font-family: var(--display-font-family);
+  letter-spacing: 0;
 }
 
-h4,
-h5,
-h6 {
-  font-weight: bold;
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+h5 {
+  font-size: 1.5em;
+  text-decoration: underline;
+  font-weight: 800;
 }
 
 a {
@@ -247,10 +272,21 @@ a {
   font-family: var(--primary-font-family);
 }
 
+:is(h1, h2, h3, h4, h5, h6) a.anchor {
+  font-family: inherit;
+}
+
 .action {
   margin: 1.5rem 0;
   border-bottom: 3px solid rgb(59 59 59);
   background-color: rgb(241 241 241);
+}
+
+.action,
+.monster,
+.sidebarblock,
+.exampleblock {
+  break-inside: avoid;
 }
 
 .action > .title,
@@ -280,7 +316,20 @@ a {
 }
 
 .monster {
-  border-bottom: 3px solid rgb(59 59 59);
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(59 59 59);
+  margin: 1rem 0;
+}
+
+.monster .content {
+  padding: 0.5rem;
+}
+
+.action .content p,
+.monster .content p {
+  text-indent: -1rem;
+  margin-inline-start: 1rem;
 }
 
 .action .content > .paragraph {
@@ -377,14 +426,15 @@ td.hdlist1 {
 
 #subtitle p {
   font-size: 3rem;
-  font-family: var(--heading-font-family);
   margin: 0;
   line-height: 1;
-  font-weight: 600;
-  letter-spacing: -0.075em;
 }
 
 .admonitionblock td.icon [class^="fa icon-"],
 .admonitionblock td.icon .icon-tip::before {
   text-shadow: none;
+}
+
+.ab-empty {
+  opacity: 0.25;
 }
