@@ -18,6 +18,7 @@ Sean-Patrick Ortencio Clayton
 v1: PRE-ALPHA DRAFT
 :doctype: book
 :!showtitle:
+:!table-caption:
 :showcommentary:
 :icons: font
 :stylesheet: styles.css
@@ -30,13 +31,7 @@ v1: PRE-ALPHA DRAFT
 :favicon: images/dragonhack-logo.svg
 :repo-url: https://github.com/sean-clayton/dragonhack
 
-[#subtitle]
---
-image::dragonhack-logotype.svg[Static,480,id=logo,align=center,alt=DragonHack,link=#]
-
-[.text-center]
-Basic
---
+image::dragonhack-logotype.svg[Static,480,id=logo,alt=DragonHack,link=#]
 
 <<<
 
@@ -58,7 +53,7 @@ If you enjoy {doctitle}, then be sure to check out these other games!
 
 <<<
 
-== The Basics
+== Basic Rules
 
 === Playing {doctitle}
 
@@ -183,6 +178,21 @@ You use surge points through abilities and features of your <<_paths,[term]#path
 Any surge points you do not use, you do not maintain.
 Use them or lose them.
 
+==== d66 and d666 Tables
+
+Sometimes you'll see a d66 or d666 table.
+
+*To roll d66*, roll a dice twice.
+The first roll is the tens place and the second is the ones.
+
+*To roll d666*, roll a dice three times.
+The first roll is the hundreds place, the second is the tens, and the third is the ones.
+
+==== GMs and the Dice
+
+If you are playing as a GM, you can focus on guiding the game and responding to your player's questions and actions.
+NPCs don't need to roll dice when they act, however, you might want some dice available for oracle rolls.
+
 === Taking Action
 
 When a player character does something challenging, we [term]#take action# to see how it turns out.
@@ -287,16 +297,12 @@ You overreach your capabilities. You're in serious trouble.
   [term]#Gain +1 XP# and you must [term]#suffer the consequences# accordingly.
 --
 
-=== Progress Tracks
-
-=== Harm
-
 === Fortune Roll
 
 The fortune roll is a tool the GM can use to disclaim decision making.
 You use a fortune roll in two different ways:
 
-. **When you need to make a determination about a situation the PCs aren’t directly involved in** and don’t want to simply decide the outcome.
+. **When you need to make a determination about a situation the PCs aren't directly involved in** and don't want to simply decide the outcome.
 . **When an outcome is uncertain**, but no other roll applies to the situation at hand.
 
 When you make a fortune roll you may assess [term]#any attribute or other stat# to determine the stat of the roll, and then perform a regular [term]#challenge roll#.
@@ -382,31 +388,284 @@ or [term]#+0# if resisting any other kind of harm.
   You can [term]#mark 1 exertion# to avoid reduce it or [term]#mark 2 exertion# to avoid it completely.
 --
 
-===== Armor
-
-If you have a type of [term]#armor# that applies to the situation, you can mark wear on the armor to reduce or avoid a consequence, instead of rolling to resist.
-
-Each armor will have its own wear progress track.
-When the progress track is filled, it is destroyed or otherwise rendered unusable.
-
-Armor also states what kind of damage they can effectively resist against.
-Using an armor to resist types of damage they are not effective against will result in greater wear or exertion costs.
-
-.Leather Armor
-[example]
---
-Leather armors have 3 wear and typically can only resist against attacks of small weapons like daggers and shivs, but piercing attacks such as arrows can still penetrate them.
-They can possibly protect against slashing attacks from larger weapons or from blunt force, but it will take more wear.
-An attack like a shank from a dagger would only take one wear.
-An attack like a sword slashing against them would require [term]#resisting# and spending 2 wear.
---
-
-Armor can be repaired completely in the fiction by visiting an armorsmith or some other way of armor being repaired.
-Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor.
-
 ==== Death
 
+When your character reaches 0HP, they die immediately.
+
+=== Progress Tracks
+
+A progress track is a multi-segment track.
+Draw a progress track when you need to track ongoing effort against an obstacle or the approach of impending trouble.
+
+Sneaking into the constables watch tower?
+Make a progress track to track the alert level of the patrolling guards.
+When the PCs suffer consequences from partial successes or missed rolls, fill in segments on the progress track until the alarm is raised.
+
+Generally, the more complex the problem, the more segments in the progress track.
+
+A complex obstacle is a 4-segment track.
+A more complicated obstacle is a 6-segment track.
+A daunting obstacle is an 8-segment track.
+
+When you create a progress track, make it about the obstacle, not the method.
+The progress tracks for an infiltration should be "`Interior Patrols`" and "`The Tower,`" not "`Sneak Past the Guards`" or "`Climb the Tower.`" The patrols and the tower are the obstacles -- the PCs can attempt to overcome them in a variety of ways.
+
+Remember that a progress track tracks progress.
+It reflects the fictional situation, so the group can gauge how they're doing.
+A progress track is like a speedometer in a car.
+It shows the speed of the vehicle -- it doesn't determine the speed.
+
+==== Simple Obstacles
+
+Not every situation and obstacle requires a progress track.
+Use progress tracks when a situation is complex or layered and you need to track something over time -- otherwise, resolve the result of an action with a single roll.
+
+Examples of progress tracks follow.
+
+==== Danger Tracks
+
+The GM can use a progress track to represent a progressive danger, like suspicion growing during a seduction, the proximity of pursuers in a chase, or the alert level of roaming monsters in a dungeon.
+In this case, when a complication occurs, the GM ticks one, two, or three segments on the progress track, depending on the consequence level.
+When the progress track is full, the danger comes to fruition -- the guards hunt down the intruders, activate an alarm, release the hounds, etc.
+
+==== Racing Tracks
+
+Create two opposed progress tracks to represent a race.
+The PCs might have a progress track called "`Escape`" while the city watch have a progress track called "`Cornered.`" If the PCs finish their progress track before the watch fill theirs, they get away.
+Otherwise, they're cornered and can't flee.
+If both complete at the same time, the PCs escape to a safe location, but the watch are right outside!
+
+You can also use racing progress tracks for an environmental hazard.
+Maybe the PCs are trying to complete the "`Search`" progress track to find the lockbox on the sinking ship before the GM fills the "`Sunk`" progress track and the vessel goes down.
+
+==== Linked Tracks
+
+You can make a progress track that unlocks another progress track once it's filled.
+For example, the GM might make a linked progress track called "`Trapped`" after an "`Alert`" progress track fills up.
+As always, the method of action is up to the players and the details of the fiction at hand.
+
+==== Mission Tracks
+
+The GM can make a progress track for a time-sensitive mission, to represent the window of opportunity you have to complete it.
+If the countdown runs out, the mission is scrubbed or changes -- the target escapes, the household wakes up for the day, etc.
+Tug-of-war progress tracks
+
+You can make a progress track that can be filled and emptied by events, to represent a back-and-forth situation.
+You might make a "`Revolution!`" progress track that indicates when the refugees start to riot over poor treatment.
+Some events will tick the progress track up and some will tick it down.
+Once it fills, the revolution begins.
+A tug-of-war progress track is also perfect for an ongoing turf war between two crews or factions.
+
+==== Long-term Project
+
+Some projects will take a long time.
+A basic long-term project (like tinkering up a new feature for a device) is eight segments.
+Truly long-term projects (like creating a new designer drug) can be two, three, or even four progress tracks, representing all the phases of development, testing, and final completion.
+Add or subtract progress tracks depending on the details of the situation and complexity of the project.
+
+A long-term project is a good catch-all for dealing with any unusual player goal, including things that circumvent or change elements of the mechanics or the setting.
+
+==== Faction progress tracks
+
+Each faction has a long-term goal.
+When the PCs have downtime, the GM ticks forward the faction progress tracks that they're interested in.
+In this way, the world around the PCs is dynamic and things happen that they're not directly connected to, changing the overall situation in the city and creating new opportunities and challenges.
+
+The PCs may also directly affect NPC faction progress tracks, based on the missions and scores they pull off.
+Discuss known faction projects that they might aid or interfere with, and also consider how a PC operation might affect the NPC progress tracks, whether the players intended it or not.
+
+=== The Flow of Play
+
+Like most roleplaying games, you play primarily from the perspective of your character.
+What are you doing?
+What are you trying to achieve?
+What opposition and challenges do you face?
+Your quests, and the characters and situations you encounter, will guide the fiction and the choices you make.
+
+When you have questions about what you find, how other characters in your world respond, or what happens next, you can go with what feels right (if you're playing solo or co-op), or ask your GM.
+When you are seeking inspiration or want to put it in the hands of fate, you want to consult an <<_oracles, oracle>>.
+Use the yes/no questions and random prompts to generate interesting twists and new complications you might not have thought of on your own.
+Above all, if it's interesting, dramatic and fits the fiction, make it happen.
+
+If you are doing something covered by a move, refer to the move to resolve your action.
+If it tells you to roll dice, do it.
+
+Scoring a strong hit on a move means you are in control.
+You're driving the narrative.
+What do you do next?
+
+A weak hit or a miss means you don't have control of the situation.
+Instead of acting, you react.
+What happens next?
+If you're playing with a GM, they'll determine how the world responds.
+Otherwise, you rely on your intuition and occasional oracle rolls to drive the narrative.
+
+== Character Creation
+
+=== Attributes
+
+Each PC will start with an array of attribute points depending on their age.
+
+* *Young Adult* 2, 2, 2, 1, 0, 0.
+* *Middle-Aged/Old* 2, 1, 1, 1, 0, -1.
+
+Assign these points to any of the [term]#attributes# --
+[term]#force#, [term]#edge#, [term]#mystery#, [term]#mind#, or [term]#heart#.
+
+[horizontal]
+Force:: Aggression, might, and intimidation.
+Edge:: Quickness, agility, and precision.
+Shadow:: Sneakiness, deceptiveness, and cunning.
+Mystery:: Mysticism, arkane, and other magicks.
+Mind:: Mental fortitude, intellect, and perception.
+Heart:: Bravery, inpsiration, and understanding.
+
+Your age will modify these.
+Different <<_kin,[term]#kin#>> have different age ranges for these age groups.
+
+* *Young Adult:* No changes.
+* *Middle-Aged:* +1 to [term]#heart#.
+* *Old:* +1 to [term]#mind# and [term]#heart#, and -1 to [term]#force#.
+
+Your <<_paths,[term]#core path#>> will increase an attribute by 1.
+No attribute can exceed 3 at any point character creation.
+
+=== Hit Points (HP) and Hit Dice (HD)
+
+Every character starts with 6HP and 0HD.
+[term]#Hit dice# provide a way of determining your vitality and also boost your HP.
+Whenever you gain HD, roll the amount of HD gained in dice and add that to your current HP.
+Whenever you re-roll your health, you roll a number of dice equal to your total HD, add 6, and that is your new health.
+For example, if you have 2HD, you would roll 2D+6.
+
+=== Skills
+
+Skills are general abilities that increase your chances of succeeding when [term]#taking action#.
+The following are the general skills in {doctitle}:
+
+* [term]#Accuracy#
+* [term]#Alchemicism#
+* [term]#Awareness#
+* [term]#Care#
+* [term]#Charm#
+* [term]#Command#
+* [term]#Deception#
+* [term]#Disarm Device#
+* [term]#Finesse#
+* [term]#Flexibility#
+* [term]#Focus#
+* [term]#Frighten#
+* [term]#Leadership#
+* [term]#Stealth#
+* [term]#Study#
+* [term]#Tactics#
+* [term]#Treatment#
+* [term]#Wreck#
+* [term]#Wrestle#
+
+Your <<_paths,[term]#paths#>> will provide skills -- these are your primary skills.
+<<_focus_paths,[term]#Focus paths#>> provide primary skills not in the aforementioned list -- they provide skills unique to that focus path that you cannot obtain otherwise.
+After determining your [term]#primary skills#, choose 2 more skills.
+These 2 skills are your [term]#secondary skills#.
+
+Skills, both primary and secondary, _always_ give a bonus to [term]#taking action#.
+Primary skills, though, can provide greater bonuses than secondary skills.
+
+=== Kin
+
+==== Human
+
+Human people.
+
+.Age ranges
+[horizontal]
+Young Adult:: 16–25
+Middle-Aged:: 26–59
+Old:: 60+
+
+==== Hobbitfolk
+
+Small people.
+
+.Age ranges
+[horizontal]
+Young Adult:: 20–29
+Middle-Aged:: 30–69
+Old:: 70+
+
+==== Goblin
+
+Small people with pointy ears.
+
+.Age ranges
+[horizontal]
+Young Adult:: 11–15
+Middle-Aged:: 16–29
+Old:: 30+
+
+==== Dwarf
+
+Small people with beards.
+
+.Age ranges
+[horizontal]
+Young Adult:: 25–100
+Middle-Aged:: 101–199
+Old:: 200+
+
+==== Vyrmit
+
+Mouse/rat/hamster people.
+
+.Age ranges
+[horizontal]
+Young Adult:: 11–15
+Middle-Aged:: 16–29
+Old:: 30+
+
+==== Kolussar
+
+Ancient human/dwarf people.
+
+.Age ranges
+[horizontal]
+Young Adult:: 40–119
+Middle-Aged:: 120–249
+Old:: 250+
+
+==== Testadar
+
+Turtle/tortoise people.
+
+.Age ranges
+[horizontal]
+Young Adult:: 50–150
+Middle-Aged:: 151–299
+Old:: 300+
+
+==== Kyrfit
+
+Raven/crow/rook people.
+
+.Age ranges
+[horizontal]
+Young Adult:: 14–20
+Middle-Aged:: 21–34
+Old:: 35+
+
 === Paths
+
+There are two types of paths: core paths and focus paths.
+Your core path is the primary path your character takes.
+Focus paths are ways to shape your character into the concept you have in your mind.
+
+Pick the core path for your character.
+*If you are middle-aged*, pick a focus path for free and start with 5 to spend on abilities only.
+*If you are old*, pick a focus path for free, one [term]#tier I ability#, and start with 5 to spend on abilities only.
+
+Any XP you start with during character creation can only be spent during character creation.
+
+==== Core Paths
 
 ifdef::showcommentary[]
 .Regarding core paths
@@ -415,14 +674,45 @@ Core paths are the core chassis of a character.
 They are essentially "classes" in other fantasy role-playing games.
 endif::[]
 
-There are two types of paths: core paths and focus paths.
-Your core path is the primary path your character takes.
-Focus paths are ways to shape your character into the concept you have in your mind.
-
 There are three core paths: The warrior, the mystic, and the scoundrel.
 The warrior knows their weapons and can kill many things with them.
 The mystic knows mystery and spells and can kill many things with it.
 The scoundrel has tricks, guile, and skulduggery and can kill many things through those.
+
+===== The Warrior
+
+Add +1 to [term]#force#.
+It cannot exceed +3 at character creation.
+
+Choose one of the three following features:
+
+* *The Weaponmaster:*
+* *The Beserker:*
+* *The Oathtaker:*
+
+===== The Mystic
+
+Add +1 to [term]#mystery#.
+It cannot exceed +3 at character creation.
+
+Choose one of the three following features:
+
+* *The Mage:*
+* *The Blessed:*
+* *The Oathtaker:*
+
+===== The Scoundrel
+
+Add +1 to [term]#shadow#.
+It cannot exceed +3 at character creation.
+
+Choose one of the three following features:
+
+* *The Thief*
+* *The Assassin*
+* *The Oathtaker*
+
+==== Focus Paths
 
 ifdef::showcommentary[]
 .Regarding focus paths
@@ -468,190 +758,243 @@ endif::[]
 ==== Abilities
 
 Your paths give you access to abilities.
-Abilities have two key things to note about them: Their [term]#Tier# and their XP cost.
-You can always access [term]#Tier I# abilities as long as you spend their required XP cost.
-To gain an ability in [term]#Tier II# or above you must have N+2 abilities of the previous [term]#Tier# where N is the number of abilities you already have in the [term]#Tier# of the ability you are choosing.
-For example, in order to gain your first [term]#Tier II# ability, you must have two [term]#Tier I# abilities.
-In order to gain a second [term]#Tier III# ability, you must have at least three [term]#Tier II# abilities which means you must have at least four [term]#Tier I# abilities.
+Abilities have two key things to note about them: Their [term]#tier# and their XP cost.
+You can always access [term]#tier I# abilities as long as you spend their required XP cost.
+To gain an ability in [term]#tier II# or above you must have N+2 abilities of the previous [term]#tier# where N is the number of abilities you already have in the [term]#tier# of the ability you are choosing.
+For example, in order to gain your first [term]#tier II# ability, you must have two [term]#tier I# abilities.
+In order to gain a second [term]#tier III# ability, you must have at least three [term]#tier II# abilities which means you must have at least four [term]#tier I# abilities.
 
-=== Kin
+=== Careers
 
-==== Human
+Your careers represent what you were before you decided to become an adventurer.
+They provide one unique [term]#secondary skill#, some starting [term]#coin#, and starting [term]#equipment#.
 
-Human people.
+* *If you are a young adult*, roll once on the careers table.
+* *If you are middle-aged*, roll twice. Only keep one skill, but take all coin and gear you want.
+* *If you are old*, roll three times. Only keep one skill, but take all coin and gear you want.
 
-.Age ranges
-[horizontal]
-Adult:: 16–25
-Middle Aged:: 26–59
-Old:: 60+
+.Careers Table
+[cols="1,99"]
+|===
+|d66|Job title and starting gear
 
-==== Hobbitfolk
+|11
+|*Acolyte* candlestick, censer, incense, 1D coin.
 
-Small people.
+|12
+|*Career title* stuff
 
-.Age ranges
-[horizontal]
-Adult:: 20–29
-Middle Aged:: 30–69
-Old:: 70+
+|13
+|*Career title* stuff
 
-==== Goblin
+|14
+|*Career title* stuff
 
-Small people with pointy ears.
+|15
+|*Career title* stuff
 
-.Age ranges
-[horizontal]
-Adult:: 11–15
-Middle Aged:: 16–29
-Old:: 30+
+|16
+|*Career title* stuff
 
-==== Dwarf
+|21
+|*Career title* stuff
 
-Small people with beards.
+|22
+|*Career title* stuff
 
-.Age ranges
-[horizontal]
-Adult:: 25–100
-Middle Aged:: 101–199
-Old:: 200+
+|23
+|*Career title* stuff
 
-==== Vyrmit
+|24
+|*Career title* stuff
 
-Mouse/rat/hamster people.
+|25
+|*Career title* stuff
 
-.Age ranges
-[horizontal]
-Adult:: 11–15
-Middle Aged:: 16–29
-Old:: 30+
+|26
+|*Career title* stuff
 
-==== Kolussar
+|31
+|*Career title* stuff
 
-Ancient human/dwarf people.
+|32
+|*Career title* stuff
 
-.Age ranges
-[horizontal]
-Adult:: 40–119
-Middle Aged:: 120–249
-Old:: 250+
+|33
+|*Career title* stuff
 
-==== Testadar
+|34
+|*Career title* stuff
 
-Turtle/tortoise people.
+|35
+|*Career title* stuff
 
-.Age ranges
-[horizontal]
-Adult:: 50–150
-Middle Aged:: 151–299
-Old:: 300+
+|36
+|*Career title* stuff
 
-==== Kyrfit
+|41
+|*Career title* stuff
 
-Raven/crow/rook people.
+|42
+|*Career title* stuff
 
-.Age ranges
-[horizontal]
-Adult:: 14–20
-Middle Aged:: 21–34
-Old:: 35+
+|43
+|*Career title* stuff
 
-=== Oracles
+|44
+|*Career title* stuff
 
-=== Equipment
+|45
+|*Career title* stuff
 
-=== The Flow of Play
+|46
+|*Career title* stuff
 
-== Your Character
+|51
+|*Career title* stuff
 
-=== Character Basics
+|52
+|*Career title* stuff
 
-==== Attributes
+|53
+|*Career title* stuff
 
-Each PC will start with an array of attribute points depending on their age.
+|54
+|*Career title* stuff
 
-* *Adult* 3, 2, 1, 1, 0, -1.
-* *Middle Aged/Old* 2, 2, 1, 0, 0, -1.
+|55
+|*Career title* stuff
 
-Assign these points to any of the [term]#attributes# --
-[term]#force#, [term]#edge#, [term]#mystery#, [term]#mind#, or [term]#heart#.
+|56
+|*Career title* stuff
 
-[horizontal]
-Force:: Aggression, might, and intimidation.
-Edge:: Quickness, agility, and precision.
-Shadow:: Sneakiness, deceptiveness, and cunning.
-Mystery:: Mysticism, arkane, and other magicks.
-Mind:: Mental fortitude, intellect, and perception.
-Heart:: Bravery, inpsiration, and understanding.
+|61
+|*Career title* stuff
 
-Your age will modify these.
-Different <<_kin,[term]#kin#>> have different age ranges for these age groups.
+|62
+|*Career title* stuff
 
-* *Adult:* No changes.
-* *Middle Aged:* -1 to [term]#force# and +1 to [term]#heart#.
-* *Old:* Same as Middle Aged, but with +1 to [term]#mind#, also.
+|63
+|*Career title* stuff
 
-==== Skills
+|64
+|*Career title* stuff
 
-Skills are general abilities that increase your chances of succeeding when [term]#taking action#.
-The following are the skills in {doctitle}:
+|65
+|*Career title* stuff
 
-* [term]#Accuracy#
-* [term]#Alchemicism#
-* [term]#Awareness#
-* [term]#Care#
-* [term]#Charm#
-* [term]#Command#
-* [term]#Deception#
-* [term]#Disarm Device#
-* [term]#Finesse#
-* [term]#Flexibility#
-* [term]#Focus#
-* [term]#Frighten#
-* [term]#Leadership#
-* [term]#Stealth#
-* [term]#Study#
-* [term]#Tactics#
-* [term]#Treatment#
-* [term]#Wreck#
-* [term]#Wrestle#
+|66
+|*Career title* stuff
+|===
 
-Your <<_paths,[term]#core path#>> will provide skills.
-After applying the skills from your [term]#core path#, choose 2 more skills.
+==== Slots
 
-==== Exertion
-
-=== Debilities
-
-==== Harm
-
-This consequence represents a long-lasting debility (or death).
-When you suffer harm, record the specific injury on your character sheet equal to the tier of harm you suffer.
-The least deadly form of harm is tier I harm, and each tier above is an increase in deadliness.
-
-Your character suffers the penalty indicated at the tier if any or all harm recorded in that row applies to the situation at hand.
-So, if you have "`Drained`" and "`Battered`" tier I harm, you’ll suffer reduced effect when you try to run away from the constables.
-When you’re impaired by tier III harm, most characters are incapacitated and can’t do anything unless they have help from someone else or push themself to perform the action.
-
-If you need to mark a harm, but the tier is already filled, the harm moves up to the next tier.
-So, if you suffered a tier II harm but had no empty spaces in the second row, you’d have to record tier III harm instead.
-If you run out of spaces on the highest tier on your sheet and need to mark harm there, your character suffers a catastrophic, permanent consequence (loss of a limb, sudden death, etc., depending on the circumstances).
-
-==== Scars
-
-==== Doomed
-
-=== Experience
-
-=== Equipment
+You have with 10 + [term]#force# slots for equipment.
+Items that have the [term]#bunch# trait take up only one slot as long as the [term]#quantity# does not exceed the bunch value.
+Once it does, it increases slot usage by 1 and keeps on doing that when exceeding twice the bunch value, and so on.
+Coins have a [term]#bunch# value of 500.
 
 === Character Creation Summary
 
+== Experience
+
+You gain experience by going through the items below _at the end of the session_ and determining if it applies to you.
+Unless otherwise noted, each item only provides 1XP.
+
+There are questions _everyone_ can get experience for:
+
+* XP for showing up to the session.
+* XP for killing a monster or otherwise dangerous creature.
+** XP if it was was a mighty and deadly foe.
+** XP if it was one of _the_ legendary dragons or otherwise a mighty, ancient, and deadly dragon.
+* XP for obtaining treasure.
+** XP if the total was worth 200C or more.
+** XP if the total was worth 1000C or more.
+* XP for obtaining a magical artefact.
+* XP for discovering a new settlement, dangerous site, or ancient and storied location.
+** XP for learning more about its dark or otherwise storied past.
+** XP if it was a site full of danger (like a dungeon or enemy camp), and you went inside.
+*** XP for going inside with _zero_ hesitation.
+* XP for earning the trust of a new ally.
+** XP if it was because you acted selflessly in their favor.
+** XP for making _many_ new allies.
+* XP for making a new enemy who swore to kill at least 1 member of your group.
+** XP for making _many_ enemies.
+** XP if they swore to kill just you.
+
+Many <<_paths, [term]#paths#>> also provide ways of gaining XP.
+Only characters with those paths can gain XP in those ways.
+Some paths repeat items from the previous list of ways to gain XP.
+This means you would get 1 more XP unless otherwise noted in the path.
+
 == Equipment
+
+Equipment costs money when buying it from merchants and traders.
+The cost of equipment is described in [term]#coin# (Also notated as C).
+
+=== Quantity
+
+Some items have a [term]#quantity# associated with them.
+This is an _abstract_ quantity.
+All quantity has a value associated with it, eg. Quantity 2, Quantity 3, etc.
+After a scene in which you used something with quantity, make a <<_fortune_roll,[term]#fortune roll#>>.
+*On a 9-*, reduce the quantity by 1.
+
+When the quantity reaches zero, it is spent and is removed from your inventory.
+
+=== Tags
+
+=== Weapons
+
+=== Armor
+
+All armor has an [term]#armor# value and a number of [term]#uses#.
+You can [term]#use# your armor to reduce damage by the armor value, but after doing so you mark a [term]#use# on your armor.
+When you reach your number of uses on the armor, the armor is no longer able to reduce damage and must be repaired.
+
+[term]#Armor piercing (AP)# ignores [term]#armor# value.
+
+Armor can be repaired completely by visiting an armorsmith.
+Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor, with the risk of rendering the armor completely unrepairable.
+
+Leather/Hide Armor::
+  *Armor* 1 *Uses* 3 *Cost* 30C
+Scale/Chain Armor::
+  *Armor* 2 *Uses* 3 *Cost* 10C
+Splint Armor::
+  *Armor* 3 *Uses* 6 *Cost* 20C
+Plate Armor::
+  *Armor* 3 *Uses* 10 *Cost* 50C
+
+=== Adventuring Gear
+
+=== Other
+
+=== Transport
+
+* *Cart and donkey* Slots 20, 50C
+
+=== Services
+
+* *Poor inn* 6C/week
+* *Modest inn* 12C/week
+* *Comfortable inn* 24C/week
+* *Unskilled labor* 10C/week
+* *Professional labor* 30C/month
+* *Armed escort*
+  ** *Safe route* 6C/guard/day
+  ** *Unsafe route* 12C/guard/day
+  ** *Perilous route* 24C/guard/day
+* *Common murder* 5C
+* *Professional murder/assassination* 120C
+* *Prayers* 1C/month
+* *Repairs* Base cost/4
+
+=== Housing
 
 == Alchemy
 
-== Magic
+== Magick
 
 == Exposure to Chaos
 
@@ -670,7 +1013,7 @@ The description is how you know what the monster really is, the other elements j
 
 Abilities dictate how much [term]#harm# the monster can inflict at once.
 A monster deals its damage to another monster or a PC whenever it causes them physical harm.
-Some abilities are special, like ones that can only be triggered by a critical failure, or a clock being completed.
+Some abilities are special, like ones that can only be triggered by a critical failure, or a progress track being completed.
 
 Each monster has tags that describe how it deals damage, including the range(s) of its abilities.
 When trying to attack something out of its range (too close or too far) the monster's out of luck, no damage.
@@ -861,6 +1204,22 @@ Magickal Eruption ○○○○::
 === Combat Action Oracle
 
 === Exploration Oracle
+
+[appendix]
+== Hacking {doctitle}
+
+[appendix]
+== Expert Rules
+
+=== The Adventuring Party
+
+=== Modes of Play
+
+==== Free Play
+
+==== The Adventure
+
+==== Downtime
 
 == Credits
 
