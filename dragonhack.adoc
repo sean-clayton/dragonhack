@@ -932,34 +932,37 @@ This means you would get 1 more XP unless otherwise noted in the path.
 Equipment costs money when buying it from merchants and traders.
 The cost of equipment is described in [term]#coin# (Also notated as c).
 
-=== Quantity
-
-Some items have a [term]#quantity# associated with them.
-This is an _abstract_ quantity.
-All quantity has a value associated with it, eg. Quantity 2, Quantity 3, etc.
-After a scene in which you used something with quantity, make a <<_fortune_roll,[term]#fortune roll#>>.
-*On a 9-*, reduce the quantity by 1.
-
-When the quantity reaches zero, it is spent and is removed from your inventory.
-
 === Tags
 
 [horizontal]
+Armor _Value_::
+  Reduces damage to you by the value.
+  [term]#Armor-piercing (AP)# can ignore up to the value.
+  Only the armor with the highest value counts.
 Blast:: Deals damage to a target and everyone adjacent to it.
 Bulwark _Value_:: Armor with this tag can be used as an armor with this value without counting against its uses.
-// Basically Bunch means you can have stacks of this thing.
-// Eg. Bunch 10 means if you have 30 of the thing, it takes 3 slots.
 Bunch _Value_::
-  An item with this tag only takes up 1 slot if you have multiple of it, up to the value.
-  If you wish to carry more of this item, it must occupy another slot.
+  You can have up to this [term]#quantity# of items with this trait and only take up 1 slot.
+  If you wish to carry more of an item with this trait, it must occupy another slot.
 Heavy::
   You can only carry up to your [term]#force# in items with this tag.
+Two-Handed:: What it says on the tin. Requires two hands to wield.
 Uses _Value_::
   You can use this item an amount of times equal to its value.
-  It cannot be used further once you have used it that many times until it is repaired or replenished by an appropriate source.
+  It cannot be used further once you have used it that many times until it is repaired by an appropriate source.
   The better the source, the more uses you gain back.
+Quantity _Value_::
+  After a scene in which you used something with quantity, make a <<_fortune_roll,[term]#fortune roll +quantity#>>.
+  *On a Miss*, reduce the quantity by 1.
+  When the quantity reaches zero, it is spent and is removed from your inventory.
 
 === Weapons
+
+* *Arrows* - _Quantity 1_, _Bunch 3_ *Cost* 5c
+* *Small Weapon* - (Dagger, short sword, small hammer, etc) *Cost* 5c *Damage* 1D
+* *Medium Weapon* - (Sword, spear, flail, etc) *Cost* 10c *Damage* 1D+2
+* *Heavy Weapon* - (Greatsword, glaive, battle axe, etc) _Two-Handed_, _Heavy_ *Cost* 25c *Damage* 1D+4
+* *Sling* - *Cost* 5c *Damage* W[2D]
 
 === Armor
 
@@ -984,26 +987,26 @@ Your total armor value, meaning including armor from a shield, changes how fast 
 3+:: Much slower to act.
 
 .Shields
-Buckler::
-  _Uses 3_ *Cost* 5c *Armor* +1 *Damage* 1D
-Light Shield::
-  _Uses 6_, _Heavy_ *Cost* 10c *Armor* +1 *Damage* 1D
-Heavy Shield::
-  _Uses 6_, _Bulwark 1_, _Heavy_ *Cost* 10c *Armor* +2 *Damage* 1D+1
+* *Buckler* - _Uses 3_ *Cost* 5c *Armor Bonus* +1 *Damage* 1D
+* *Light Shield* - _Uses 6_, _Heavy_ *Cost* 10c *Armor Bonus* +1 *Damage* 1D
+* *Heavy Shield* - _Uses 6_, _Bulwark 1_, _Heavy_ *Cost* 10c *Armor Bonus* +2 *Damage* 1D+1
 
 .Worn Armor
-Leather Armor::
-  _Uses 3_ *Cost* 30c *Armor* 1
-Mail Armor::
-  _Uses 3_, _Heavy_ *Cost* 60c *Armor* 2
-Splint Armor::
-  _Uses 5_, _Bulwark 1_, _Heavy_ *Cost* 90c *Armor* 3
-Plate Armor::
-  _Uses 8_, _Bulwark 2_, _Heavy_ *Cost* 120c *Armor* 3
+* *Leather Armor* - _Uses 3_, _Armor 1_ *Cost* 30c
+* *Mail Armor* - _Uses 3_, _Heavy_, _Armor 2_ *Cost* 60c
+* *Splint Armor* - _Uses 5_, _Bulwark 1_, _Heavy_, _Armor 3_ *Cost* 90c
+* *Plate Armor* - _Uses 8_, _Bulwark 2_, _Heavy_, _Armor 3_ *Cost* 120c
 
 === Adventuring Gear
 
-=== Other
+[horizontal]
+* *Chalk* - *Cost* 1c
+* *Whetstone* - *Cost* 1c
+* *Bandage* - *Cost* 2c. Heals 1HP.
+* *Crowbar* - _Two-Handed_ *Cost* 5c *Damage* 1D
+* *Shovel* - _Two-Handed_ *Cost* 5c *Damage* 1D
+* *Tent, Personal* - *Cost* 10c
+* *Tent, Fits 3* - *Cost* 50c
 
 === Transport
 
@@ -1011,19 +1014,19 @@ Plate Armor::
 
 === Services
 
-* *Poor inn* 6c/week
-* *Modest inn* 12c/week
-* *Comfortable inn* 24c/week
-* *Unskilled labor* 10c/week
-* *Professional labor* 30c/month
+* *Poor inn* - 6c/week
+* *Modest inn* - 12c/week
+* *Comfortable inn* - 24c/week
+* *Unskilled labor* - 10c/week
+* *Professional labor* - 30c/month
 * *Armed escort*
-  ** *Safe route* 6c/guard/day
-  ** *Unsafe route* 12c/guard/day
-  ** *Perilous route* 24c/guard/day
-* *Common murder* 5C
-* *Professional murder/assassination* 120C
-* *Prayers* 1c/month
-* *Repairs* 1/4th of the base cost for mundane items.
+  ** *Safe route* - 6c/guard/day
+  ** *Dangerous route* - 12c/guard/day
+  ** *Perilous route* - 24c/guard/day
+* *Common murder* - 5c
+* *Professional murder/assassination* - 200c
+* *Prayers* - 1c/month
+* *Repairs* - 1/4th of the base cost for mundane items.
 
 === Housing
 
