@@ -45,6 +45,7 @@ Here is a non-exhaustive list in alphabetical order:
 * https://dungeon-world.com/[Dungeon World] by Sage LaTorra and Adam Koebel.
 * https://freeleaguepublishing.com/en/games/forbidden-lands/[Forbidden Lands] by the workers at Fria Ligan.
 * https://www.ironswornrpg.com/[Ironsworn] by Shawn Tomkin.
+* https://www.drivethrurpg.com/product/250888/Knave[Knave] by Ben Milton.
 * The Streets of Marienburg.
 * https://johnharper.itch.io/world-of-dungeons[World of Dungeons] by John Harper.
 * ... and the many games derived from those.
@@ -538,6 +539,11 @@ Whenever you gain HD, roll the amount of HD gained in dice and add that to your 
 Whenever you re-roll your health, you roll a number of dice equal to your total HD, add 6, and that is your new health.
 For example, if you have 2HD, you would roll 2D+6.
 
+Sometimes you can add [term]#HD# to a roll (often with damage).
+This is notated as +HD.
+This means you roll dice like normal, and then add the amount of [term]#hit dice# you have to the total of the roll.
+For example, if you are rolling 1D+HD and you have 2HD, then you are rolling 1D+2.
+
 === Skills
 
 Skills are general abilities that increase your chances of succeeding when [term]#taking action#.
@@ -665,7 +671,32 @@ Pick the core path for your character.
 
 Any XP you start with during character creation can only be spent during character creation.
 
-==== Core Paths
+ifdef::showcommentary[]
+.Regarding path power
+[NOTE]
+Paths are not meant to be a _huge_ power boost to characters.
+Magic items are meant to be the biggest power boost a character can get -- they break all the rules and even rewrite them.
+Paths are meant to be boosts, yes, but really they should increase versatility of a character.
+For example, the Mystic path gets new properties for their spells they cast.
+endif::[]
+
+==== Abilities
+
+Your paths give you access to abilities.
+Abilities have two key things to note about them: Their [term]#tier# and their XP cost.
+You can always access [term]#tier I# abilities and can take them as long as you spend their required XP cost.
+To gain an ability in [term]#tier II# or above you must have N+2 abilities of the previous [term]#tier# where N is the number of abilities you already have in the [term]#tier# of the ability you are choosing.
+For example, in order to gain your first [term]#tier II# ability, you must have two [term]#tier I# abilities.
+In order to gain a second [term]#tier III# ability, you must have at least three [term]#tier II# abilities which means you must have at least four [term]#tier I# abilities.
+
+.Ability Tier XP Costs
+[horizontal]
+Tier I:: 8XP
+Tier II:: 12XP
+Tier III:: 24XP
+Tier IV:: 32XP
+
+=== Core Paths
 
 ifdef::showcommentary[]
 .Regarding core paths
@@ -679,40 +710,105 @@ The warrior knows their weapons and can kill many things with them.
 The mystic knows mystery and spells and can kill many things with it.
 The scoundrel has tricks, guile, and skulduggery and can kill many things through those.
 
-===== The Warrior
+==== The Warrior
 
-Add +1 to [term]#force#.
-It cannot exceed +3 at character creation.
+Add +1 to [term]#force# or [term]#heart#.
+You start with 10 available [term]#exertion#.
+You gain [term]#deception# as a [term]#primary skill#.
 
 Choose one of the three following features:
 
-* *The Weaponmaster:*
-* *The Beserker:*
-* *The Oathtaker:*
+* *The Fighter:* Add +HD to all attacks made with [term]#medium# or [term]#heavy# weapons.
+* *The Stalwart:* 
+  You can [term]#mark exertion# to increase your armor by 1 when [term]#using armor#.
+  You can do this as long as you have exertion to mark.
 
-===== The Mystic
+.Warrior Tier I Abilities
+* *Ability name* - Increase your HD by 1. You can take this up to 2 times.
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Warrior Tier II Abilities
+* *Ability name* - Increase your HD by 1. You can take this up to 2 times.
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Warrior Tier III Abilities
+* *Ability name* - Increase your HD by 1. You can take this up to 2 times.
+* *Ability name* - Description
+* *Ability name* - Description
+
+==== The Mystic
 
 Add +1 to [term]#mystery#.
-It cannot exceed +3 at character creation.
+You start with 6 available [term]#exertion#.
+You gain [term]#deception# as a [term]#primary skill#.
+
+You gain access to <<_magick, magick>>.
+
+.Mystic Tier I Abilities
+* *Ability name* - Increase your HD by 1.
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Mystic Tier II Abilities
+* *Ability name* - Increase your HD by 1.
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Mystic Tier III Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+==== The Scoundrel
+
+Add +1 to [term]#shadow# or [term]#edge#.
+You start with 8 available [term]#exertion#.
+You gain [term]#deception# as a [term]#primary skill#.
+Your [term]#primary skill# bonus starts as +1.
 
 Choose one of the three following features:
 
-* *The Mage:*
-* *The Blessed:*
-* *The Oathtaker:*
+* *The Thief:*
+  You gain [term]#stealth# as a [term]#primary skill#.
+* *The Minstrel:*
+  You can add +1 to [term]#heart# instead of [term]#shadow# or [term]#edge#.
+  You gain [term]#lead# as a [term]#primary skill#.
+* *The Hunter:*
+  You gain [term]#study# as a [term]#primary skill#.
 
-===== The Scoundrel
+.Scoundrel Tier I Abilities
+* *Sneak attack* - When you use [term]#edge# to attack and deal damage to an unaware target with a [term]#small# or [term]#ranged# weapon, roll [term]#HD# to add as damage to your attack.
+* *Ability name* - Increase your HD by 1.
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
 
-Add +1 to [term]#shadow#.
-It cannot exceed +3 at character creation.
+.Scoundrel Tier II Abilities
+* *Ability name* - Increase your HD by 1.
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
 
-Choose one of the three following features:
+.Scoundrel Tier III Abilities
+* *Ability name* - Increase your HD by 1.
+* *Ability name* - Description
+* *Ability name* - Description
 
-* *The Thief*
-* *The Assassin*
-* *The Oathtaker*
-
-==== Focus Paths
+=== Focus Paths
 
 ifdef::showcommentary[]
 .Regarding focus paths
@@ -746,23 +842,163 @@ The other players all get to enjoy a story of how a paladin has literally fell f
 Perhaps they really just wanted access to the Anti Paladin focus path which requires losing the paladin focus path?
 endif::[]
 
-ifdef::showcommentary[]
-.Regarding path power
-[NOTE]
-Paths are not meant to be a _huge_ power boost to characters.
-Magic items are meant to be the biggest power boost a character can get -- they break all the rules and even rewrite them.
-Paths are meant to be boosts, yes, but really they should increase versatility of a character.
-For example, the Mystic path gets new properties for their spells they cast.
-endif::[]
+==== Dungeoneer
 
-==== Abilities
+*Cost* 10XP.
 
-Your paths give you access to abilities.
-Abilities have two key things to note about them: Their [term]#tier# and their XP cost.
-You can always access [term]#tier I# abilities as long as you spend their required XP cost.
-To gain an ability in [term]#tier II# or above you must have N+2 abilities of the previous [term]#tier# where N is the number of abilities you already have in the [term]#tier# of the ability you are choosing.
-For example, in order to gain your first [term]#tier II# ability, you must have two [term]#tier I# abilities.
-In order to gain a second [term]#tier III# ability, you must have at least three [term]#tier II# abilities which means you must have at least four [term]#tier I# abilities.
+*Requirements* You have done at least 3 of the following in a single dungeon delve:
+
+* Went inside without hesitation.
+* Obtained a magical artefact inside.
+* Killed a deadly beast that lurked there.
+* Discovered the dark secrets of the dungeon.
+* Disarmed or otherwise rendered useless past a deadly trap.
+* Revealed and went through a hidden passageway.
+
+.Dungeoneer Tier I Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Dungeoneer Tier II Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Dungeoneer Tier III Abilities
+* *Ability name* - Description
+
+==== Beserker
+
+*Cost* 15XP.
+
+*Requirements*
+
+.Beserker Tier I Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Beserker Tier II Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Beserker Tier III Abilities
+* *Ability name* - Description
+
+==== Anti Paladin
+
+*Cost* 15XP.
+
+*Requirements* You have forsaken your paladin oath and broken ties with the organization that once honored you paladin title.
+
+.Anti Paladin Tier I Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Anti Paladin Tier II Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Anti Paladin Tier III Abilities
+* *Ability name* - Description
+
+==== Paladin
+
+*Cost* 15XP.
+
+*Requirements* You have went to a place that honors holiness or some other form of servitude, went through the rituals to become its champion, and swore your oath.
+
+.Paladin Tier I Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Paladin Tier II Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Paladin Tier III Abilities
+* *Ability name* - Description
+
+==== Cleric
+
+*Cost* 15XP.
+
+*Requirements*
+
+.Cleric Tier I Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Cleric Tier II Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Cleric Tier III Abilities
+* *Ability name* - Description
+
+==== Blood Mage
+
+*Cost* 15XP.
+
+*Requirements* Mystic core path.
+
+.Blood Mage Tier I Abilities
+* *Blood infusion* - You can deal &times;HD damage to yourself to gain [term]#+HD magick power#.
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Blood Mage Tier II Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Blood Mage Tier III Abilities
+* *Ability name* - Description
+
+==== Necromancer
+
+*Cost* 15XP.
+
+*Requirements*
+
+.Occultist Tier I Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Occultist Tier II Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Occultist Tier III Abilities
+* *Ability name* - Description
+
+==== Occultist
+
+*Cost* 15XP.
+
+*Requirements*
+
+.Occultist Tier I Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Occultist Tier II Abilities
+* *Ability name* - Description
+* *Ability name* - Description
+
+.Occultist Tier III Abilities
+* *Ability name* - Description
+
+.Ability Tier XP Costs
+[horizontal]
+Tier I:: 8XP
+Tier II:: 12XP
+Tier III:: 24XP
+Tier IV:: 32XP
 
 === Careers
 
@@ -958,11 +1194,12 @@ Quantity _Value_::
 
 === Weapons
 
-* *Arrows* - _Quantity 1_, _Bunch 3_ *Cost* 5c
-* *Small Weapon* - (Dagger, short sword, small hammer, etc) *Cost* 5c *Damage* 1D
-* *Medium Weapon* - (Sword, spear, flail, etc) *Cost* 10c *Damage* 1D+2
-* *Heavy Weapon* - (Greatsword, glaive, battle axe, etc) _Two-Handed_, _Heavy_ *Cost* 25c *Damage* 1D+4
-* *Sling* - *Cost* 5c *Damage* W[2D]
+* *Arrows* - _Quantity 1_, _Bunch 3_ *Cost* 5c.
+* *Small Weapon* - (Dagger, short sword, small hammer, etc) *Cost* 5c *Damage* 1D.
+* *Medium Weapon* - (Sword, spear, flail, etc) *Cost* 10c *Damage* 1D+2.
+* *Heavy Weapon* - (Greatsword, glaive, battle axe, etc) _Two-Handed_, _Heavy_ *Cost* 25c *Damage* 1D+4.
+* *Sling* - *Cost* 5c *Damage* W[2D].
+* *Quiver* - *Cost* 10c. Holds arrows (up to _Quantity 3_).
 
 === Armor
 
@@ -987,48 +1224,70 @@ Your total armor value, meaning including armor from a shield, changes how fast 
 3+:: Much slower to act.
 
 .Shields
-* *Buckler* - _Uses 3_ *Cost* 5c *Armor Bonus* +1 *Damage* 1D
-* *Light Shield* - _Uses 6_, _Heavy_ *Cost* 10c *Armor Bonus* +1 *Damage* 1D
-* *Heavy Shield* - _Uses 6_, _Bulwark 1_, _Heavy_ *Cost* 10c *Armor Bonus* +2 *Damage* 1D+1
+* *Buckler* - _Uses 3_ *Cost* 5c *Armor Bonus* +1 *Damage* 1D.
+* *Light Shield* - _Uses 6_, _Heavy_ *Cost* 10c *Armor Bonus* +1 *Damage* 1D.
+* *Heavy Shield* - _Uses 6_, _Bulwark 1_, _Heavy_ *Cost* 10c *Armor Bonus* +2 *Damage* 1D+1.
 
 .Worn Armor
-* *Leather Armor* - _Uses 3_, _Armor 1_ *Cost* 30c
-* *Mail Armor* - _Uses 3_, _Heavy_, _Armor 2_ *Cost* 60c
-* *Splint Armor* - _Uses 5_, _Bulwark 1_, _Heavy_, _Armor 3_ *Cost* 90c
-* *Plate Armor* - _Uses 8_, _Bulwark 2_, _Heavy_, _Armor 3_ *Cost* 120c
+* *Leather Armor* - _Uses 3_, _Armor 1_ *Cost* 30c.
+* *Mail Armor* - _Uses 3_, _Heavy_, _Armor 2_ *Cost* 60c.
+* *Splint Armor* - _Uses 5_, _Bulwark 1_, _Heavy_, _Armor 3_ *Cost* 90c.
+* *Plate Armor* - _Uses 8_, _Bulwark 2_, _Heavy_, _Armor 3_ *Cost* 120c.
 
 === Adventuring Gear
 
 [horizontal]
-* *Chalk* - *Cost* 1c
-* *Whetstone* - *Cost* 1c
+* *Chalk* - *Cost* 1c.
+* *Whetstone* - *Cost* 1c.
 * *Bandage* - *Cost* 2c. Heals 1HP.
-* *Crowbar* - _Two-Handed_ *Cost* 5c *Damage* 1D
-* *Shovel* - _Two-Handed_ *Cost* 5c *Damage* 1D
-* *Tent, Personal* - *Cost* 10c
-* *Tent, Fits 3* - *Cost* 50c
+* *Crowbar* - _Two-Handed_ *Cost* 5c *Damage* 1D.
+* *Shovel* - _Two-Handed_ *Cost* 5c *Damage* 1D.
+* *Tent, Personal* - *Cost* 10c.
+* *Tent, Fits 3* - *Cost* 30c.
+* *Waterskin* - *Cost* 2c.
+* *Bedroll* - *Cost* 3c.
+* *Grappling hook* - *Cost* 8c.
 
-=== Transport
+=== Animals
 
-* *Cart and donkey* Slots 20, 50c
+* *Riding Horse* Slots 5, *Cost* 80c.
+* *Donkey* Slots 2, *Cost* 50c.
+
+=== Vehicles
+
+* *Cart* Slots 15, *Cost* 30c.
+* *Rowboat* Slots 15, *Cost* 50c.
+* *Wagon* Slots 30, *Cost* 100c.
+* *Stagecoach* Slots 40, *Cost* 300c.
+* *Sailing ship* Slots 100, *Cost* 5000c.
+* *Galleon* Slots 300, 100,*Cost* 10,000c.
 
 === Services
 
-* *Poor inn* - 6c/week
-* *Modest inn* - 12c/week
-* *Comfortable inn* - 24c/week
-* *Unskilled labor* - 10c/week
-* *Professional labor* - 30c/month
-* *Armed escort*
-  ** *Safe route* - 6c/guard/day
-  ** *Dangerous route* - 12c/guard/day
-  ** *Perilous route* - 24c/guard/day
-* *Common murder* - 5c
-* *Professional murder/assassination* - 200c
-* *Prayers* - 1c/month
-* *Repairs* - 1/4th of the base cost for mundane items.
+* *Poor inn* - *Cost* 6c/week.
+* *Modest inn* - *Cost* 12c/week.
+* *Comfortable inn* - *Cost* 24c/week.
+* *Unskilled labor* - *Cost* 10c/week.
+* *Professional labor* - *Cost* 30c/month.
+* *Armed escort/passage*
+** *Safe route* - *Cost* 6c/guard/day.
+** *Dangerous route* - *Cost* 12c/guard/day.
+** *Perilous route* - *Cost* 24c/guard/day.
+* *Common murder* - *Cost* 5c.
+* *Professional murder/assassination* - *Cost* 200c.
+* *Prayers* - *Cost* 1c/month.
+* *Repairs* - *Cost* 1/4th of the base cost for mundane items.
 
 === Housing
+
+* *Hovel* - *Cost* 20c.
+* *Small cottage* - *Cost* 250c.
+* *House* - *Cost* 5,000c.
+* *Mansion* - *Cost* 20,000c.
+* *Keep* - *Cost* 150,000c.
+* *Castle* - *Cost* 600,000c.
+* *Grand castle* - *Cost* 20c.
+* *Hovel* - *Cost* 20c.
 
 == Alchemy
 
@@ -1244,7 +1503,7 @@ Magickal Eruption ○○○○::
 === Exploration Oracle
 
 [appendix]
-== Hacking {doctitle}
+== Hacking on {doctitle}
 
 [appendix]
 == Expert Rules
