@@ -930,7 +930,7 @@ This means you would get 1 more XP unless otherwise noted in the path.
 == Equipment
 
 Equipment costs money when buying it from merchants and traders.
-The cost of equipment is described in [term]#coin# (Also notated as C).
+The cost of equipment is described in [term]#coin# (Also notated as c).
 
 === Quantity
 
@@ -944,27 +944,62 @@ When the quantity reaches zero, it is spent and is removed from your inventory.
 
 === Tags
 
+[horizontal]
+Blast:: Deals damage to a target and everyone adjacent to it.
+Bulwark _Value_:: Armor with this tag can be used as an armor with this value without counting against its uses.
+// Basically Bunch means you can have stacks of this thing.
+// Eg. Bunch 10 means if you have 30 of the thing, it takes 3 slots.
+Bunch _Value_::
+  An item with this tag only takes up 1 slot if you have multiple of it, up to the value.
+  If you wish to carry more of this item, it must occupy another slot.
+Heavy::
+  You can only carry up to your [term]#force# in items with this tag.
+Uses _Value_::
+  You can use this item an amount of times equal to its value.
+  It cannot be used further once you have used it that many times until it is repaired or replenished by an appropriate source.
+  The better the source, the more uses you gain back.
+
 === Weapons
 
 === Armor
 
-All armor has an [term]#armor# value and a number of [term]#uses#.
+All worn armor has an [term]#armor# value.
 You can [term]#use# your armor to reduce damage by the armor value, but after doing so you mark a [term]#use# on your armor.
-When you reach your number of uses on the armor, the armor is no longer able to reduce damage and must be repaired.
+
+Shields add a bonus value to the [term]#armor# value set by your worn armor.
+If you wield a shield without any worn armor, then treat the shield value as your armor value.
 
 [term]#Armor piercing (AP)# ignores [term]#armor# value.
 
 Armor can be repaired completely by visiting an armorsmith.
 Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor, with the risk of rendering the armor completely unrepairable.
 
-Leather/Hide Armor::
-  *Armor* 1 *Uses* 3 *Cost* 30C
-Scale/Chain Armor::
-  *Armor* 2 *Uses* 3 *Cost* 10C
+Armor makes you slower.
+Your total armor value, meaning including armor from a shield, changes how fast you are.
+
+.Speed affected by armor
+[horizontal]
+1:: Barely slower to act.
+2:: Slower to act.
+3+:: Much slower to act.
+
+.Shields
+Buckler::
+  _Uses 3_ *Cost* 5c *Armor* +1 *Damage* 1D
+Light Shield::
+  _Uses 6_, _Heavy_ *Cost* 10c *Armor* +1 *Damage* 1D
+Heavy Shield::
+  _Uses 6_, _Bulwark 1_, _Heavy_ *Cost* 10c *Armor* +2 *Damage* 1D+1
+
+.Worn Armor
+Leather Armor::
+  _Uses 3_ *Cost* 30c *Armor* 1
+Mail Armor::
+  _Uses 3_, _Heavy_ *Cost* 60c *Armor* 2
 Splint Armor::
-  *Armor* 3 *Uses* 6 *Cost* 20C
+  _Uses 5_, _Bulwark 1_, _Heavy_ *Cost* 90c *Armor* 3
 Plate Armor::
-  *Armor* 3 *Uses* 10 *Cost* 50C
+  _Uses 8_, _Bulwark 2_, _Heavy_ *Cost* 120c *Armor* 3
 
 === Adventuring Gear
 
@@ -972,23 +1007,23 @@ Plate Armor::
 
 === Transport
 
-* *Cart and donkey* Slots 20, 50C
+* *Cart and donkey* Slots 20, 50c
 
 === Services
 
-* *Poor inn* 6C/week
-* *Modest inn* 12C/week
-* *Comfortable inn* 24C/week
-* *Unskilled labor* 10C/week
-* *Professional labor* 30C/month
+* *Poor inn* 6c/week
+* *Modest inn* 12c/week
+* *Comfortable inn* 24c/week
+* *Unskilled labor* 10c/week
+* *Professional labor* 30c/month
 * *Armed escort*
-  ** *Safe route* 6C/guard/day
-  ** *Unsafe route* 12C/guard/day
-  ** *Perilous route* 24C/guard/day
+  ** *Safe route* 6c/guard/day
+  ** *Unsafe route* 12c/guard/day
+  ** *Perilous route* 24c/guard/day
 * *Common murder* 5C
 * *Professional murder/assassination* 120C
-* *Prayers* 1C/month
-* *Repairs* Base cost/4
+* *Prayers* 1c/month
+* *Repairs* 1/4th of the base cost for mundane items.
 
 === Housing
 
