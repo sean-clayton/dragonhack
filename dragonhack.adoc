@@ -1121,7 +1121,8 @@ They provide one unique [term]#secondary skill#, some starting [term]#coin#, and
 You have with 10 + [term]#force# slots for equipment.
 Items that have the [term]#bunch# trait take up only one slot as long as the [term]#quantity# does not exceed the bunch value.
 Once it does, it increases slot usage by 1 and keeps on doing that when exceeding twice the bunch value, and so on.
-Coins have a [term]#bunch# value of 500.
+When you have 500 coins, it takes up one slot.
+500 more takes up another slot, and so on.
 
 === Character Creation Summary
 
