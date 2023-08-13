@@ -174,7 +174,7 @@ For example, if you roll your dice and get a 3, 3, and 3, that's only a 9, but a
 You rolled multiple of the same number (3), so that makes it a critical hit.
 The number you rolled multiple times is 3, so we multiply that by two to get the surge points available to you: 6.
 
-You use surge points through abilities and features of your <<_paths,[term]#paths#>>.
+You use surge points through moves and features of your <<_paths,[term]#paths#>>.
 
 Any surge points you do not use, you do not maintain.
 Use them or lose them.
@@ -666,8 +666,8 @@ Your core path is the primary path your character takes.
 Focus paths are ways to shape your character into the concept you have in your mind.
 
 Pick the core path for your character.
-*If you are middle-aged*, pick a focus path for free and start with 5 to spend on abilities only.
-*If you are old*, pick a focus path for free, one [term]#tier I ability#, and start with 5 to spend on abilities only.
+*If you are middle-aged*, pick a focus path or a move for a core path for free and start with 8XP.
+*If you are old*, pick a focus path for free, one [term]#tier I ability#, and start with 8XP.
 
 Any XP you start with during character creation can only be spent during character creation.
 
@@ -680,16 +680,16 @@ Paths are meant to be boosts, yes, but really they should increase versatility o
 For example, the Mystic path gets new properties for their spells they cast.
 endif::[]
 
-==== Abilities
+==== Moves
 
-Your paths give you access to abilities.
-Abilities have two key things to note about them: Their [term]#tier# and their XP cost.
-You can always access [term]#tier I# abilities and can take them as long as you spend their required XP cost.
-To gain an ability in [term]#tier II# or above you must have N+2 abilities of the previous [term]#tier# where N is the number of abilities you already have in the [term]#tier# of the ability you are choosing.
-For example, in order to gain your first [term]#tier II# ability, you must have two [term]#tier I# abilities.
-In order to gain a second [term]#tier III# ability, you must have at least three [term]#tier II# abilities which means you must have at least four [term]#tier I# abilities.
+Your paths give you access to moves.
+Moves have two key things to note about them: Their [term]#tier# and their XP cost.
+You can always access [term]#tier I# moves and can take them as long as you spend their required XP cost.
+To gain an ability in [term]#tier II# or above you must have N+2 moves of the previous [term]#tier# where N is the number of moves you already have in the [term]#tier# of the ability you are choosing.
+For example, in order to gain your first [term]#tier II# ability, you must have two [term]#tier I# moves.
+In order to gain a second [term]#tier III# ability, you must have at least three [term]#tier II# moves which means you must have at least four [term]#tier I# moves.
 
-.Ability Tier XP Costs
+.Move Tier XP Costs
 [horizontal]
 Tier I:: 8XP
 Tier II:: 12XP
@@ -723,25 +723,25 @@ Choose one of the three following features:
   You can [term]#mark exertion# to increase your armor by 1 when [term]#using armor#.
   You can do this as long as you have exertion to mark.
 
-.Warrior Tier I Abilities
-* *Ability name* - Increase your HD by 1. You can take this up to 2 times.
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Warrior Tier I Moves
+* *Moves name* - Increase your HD by 1. You can take this up to 2 times.
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Warrior Tier II Abilities
-* *Ability name* - Increase your HD by 1. You can take this up to 2 times.
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Warrior Tier II Moves
+* *Moves name* - Increase your HD by 1. You can take this up to 2 times.
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Warrior Tier III Abilities
-* *Ability name* - Increase your HD by 1. You can take this up to 2 times.
-* *Ability name* - Description
-* *Ability name* - Description
+.Warrior Tier III Moves
+* *Moves name* - Increase your HD by 1. You can take this up to 2 times.
+* *Moves name* - Description
+* *Moves name* - Description
 
 ==== The Mystic
 
@@ -751,25 +751,25 @@ You gain [term]#deception# as a [term]#primary skill#.
 
 You gain access to <<_magick, magick>>.
 
-.Mystic Tier I Abilities
-* *Ability name* - Increase your HD by 1.
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Mystic Tier I Moves
+* *Moves name* - Increase your HD by 1.
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Mystic Tier II Abilities
-* *Ability name* - Increase your HD by 1.
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Mystic Tier II Moves
+* *Moves name* - Increase your HD by 1.
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Mystic Tier III Abilities
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Mystic Tier III Moves
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
 ==== The Scoundrel
 
@@ -788,25 +788,25 @@ Choose one of the three following features:
 * *The Hunter:*
   You gain [term]#study# as a [term]#primary skill#.
 
-.Scoundrel Tier I Abilities
+.Scoundrel Tier I Moves
 * *Sneak attack* - When you use [term]#edge# to attack and deal damage to an unaware target with a [term]#small# or [term]#ranged# weapon, roll [term]#HD# to add as damage to your attack.
-* *Ability name* - Increase your HD by 1.
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+* *Moves name* - Increase your HD by 1.
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Scoundrel Tier II Abilities
-* *Ability name* - Increase your HD by 1.
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Scoundrel Tier II Moves
+* *Moves name* - Increase your HD by 1.
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Scoundrel Tier III Abilities
-* *Ability name* - Increase your HD by 1.
-* *Ability name* - Description
-* *Ability name* - Description
+.Scoundrel Tier III Moves
+* *Moves name* - Increase your HD by 1.
+* *Moves name* - Description
+* *Moves name* - Description
 
 === Focus Paths
 
@@ -825,10 +825,10 @@ Focus paths have mechanical and narrative requirements in order for you to acces
 For example, the Occultist focus path requires you to have witnessed or studied an occult ritual.
 The Cleric focus path requires you to have witnessed an act of chaos which causes you to devote your life and faith to a god.
 The Necromancer focus path requires you to have found the Tome of Skulls and studied it in the dead of night for several nights.
-There are many more focus paths, but they all give you access to a pool of abilities in various tiers and skill unique to the focus path.
+There are many more focus paths, but they all give you access to a pool of moves in various tiers and skill unique to the focus path.
 
 A focus path almost always has a way of it being lost, called [term]#losing focus#.
-When you meet the conditions to [term]#lose focus# on a focus path, you immediately lose the focus path and all of the abilities and other benefits of the path.
+When you meet the conditions to [term]#lose focus# on a focus path, you immediately lose the focus path and all of the moves and other benefits of the path.
 You gain XP equal to half of the XP cost of the focus path divided by 2, rounding up.
 
 ifdef::showcommentary[]
@@ -855,17 +855,17 @@ endif::[]
 * Disarmed or otherwise rendered useless past a deadly trap.
 * Revealed and went through a hidden passageway.
 
-.Dungeoneer Tier I Abilities
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Dungeoneer Tier I Moves
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Dungeoneer Tier II Abilities
-* *Ability name* - Description
-* *Ability name* - Description
+.Dungeoneer Tier II Moves
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Dungeoneer Tier III Abilities
-* *Ability name* - Description
+.Dungeoneer Tier III Moves
+* *Moves name* - Description
 
 ==== Beserker
 
@@ -873,17 +873,17 @@ endif::[]
 
 *Requirements*
 
-.Beserker Tier I Abilities
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Beserker Tier I Moves
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Beserker Tier II Abilities
-* *Ability name* - Description
-* *Ability name* - Description
+.Beserker Tier II Moves
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Beserker Tier III Abilities
-* *Ability name* - Description
+.Beserker Tier III Moves
+* *Moves name* - Description
 
 ==== Anti Paladin
 
@@ -891,17 +891,17 @@ endif::[]
 
 *Requirements* You have forsaken your paladin oath and broken ties with the organization that once honored you paladin title.
 
-.Anti Paladin Tier I Abilities
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Anti Paladin Tier I Moves
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Anti Paladin Tier II Abilities
-* *Ability name* - Description
-* *Ability name* - Description
+.Anti Paladin Tier II Moves
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Anti Paladin Tier III Abilities
-* *Ability name* - Description
+.Anti Paladin Tier III Moves
+* *Moves name* - Description
 
 ==== Paladin
 
@@ -909,17 +909,17 @@ endif::[]
 
 *Requirements* You have went to a place that honors holiness or some other form of servitude, went through the rituals to become its champion, and swore your oath.
 
-.Paladin Tier I Abilities
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Paladin Tier I Moves
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Paladin Tier II Abilities
-* *Ability name* - Description
-* *Ability name* - Description
+.Paladin Tier II Moves
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Paladin Tier III Abilities
-* *Ability name* - Description
+.Paladin Tier III Moves
+* *Moves name* - Description
 
 ==== Cleric
 
@@ -927,17 +927,17 @@ endif::[]
 
 *Requirements*
 
-.Cleric Tier I Abilities
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Cleric Tier I Moves
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Cleric Tier II Abilities
-* *Ability name* - Description
-* *Ability name* - Description
+.Cleric Tier II Moves
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Cleric Tier III Abilities
-* *Ability name* - Description
+.Cleric Tier III Moves
+* *Moves name* - Description
 
 ==== Blood Mage
 
@@ -945,17 +945,17 @@ endif::[]
 
 *Requirements* Mystic core path.
 
-.Blood Mage Tier I Abilities
+.Blood Mage Tier I Moves
 * *Blood infusion* - You can deal &times;HD damage to yourself to gain [term]#+HD magick power#.
-* *Ability name* - Description
-* *Ability name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Blood Mage Tier II Abilities
-* *Ability name* - Description
-* *Ability name* - Description
+.Blood Mage Tier II Moves
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Blood Mage Tier III Abilities
-* *Ability name* - Description
+.Blood Mage Tier III Moves
+* *Moves name* - Description
 
 ==== Necromancer
 
@@ -963,17 +963,17 @@ endif::[]
 
 *Requirements*
 
-.Occultist Tier I Abilities
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Occultist Tier I Moves
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Occultist Tier II Abilities
-* *Ability name* - Description
-* *Ability name* - Description
+.Occultist Tier II Moves
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Occultist Tier III Abilities
-* *Ability name* - Description
+.Occultist Tier III Moves
+* *Moves name* - Description
 
 ==== Occultist
 
@@ -981,24 +981,17 @@ endif::[]
 
 *Requirements*
 
-.Occultist Tier I Abilities
-* *Ability name* - Description
-* *Ability name* - Description
-* *Ability name* - Description
+.Occultist Tier I Moves
+* *Moves name* - Description
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Occultist Tier II Abilities
-* *Ability name* - Description
-* *Ability name* - Description
+.Occultist Tier II Moves
+* *Moves name* - Description
+* *Moves name* - Description
 
-.Occultist Tier III Abilities
-* *Ability name* - Description
-
-.Ability Tier XP Costs
-[horizontal]
-Tier I:: 8XP
-Tier II:: 12XP
-Tier III:: 24XP
-Tier IV:: 32XP
+.Occultist Tier III Moves
+* *Moves name* - Description
 
 === Careers
 
@@ -1308,9 +1301,9 @@ The monster's instinct is the guide to how to use it in the fiction.
 The monster's description is where all its other features come from.
 The description is how you know what the monster really is, the other elements just reflect the description.
 
-Abilities dictate how much [term]#harm# the monster can inflict at once.
+Moves dictate how much [term]#damage# the monster can inflict at once.
 A monster deals its damage to another monster or a PC whenever it causes them physical harm.
-Some abilities are special, like ones that can only be triggered by a critical failure, or a progress track being completed.
+Some moves are special, like ones that can only be triggered by a critical failure, or a progress track being completed.
 
 Each monster has tags that describe how it deals damage, including the range(s) of its abilities.
 When trying to attack something out of its range (too close or too far) the monster's out of luck, no damage.
@@ -1367,7 +1360,7 @@ Magickal Eruption ○○○○::
   Severe harm, ignores armor, triggered by progress track completion.
   _Close_, _Near_, _Far_.
 
-.Special Abilities
+.Special Moves
 * Cast a perfected spell of death or destruction
 * Set a ritual or great working into motion
 * Reveal a preparation or plan already completed
