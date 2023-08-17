@@ -23,10 +23,9 @@ v1: PRE-ALPHA DRAFT
 :icons: font
 :stylesheet: styles.css
 :sectanchors:
-:sectnums:
-:sectnumlevels: 0
 :version-label: Edition
 :toc: right
+:toclevels: 4
 :imagesdir: images
 :favicon: images/dragonhack-logo.svg
 :repo-url: https://github.com/sean-clayton/dragonhack
@@ -54,7 +53,7 @@ If you enjoy {doctitle}, then be sure to check out these other games!
 
 <<<
 
-== Basic Rules
+== Rules
 
 === Playing {doctitle}
 
@@ -86,7 +85,7 @@ One to four players (plus a GM in guided mode) is ideal.
 {doctitle} requires some materials. Here is what you'll need:
 
 * Several six-sided dice for each player.
-  Three at the least, but more cannot hurt.
+  Five at the least, but more cannot hurt.
   These are used for [term]#action dice#, [term]#oracle dice#, and rolling things like [term]#damage#.
 * A character sheet for each player.
 
@@ -127,28 +126,53 @@ For example, if we want to add 1 to the total of a 2D roll, it looks like 2D+1.
 If we want to subtract 1 from the total of a 2D roll, it looks like 2D-1.
 
 Sometimes we want to roll multiple dice and not add them together, but take the best or worst of the dice rolled.
-This is written as B[ ] or W[ ] with the number of dice in between the brackets.
-For example, if we want to roll 2D and keep only the best of the two, it looks like B[2D].
-If we want to roll 2D and keep only the worst of the two, it looks like W[2D].
+This is written as b[ ] or w[ ] with the number of dice in between the brackets.
+For example, if we want to roll 2D and keep only the best of the two, it looks like b[2D].
+If we want to roll 2D and keep only the worst of the two, it looks like w[2D].
 
 We can also take multiple of the best or multiple of the worst.
-This looks like the previous form, but with a number after the B or W, before the brackets.
-For example, if we want to roll 3D and take the best two, it looks like B2[3D].
-If we want to roll 3D and take the worst two, it looks like W2[3D].
+This looks like the previous form, but with a number after the b or w, before the brackets.
+For example, if we want to roll 3D and take the best two, it looks like b2[3D].
+If we want to roll 3D and take the worst two, it looks like w2[3D].
 
 And like rolling dice normally, we can still add a number to the total to these best of/worst of forms.
-For example, B2[3D]+4 adds 4 to the total of the best two dice of the three rolled.
-W2[3D]-1 subtracts 1 from the total of the worst two dice of the three rolled.
+For example, b2[3D]+4 adds 4 to the total of the best two dice of the three rolled.
+w2[3D]-1 subtracts 1 from the total of the worst two dice of the three rolled.
 
-==== The Challenge Roll
+==== Other Dice Roll Notation
+
+[horizontal]
+d3::
+  Roll a dice.
+  *1/2* = 1.
+  *3/4* = 2.
+  *5/6* = 3.
+d66::
+  Roll a dice twice.
+  The first roll is the tens place and the second is the ones.
+d666::
+  Roll like a d66, but with another roll for the hundreds place.
+d33::
+  Like a d66, but each digit is a d3.
+d333::
+  Like a d33, but with another roll for the hundreds place.
+
+=== Rounding
+
+In {doctitle}, always round down when faced with non-integer numbers, unless otherwise noted.
+
+=== The Challenge Roll
 
 The core mechanic in {doctitle} is the challenge roll.
-To perform a challenge roll, you roll multiple dice at once:
+To perform a challenge roll, you roll multiple dice at once and read the *single highest result*.
+The most dice you can roll in a challenge roll is 5.
 
-- **Action dice:** Three dice (3D).
+To create a dice pool for a challenge roll, you use an attribute or other number, called a [term]#stat#, and roll an amount of dice equal to its rating.
+For example, if you roll with the [term]#heart# attribute and its value is 3, this is written as "Roll [term]#+heart#" and you would add 3 to your dice pool.
 
-When making a challenge roll, you often with an attribute or other number, called a [term]#stat#.
-For example, if you roll with the [term]#heart# attribute and its value is 3, this is written as "Roll [term]#+heart#" and you would add 3 to your action dice.
+[sidebar]
+If you ever need to roll but you have zero (or negative) dice, roll two dice and take the single lowest result.
+You can’t roll a critical when you have zero dice.
 
 The total of your action dice, your stat, and any additional bonuses is your action score.
 
@@ -156,38 +180,39 @@ There are five possible results of a challenge roll:
 
 [horizontal]
 Critical Hit::
-  Your action score is 13+ and at least two dice have the same value.
+  You roll *more than one 6*.
 Strong Hit::
-  Your action score is 13+.
+  The highest die is a *6*.
 Weak Hit::
-  Your action score is 10/11/12.
+  The highest die is a *4 or 5*.
 Miss::
-  Your action score is 9-.
-Critical Miss::
-  Your action score is 9- and at least two dice have the same value.
+  The highest die is a *1, 2, or 3*.
+
+There are four types of rolls that you'll use most often in the game:
+
+Taking action::
+  When a PC attempts an action that's dangerous or troublesome, you take an action to find out how it goes.
+  Taking action and the resulting effects and consequences drive most of the game.
+Fortune roll::
+  The GM can make a fortune roll to disclaim decision making and leave something up to chance.
+  How loyal is an NPC?
+  How much does the plague spread?
+  How much evidence is burned before the constables kick in the door?
+Resistance roll::
+  A player can make a resistance roll when their character suffers a consequence they don't like.
+  The roll tells us how much stress their character suffers to reduce the severity of a consequence.
 
 ==== Surge Points
 
-When you land a [term]#critical hit#, whatever number you rolled multiple times, multiply it by 2 and that's your [term]#surge points# for that action.
+When you land a [term]#critical hit#, take the lowest number on the dice you rolled, multiply it by 2 and that's your [term]#surge points# for that action.
 
-For example, if you roll your dice and get a 3, 3, and 3, that's only a 9, but after adding your modifier (let's say a +3), and a +1 from a skill, you got a 13 total action score.
-You rolled multiple of the same number (3), so that makes it a critical hit.
-The number you rolled multiple times is 3, so we multiply that by two to get the surge points available to you: 6.
+For example, if you roll 3D and get 3, 6, and 6, the lowest number you rolled was a 3.
+We multiply that by two to get the surge points available to you: 6.
 
 You use surge points through moves and features of your <<_paths,[term]#paths#>>.
 
 Any surge points you do not use, you do not maintain.
-Use them or lose them.
-
-==== d66 and d666 Tables
-
-Sometimes you'll see a d66 or d666 table.
-
-*To roll d66*, roll a dice twice.
-The first roll is the tens place and the second is the ones.
-
-*To roll d666*, roll a dice three times.
-The first roll is the hundreds place, the second is the tens, and the third is the ones.
+Use them or lose them during the move.the ones.
 
 ==== GMs and the Dice
 
@@ -232,7 +257,7 @@ Major Reward::
   If you were avoiding a danger, it is completely avoided, and probably is no longer dangerous for a time.
 
 State what your goal is and the approach your character will take to make it happen.
-You choose the [term]#skill# you are using to act out your approach.
+You choose the <<_abilities,[term]#ability#>> you are using to act out your approach.
 The GM will tell you the following:
 
 * The [term]#attribute# you will use.
@@ -248,7 +273,6 @@ When your character acts by taking a risk, state what your goal is and the appro
 
 Roll [term]#+attribute#.
 
-[horizontal]
 [.risk]
 Minor Risk::
 +
@@ -318,6 +342,10 @@ Making a fortune roll with +2 is written as "Roll [term]#fortune +2#" and you wo
 .Fortune Roll
 [action]
 --
+* *1D* for each [term]#stat# rating.
+* *+1D* for each [term]#major advantage#.
+* *-1D* for each [term]#major disadvantage#.
+
 * **Critical Hit**: Exceptional result / Major, extreme reward.
 * **Hit**: Good result / Moderate,  full reward.
 * **Partial Hit**: Mixed result / Minor, partial reward.
@@ -343,23 +371,11 @@ If you act within a community or ask questions of a person with whom you share a
   More information gathering will be needed to get all the answers.
 --
 
-=== Exertion
-
-==== Resistance and Armor
+=== Resistance
 
 After seeing the roll result when [term]#taking action#, you can choose to [term]#resist# the consequences.
-Take the following steps:
-
-. If you are wielding, wearing, or otherwise protected by <<_armor,[term]#armor#>> that is effective against this kind of damage and the fiction allows for it, you can mark one wear off of the applicable armor and automatically succeed at resisting without any costs.
-. Explain how your character or armor is resisting or reducing the severity of the consequences.
-. If you haven't already succeeded at resisting at this step (by having some sort of armor), take the [term]#resist# action.
-  The GM will tell you which [term]#attribute# you will use.
-
-.Resist
-[action]
---
-[.lead]
-When your character resists the consequences of their actions...
+The GM will tell you which [term]#attribute# you will use.
+You determine what [term]#ability# you use.
 
 ifdef::showcommentary[]
 .Regarding rolling resist...
@@ -369,29 +385,46 @@ I don't know if I want every stat in play here.
 Maybe as monsters are made and more kinds of damage are revealed in the game, they'll make this clearer to handle.
 endif::[]
 
-Roll [term]#+force# if resisting physical consequences through sheer might and endurance,
+.Resist
+[action]
+--
+[.lead]
+When your character resists the consequences of their actions...
+
+Roll [term]#+force# if resisting physical consequences through fortitude and endurance,
 [term]#+edge# if resisting physical consequences through quickness or precision,
 [term]#+shadow# if resisting detection or discovery through stealth or deception,
 [term]#+heart# if resisting emotional damage,
-[term]#+mind# or [term]#+mystery#, whichever is higher, if resisting non-physical/non-emotional arkane/magick/occult consequences,
-or [term]#+0# if resisting any other kind of harm.
+or [term]#+mind#, if resisting trickery, cunning, being deceived, or mental damage.
+
+Add dice according to the [term]#ability# used.
 
 [horizontal]
 * **Critical Hit:**
-  You avoid all consequences with complete ease and end up in a 
+  You avoid all consequences and you are now in control of the situation.
+  Gain [term]#1 exertion#.
 * **Hit:**
   The consequence is avoided.
 * **Weak Hit:**
   The consequence is reduced.
+  If taking damage, take half damage.
   You can [term]#mark 1 exertion# to avoid it completely.
 * **Miss:**
   The consequence still happens.
-  You can [term]#mark 1 exertion# to avoid reduce it or [term]#mark 2 exertion# to avoid it completely.
+  You can [term]#mark 1 exertion# to avoid reduce (half damage if taking damage) it or [term]#mark 2 exertion# to avoid it completely.
 --
 
 ==== Death
 
-When your character reaches 0HP, they die immediately.
+When your character reaches 0HP, they are most likely dead.
+
+After fighting is over and your allies roll you over within a few hours of you reaching 0HP, make a fortune roll [term]#+heart# or [term]#+force#, whichever is higher.
+*On a critical hit*, you strongly gasp as they turn you over and you must explain to everyone how it wasn't as bad as it looked.
+You regain +HD HP (minimum 1).
+*On a strong hit*, you are barely breathing and are in dire need of aid.
+You regain 1HP and your exertion is set to max.
+*On a weak hit*, you are alive just enough to say some last words.
+*On a miss*, you are dead.
 
 === Progress Tracks
 
@@ -503,37 +536,59 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
 
 == Character Creation
 
-=== Attributes
+. *Envision* your character
+. Choose a <<_kin,[term]#kin#>> and determine their [term]#age#.
+. Set your <<_attributes,[term]#attributes#>> by applying these points across [term]#force#, [term]#edge#, [term]#shadow#, [term]#wits#, and [term]#heart#.
+  Do not exceed 2 on any of these.
+  * *Young:* 4 points.
+  * *Middle-aged:* 3 points.
+  * *Old:* 2 points.
+. Choose your <<_drive,[term]#drive#>> and <<_vice,[term]#vice#>>.
+. Choose your <<_core_paths,[term]#core path#>>, and then your <<_focus_paths,[term]#focus path#>> according to your age.
+  * *Young:* No focus paths.
+  * *Middle-aged/Old:* 1 focus path. Assume the narrative requirement of that path is in your character's backstory.
+. Gain XP according to your age that you can spend now if you wish, or hold for later.
+  * *Young:* 8XP.
+  * *Middle-aged:* 16XP.
+  * *Old:* 24XP.
+. Roll your <<_careers,[term]#careers#>>, purchase additional <<_equipment, [term]#equipment#>>, and mark your <<_speed,[term]#speed#>>.
+  The career titles you  become [term]#secondary skills#.
+  You start with 10c and, in addition, gain all coin and equipment from your careers.
+  * *Young:* Roll once on the careers table.
+  * *Middle-aged:* Pick one and then roll once on the careers table.
+  * *Old:* Pick two and then roll once on the careers table.
+. Fill out personal information such as your name and other details.
 
-Each PC will start with an array of attribute points depending on their age.
+=== Experience
 
-* *Young Adult* 2, 2, 2, 1, 0, 0.
-* *Middle-Aged/Old* 2, 1, 1, 1, 0, -1.
+At the end of a session, have each person at the table go through the following items and, unless otherwise noted, mark 1XP for each one that everyone agrees is true for them.
 
-Assign these points to any of the [term]#attributes# --
-[term]#force#, [term]#edge#, [term]#mystery#, [term]#mind#, or [term]#heart#.
+* XP for showing up to the session.
+* XP for acting according to your <<_drive,[term]#drive#>> in a memorable way.
+* XP for every 100 &times; HD (minimum 100) coin spent without any in-world gain on your <<_vice,[term]#vice#>> this session.
+* XP for killing a monster or otherwise dangerous foe.
+* XP for looting a magical artefact.
+* XP for discovering a settlement, dangerous site, or otherwise storied.
+* XP for you or an ally earning the trust or gratitude of an NPC.
+* XP for you or an ally making a new enemy who will now be acting against you.
 
-[horizontal]
-Force:: Aggression, might, and intimidation.
-Edge:: Quickness, agility, and precision.
-Shadow:: Sneakiness, deceptiveness, and cunning.
-Mystery:: Mysticism, arkane, and other magicks.
-Mind:: Mental fortitude, intellect, and perception.
-Heart:: Bravery, inpsiration, and understanding.
+<<_paths, [term]#Paths#>> also provide ways of gaining XP.
+Only characters with those paths can gain XP in those ways.
 
-Your age will modify these.
-Different <<_kin,[term]#kin#>> have different age ranges for these age groups.
+== Exertion
 
-* *Young Adult:* No changes.
-* *Middle-Aged:* +1 to [term]#heart#.
-* *Old:* +1 to [term]#mind# and [term]#heart#, and -1 to [term]#force#.
+Exertion represents the amount of effort, physical or mental, you can exert while adventuring.
+When you [term]#mark exertion#, you add exertion against your maximum exertion.
 
-Your <<_paths,[term]#core path#>> will increase an attribute by 1.
-No attribute can exceed 3 at any point character creation.
+When you are at max exertion and you have to [term]#mark exertion#, you're [term]#broken# and can no longer act.
+This means you are either physically battered and unconscious, emotionally unavailable, mentally drained, or otherwise completely exhausted.
+Regardless, when you are broken you are out of any scene you currently are in and all scenes going forward, and are susceptible to a [term]#coup de grace#, which means all damage done to you is doubled.
 
-=== Hit Points (HP) and Hit Dice (HD)
+You are broken until you somehow regain [term]#exertion#.
 
-Every character starts with 6HP and 0HD.
+== Hit Points and Hit Dice
+
+Every character starts with 6 hit points (HP) and 0 hit dice (HD).
 [term]#Hit dice# provide a way of determining your vitality and also boost your HP.
 Whenever you gain HD, roll the amount of HD gained in dice and add that to your current HP.
 Whenever you re-roll your health, you roll a number of dice equal to your total HD, add 6, and that is your new health.
@@ -544,42 +599,80 @@ This is notated as +HD.
 This means you roll dice like normal, and then add the amount of [term]#hit dice# you have to the total of the roll.
 For example, if you are rolling 1D+HD and you have 2HD, then you are rolling 1D+2.
 
-=== Skills
+Sometimes you can roll [term]#HD# and add the result to a roll (often with damage).
+This is notated as &times;HD.
+This means you roll dice like normal, but also add your number of HD to the dice rolled.
+For example, if you are rolling 2D while something grants you &times;HD for that roll and you have 2HD, then you are rolling 4D.
 
-Skills are general abilities that increase your chances of succeeding when [term]#taking action#.
-The following are the general skills in {doctitle}:
+== Abilities
 
-* [term]#Accuracy#
-* [term]#Alchemicism#
-* [term]#Awareness#
+Abilities are general actions that increase your chances of succeeding when [term]#taking action#.
+The following are the general abilities in {doctitle}:
+
+* [term]#Aim and Shoot#
 * [term]#Care#
 * [term]#Charm#
 * [term]#Command#
-* [term]#Deception#
-* [term]#Disarm Device#
-* [term]#Finesse#
-* [term]#Flexibility#
+* [term]#Contort#
+* [term]#Deceieve#
+* [term]#Dodge#
 * [term]#Focus#
 * [term]#Frighten#
-* [term]#Leadership#
-* [term]#Stealth#
+* [term]#Hack and Slash#
+* [term]#Lead#
+* [term]#Notice#
+* [term]#Sneak#
 * [term]#Study#
-* [term]#Tactics#
-* [term]#Treatment#
-* [term]#Wreck#
+* [term]#Sway#
+* [term]#Treat#
 * [term]#Wrestle#
 
-Your <<_paths,[term]#paths#>> will provide skills -- these are your primary skills.
-<<_focus_paths,[term]#Focus paths#>> provide primary skills not in the aforementioned list -- they provide skills unique to that focus path that you cannot obtain otherwise.
-After determining your [term]#primary skills#, choose 2 more skills.
-These 2 skills are your [term]#secondary skills#.
+Your <<_paths,[term]#paths#>> will determine your primary and secondary abilities.
 
-Skills, both primary and secondary, _always_ give a bonus to [term]#taking action#.
-Primary skills, though, can provide greater bonuses than secondary skills.
+Abilities, both primary and secondary, _always_ give a bonus to [term]#taking action#.
+Primary abilities, though, can provide greater bonuses than secondary abilities.
 
-=== Kin
+=== Aim and Shoot
 
-==== Human
+=== Care
+
+=== Charm
+
+=== Command
+
+=== Contort
+
+=== Deceieve
+
+=== Dodge
+
+=== Focus
+
+=== Frighten
+
+=== Hack and Slash
+
+=== Lead
+
+=== Notice
+
+=== Sneak
+
+=== Study
+
+=== Sway
+
+=== Treat
+
+=== Wrestle
+
+== Drive
+
+== Vice
+
+== Kin
+
+=== Human
 
 Human people.
 
@@ -589,7 +682,7 @@ Young Adult:: 16–25
 Middle-Aged:: 26–59
 Old:: 60+
 
-==== Hobbitfolk
+=== Hobbitfolk
 
 Small people.
 
@@ -599,7 +692,7 @@ Young Adult:: 20–29
 Middle-Aged:: 30–69
 Old:: 70+
 
-==== Goblin
+=== Goblin
 
 Small people with pointy ears.
 
@@ -609,7 +702,7 @@ Young Adult:: 11–15
 Middle-Aged:: 16–29
 Old:: 30+
 
-==== Dwarf
+=== Dwarf
 
 Small people with beards.
 
@@ -619,7 +712,7 @@ Young Adult:: 25–100
 Middle-Aged:: 101–199
 Old:: 200+
 
-==== Vyrmit
+=== Vyrmit
 
 Mouse/rat/hamster people.
 
@@ -629,7 +722,7 @@ Young Adult:: 11–15
 Middle-Aged:: 16–29
 Old:: 30+
 
-==== Kolussar
+=== Kolussar
 
 Ancient human/dwarf people.
 
@@ -639,7 +732,7 @@ Young Adult:: 40–119
 Middle-Aged:: 120–249
 Old:: 250+
 
-==== Testadar
+=== Testadar
 
 Turtle/tortoise people.
 
@@ -649,7 +742,7 @@ Young Adult:: 50–150
 Middle-Aged:: 151–299
 Old:: 300+
 
-==== Kyrfit
+=== Kyrfit
 
 Raven/crow/rook people.
 
@@ -659,7 +752,7 @@ Young Adult:: 14–20
 Middle-Aged:: 21–34
 Old:: 35+
 
-=== Paths
+== Paths
 
 There are two types of paths: core paths and focus paths.
 Your core path is the primary path your character takes.
@@ -669,7 +762,7 @@ Pick the core path for your character.
 *If you are middle-aged*, pick a focus path or a move for a core path for free and start with 8XP.
 *If you are old*, pick a focus path for free, one [term]#tier I ability#, and start with 8XP.
 
-Any XP you start with during character creation can only be spent during character creation.
+XP you start with during character creation can be saved for later use.
 
 ifdef::showcommentary[]
 .Regarding path power
@@ -680,23 +773,16 @@ Paths are meant to be boosts, yes, but really they should increase versatility o
 For example, the Mystic path gets new properties for their spells they cast.
 endif::[]
 
-==== Moves
+=== Talents
 
-Your paths give you access to moves.
-Moves have two key things to note about them: Their [term]#tier# and their XP cost.
-You can always access [term]#tier I# moves and can take them as long as you spend their required XP cost.
-To gain an ability in [term]#tier II# or above you must have N+2 moves of the previous [term]#tier# where N is the number of moves you already have in the [term]#tier# of the ability you are choosing.
-For example, in order to gain your first [term]#tier II# ability, you must have two [term]#tier I# moves.
-In order to gain a second [term]#tier III# ability, you must have at least three [term]#tier II# moves which means you must have at least four [term]#tier I# moves.
+Your paths give you access to talents.
+Talents have two key things to note about them: Their [term]#tier# and their XP cost.
+You can always access [term]#tier I# talents and can take them as long as you spend their required XP cost.
+To gain an ability in [term]#tier II# or above you must have N+2 talents of the previous [term]#tier# where N is the number of talents you already have in the [term]#tier# of the ability you are choosing.
+For example, in order to gain your first [term]#tier II# ability, you must have two [term]#tier I# talents.
+In order to gain a second [term]#tier III# ability, you must have at least three [term]#tier II# talents which means you must have at least four [term]#tier I# talents.
 
-.Move Tier XP Costs
-[horizontal]
-Tier I:: 8XP
-Tier II:: 12XP
-Tier III:: 24XP
-Tier IV:: 32XP
-
-=== Core Paths
+== Core Paths
 
 ifdef::showcommentary[]
 .Regarding core paths
@@ -710,105 +796,115 @@ The warrior knows their weapons and can kill many things with them.
 The mystic knows mystery and spells and can kill many things with it.
 The scoundrel has tricks, guile, and skulduggery and can kill many things through those.
 
-==== The Warrior
+=== The Warrior
 
-Add +1 to [term]#force# or [term]#heart#.
 You start with 10 available [term]#exertion#.
-You gain [term]#deception# as a [term]#primary skill#.
 
 Choose one of the three following features:
 
-* *The Fighter:* Add +HD to all attacks made with [term]#medium# or [term]#heavy# weapons.
-* *The Stalwart:* 
-  You can [term]#mark exertion# to increase your armor by 1 when [term]#using armor#.
+* *The Fighter:*
+  _When you are entering the fray of battle with reckless abandon_, you can [term]#mark exertion# to count as one tier higher in <<_speed,[term]#speed#>> and have [term]#+1 armor# until the fight is over.
+* *The Ranger:*
+  _When you engage in a fight with something you've been tracking and preying on_, you can [term]#mark exertion# to gain +1D when acting to defeat it.
+  This lasts until they escape or they are defeated.
+  After which, you can choose a new target to track and make your prey.
+* *The Stalwart:*
+  _When you are protecting an ally and take damage_, you can [term]#mark exertion# to increase your armor by 1 when [term]#using armor#.
   You can do this as long as you have exertion to mark.
 
-.Warrior Tier I Moves
-* *Moves name* - Increase your HD by 1. You can take this up to 2 times.
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Warrior Tier I Talents
+* *Talent name* - Increase your HD by 1. You can take this up to 2 times.
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Warrior Tier II Moves
-* *Moves name* - Increase your HD by 1. You can take this up to 2 times.
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Warrior Tier II Talents
+* *Talent name* - Increase your HD by 1. You can take this up to 2 times.
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Warrior Tier III Moves
-* *Moves name* - Increase your HD by 1. You can take this up to 2 times.
-* *Moves name* - Description
-* *Moves name* - Description
+.Warrior Tier III Talents
+* *Talent name* - Increase your HD by 1. You can take this up to 2 times.
+* *Talent name* - Description
+* *Talent name* - Description
 
-==== The Mystic
+=== The Mystic
 
-Add +1 to [term]#mystery#.
 You start with 6 available [term]#exertion#.
-You gain [term]#deception# as a [term]#primary skill#.
 
-You gain access to <<_magick, magick>>.
+You gain access to <<_mysticism, mysticism>>.
 
-.Mystic Tier I Moves
-* *Moves name* - Increase your HD by 1.
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Mystic Tier I Talents
+* *Talent name* - Increase your HD by 1.
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Mystic Tier II Moves
-* *Moves name* - Increase your HD by 1.
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Mystic Tier II Talents
+* *Talent name* - Increase your HD by 1.
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Mystic Tier III Moves
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Mystic Tier III Talents
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-==== The Scoundrel
+=== The Scoundrel
 
-Add +1 to [term]#shadow# or [term]#edge#.
 You start with 8 available [term]#exertion#.
-You gain [term]#deception# as a [term]#primary skill#.
-Your [term]#primary skill# bonus starts as +1.
 
 Choose one of the three following features:
 
 * *The Thief:*
-  You gain [term]#stealth# as a [term]#primary skill#.
+  You gain [term]#steal# as a [term]#primary ability#.
+* *The Assassin:*
+  You gain [term]#slit throat# as a [term]#primary ability#.
 * *The Minstrel:*
+  _When you perform a song while resting with your party_, any [term]#broken# ally gains w[2D] [term]#exertion# back.
+
+.Scoundrel Tier I Talents
+* *Sneak attack* - *Cost* 8XP. When you use [term]#edge# to attack and deal damage to an unaware target with a [term]#small# or [term]#ranged# weapon, roll [term]#HD# to add as damage to your attack.
+* *Talent name* - *Cost* 8XP. Increase your HD by 1. You can take this up to 2 times -- the second time you take it costs 10XP.
+* *Talent name* - Gain a new [term]#primary ability: Encourage#
+* *Talent name* - Gain a new [term]#primary ability: Slit throat#
+* *Talent name* - Gain a new [term]#primary ability: Encourage#
+* *Talent name* - Make one of your [term]#secondary abilities# become a [term]#primary ability#. You can take this up to 2 times.
+* *Talent name* - Gain a new [term]#secondary ability# of your choice. You can take this up to 2 times times.
+
+.Scoundrel Tier II Talents
+* *Talent name* - *Cost* 15XP. Increase your HD by 1. You can take this up to 2 times -- the second time you take it costs 20XP.
+* *Talent name* - Your primary ability bonus becomes +2. Your secondary ability bonus becomes +1.
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+
+.Scoundrel Tier III Talents
+* *Talent name* - *Cost* 25XP. Increase your HD by 1. You can take this up to 2 times -- the second time you take it costs 40XP.
+* *Talent name* - Description
+* *Talent name* - Description
+
+=== The Devoted
+
+You start with 8 available [term]#exertion#.
+
+Choose one of the three following features:
+
+* *The Faithful:*
+  You gain [term]#stealth# as a [term]#primary ability#.
+* *The Druid:*
   You can add +1 to [term]#heart# instead of [term]#shadow# or [term]#edge#.
-  You gain [term]#lead# as a [term]#primary skill#.
-* *The Hunter:*
-  You gain [term]#study# as a [term]#primary skill#.
+  You gain [term]#lead# as a [term]#primary ability#.
 
-.Scoundrel Tier I Moves
-* *Sneak attack* - When you use [term]#edge# to attack and deal damage to an unaware target with a [term]#small# or [term]#ranged# weapon, roll [term]#HD# to add as damage to your attack.
-* *Moves name* - Increase your HD by 1.
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-
-.Scoundrel Tier II Moves
-* *Moves name* - Increase your HD by 1.
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-
-.Scoundrel Tier III Moves
-* *Moves name* - Increase your HD by 1.
-* *Moves name* - Description
-* *Moves name* - Description
-
-=== Focus Paths
+== Focus Paths
 
 ifdef::showcommentary[]
 .Regarding focus paths
@@ -842,7 +938,7 @@ The other players all get to enjoy a story of how a paladin has literally fell f
 Perhaps they really just wanted access to the Anti Paladin focus path which requires losing the paladin focus path?
 endif::[]
 
-==== Dungeoneer
+=== Dungeoneer
 
 *Cost* 10XP.
 
@@ -855,148 +951,148 @@ endif::[]
 * Disarmed or otherwise rendered useless past a deadly trap.
 * Revealed and went through a hidden passageway.
 
-.Dungeoneer Tier I Moves
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Dungeoneer Tier I Talents
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Dungeoneer Tier II Moves
-* *Moves name* - Description
-* *Moves name* - Description
+.Dungeoneer Tier II Talents
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Dungeoneer Tier III Moves
-* *Moves name* - Description
+.Dungeoneer Tier III Talents
+* *Talent name* - Description
 
-==== Beserker
+=== Beserker
 
 *Cost* 15XP.
 
 *Requirements*
 
-.Beserker Tier I Moves
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Beserker Tier I Talents
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Beserker Tier II Moves
-* *Moves name* - Description
-* *Moves name* - Description
+.Beserker Tier II Talents
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Beserker Tier III Moves
-* *Moves name* - Description
+.Beserker Tier III Talents
+* *Talent name* - Description
 
-==== Anti Paladin
+=== Anti Paladin
 
 *Cost* 15XP.
 
 *Requirements* You have forsaken your paladin oath and broken ties with the organization that once honored you paladin title.
 
-.Anti Paladin Tier I Moves
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Anti Paladin Tier I Talents
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Anti Paladin Tier II Moves
-* *Moves name* - Description
-* *Moves name* - Description
+.Anti Paladin Tier II Talents
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Anti Paladin Tier III Moves
-* *Moves name* - Description
+.Anti Paladin Tier III Talents
+* *Talent name* - Description
 
-==== Paladin
+=== Paladin
 
 *Cost* 15XP.
 
 *Requirements* You have went to a place that honors holiness or some other form of servitude, went through the rituals to become its champion, and swore your oath.
 
-.Paladin Tier I Moves
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Paladin Tier I Talents
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Paladin Tier II Moves
-* *Moves name* - Description
-* *Moves name* - Description
+.Paladin Tier II Talents
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Paladin Tier III Moves
-* *Moves name* - Description
+.Paladin Tier III Talents
+* *Talent name* - Description
 
-==== Cleric
+=== Cleric
 
 *Cost* 15XP.
 
 *Requirements*
 
-.Cleric Tier I Moves
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Cleric Tier I Talents
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Cleric Tier II Moves
-* *Moves name* - Description
-* *Moves name* - Description
+.Cleric Tier II Talents
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Cleric Tier III Moves
-* *Moves name* - Description
+.Cleric Tier III Talents
+* *Talent name* - Description
 
-==== Blood Mage
+=== Blood Mage
 
 *Cost* 15XP.
 
 *Requirements* Mystic core path.
 
-.Blood Mage Tier I Moves
+.Blood Mage Tier I Talents
 * *Blood infusion* - You can deal &times;HD damage to yourself to gain [term]#+HD magick power#.
-* *Moves name* - Description
-* *Moves name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Blood Mage Tier II Moves
-* *Moves name* - Description
-* *Moves name* - Description
+.Blood Mage Tier II Talents
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Blood Mage Tier III Moves
-* *Moves name* - Description
+.Blood Mage Tier III Talents
+* *Talent name* - Description
 
-==== Necromancer
-
-*Cost* 15XP.
-
-*Requirements*
-
-.Occultist Tier I Moves
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
-
-.Occultist Tier II Moves
-* *Moves name* - Description
-* *Moves name* - Description
-
-.Occultist Tier III Moves
-* *Moves name* - Description
-
-==== Occultist
+=== Necromancer
 
 *Cost* 15XP.
 
 *Requirements*
 
-.Occultist Tier I Moves
-* *Moves name* - Description
-* *Moves name* - Description
-* *Moves name* - Description
+.Occultist Tier I Talents
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Occultist Tier II Moves
-* *Moves name* - Description
-* *Moves name* - Description
+.Occultist Tier II Talents
+* *Talent name* - Description
+* *Talent name* - Description
 
-.Occultist Tier III Moves
-* *Moves name* - Description
+.Occultist Tier III Talents
+* *Talent name* - Description
 
-=== Careers
+=== Occultist
+
+*Cost* 15XP.
+
+*Requirements*
+
+.Occultist Tier I Talents
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+
+.Occultist Tier II Talents
+* *Talent name* - Description
+* *Talent name* - Description
+
+.Occultist Tier III Talents
+* *Talent name* - Description
+
+== Careers
 
 Your careers represent what you were before you decided to become an adventurer.
-They provide one unique [term]#secondary skill#, some starting [term]#coin#, and starting [term]#equipment#.
+They provide one unique [term]#secondary ability#, some starting [term]#coin#, and starting [term]#equipment#.
 
 * *If you are a young adult*, roll once on the careers table.
 * *If you are middle-aged*, roll twice. Only keep one skill, but take all coin and gear you want.
@@ -1116,51 +1212,16 @@ They provide one unique [term]#secondary skill#, some starting [term]#coin#, and
 |*Career title* stuff
 |===
 
-==== Slots
-
-You have with 10 + [term]#force# slots for equipment.
-Items that have the [term]#bunch# trait take up only one slot as long as the [term]#quantity# does not exceed the bunch value.
-Once it does, it increases slot usage by 1 and keeps on doing that when exceeding twice the bunch value, and so on.
-When you have 500 coins, it takes up one slot.
-500 more takes up another slot, and so on.
-
-=== Character Creation Summary
-
-== Experience
-
-You gain experience by going through the items below _at the end of the session_ and determining if it applies to you.
-Unless otherwise noted, each item only provides 1XP.
-
-There are questions _everyone_ can get experience for:
-
-* XP for showing up to the session.
-* XP for killing a monster or otherwise dangerous creature.
-** XP if it was was a mighty and deadly foe.
-** XP if it was one of _the_ legendary dragons or otherwise a mighty, ancient, and deadly dragon.
-* XP for obtaining treasure.
-** XP if the total was worth 200C or more.
-** XP if the total was worth 1000C or more.
-* XP for obtaining a magical artefact.
-* XP for discovering a new settlement, dangerous site, or ancient and storied location.
-** XP for learning more about its dark or otherwise storied past.
-** XP if it was a site full of danger (like a dungeon or enemy camp), and you went inside.
-*** XP for going inside with _zero_ hesitation.
-* XP for earning the trust of a new ally.
-** XP if it was because you acted selflessly in their favor.
-** XP for making _many_ new allies.
-* XP for making a new enemy who swore to kill at least 1 member of your group.
-** XP for making _many_ enemies.
-** XP if they swore to kill just you.
-
-Many <<_paths, [term]#paths#>> also provide ways of gaining XP.
-Only characters with those paths can gain XP in those ways.
-Some paths repeat items from the previous list of ways to gain XP.
-This means you would get 1 more XP unless otherwise noted in the path.
-
 == Equipment
 
 Equipment costs money when buying it from merchants and traders.
 The cost of equipment is described in [term]#coin# (Also notated as c).
+
+=== Slots
+
+You start with 10 + [term]#force# slots for equipment.
+When you have 500c, it takes up one slot.
+500 more takes up another slot, and so on.
 
 === Tags
 
@@ -1190,9 +1251,9 @@ Quantity _Value_::
 
 * *Arrows* - _Quantity 1_, _Bunch 3_ *Cost* 5c.
 * *Small Weapon* - (Dagger, short sword, small hammer, etc) *Cost* 5c *Damage* 1D.
-* *Medium Weapon* - (Sword, spear, flail, etc) *Cost* 10c *Damage* 1D+2.
-* *Heavy Weapon* - (Greatsword, glaive, battle axe, etc) _Two-Handed_, _Heavy_ *Cost* 25c *Damage* 1D+4.
-* *Sling* - *Cost* 5c *Damage* W[2D].
+* *Medium Weapon* - (Sword, spear, flail, etc) *Cost* 10c *Damage* 1D+1.
+* *Heavy Weapon* - (Greatsword, glaive, battle axe, etc) _Two-Handed_, _Heavy_ *Cost* 25c *Damage* 1D+2.
+* *Sling* - *Cost* 5c *Damage* d3.
 * *Quiver* - *Cost* 10c. Holds arrows (up to _Quantity 3_).
 
 === Armor
@@ -1207,15 +1268,6 @@ If you wield a shield without any worn armor, then treat the shield value as you
 
 Armor can be repaired completely by visiting an armorsmith.
 Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor, with the risk of rendering the armor completely unrepairable.
-
-Armor makes you slower.
-Your total armor value, meaning including armor from a shield, changes how fast you are.
-
-.Speed affected by armor
-[horizontal]
-1:: Barely slower to act.
-2:: Slower to act.
-3+:: Much slower to act.
 
 .Shields
 * *Buckler* - _Uses 3_ *Cost* 5c *Armor Bonus* +1 *Damage* 1D.
@@ -1249,12 +1301,14 @@ Your total armor value, meaning including armor from a shield, changes how fast 
 
 === Vehicles
 
-* *Cart* Slots 15, *Cost* 30c.
-* *Rowboat* Slots 15, *Cost* 50c.
-* *Wagon* Slots 30, *Cost* 100c.
-* *Stagecoach* Slots 40, *Cost* 300c.
-* *Sailing ship* Slots 100, *Cost* 5000c.
-* *Galleon* Slots 300, 100,*Cost* 10,000c.
+Vehicles have [term]#slots# that can be used to store equipment.
+
+* *Cart* - *Slots* 15, *Cost* 30c.
+* *Rowboat* - *Slots* 15, *Cost* 50c.
+* *Wagon* - *Slots* 30, *Cost* 100c.
+* *Stagecoach* - *Slots* 40, *Cost* 300c.
+* *Sailing ship* - *Slots* 100, *Cost* 5000c.
+* *Galleon* - *Slots* 300, *Cost* 10,000c.
 
 === Services
 
@@ -1274,22 +1328,22 @@ Your total armor value, meaning including armor from a shield, changes how fast 
 
 === Housing
 
-* *Hovel* - *Cost* 20c.
-* *Small cottage* - *Cost* 250c.
-* *House* - *Cost* 5,000c.
-* *Mansion* - *Cost* 20,000c.
-* *Keep* - *Cost* 150,000c.
-* *Castle* - *Cost* 600,000c.
-* *Grand castle* - *Cost* 20c.
-* *Hovel* - *Cost* 20c.
+Living spaces have [term]#slots# that can be used to store equipment.
+
+* *Hovel* - *Slots* 100 *Cost* 20c.
+* *Small cottage* - *Slots* 200 *Cost* 250c.
+* *House* - *Slots* 500 *Cost* 5,000c.
+* *Mansion* - *Slots* 1000 *Cost* 20,000c.
+* *Keep* - *Slots* 2000 *Cost* 150,000c.
+* *Castle* - *Slots* 5000 *Cost* 600,000c.
+* *Grand castle* - *Slots* 20,000 *Cost* 1,000,000c.
 
 == Alchemy
 
-== Magick
+== Mysticism
 
 == Exposure to Chaos
 
-[appendix]
 == Monsters and Foes
 
 Every monster has moves that describe its behavior and abilities.
@@ -1328,6 +1382,39 @@ These are a guide to the fiction, and therefore the moves.
 A quality like intangible means just what it says: mundane stuff just passes through it.
 That means swinging a mundane sword at it will have extremely little [term]#reward#, and damage isn't a possibility for a start.
 
+=== Tags
+
+.Basic Tags
+[horizontal]
+Amorphous:: Its anatomy and organs are bizarre and unnatural.
+Cautious:: It prizes survival over aggression.
+Construct:: It was made, not born
+Devious:: Its main danger lies beyond the simple clash of battle.
+Hoarder:: It almost certainly has treasure.
+Intelligent::
+  It's smart enough that some individuals pick up other skills.
+  The GM can adapt the monster by adding tags to reflect specific training, like a mage or warrior.
+Magical:: It is by nature magical through and through.
+Organized::
+  It has a group structure that aids it in survival.
+  Defeating one may cause the wrath of others. One may sound an alarm.
+Planar:: It's from beyond this world
+Stealthy:: It can avoid detection and prefers to attack with the element of surprise.
+Terrifying:: Its presence and appearance evoke fear.
+
+.Organization Tags
+[horizontal]
+Horde:: Where there's one, there's more. A lot more.
+Group:: Usually seen in small numbers, 3–6 or so.
+Solitary:: It lives and fights alone.
+
+.Size Tags
+[horizontal]
+Tiny:: It's much smaller than a human child.
+Small:: It's about the size of a human child.
+Large:: It's much bigger than a human, about as big as a cart.
+Huge:: It's as big as a small house or larger
+
 === Running Encounters
 
 Here's some advice on running encounters.
@@ -1341,31 +1428,30 @@ It's can be a good idea to use <<_soft_moves,[term]#soft moves#>> at first durin
 
 === Sample Monster
 
-.Lich
+.The Thing in the Well
 [monster]
 --
-*HP* 16 ||
-*Magick Armor* ○○ ||
-_Solitary_, _Magical_, _Intelligent_, _Cautious_, _Hoarder_, _Construct_
+*HP* 16 *Armor* 1 ||
+_Solitary_, _Large_, _Stealthy_
 
-Motivation: To un-live
+.Hard Moves
+* *Dark Tentacles* - 
+  *Damage* W[2D]+3.
+  _Reach_, _Near_.
 
-.Attacks
-Magickal Energy Blast::
-  Moderate harm.
-  _Near_, _Far_.
-Blunt Staff::
-  Minor harm.
-  _Close_.
-Magickal Eruption ○○○○::
-  Severe harm, ignores armor, triggered by progress track completion.
-  _Close_, _Near_, _Far_.
+.Soft Moves
+* Politely collect tribute
+* Leverage townspeople through secrets
+* Purify water
+* Hide in darkened waters
 
-.Special Moves
-* Cast a perfected spell of death or destruction
-* Set a ritual or great working into motion
-* Reveal a preparation or plan already completed
+*Instinct:* To devour
+
+https://codex.dungeon-world.com/monster/82058[The Thing in the Well] created by https://codex.dungeon-world.com/profile/82057[Esoteric], licensed CC-BY.
 --
+
+[appendix]
+== Bestiary
 
 === Dragons
 
@@ -1421,6 +1507,46 @@ Magickal Eruption ○○○○::
 
 === People, Mundane
 
+.Bandit Lord
+[monster]
+--
+Better to rule in hell than serve in heaven.
+
+*HP* 12 *Armor* 1 ||
+_Solitary_, _Intelligent_, _Organized_
+
+.Hard Moves
+* *Sharpened dagger* - 
+  *Damage* B[2D]+2.
+  _Close_.
+
+.Soft Moves
+* Make a demand
+* Extort
+* Topple power
+
+*Instinct:* To lead
+--
+
+.Monster Name
+[monster]
+--
+Description.
+
+*HP* 1 *Armor* 1 ||
+_Tag_
+
+.Hard Moves
+* *Attack Name* - 
+  *Damage* DAMAGE.
+  _Tag_.
+
+.Soft Moves
+* MOVE
+
+*Instinct:* INSTINCT
+--
+
 === People, Magical
 
 === Undead
@@ -1472,45 +1598,6 @@ Magickal Eruption ○○○○::
 .Consequences
 * **Gang** Another creeps behind you or an ally with a dagger.
 --
-
-[appendix]
-== Oracles
-
-=== Using the Oracles
-
-==== Oracles in Solo and Co-Op Play
-
-==== Oracles in Guided Play
-
-==== How to Use an Oracle
-
-===== When Answers Lead to More Questions
-
-===== Oracle Tables and Matches
-
-=== Action Oracle
-
-=== Theme Oracle
-
-=== Combat Action Oracle
-
-=== Exploration Oracle
-
-[appendix]
-== Hacking on {doctitle}
-
-[appendix]
-== Expert Rules
-
-=== The Adventuring Party
-
-=== Modes of Play
-
-==== Free Play
-
-==== The Adventure
-
-==== Downtime
 
 == Credits
 

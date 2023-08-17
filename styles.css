@@ -246,6 +246,7 @@ dt {
     .monster > .content,
     .action > .content,
     .admonitionblock td.content,
+
   )
   .title {
   color: black;
@@ -269,7 +270,6 @@ table.tableblock > .title {
   background-color: black;
   margin: 0;
 }
-}
 
 h1,
 h2,
@@ -279,7 +279,7 @@ h2,
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 .sect1 {
@@ -357,7 +357,7 @@ a {
   margin-inline-start: 1rem;
 }
 
-.action .content > .paragraph {
+.action .content > * {
   padding: 0 0.5rem;
 }
 
