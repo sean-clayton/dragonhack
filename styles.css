@@ -184,16 +184,33 @@
   src: url("fonts/alegreya-sc-v25-latin-900italic.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "EB Garamond";
+  src: url("subset-EBGaramond-Regular.woff2") format("woff2");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("subset-EBGaramond-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
+  --eb-garamond-font-family: "EB Garamond";
   --fdi-altmeister-b-font-family: "FDI Altmeister B";
   --alegreya-font-family: "Alegreya";
   --alegreya-sc-font-family: "Alegreya SC";
-  --alegreya-sans-font-family: "Alegreya Sans";
-  --alegreya-sans-sc-font-family: "Alegreya Sans SC";
+
   --display-font-family: var(--fdi-altmeister-b-font-family);
-  --heading-font-family: var(--alegreya-sc-font-family);
-  --primary-font-family: var(--alegreya-font-family);
-  --term-font-family: var(--alegreya-sc-font-family);
+  --heading-font-family: var(--alegreya-font-family);
+  --heading-secondary-font-family: var(--alegreya-sc-font-family);
+  --primary-font-family: var(--eb-garamond-font-family);
+  --term-font-family: var(--eb-garamond-font-family);
 }
 
 html {
@@ -225,7 +242,11 @@ h6 {
 
 h1,
 h2,
-h3,
+h3 {
+  color: inherit;
+  font-family: var(--heading-font-family);
+}
+
 h4,
 h5,
 h6,
@@ -237,7 +258,7 @@ h6,
 .monster .title,
 dt {
   color: inherit;
-  font-family: var(--heading-font-family);
+  font-family: var(--heading-secondary-font-family);
 }
 
 :is(
@@ -250,10 +271,10 @@ dt {
   )
   .title {
   color: black;
-  font-family: var(--heading-font-family);
+  font-family: var(--heading-secondary-font-family);
   font-style: normal;
   font-weight: bold;
-  font-size: larger;
+  font-size: 1.4em;
   text-decoration: underline;
   text-decoration-thickness: 2px;
   margin: 0;
@@ -261,7 +282,7 @@ dt {
 
 table.tableblock > .title {
   color: white;
-  font-family: var(--heading-font-family);
+  font-family: var(--heading-secondary-font-family);
   font-style: normal;
   font-weight: bold;
   font-size: larger;
@@ -355,6 +376,7 @@ a {
 .monster .content p {
   text-indent: -1rem;
   margin-inline-start: 1rem;
+  margin-left: 1rem;
 }
 
 .action .content > * {
@@ -394,7 +416,7 @@ ul li:has(p) {
 .term {
   font-family: var(--term-font-family);
   font-weight: 700;
-  text-transform: lowercase;
+  font-feature-settings: "smcp";
 }
 
 #footer {
@@ -438,7 +460,7 @@ td.content,
 td.hdlist1,
 span.alt,
 summary {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 td.hdlist1 {
@@ -463,4 +485,10 @@ td.hdlist1 {
 
 .ab-empty {
   opacity: 0.25;
+}
+
+@media print {
+  :root {
+    font-size: 80%;
+  }
 }
