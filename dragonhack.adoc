@@ -252,13 +252,25 @@ d3::
   *5/6* = 3.
 d66::
   Roll a dice twice.
-  The first roll is the tens place and the second is the ones.
+  One roll is for the tens place and the other is for the ones.
 d666::
   Roll like a d66, but with another roll for the hundreds place.
 d33::
-  Like a d66, but each digit is a d3.
+  Like a d66, but each roll is a d3.
 d333::
   Like a d33, but with another roll for the hundreds place.
+
+=== Dealing Damage
+
+.Dealing Damage
+[move]
+--
+[.lead]
+When you harm a foe but don't murder them outright...
+
+Roll the applicable damage and say the result (plus any tags like messy, forceful, etc.).
+The GM will reduce the victim's HP by that amount (less armor) and either describe the result or ask you to do so.
+--
 
 === Rounding
 
@@ -305,17 +317,44 @@ Resistance roll::
   A player can make a resistance roll when their character suffers a consequence they don't like.
   The roll tells us how much stress their character suffers to reduce the severity of a consequence.
 
-==== Surge Points
+==== Hold
 
-When you land a [term]#critical hit#, take the lowest number on the dice you rolled, multiply it by 2 and that's your [term]#surge points# for that action.
+.Hold
+[move]
+--
+[.lead]
+When a move gives you [term]#"`hold X Currency`"#...
 
-For example, if you roll 3D and get 3, 6, and 6, the lowest number you rolled was a 3.
-We multiply that by two to get the surge points available to you: 6.
+You can spend that currency as the move describes it.
+--
 
-You use surge points through moves and features of your <<_paths,[term]#paths#>>.
+==== Surge
 
-Any surge points you do not use, you do not maintain.
-Use them or lose them during the move.the ones.
+.Surge
+[move]
+--
+[.lead]
+When you land a [term]#critical hit#...
+
+Take the lowest number of the dice you rolled, multiply it by 2.
+[term]#Hold that much Surge#.
+You spend [term]#surge# on [term]#surge moves#.
+
+Any [term]#surge# you do not use during the move, you do not maintain.
+--
+
+===== Critical Damage
+
+You always have access to the _Critical Damage_ [term]#surge move#.
+
+.Surge Move: Critical Damage (2 Surge)
+[move]
+--
+[.lead]
+When you are dealing damage...
+
+You can [term]#roll &times;HD# and add that to your damage total.
+--
 
 ==== GMs and the Dice
 
@@ -369,16 +408,18 @@ The GM will tell you the following:
 * Possible consequences if you fail and rewards if you succeed.
 
 .Take Action
-[action]
+[move]
 --
 [.lead]
 When your character acts by taking a risk...
 
-Sstate what your goal is and the approach your character will take to make it happen.
+State what your goal is and the approach your character will take to make it happen.
 
 * 1D for each point in the [term]#attribute#.
-* +1D if you are being [term]#aided#.
-* +1D for using an [term]#ability#.
+* +1D if you are being <<_aid,[term]#aided#>>.
+* +1D for using one of your <<_abilities,[term]#abilities#>>.
+
+'''
 
 [.risk]
 Minor Risk::
@@ -419,14 +460,27 @@ You overreach your capabilities. You're in serious trouble.
 +
 * **Critical Hit:**
   A success with [term]#increased reward#.
+  [term]#Gain +1 XP#.
 * **Hit:**
   A success, narrowly avoiding the consequences.
+  [term]#Gain +1 XP#.
 * **Weak Hit:**
   Technically a success, but there is a severe cost.
   [term]#Gain +1 XP# and you must [term]#suffer the consequences# accordingly.
 * **Miss:**
   The worst outcome has happened.
   [term]#Gain +1 XP# and you must [term]#suffer the consequences# accordingly.
+--
+
+=== Aid
+
+.Aid
+[move]
+--
+[.lead]
+When you assist someone [term]#taking action#...
+
+You give them a +1D bonus to the roll, but you are succeptible to the consequences if there any.
 --
 
 === Fortune Roll
@@ -446,11 +500,13 @@ This can be with a specific attribute or stat, or with a number added.
 For example, making a fortune roll with heart, if its value is 3, it is written as "Roll [term]#fortune +heart#" and you would roll 3 dice.
 
 .Fortune Roll
-[action]
+[move]
 --
 * *1D* for each [term]#stat# rating.
 * *+1D* for each [term]#major advantage#.
 * *-1D* for each [term]#major disadvantage#.
+
+'''
 
 * **Critical Hit**: Exceptional result / Major, extreme reward.
 * **Hit**: Good result / Moderate,  full reward.
@@ -461,7 +517,7 @@ For example, making a fortune roll with heart, if its value is 3, it is written 
 === Surveying
 
 .Surveying
-[action]
+[move]
 --
 [.lead]
 When you search an area, read the situation, ask questions, conduct an investigation, or follow a track...
@@ -495,7 +551,7 @@ Maybe as monsters are made and more kinds of damage are revealed in the game, th
 endif::[]
 
 .Resist
-[action]
+[move]
 --
 [.lead]
 When your character resists the consequences of their actions...
@@ -525,15 +581,22 @@ Add dice according to the [term]#ability# used.
 
 ==== Death
 
-When your character reaches 0HP, they are most likely dead.
+When your character reaches 0HP, and they do not make a [term]#death move#, they are most likely dead.
 
-After fighting is over and your allies roll you over within a few hours of you reaching 0HP, make a fortune roll [term]#+heart# or [term]#+force#, whichever is higher.
+.Determine Your Fate
+[move]
+--
+[.lead]
+When your allies take a look at your body within a few hours of you reaching 0HP...
+
+[term]#Roll fortune +heart or +force#, whichever is higher.
 *On a critical hit*, you strongly gasp as they turn you over and you must explain to everyone how it wasn't as bad as it looked.
 You regain +HD HP (minimum 1).
 *On a strong hit*, you are barely breathing and are in dire need of aid.
 You regain 1HP and your exertion is set to max.
 *On a weak hit*, you are alive just enough to say some last words.
 *On a miss*, you are dead.
+--
 
 === Progress Tracks
 
@@ -647,8 +710,8 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
 
 . *Envision* your character
 . Choose a <<_kin,[term]#kin#>> and determine their [term]#age#.
-. Set your <<_attributes,[term]#attributes#>> by applying these points across [term]#force#, [term]#edge#, [term]#shadow#, [term]#wits#, and [term]#heart#.
-  Do not exceed 2 on any of these.
+. Set your <<_attributes,[term]#attributes#>> by distributing these points across [term]#force#, [term]#edge#, [term]#shadow#, [term]#wits#, and [term]#heart#.
+  You cannot have more than 2 points in a single attribute.
   * *Young adult:* 4 points.
   * *Middle-aged:* 3 points.
   * *Old:* 2 points.
@@ -658,7 +721,7 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
 . Choose your <<_core_paths,[term]#core path#>>, and then your <<_focus_paths,[term]#focus path#>> according to your age.
   * *Young adult:* No focus paths.
   * *Middle-aged/Old:* 1 focus path. Assume the narrative requirement of that path is in your character's backstory.
-. Gain XP according to your age that you can spend now if you wish, or hold for later.
+. Gain XP according to your age that you can spend now if you wish, or keep for later.
   * *Young adult:* 8XP.
   * *Middle-aged:* 16XP.
   * *Old:* 24XP.
@@ -691,6 +754,15 @@ Additionally, you can change _one_ of these aspects of your character if the nar
 * Change one of your vices to a new one.
 * Refund one talent completely and obtain a new one at the same cost.
 
+== Attributes
+
+[horizontal]
+Force:: Aggression, might, and intimidation.
+Edge:: Quickness, agility, and precision.
+Shadow:: Sneakiness, deceptiveness, and cunning.
+Wits:: Mental fortitude, intellect, and perception.
+Heart:: Leadership, inpsiration, and understanding.
+
 == Exertion
 
 Exertion represents the amount of effort, physical or mental, you can exert while adventuring.
@@ -698,9 +770,21 @@ When you [term]#mark exertion#, you add exertion against your maximum exertion.
 
 When you are at max exertion and you have to [term]#mark exertion#, you're [term]#broken# and can no longer act.
 This means you are either physically battered and unconscious, emotionally unavailable, mentally drained, or otherwise completely exhausted.
-Regardless, when you are broken you are out of any scene you currently are in and all scenes going forward, and are susceptible to a [term]#coup de grace#, which means all damage done to you is doubled.
+Regardless, when you are broken you are out of any scene you currently are in and all scenes going forward, and are susceptible to a [term]#coup de grace#, which means all damage done to you is quadrupled.
+You cannot perform a [term]#death move# if you are reduced to 0HP during a [term]#coup de grace#.
 
 You are broken until you somehow regain [term]#exertion#.
+
+=== Come To
+
+.Come To
+[move]
+--
+[.lead]
+When you are at max exertion, and you are still alive after w[2D] hours...
+
+You gain [term]#1 exertion# back.
+--
 
 == Hit Points and Hit Dice
 
@@ -1325,14 +1409,14 @@ They provide one unique [term]#secondary ability#, some starting [term]#coin#, a
 
 == Equipment
 
-Equipment costs money when buying it from merchants and traders.
-The cost of equipment is described in [term]#coin# (Also notated as c).
+The [term]#cost# of equipment is described in coin (Shortened to just [term]#c#).
 
 === Slots
 
-You start with 10 + [term]#force# slots for equipment.
-When you have 500c, it takes up one slot.
-500 more takes up another slot, and so on.
+You start with 12 + [term]#force# slots for equipment.
+
+When you have 100c, it takes up one slot.
+100 more takes up another slot, and so on.
 
 === Tags
 
@@ -1451,7 +1535,13 @@ Living spaces have [term]#slots# that can be used to store equipment.
 
 == Alchemy
 
-== Mysticism
+== Magic
+
+=== Mystweaving
+
+=== Divine Magic
+
+=== Ritual Magic
 
 == Exposure to Chaos
 
@@ -1613,7 +1703,7 @@ _Solitary_, _Intelligent_, _Organized_
 
 .Hard Moves
 * *Sharpened dagger* - 
-  *Damage* B[2D]+2.
+  *Damage* 6.
   _Close_.
 
 .Soft Moves
@@ -1674,12 +1764,12 @@ _Tag_
 
 .Hard Moves
 * **Claws & Bite** -
-  *Damage* 1D+4.
+  *Damage* 7.
   *AP* 1.
 * **Tail Whip** -
-  *Damage* 1D.
+  *Damage* 4.
 * **Poisonous Barbs (miss)** -
-  *Poison* 1D.
+  *Poison Damage* 3.
   *Resist* +force.
 
 *Instinct:* To seize prey and carry off.
@@ -1692,7 +1782,7 @@ _Tag_
 
 .Hard Moves
 * **Spear or Dagger** -
-  *Damage* 1D.
+  *Damage* 3.
 
 .Soft Moves
 * Lay a trap.

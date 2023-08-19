@@ -269,8 +269,9 @@ h6,
 #toctitle,
 .sidebarblock .content .title,
 .exampleblock .title,
-.action .title,
+.move .title,
 .monster .title,
+.openblock .title,
 dt {
   color: inherit;
   font-family: var(--heading-secondary-font-family);
@@ -280,9 +281,8 @@ dt {
     .hdlist,
     .ulist,
     .monster > .content,
-    .action > .content,
-    .admonitionblock td.content,
-
+    .move > .content,
+    .admonitionblock td.content
   )
   .title {
   color: black;
@@ -318,10 +318,6 @@ h2 {
   font-size: 3.5em;
 }
 
-.sect1 {
-  page-break-before: always;
-}
-
 h3 {
   font-size: 2.5em;
   font-weight: 800;
@@ -347,20 +343,20 @@ a {
   font-family: inherit;
 }
 
-.action {
+.move {
   margin: 1.5rem 0;
   border-bottom: 3px solid rgb(59 59 59);
   background-color: rgb(241 241 241);
 }
 
-.action,
+.move,
 .monster,
 .sidebarblock,
 .exampleblock {
   break-inside: avoid;
 }
 
-.action > .title,
+.move > .title,
 .monster > .title {
   font-weight: bold;
   font-style: normal;
@@ -371,7 +367,7 @@ a {
   margin: 0;
 }
 
-.action .content,
+.move .content,
 .monster .content {
   padding: 1rem 0 0;
 }
@@ -387,26 +383,27 @@ a {
   padding: 0.5rem;
 }
 
-.action .content p,
+.move .content p,
 .monster .content p {
   text-indent: -1rem;
   margin-inline-start: 1rem;
   margin-left: 1rem;
 }
 
-.action .content > * {
+.move .content > * {
   padding: 0 0.5rem;
 }
 
-.action .content table {
+.move .content table {
   margin: 0;
 }
 
-.action .content table td {
+.move .content table td {
   padding: 0.5rem;
 }
 
-.lead {
+.paragraph.lead > p {
+  font-size: 1em;
   font-style: italic;
 }
 
