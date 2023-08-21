@@ -110,9 +110,9 @@ You have hopes and fears, virtues and failings.
 You have a history.
 You are, or were, part of a community.
 This is the fiction of your character.
-Consider a few of these details as you create your character, but don't sweat it -- you'll evolve it through play.
+Consider a few of these details as you create your character, but don't sweat it--you'll evolve it through play.
 At the start of your game, put your character on stage to see what happens. 
-Fill in the blanks -- for your character and your world -- as you go.
+Fill in the blanks--for your character and your world--as you go.
 
 === Player Agenda
 
@@ -140,7 +140,7 @@ As a GM, when everyone looks at you to do something, you can make a move.
 On any [term]#miss#, you can make a move.
 When you are presented with a [term]#golden opportunity#, you can make a move.
 
-A move is something that occurs in the fiction -- they mean literally what they say.
+A move is something that occurs in the fiction--they mean literally what they say.
 Here are the moves you make as a GM.
 
 * Utilize your prep.
@@ -556,6 +556,8 @@ endif::[]
 [.lead]
 When your character resists the consequences of their actions...
 
+[term]#Mark 1 exertion#.
+
 Roll [term]#+force# if resisting physical consequences through fortitude and endurance,
 [term]#+edge# if resisting physical consequences through evasion or precision,
 [term]#+shadow# if resisting detection or discovery through stealth or deception,
@@ -567,7 +569,7 @@ Add dice according to the [term]#ability# used.
 [horizontal]
 * **Critical Hit:**
   You avoid all consequences and you are now in control of the situation.
-  Gain [term]#1 exertion#.
+  [term]#Gain 1 exertion# back.
 * **Hit:**
   The consequence is avoided.
 * **Weak Hit:**
@@ -587,7 +589,7 @@ When your character reaches 0HP, and they do not make a [term]#death move#, they
 [move]
 --
 [.lead]
-When your allies take a look at your body within a few hours of you reaching 0HP...
+When your allies take a look at your body within w[2D] hours of you reaching 0HP...
 
 [term]#Roll fortune +heart or +force#, whichever is higher.
 *On a critical hit*, you strongly gasp as they turn you over and you must explain to everyone how it wasn't as bad as it looked.
@@ -614,17 +616,17 @@ A more complicated obstacle is a 6-segment track.
 A daunting obstacle is an 8-segment track.
 
 When you create a progress track, make it about the obstacle, not the method.
-The progress tracks for an infiltration should be "`Interior Patrols`" and "`The Tower,`" not "`Sneak Past the Guards`" or "`Climb the Tower.`" The patrols and the tower are the obstacles -- the PCs can attempt to overcome them in a variety of ways.
+The progress tracks for an infiltration should be "`Interior Patrols`" and "`The Tower,`" not "`Sneak Past the Guards`" or "`Climb the Tower.`" The patrols and the tower are the obstacles--the PCs can attempt to overcome them in a variety of ways.
 
 Remember that a progress track tracks progress.
 It reflects the fictional situation, so the group can gauge how they're doing.
 A progress track is like a speedometer in a car.
-It shows the speed of the vehicle -- it doesn't determine the speed.
+It shows the speed of the vehicle--it doesn't determine the speed.
 
 ==== Simple Obstacles
 
 Not every situation and obstacle requires a progress track.
-Use progress tracks when a situation is complex or layered and you need to track something over time -- otherwise, resolve the result of an action with a single roll.
+Use progress tracks when a situation is complex or layered and you need to track something over time--otherwise, resolve the result of an action with a single roll.
 
 Examples of progress tracks follow.
 
@@ -632,7 +634,7 @@ Examples of progress tracks follow.
 
 The GM can use a progress track to represent a progressive danger, like suspicion growing during a seduction, the proximity of pursuers in a chase, or the alert level of roaming monsters in a dungeon.
 In this case, when a complication occurs, the GM ticks one, two, or three segments on the progress track, depending on the consequence level.
-When the progress track is full, the danger comes to fruition -- the guards hunt down the intruders, activate an alarm, release the hounds, etc.
+When the progress track is full, the danger comes to fruition--the guards hunt down the intruders, activate an alarm, release the hounds, etc.
 
 ==== Racing Tracks
 
@@ -653,7 +655,7 @@ As always, the method of action is up to the players and the details of the fict
 ==== Mission Tracks
 
 The GM can make a progress track for a time-sensitive mission, to represent the window of opportunity you have to complete it.
-If the countdown runs out, the mission is scrubbed or changes -- the target escapes, the household wakes up for the day, etc.
+If the countdown runs out, the mission is scrubbed or changes--the target escapes, the household wakes up for the day, etc.
 Tug-of-war progress tracks
 
 You can make a progress track that can be filled and emptied by events, to represent a back-and-forth situation.
@@ -715,6 +717,10 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
   * *Young adult:* 4 points.
   * *Middle-aged:* 3 points.
   * *Old:* 2 points.
+. Determine your [term]#hit dice value# according to your attributes.
+  * *If [term]#force# is 2*, your hit dice value is 4.
+  * *If [term]#wits# is 2*, your hit dice value is 8.
+  * In all other cases, your hit dice value is 6.
 . Choose <<_vices,[term]#vices#>> according to your age.
   * *Young adult:* 1 vice.
   * *Middle-aged/Old:* 2 vices.
@@ -783,7 +789,7 @@ You are broken until you somehow regain [term]#exertion#.
 [.lead]
 When you are at max exertion, and you are still alive after w[2D] hours...
 
-You gain [term]#1 exertion# back.
+You [term]#gain 1 exertion# back.
 --
 
 == Hit Points and Hit Dice
@@ -803,6 +809,12 @@ Sometimes you can roll [term]#HD# and add the result to a roll (often with damag
 This is notated as &times;HD.
 This means you roll dice like normal, but also add your number of HD to the dice rolled.
 For example, if you are rolling 2D while something grants you &times;HD for that roll and you have 2HD, then you are rolling 4D.
+
+=== Gaining Hit Dice
+
+To increase the amount of hit dice for a character, spend XP equal to the amount of hit dice you _will_ have, multiplied by your <<_character_creation,[term]#hit dice value#>>.
+
+For example, if your hit dice value is 6, and you currently have 3 HD, but want to purchase your 4th HD, then the cost is 6 (value) &times; 4 (the amount of HD you will have after purchasing), which equals 24XP.
 
 == Abilities
 
@@ -957,7 +969,7 @@ Old:: 35+
 
 == Paths
 
-There are two types of paths: core paths and focus paths.
+There are two types of paths: Novice paths and focus paths.
 Your core path is the primary path your character takes.
 Focus paths are ways to shape your character into the concept you have in your mind.
 
@@ -965,7 +977,7 @@ ifdef::showcommentary[]
 .Regarding path power
 [NOTE]
 Paths are not meant to be a _huge_ power boost to characters.
-Magic items are meant to be the biggest power boost a character can get -- they break all the rules and even rewrite them.
+Magic items are meant to be the biggest power boost a character can get--they break all the rules and even rewrite them.
 Paths are meant to be boosts, yes, but really they should increase versatility of a character.
 For example, the Mystic path gets new properties for their spells they cast.
 endif::[]
@@ -979,111 +991,57 @@ To gain an ability in [term]#tier II# or above you must have N+2 talents of the 
 For example, in order to gain your first [term]#tier II# ability, you must have two [term]#tier I# talents.
 In order to gain a second [term]#tier III# ability, you must have at least three [term]#tier II# talents which means you must have at least four [term]#tier I# talents.
 
-== Core Paths
+== Novice Paths
 
-ifdef::showcommentary[]
-.Regarding core paths
-[NOTE]
-Core paths are the core chassis of a character.
-They are essentially "classes" in other fantasy role-playing games.
-endif::[]
-
-There are three core paths: The warrior, the mystic, and the scoundrel.
-The warrior knows their weapons and can kill many things with them.
-The mystic knows mystery and spells and can kill many things with it.
-The scoundrel has tricks, guile, and skulduggery and can kill many things through those.
+There are four novice paths: The warrior, the mystic, the scoundrel, and the devoted.
 
 === The Warrior
 
-You start with 10 available [term]#exertion#.
+You start with 10 maximum [term]#exertion#.
 
-Choose one of the three following features:
-
-* *The Fighter:*
-  _When you are entering the fray of battle with reckless abandon_, you can [term]#mark exertion# to count as one tier higher in <<_speed,[term]#speed#>> and have [term]#+1 armor# until the fight is over.
-* *The Ranger:*
-  _When you engage in a fight with something you've been tracking and preying on_, you can [term]#mark exertion# to gain +1D when acting to defeat it.
-  This lasts until they escape or they are defeated.
-  After which, you can choose a new target to track and make your prey.
-* *The Stalwart:*
-  _When you are protecting an ally and take damage_, you can [term]#mark exertion# to increase your armor by 1 when [term]#using armor#.
-  You can do this as long as you have exertion to mark.
-
-.Warrior Tier I Talents
-* *Talent name* - Increase your HD by 1. You can take this up to 2 times.
+.Warrior Talents
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Warrior Tier II Talents
-* *Talent name* - Increase your HD by 1. You can take this up to 2 times.
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
-* *Talent name* - Description
-
-.Warrior Tier III Talents
-* *Talent name* - Increase your HD by 1. You can take this up to 2 times.
 * *Talent name* - Description
 * *Talent name* - Description
 
 === The Mystic
 
-You start with 6 available [term]#exertion#.
+You start with 6 maximum [term]#exertion#.
 
 You gain access to <<_mysticism, mysticism>>.
 
-.Mystic Tier I Talents
-* *Talent name* - Increase your HD by 1.
+.Mystic Talents
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Mystic Tier II Talents
-* *Talent name* - Increase your HD by 1.
 * *Talent name* - Description
 * *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-.Mystic Tier III Talents
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
 
 === The Scoundrel
 
-You start with 8 available [term]#exertion#.
+You start with 8 maximum [term]#exertion#.
 
-Choose one of the three following features:
-
-* *The Thief:*
-  You gain [term]#steal# as a [term]#ability#.
-* *The Assassin:*
-  You gain [term]#slit throat# as a [term]#ability#.
-* *The Minstrel:*
-  _When you perform a song while resting with your party_, any [term]#broken# ally gains w[2D] [term]#exertion# back.
-
-.Scoundrel Tier I Talents
-* *Sneak attack* - *Cost* 8XP. When you use [term]#edge# to attack and deal damage to an unaware target with a [term]#small# or [term]#ranged# weapon, roll [term]#HD# to add as damage to your attack.
-* *Talent name* - *Cost* 8XP. Increase your HD by 1. You can take this up to 2 times -- the second time you take it costs 10XP.
-* *Talent name* - Gain a new [term]#ability: Encourage#
-* *Talent name* - Gain a new [term]#ability: Slit throat#
-* *Talent name* - Gain a new [term]#ability: Encourage#
-
-.Scoundrel Tier II Talents
-* *Talent name* - *Cost* 15XP. Increase your HD by 1. You can take this up to 2 times -- the second time you take it costs 20XP.
-* *Talent name* - Your ability bonus becomes +2D.
+.Scoundrel Talents
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Scoundrel Tier III Talents
-* *Talent name* - *Cost* 25XP. Increase your HD by 1. You can take this up to 2 times -- the second time you take it costs 40XP.
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
 
@@ -1091,13 +1049,17 @@ Choose one of the three following features:
 
 You start with 8 available [term]#exertion#.
 
-Choose one of the three following features:
-
-* *The Faithful:*
-  You gain [term]#stealth# as a [term]#ability#.
-* *The Druid:*
-  You can add +1 to [term]#heart# instead of [term]#shadow# or [term]#edge#.
-  You gain [term]#lead# as a [term]#ability#.
+.Devoted Talents
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
+* *Talent name* - Description
 
 == Focus Paths
 
@@ -1146,16 +1108,11 @@ endif::[]
 * Disarmed or otherwise rendered useless past a deadly trap.
 * Revealed and went through a hidden passageway.
 
-.Dungeoneer Tier I Talents
+.Dungeoneer Talents
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Dungeoneer Tier II Talents
 * *Talent name* - Description
-* *Talent name* - Description
-
-.Dungeoneer Tier III Talents
 * *Talent name* - Description
 
 === Beserker
@@ -1164,16 +1121,11 @@ endif::[]
 
 *Requirements*
 
-.Beserker Tier I Talents
+.Beserker Talents
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Beserker Tier II Talents
 * *Talent name* - Description
-* *Talent name* - Description
-
-.Beserker Tier III Talents
 * *Talent name* - Description
 
 === Anti Paladin
@@ -1182,16 +1134,11 @@ endif::[]
 
 *Requirements* You have forsaken your paladin oath and broken ties with the organization that once honored you paladin title.
 
-.Anti Paladin Tier I Talents
+.Anti Paladin Talents
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Anti Paladin Tier II Talents
 * *Talent name* - Description
-* *Talent name* - Description
-
-.Anti Paladin Tier III Talents
 * *Talent name* - Description
 
 === Paladin
@@ -1200,16 +1147,11 @@ endif::[]
 
 *Requirements* You have went to a place that honors holiness or some other form of servitude, went through the rituals to become its champion, and swore your oath.
 
-.Paladin Tier I Talents
+.Paladin Talents
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Paladin Tier II Talents
 * *Talent name* - Description
-* *Talent name* - Description
-
-.Paladin Tier III Talents
 * *Talent name* - Description
 
 === Cleric
@@ -1218,16 +1160,11 @@ endif::[]
 
 *Requirements*
 
-.Cleric Tier I Talents
+.Cleric Talents
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Cleric Tier II Talents
 * *Talent name* - Description
-* *Talent name* - Description
-
-.Cleric Tier III Talents
 * *Talent name* - Description
 
 === Blood Mage
@@ -1236,16 +1173,11 @@ endif::[]
 
 *Requirements* Mystic core path.
 
-.Blood Mage Tier I Talents
-* *Blood infusion* - You can deal &times;HD damage to yourself to gain [term]#+HD magick power#.
+.Blood Mage Talents
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Blood Mage Tier II Talents
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Blood Mage Tier III Talents
 * *Talent name* - Description
 
 === Necromancer
@@ -1254,34 +1186,11 @@ endif::[]
 
 *Requirements*
 
-.Occultist Tier I Talents
+.Occultist Tier Talents
 * *Talent name* - Description
 * *Talent name* - Description
 * *Talent name* - Description
-
-.Occultist Tier II Talents
 * *Talent name* - Description
-* *Talent name* - Description
-
-.Occultist Tier III Talents
-* *Talent name* - Description
-
-=== Occultist
-
-*Cost* 15XP.
-
-*Requirements*
-
-.Occultist Tier I Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-.Occultist Tier II Talents
-* *Talent name* - Description
-* *Talent name* - Description
-
-.Occultist Tier III Talents
 * *Talent name* - Description
 
 == Careers
@@ -1294,7 +1203,6 @@ They provide one unique [term]#secondary ability#, some starting [term]#coin#, a
 * *If you are old*, roll three times. Only keep one skill, but take all coin and gear you want.
 
 .Careers Table
-[cols="1,99"]
 |===
 |d66|Job title and starting gear
 
@@ -1566,7 +1474,7 @@ When trying to attack something out of its range (too close or too far) the mons
 Any tag that can go on a weapon (like messy or slow) can also go on a monster.
 
 There are special tags that apply only to monsters.
-These tags, listed below, describe the key attributes of the monster -- qualities that describe how big they are and how, if at all, they organize themselves.
+These tags, listed below, describe the key attributes of the monster--qualities that describe how big they are and how, if at all, they organize themselves.
 
 A monster's HP is a measure of how much damage it can take before it dies.
 At 0 HP it's dead or out of action, unless otherwise stated.
@@ -1595,7 +1503,7 @@ It can be a good idea for GMs new to {doctitle} to make <<_soft_moves,[term]#sof
 
 At some tables you may just want to make combat an incredibly dangerous choice.
 Feel free to use hard moves whenever a [term]#weak hit# or [term]#miss# occurs in that case.
-Remember, though -- let players know the consequences of their actions before they make them.
+Remember, though--let players know the consequences of their actions before they make them.
 This game is about making choices, not being "gotcha'd" by a GM.
 --
 
@@ -1693,13 +1601,33 @@ Huge:: It's as big as a small house or larger
 
 === People, Mundane
 
+.Acolyte
+[monster]
+--
+Better to rule in hell than serve in heaven.
+
+*HP* 6. *Armor* 1.
+_Minion_, _Intelligent_, _Organized_.
+
+.Hard Moves
+* *Wicked dagger* - 
+  *Damage* 4.
+  _Close_.
+
+.Soft Moves
+* Follow dogma
+* Offer eternal reward for mortal deeds
+
+*Instinct:* To serve a master.
+--
+
 .Bandit Lord
 [monster]
 --
 Better to rule in hell than serve in heaven.
 
-*HP* 12 *Armor* 1 ||
-_Solitary_, _Intelligent_, _Organized_
+*HP* 12. *Armor* 1.
+_Solitary_, _Intelligent_, _Organized_.
 
 .Hard Moves
 * *Sharpened dagger* - 
@@ -1714,13 +1642,18 @@ _Solitary_, _Intelligent_, _Organized_
 *Instinct:* To lead
 --
 
-.Monster Name
+.Guard
 [monster]
 --
-Description.
+Noble protector or merely drunken lout, it often makes no difference to these sorts.
+Falling shy of a noble knight, the proud town guard is an ancient profession nonetheless.
+These folks of the constabulary often dress in the colors of their lord (when you can see it under the mud) and, depending on the richness of that lord, might even have a decent weapon and some armor that fits.
+Those are the lucky ones.
+Even so, someone has to be there to keep an eye on the gate when the Black Riders have been spotted in the woods.
+Too many of us owe our lives to these souls--remember that the next time one is drunkenly insulting your mother, hmm?
 
-*HP* 1 *Armor* 1 ||
-_Tag_
+*HP* 1. *Armor* 1.
+_Tag_.
 
 .Hard Moves
 * *Attack Name* - 
@@ -1760,7 +1693,8 @@ _Tag_
 .Wyvern
 [monster]
 --
-16HP || _Solitary_, _Large_, _Intelligent_
+*HP* 16.
+_Solitary_, _Large_, _Intelligent_.
 
 .Hard Moves
 * **Claws & Bite** -
@@ -1778,7 +1712,8 @@ _Tag_
 .Kobold
 [monster]
 --
-1HP || _Minion_, _Small_, _Stealthy_, _Organized_
+*HP* 3.
+_Minion_, _Small_, _Stealthy_, _Organized_.
 
 .Hard Moves
 * **Spear or Dagger** -

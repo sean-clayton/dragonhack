@@ -200,37 +200,39 @@ along with this program. If not, see https://www.gnu.org/licenses/.
 }
 
 @font-face {
-  font-family: "EB Garamond";
-  src: url("subset-EBGaramond-Regular.woff2") format("woff2");
-  font-weight: 400 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "EB Garamond";
-  src: url("subset-EBGaramond-Italic.woff2") format("woff2");
-  font-weight: normal;
+  font-family: "Crimson Pro";
+  src: url("fonts/CrimsonPro-Italic.woff2") format("woff2 supports variations"),
+    url("fonts/CrimsonPro-Italic.woff2") format("woff2-variations");
+  font-weight: 200 900;
   font-style: italic;
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("fonts/CrimsonPro-Regular.woff2") format("woff2 supports variations"),
+    url("fonts/CrimsonPro-Regular.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  --eb-garamond-font-family: "EB Garamond";
+  --crimson-pro-font-family: "Crimson Pro";
   --fdi-altmeister-b-font-family: "FDI Altmeister B";
   --alegreya-font-family: "Alegreya";
   --alegreya-sc-font-family: "Alegreya SC";
 
   --display-font-family: var(--fdi-altmeister-b-font-family);
-  --heading-font-family: var(--alegreya-font-family);
+  --heading-font-family: var(--crimson-pro-font-family);
   --heading-secondary-font-family: var(--alegreya-sc-font-family);
-  --primary-font-family: var(--eb-garamond-font-family);
-  --term-font-family: var(--eb-garamond-font-family);
+  --primary-font-family: var(--crimson-pro-font-family);
+  --term-font-family: var(--alegreya-sc-font-family);
 }
 
 html {
-  font-size: 16px;
   font-size: 100%;
+  font-size: 18px;
 }
 
 .toc a {
@@ -289,7 +291,7 @@ dt {
   font-family: var(--heading-secondary-font-family);
   font-style: normal;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.1rem;
   text-decoration: underline;
   text-decoration-thickness: 2px;
   margin: 0;
