@@ -399,10 +399,9 @@ Major Reward::
   If you were avoiding a danger, it is completely avoided, and probably is no longer dangerous for a time.
 
 State what your goal is and the approach your character will take to make it happen.
-You choose the <<_abilities,[term]#ability#>> you are using to act out your approach.
 The GM will tell you the following:
 
-* The [term]#attribute# you will use.
+* The two [term]#attributes# you will use.
 * The level of [term]#risk# the approach takes.
 * The level of [term]#reward# given if the approach succeeds.
 * Possible consequences if you fail and rewards if you succeed.
@@ -415,9 +414,7 @@ When your character acts by taking a risk...
 
 State what your goal is and the approach your character will take to make it happen.
 
-* 1D for each point in the [term]#attribute#.
-* +1D if you are being <<_aid,[term]#aided#>>.
-* +1D for using one of your <<_abilities,[term]#abilities#>>.
+Roll 1D for each point in the [term]#attributes# determined by the GM.
 
 '''
 
@@ -558,13 +555,8 @@ When your character resists the consequences of their actions...
 
 [term]#Mark 1 exertion#.
 
-Roll [term]#+force# if resisting physical consequences through fortitude and endurance,
-[term]#+edge# if resisting physical consequences through evasion or precision,
-[term]#+shadow# if resisting detection or discovery through stealth or deception,
-[term]#+heart# if resisting emotional damage,
-or [term]#+mind#, if resisting trickery, cunning, being deceived, or mental damage.
-
-Add dice according to the [term]#ability# used.
+The GM chooses two attributes.
+Roll 1D for each point in both attributes.
 
 [horizontal]
 * **Critical Hit:**
@@ -764,10 +756,10 @@ Additionally, you can change _one_ of these aspects of your character if the nar
 
 [horizontal]
 Force:: Aggression, might, and intimidation.
-Edge:: Quickness, agility, and precision.
+Edge:: Speed, agility, and precision.
 Shadow:: Sneakiness, deceptiveness, and cunning.
-Wits:: Mental fortitude, intellect, and perception.
-Heart:: Leadership, inpsiration, and understanding.
+Wits:: Focus, intellect, and perception.
+Heart:: Leadership, drive, and compassion.
 
 == Exertion
 
@@ -816,74 +808,17 @@ To increase the amount of hit dice for a character, spend XP equal to the amount
 
 For example, if your hit dice value is 6, and you currently have 3 HD, but want to purchase your 4th HD, then the cost is 6 (value) &times; 4 (the amount of HD you will have after purchasing), which equals 24XP.
 
-== Abilities
-
-Abilities are general actions that increase your chances of succeeding when [term]#taking action#.
-The following are the general abilities in {doctitle}:
-
-* [term]#Aim and Shoot#
-* [term]#Care#
-* [term]#Charm#
-* [term]#Command#
-* [term]#Contort#
-* [term]#Deceieve#
-* [term]#Dodge#
-* [term]#Focus#
-* [term]#Frighten#
-* [term]#Hack and Slash#
-* [term]#Lead#
-* [term]#Notice#
-* [term]#Sneak#
-* [term]#Study#
-* [term]#Sway#
-* [term]#Treat#
-* [term]#Wrestle#
-
-Your <<_paths,[term]#paths#>> will determine your abilities.
-Using an ability gives a +1D bonus to <<_taking_action,[term]#taking action#>>.
-
-=== Aim and Shoot
-
-=== Care
-
-=== Charm
-
-=== Command
-
-=== Contort
-
-=== Deceieve
-
-=== Dodge
-
-=== Focus
-
-=== Frighten
-
-=== Hack and Slash
-
-=== Lead
-
-=== Notice
-
-=== Sneak
-
-=== Study
-
-=== Sway
-
-=== Treat
-
-=== Wrestle
-
 == Vices
 
 Vices are not limited to the ones below, but these are a popular list of vices many choose.
 
-Substances:: You succumb easily to drugs and alcohol and always find them to ease the pains of adventuring life.
-Coin:: You seek to get more and more coin, ignoring the moral or ethical implications for you or others to get it.
-Flesh:: You seek the pleasure of certain intimate company, no matter how little they actually care for you.
-Ego:: You want others to notice how great you are at the things you do, even if you aren't great at all.
+Drainage:: You seek the darkness and for no tomorrow.
+Ego:: You seek to display opulence.
+Gambling:: You seek thrills from chance.
+Idealism:: You seek serving an unseen force.
+Rebellion:: You seek to undermine authority.
+Pleasure:: You seek escape and gratification through flesh, food, drugs, and art.
+Unknown:: You seek the weird, foreign, taboo, and strange.
 
 == Kin
 
@@ -986,10 +921,6 @@ endif::[]
 
 Your paths give you access to talents.
 Talents have two key things to note about them: Their [term]#tier# and their XP cost.
-You can always access [term]#tier I# talents and can take them as long as you spend their required XP cost.
-To gain an ability in [term]#tier II# or above you must have N+2 talents of the previous [term]#tier# where N is the number of talents you already have in the [term]#tier# of the ability you are choosing.
-For example, in order to gain your first [term]#tier II# ability, you must have two [term]#tier I# talents.
-In order to gain a second [term]#tier III# ability, you must have at least three [term]#tier II# talents which means you must have at least four [term]#tier I# talents.
 
 == Novice Paths
 
@@ -1196,7 +1127,7 @@ endif::[]
 == Careers
 
 Your careers represent what you were before you decided to become an adventurer.
-They provide one unique [term]#secondary ability#, some starting [term]#coin#, and starting [term]#equipment#.
+They provide some starting [term]#coin# and [term]#equipment#.
 
 * *If you are a young adult*, roll once on the careers table.
 * *If you are middle-aged*, roll twice. Only keep one skill, but take all coin and gear you want.
