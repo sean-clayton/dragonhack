@@ -215,7 +215,7 @@ If you have an opportunity to make a hard move, that doesn't mean you can't make
 
 .Examples of hard moves in a social encounter
 * Use up their resources...
-** Mark exertion for the stress induced by the other party.
+** Mark grit for the stress induced by the other party.
 
 === Rolling Dice
 
@@ -553,7 +553,7 @@ endif::[]
 [.lead]
 When your character resists the consequences of their actions...
 
-[term]#Mark 1 exertion#.
+[term]#Mark 1 grit#.
 
 The GM chooses two attributes.
 Roll 1D for each point in both attributes.
@@ -561,16 +561,16 @@ Roll 1D for each point in both attributes.
 [horizontal]
 * **Critical Hit:**
   You avoid all consequences and you are now in control of the situation.
-  [term]#Gain 1 exertion# back.
+  [term]#Gain 1 grit# back.
 * **Hit:**
   The consequence is avoided.
 * **Weak Hit:**
   The consequence is reduced.
   If taking damage, take half damage.
-  You can [term]#mark 1 exertion# to avoid it completely.
+  You can [term]#mark 1 grit# to avoid it completely.
 * **Miss:**
   The consequence still happens.
-  You can [term]#mark 1 exertion# to avoid reduce (half damage if taking damage) it or [term]#mark 2 exertion# to avoid it completely.
+  You can [term]#mark 1 grit# to avoid reduce (half damage if taking damage) it or [term]#mark 2 grit# to avoid it completely.
 --
 
 ==== Death
@@ -587,7 +587,7 @@ When your allies take a look at your body within w[2D] hours of you reaching 0HP
 *On a critical hit*, you strongly gasp as they turn you over and you must explain to everyone how it wasn't as bad as it looked.
 You regain +HD HP (minimum 1).
 *On a strong hit*, you are barely breathing and are in dire need of aid.
-You regain 1HP and your exertion is set to max.
+You regain 1HP and your grit is set to max.
 *On a weak hit*, you are alive just enough to say some last words.
 *On a miss*, you are dead.
 --
@@ -761,17 +761,17 @@ Shadow:: Sneakiness, deceptiveness, and cunning.
 Wits:: Focus, intellect, and perception.
 Heart:: Leadership, drive, and compassion.
 
-== Exertion
+== Grit
 
-Exertion represents the amount of effort, physical or mental, you can exert while adventuring.
-When you [term]#mark exertion#, you add exertion against your maximum exertion.
+Grit represents the amount of effort, physical or mental, you can exert while adventuring.
+When you [term]#mark grit#, you add grit against your maximum grit.
 
-When you are at max exertion and you have to [term]#mark exertion#, you're [term]#broken# and can no longer act.
+When you are at max grit and you have to [term]#mark grit#, you're [term]#broken# and can no longer act.
 This means you are either physically battered and unconscious, emotionally unavailable, mentally drained, or otherwise completely exhausted.
 Regardless, when you are broken you are out of any scene you currently are in and all scenes going forward, and are susceptible to a [term]#coup de grace#, which means all damage done to you is quadrupled.
 You cannot perform a [term]#death move# if you are reduced to 0HP during a [term]#coup de grace#.
 
-You are broken until you somehow regain [term]#exertion#.
+You are broken until you somehow clear [term]#grit#.
 
 === Come To
 
@@ -779,9 +779,9 @@ You are broken until you somehow regain [term]#exertion#.
 [move]
 --
 [.lead]
-When you are at max exertion, and you are still alive after w[2D] hours...
+When you are at max grit, and you are still alive after w[2D] hours...
 
-You [term]#gain 1 exertion# back.
+You clear [term]#1 grit#.
 --
 
 == Hit Points and Hit Dice
@@ -928,7 +928,7 @@ There are four novice paths: The warrior, the mystic, the scoundrel, and the dev
 
 === The Warrior
 
-You start with 10 maximum [term]#exertion#.
+You start with 10 maximum [term]#grit#.
 
 .Warrior Talents
 * *Talent name* - Description
@@ -944,7 +944,7 @@ You start with 10 maximum [term]#exertion#.
 
 === The Mystic
 
-You start with 6 maximum [term]#exertion#.
+You start with 6 maximum [term]#grit#.
 
 You gain access to <<_mysticism, mysticism>>.
 
@@ -962,7 +962,7 @@ You gain access to <<_mysticism, mysticism>>.
 
 === The Scoundrel
 
-You start with 8 maximum [term]#exertion#.
+You start with 8 maximum [term]#grit#.
 
 .Scoundrel Talents
 * *Talent name* - Description
@@ -978,7 +978,7 @@ You start with 8 maximum [term]#exertion#.
 
 === The Devoted
 
-You start with 8 available [term]#exertion#.
+You start with 8 available [term]#grit#.
 
 .Devoted Talents
 * *Talent name* - Description
@@ -1538,11 +1538,12 @@ Huge:: It's as big as a small house or larger
 Better to rule in hell than serve in heaven.
 
 *HP* 6. *Armor* 1.
+*Tier* I.
 _Minion_, _Intelligent_, _Organized_.
 
 .Hard Moves
 * *Wicked dagger* - 
-  *Damage* 4.
+  *Damage* Minor.
   _Close_.
 
 .Soft Moves
@@ -1558,11 +1559,12 @@ _Minion_, _Intelligent_, _Organized_.
 Better to rule in hell than serve in heaven.
 
 *HP* 12. *Armor* 1.
+*Tier* III.
 _Solitary_, _Intelligent_, _Organized_.
 
 .Hard Moves
 * *Sharpened dagger* - 
-  *Damage* 6.
+  *Damage* Moderate.
   _Close_.
 
 .Soft Moves
@@ -1625,6 +1627,7 @@ _Tag_.
 [monster]
 --
 *HP* 16.
+*Tier* II.
 _Solitary_, _Large_, _Intelligent_.
 
 .Hard Moves
@@ -1632,10 +1635,9 @@ _Solitary_, _Large_, _Intelligent_.
   *Damage* 7.
   *AP* 1.
 * **Tail Whip** -
-  *Damage* 4.
+  *Damage* Moderate.
 * **Poisonous Barbs (miss)** -
-  *Poison Damage* 3.
-  *Resist* +force.
+  *Poison Damage* Minor.
 
 *Instinct:* To seize prey and carry off.
 --
@@ -1644,11 +1646,12 @@ _Solitary_, _Large_, _Intelligent_.
 [monster]
 --
 *HP* 3.
+*Tier* I.
 _Minion_, _Small_, _Stealthy_, _Organized_.
 
 .Hard Moves
 * **Spear or Dagger** -
-  *Damage* 3.
+  *Damage* Minor.
 
 .Soft Moves
 * Lay a trap.
