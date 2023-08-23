@@ -18,12 +18,22 @@ jobs:
           cp -r fonts/* dist/fonts/
           cp -r images/* dist/images/
           cp {LICENSE-AGPL,LICENSE-CC-BY-SA-4.0} dist
+     - name: Upload dist
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist
   build:
     runs-on: ubuntu-latest
     container:
       image: docker.io/asciidoctor/docker-asciidoctor:latest
     needs: prepare
     steps:
+      - uses: actions/checkout@v3
+      - name: Download dist
+        uses: actions/download-artifact@v3
+        with:
+          name: dist
       - id: adocbuild
         name: Build book
         run: |
