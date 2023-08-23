@@ -30,7 +30,7 @@ jobs:
         with:
           program: |
             gem install asciidoctor-multipage
-            asciidoctor -a toc=left -o dist/index.html dragonhack.adoc
+            asciidoctor -a toc=left -D dist dragonhack.adoc
       - name: Archive artifacts
         uses: actions/upload-pages-artifact@v1
         with:
