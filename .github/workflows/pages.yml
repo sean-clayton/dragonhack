@@ -28,7 +28,9 @@ jobs:
       - id: adocbuild
         uses: tonynv/asciidoctor-action@master
         with:
-          program: "asciidoctor -a toc=left -o dist/index.html dragonhack.adoc"
+          program: |
+            gem install asciidoctor-multipage
+            asciidoctor -a toc=left -o dist/index.html dragonhack.adoc
       - name: Archive artifacts
         uses: actions/upload-pages-artifact@v1
         with:
