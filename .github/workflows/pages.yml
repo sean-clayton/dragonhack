@@ -31,7 +31,7 @@ jobs:
           program: |
             gem install asciidoctor-multipage
             mv dragonhack.adoc index.adoc
-            asciidoctor -a toc=left -D dist index.adoc
+            asciidoctor-multipage -a toc=left -D dist index.adoc
       - name: Archive artifacts
         uses: actions/upload-pages-artifact@v1
         with:
