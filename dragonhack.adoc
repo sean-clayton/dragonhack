@@ -55,7 +55,7 @@ https://www.drivethrurpg.com/product/427272/Maze-World[Maze World] by Jasper Win
 
 https://game-icons.net/1x1/delapouite/spiked-dragon-head.html[Spiked dragon head icon] in the {doctitle} logo by https://delapouite.com/[Delapouite], licensed for our use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
 
-<<<
+'''
 
 [preface]
 == Preface
@@ -73,8 +73,6 @@ Here is a non-exhaustive list in alphabetical order:
 * ... and the many games derived from those.
 
 If you enjoy {doctitle}, then be sure to check out these other games!
-
-<<<
 
 == Rules
 
