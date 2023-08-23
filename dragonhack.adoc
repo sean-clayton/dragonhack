@@ -727,8 +727,8 @@ At the end of a session, have each person at the table go through the following 
 * XP for someone in the group discovering a settlement, dangerous site, or otherwise storied.
 * XP for someone in the group gaining the trust, gratitude, or other kind of allyship of an NPC.
 * XP for someone in the group making a new enemy who will now be acting against you.
-* XP for every 50 &times; [term]#grit# coin spent and wasted without any in-world gain on your <<_vice,[term]#vices#>> this session.
-* XP for every <<_vice,[term]#vice#>> you succumbed to in a memorable way.
+* XP for every 50 &times; [term]#grit# coin spent and wasted without any in-world gain on your <<_vices,[term]#vices#>> this session.
+* XP for every <<_vices,[term]#vice#>> you succumbed to in a memorable way.
 
 <<_paths, [term]#Paths#>> also provide ways of gaining XP.
 Only characters with those paths can gain XP in those ways.
