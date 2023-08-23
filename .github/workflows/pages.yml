@@ -29,7 +29,6 @@ jobs:
           cp -r images/* dist/images/
           cp {LICENSE-AGPL,LICENSE-CC-BY-SA-4.0} dist
       - id: adocbuild
-        uses: tonynv/asciidoctor-action@master
         run: |
           gem install asciidoctor-multipage
           asciidoctor -a toc=left -o dist/index.html dragonhack.adoc
