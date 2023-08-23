@@ -309,7 +309,7 @@ To create a dice pool for a challenge roll, you use an attribute or other number
 For example, if you roll with the [term]#heart# attribute and its value is 3, this is written as "Roll [term]#+heart#" and you would add 3 to your dice pool.
 
 [sidebar]
-If you ever need to roll but you have zero (or negative) dice, roll two dice and take the single lowest result.
+If you ever need to roll but you have zero (or negative) dice, roll w[2D].
 You can't roll a critical when you have zero dice.
 
 The total of your action dice, your stat, and any additional bonuses is your action score.
@@ -596,25 +596,6 @@ Roll 1D for each point in both attributes.
   You can [term]#mark 1 grit# to avoid reduce (half damage if taking damage) it or [term]#mark 2 grit# to avoid it completely.
 --
 
-==== Death
-
-When your character reaches 0HP, and they do not make a [term]#death move#, they are most likely dead.
-
-.Determine Your Fate
-[move]
---
-[.lead]
-When your allies take a look at your body within w[2D] hours of you reaching 0HP...
-
-[term]#Roll fortune +heart#, whichever is higher.
-*On a critical hit*, you strongly gasp as they turn you over and you must explain to everyone how it wasn't as bad as it looked.
-You regain +HD HP (minimum 1).
-*On a strong hit*, you are barely breathing and are in dire need of aid.
-You regain 1HP and your grit is set to max.
-*On a weak hit*, you are alive just enough to say some last words.
-*On a miss*, you are dead.
---
-
 === Progress Tracks
 
 A progress track is a multi-segment track.
@@ -818,6 +799,48 @@ You are broken until you clear [term]#grit# through the [term]#come to# move or 
 When you are at max grit, and you are still alive after w[2D] hours...
 
 You clear [term]#1 grit#.
+--
+
+== Harm, Damage, and Death
+
+You suffer [term]#harm# when [term]#taking damage#.
+When you take damage, you compare that to the damage thresholds of your harm.
+The GM will tell you the type of harm you suffered.
+
+* *Tier III* harm is 8 + [term]#force# or higher.
+* *Tier II* harm is 4 + [term]#force# or higher.
+* *Tier I* harm is 1 or higher.
+
+The amount of harm you can take in each tier can change as you gain talents, but everyone starts with the following available boxes:
+
+* *Tier III:* 1.
+* *Tier II:* 1 + [term]#force#.
+* *Tier I:* 2 + [term]#force#.
+
+When you take action apply penalties to the roll as appropriate.
+
+* *Lesser effect* Your rolls are less effective.
+* *-1D* You use 1 fewer die on affected rolls.
+* *Disabled* You cannot take any action unassisted without [term]#marking 2 grit#.
+
+If you have to take harm and there are no boxes available to fill, fill a box of a tier higher instead.
+If you take harm and cannot mark a box, you are [term]#doomed#.
+
+When your character becomes [term]#doomed#, and they do not make a [term]#death move#, they are most likely dead.
+
+.Determine Your Fate
+[move]
+--
+[.lead]
+When your allies take a look at your body within w[2D] hours of you becoming [term]#doomed#...
+
+[term]#Roll fortune +heart#.
+
+* *On a critical hit*, you strongly gasp as they turn you over and you must explain to everyone how it wasn't as bad as it looked.
+* *On a strong hit*, you are barely breathing and are in dire need of aid.
+  Your grit is set to max.
+* *On a weak hit*, you are alive just enough to say some last words.
+* *On a miss*, you are dead.
 --
 
 == Vices
