@@ -242,7 +242,7 @@ html {
 html,
 body {
   background-color: white;
-  color: black;
+  color: rgb(59 59 59);
 }
 
 html,
@@ -253,14 +253,14 @@ h3,
 h4,
 h5,
 h6 {
-  color: inherit;
+  color: rgb(59 59 59);
   font-family: var(--primary-font-family);
 }
 
 h1,
 h2,
 h3 {
-  color: inherit;
+  color: rgb(59 59 59);
   font-family: var(--heading-font-family);
 }
 
@@ -287,7 +287,7 @@ dt {
     .admonitionblock td.content
   )
   .title {
-  color: black;
+  color: rgb(59 59 59);
   font-family: var(--heading-secondary-font-family);
   font-style: normal;
   font-weight: bold;
@@ -305,7 +305,7 @@ table.tableblock > .title {
   font-size: larger;
   text-decoration-thickness: 2px;
   padding: 0 0.25rem;
-  background-color: black;
+  background-color: rgb(59 59 59);
   margin: 0;
 }
 
@@ -343,6 +343,7 @@ a {
 
 p {
   text-align: justify;
+  margin-bottom: 0.5rem;
 }
 
 :is(h1, h2, h3, h4, h5, h6) a.anchor {
@@ -427,10 +428,6 @@ li p {
   margin: 0.25rem 0;
 }
 
-ul li:has(p) {
-  list-style-type: "◤ ";
-}
-
 .term {
   font-family: var(--term-font-family);
   font-weight: 700;
@@ -481,13 +478,18 @@ summary {
   font-size: 1rem;
 }
 
-td.hdlist1 {
-  white-space: nowrap;
+ul,
+ol,
+dl {
+  line-height: 1;
 }
 
-#logo {
+li p {
   margin: 0;
-  margin-bottom: -2rem;
+}
+
+td.hdlist1 {
+  white-space: nowrap;
 }
 
 #subtitle p {

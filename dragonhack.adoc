@@ -30,7 +30,30 @@ v1: PRE-ALPHA DRAFT
 :favicon: images/dragonhack-logo.svg
 :repo-url: https://github.com/sean-clayton/dragonhack
 
-image::dragonhack-logotype.svg[Static,480,id=logo,alt=DragonHack,link=#]
+image::dragonhack-logotype.svg[Static,640,id=logo,alt=DragonHack]
+
+[.lead]
+Created by Sean-Patrick Ortencio Clayton.
+
+'''
+
+The entirety of {doctitle} is licensed under the link:LICENSE-CC-BY-SA-4.0[Creative Commons Attribution-ShareAlike 4.0 International license].
+
+The {repo-url}[source code of {doctitle}] is licensed under the link:LICENSE-AGPL[GNU Affero General Public license].
+
+'''
+
+{doctitle} includes material from:
+
+https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
+
+https://dungeon-world.com/[Dungeon World] by Sage LaTorra and Adam Koebel, licensed for our use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
+
+https://www.ironswornrpg.com[Ironsworn] by Shawn Tomkin, licensed for our use under the https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License].
+
+https://www.drivethrurpg.com/product/427272/Maze-World[Maze World] by Jasper Winters, licensed for our use under the https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International license].
+
+https://game-icons.net/1x1/delapouite/spiked-dragon-head.html[Spiked dragon head icon] in the {doctitle} logo by https://delapouite.com/[Delapouite], licensed for our use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
 
 <<<
 
@@ -287,7 +310,7 @@ For example, if you roll with the [term]#heart# attribute and its value is 3, th
 
 [sidebar]
 If you ever need to roll but you have zero (or negative) dice, roll two dice and take the single lowest result.
-You can’t roll a critical when you have zero dice.
+You can't roll a critical when you have zero dice.
 
 The total of your action dice, your stat, and any additional bonuses is your action score.
 
@@ -583,7 +606,7 @@ When your character reaches 0HP, and they do not make a [term]#death move#, they
 [.lead]
 When your allies take a look at your body within w[2D] hours of you reaching 0HP...
 
-[term]#Roll fortune +heart or +force#, whichever is higher.
+[term]#Roll fortune +heart#, whichever is higher.
 *On a critical hit*, you strongly gasp as they turn you over and you must explain to everyone how it wasn't as bad as it looked.
 You regain +HD HP (minimum 1).
 *On a strong hit*, you are barely breathing and are in dire need of aid.
@@ -703,16 +726,17 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
 == Character Creation
 
 . *Envision* your character
-. Choose a <<_kin,[term]#kin#>> and determine their [term]#age#.
+. Choose a <<_kin,[term]#kin#>> and determine your [term]#age#.
 . Set your <<_attributes,[term]#attributes#>> by distributing these points across [term]#force#, [term]#edge#, [term]#shadow#, [term]#wits#, and [term]#heart#.
   You cannot have more than 2 points in a single attribute.
   * *Young adult:* 4 points.
   * *Middle-aged:* 3 points.
   * *Old:* 2 points.
-. Determine your [term]#hit dice value# according to your attributes.
-  * *If [term]#force# is 2*, your hit dice value is 4.
-  * *If [term]#wits# is 2*, your hit dice value is 8.
-  * In all other cases, your hit dice value is 6.
+. Determine your max [term]#grit#, which is 4 + [term]#force#.
+. Determine your [term]#base grit cost# according to your attributes.
+.. *If your [term]#force# is 2*, your base grit cost is *4*.
+.. *If your [term]#wits# is 2*, your base grit cost is *8*.
+.. *In all other cases*, your base grit cost is *6*.
 . Choose <<_vices,[term]#vices#>> according to your age.
   * *Young adult:* 1 vice.
   * *Middle-aged/Old:* 2 vices.
@@ -721,15 +745,14 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
   * *Middle-aged/Old:* 1 focus path. Assume the narrative requirement of that path is in your character's backstory.
 . Gain XP according to your age that you can spend now if you wish, or keep for later.
   * *Young adult:* 8XP.
-  * *Middle-aged:* 16XP.
-  * *Old:* 24XP.
-. Roll your <<_careers,[term]#careers#>>, purchase additional <<_equipment, [term]#equipment#>>, and mark your <<_speed,[term]#speed#>>.
-  The career titles you  become [term]#secondary skills#.
-  You start with 10c and, in addition, gain all coin and equipment from your careers.
-  * *Young adult:* Roll once on the careers table.
-  * *Middle-aged:* Pick one and then roll once on the careers table.
-  * *Old:* Pick two and then roll once on the careers table.
+  * *Middle-aged:* 12XP.
+  * *Old:* 16XP.
+. Determine your <<_backgrounds,[term]#backgrounds#>>.
+  * *Young adult:* Roll once on the backgrounds table.
+  * *Middle-aged:* Pick twice on the backgrounds table.
+  * *Old:* Pick three times on the backgrounds table.
 . Fill out personal information such as your name and other details.
+. Purchase any additional equipment and determine your <<_speed,[term]#speed#>>. You begin with 10c in addition to all coin and equipment of your choice from your backgrounds.
 
 == Experience and the End of a Session
 
@@ -761,17 +784,30 @@ Shadow:: Sneakiness, deceptiveness, and cunning.
 Wits:: Focus, intellect, and perception.
 Heart:: Leadership, drive, and compassion.
 
+=== Conditions
+
+Each attribute can have a negative condition applied to it.
+When an attribute has its associated condition marked, you take a -1D penalty to all rolls which use that attribute.
+
+* *Weak* reduces your [term]#force#.
+* *Slow* reduces your [term]#edge#.
+* *Clumsy* reduces your [term]#shadow#.
+* *Shaken* reduces your [term]#wits#.
+* *Cold* reduces your [term]#heart#.
+
 == Grit
 
 Grit represents the amount of effort, physical or mental, you can exert while adventuring.
 When you [term]#mark grit#, you add grit against your maximum grit.
+
+You begin with [term]#4 grit + force#.
 
 When you are at max grit and you have to [term]#mark grit#, you're [term]#broken# and can no longer act.
 This means you are either physically battered and unconscious, emotionally unavailable, mentally drained, or otherwise completely exhausted.
 Regardless, when you are broken you are out of any scene you currently are in and all scenes going forward, and are susceptible to a [term]#coup de grace#, which means all damage done to you is quadrupled.
 You cannot perform a [term]#death move# if you are reduced to 0HP during a [term]#coup de grace#.
 
-You are broken until you somehow clear [term]#grit#.
+You are broken until you clear [term]#grit# through the [term]#come to# move or some other way.
 
 === Come To
 
@@ -783,30 +819,6 @@ When you are at max grit, and you are still alive after w[2D] hours...
 
 You clear [term]#1 grit#.
 --
-
-== Hit Points and Hit Dice
-
-Every character starts with 6 hit points (HP) and 0 hit dice (HD).
-[term]#Hit dice# provide a way of determining your vitality and also boost your HP.
-Whenever you gain HD, roll the amount of HD gained in dice and add that to your current HP.
-Whenever you re-roll your health, you roll a number of dice equal to your total HD, add 6, and that is your new health.
-For example, if you have 2HD, you would roll 2D+6.
-
-Sometimes you can add [term]#HD# to a roll (often with damage).
-This is notated as +HD.
-This means you roll dice like normal, and then add the amount of [term]#hit dice# you have to the total of the roll.
-For example, if you are rolling 1D+HD and you have 2HD, then you are rolling 1D+2.
-
-Sometimes you can roll [term]#HD# and add the result to a roll (often with damage).
-This is notated as &times;HD.
-This means you roll dice like normal, but also add your number of HD to the dice rolled.
-For example, if you are rolling 2D while something grants you &times;HD for that roll and you have 2HD, then you are rolling 4D.
-
-=== Gaining Hit Dice
-
-To increase the amount of hit dice for a character, spend XP equal to the amount of hit dice you _will_ have, multiplied by your <<_character_creation,[term]#hit dice value#>>.
-
-For example, if your hit dice value is 6, and you currently have 3 HD, but want to purchase your 4th HD, then the cost is 6 (value) &times; 4 (the amount of HD you will have after purchasing), which equals 24XP.
 
 == Vices
 
@@ -1124,126 +1136,126 @@ endif::[]
 * *Talent name* - Description
 * *Talent name* - Description
 
-== Careers
+== Backgrounds
 
-Your careers represent what you were before you decided to become an adventurer.
+Your backgrounds represent what you were doing before you decided to become an adventurer.
 They provide some starting [term]#coin# and [term]#equipment#.
 
-* *If you are a young adult*, roll once on the careers table.
-* *If you are middle-aged*, roll twice. Only keep one skill, but take all coin and gear you want.
-* *If you are old*, roll three times. Only keep one skill, but take all coin and gear you want.
+* *If you are a young adult*, roll once on the backgrounds table.
+* *If you are middle-aged*, pick twice on the backgrounds table.
+* *If you are old*, pick three times on the backgrounds table.
 
-.Careers Table
+.Backgrounds Table
 |===
-|d66|Job title and starting gear
+|d66|Background and starting gear
 
 |11
 |*Acolyte* candlestick, censer, incense, 1D coin.
 
 |12
-|*Career title* stuff
+|*Background* stuff
 
 |13
-|*Career title* stuff
+|*Background* stuff
 
 |14
-|*Career title* stuff
+|*Background* stuff
 
 |15
-|*Career title* stuff
+|*Background* stuff
 
 |16
-|*Career title* stuff
+|*Background* stuff
 
 |21
-|*Career title* stuff
+|*Background* stuff
 
 |22
-|*Career title* stuff
+|*Background* stuff
 
 |23
-|*Career title* stuff
+|*Background* stuff
 
 |24
-|*Career title* stuff
+|*Background* stuff
 
 |25
-|*Career title* stuff
+|*Background* stuff
 
 |26
-|*Career title* stuff
+|*Background* stuff
 
 |31
-|*Career title* stuff
+|*Background* stuff
 
 |32
-|*Career title* stuff
+|*Background* stuff
 
 |33
-|*Career title* stuff
+|*Background* stuff
 
 |34
-|*Career title* stuff
+|*Background* stuff
 
 |35
-|*Career title* stuff
+|*Background* stuff
 
 |36
-|*Career title* stuff
+|*Background* stuff
 
 |41
-|*Career title* stuff
+|*Background* stuff
 
 |42
-|*Career title* stuff
+|*Background* stuff
 
 |43
-|*Career title* stuff
+|*Background* stuff
 
 |44
-|*Career title* stuff
+|*Background* stuff
 
 |45
-|*Career title* stuff
+|*Background* stuff
 
 |46
-|*Career title* stuff
+|*Background* stuff
 
 |51
-|*Career title* stuff
+|*Background* stuff
 
 |52
-|*Career title* stuff
+|*Background* stuff
 
 |53
-|*Career title* stuff
+|*Background* stuff
 
 |54
-|*Career title* stuff
+|*Background* stuff
 
 |55
-|*Career title* stuff
+|*Background* stuff
 
 |56
-|*Career title* stuff
+|*Background* stuff
 
 |61
-|*Career title* stuff
+|*Background* stuff
 
 |62
-|*Career title* stuff
+|*Background* stuff
 
 |63
-|*Career title* stuff
+|*Background* stuff
 
 |64
-|*Career title* stuff
+|*Background* stuff
 
 |65
-|*Career title* stuff
+|*Background* stuff
 
 |66
-|*Career title* stuff
+|*Background* stuff
 |===
 
 == Equipment
@@ -1535,49 +1547,57 @@ Huge:: It's as big as a small house or larger
 .Acolyte
 [monster]
 --
-Better to rule in hell than serve in heaven.
+*HP* 6. *Armor* 0.
+_Troop_, _Intelligent_, _Organized_.
 
-*HP* 6. *Armor* 1.
-*Tier* I.
-_Minion_, _Intelligent_, _Organized_.
+[.lead]
+"`Can't all be the High Priest, they said. Can't all wield the White Spire, they said. Scrub the floor, they told me. The Cthonic Overgod don't want a messy floor, do he? They said it'd be enlightenment and magic. Feh. It's bruised knees and dishpan hands. If only I'd been a cleric, instead.`"
 
-.Hard Moves
-* *Wicked dagger* - 
-  *Damage* Minor.
-  _Close_.
-
-.Soft Moves
-* Follow dogma
-* Offer eternal reward for mortal deeds
+'''
 
 *Instinct:* To serve a master.
+
+*Special Qualities:* --
+
+*Damage:* 2, _Close_
+
+.Actions
+* *Attack with dagger if threatened.*
+* Follow dogma.
+* Offer eternal reward for mortal deeds.
 --
 
 .Bandit Lord
 [monster]
 --
-Better to rule in hell than serve in heaven.
-
 *HP* 12. *Armor* 1.
-*Tier* III.
 _Solitary_, _Intelligent_, _Organized_.
 
-.Hard Moves
-* *Sharpened dagger* - 
-  *Damage* Moderate.
-  _Close_.
+[.lead]
+Better to rule in hell than serve in heaven.
 
-.Soft Moves
-* Make a demand
-* Extort
-* Topple power
+'''
 
 *Instinct:* To lead
+
+*Special Qualities:* --
+
+*Damage* 6, _Close_.
+
+.Actions
+* *Attack with his sharpened dagger.*
+* Make a demand.
+* Extort.
+* Topple power.
 --
 
 .Guard
 [monster]
 --
+*HP* 6. *Armor* 1.
+_Troop_, _Organized_.
+
+[.lead]
 Noble protector or merely drunken lout, it often makes no difference to these sorts.
 Falling shy of a noble knight, the proud town guard is an ancient profession nonetheless.
 These folks of the constabulary often dress in the colors of their lord (when you can see it under the mud) and, depending on the richness of that lord, might even have a decent weapon and some armor that fits.
@@ -1585,23 +1605,64 @@ Those are the lucky ones.
 Even so, someone has to be there to keep an eye on the gate when the Black Riders have been spotted in the woods.
 Too many of us owe our lives to these souls--remember that the next time one is drunkenly insulting your mother, hmm?
 
-*HP* 1. *Armor* 1.
-_Tag_.
+'''
 
-.Hard Moves
-* *Attack Name* - 
-  *Damage* DAMAGE.
-  _Tag_.
+*Instinct:* To have an uneventful shift.
 
-.Soft Moves
-* MOVE
+*Special Qualities:* --
 
-*Instinct:* INSTINCT
+*Damage* 4, _Close_, _Piercing 1_.
+
+.Actions
+* *Attack with spear.*
+* Uphold the law.
+* Make a profit.
+--
+
+.Guard Captain
+[monster]
+--
+*HP* 9. *Armor* 2.
+_Leader_, _Organized_.
+
+'''
+
+*Instinct:* To fight crime.
+
+*Special Qualities:* --
+
+*Damage* 6, _Close_.
+
+.Actions
+* *Attack with sword.*
+* Bark orders .
+* Make a profit.
 --
 
 === People, Magical
 
 === Undead
+
+.Lich
+[monster]
+--
+*HP* 16. *Armor* 5.
+_Solitary_, _Magical_, _Cautious_, _Intelligent_, _Hoarder_, _Construct_.
+
+'''
+
+*Instinct:* To un-live.
+
+*Special Qualities:* Unaffected by non-magical weapons, Animastus.
+
+*Damage* 8, ignore armor, _Near_, _Far_.
+
+.Actions
+* *Attack with magical force.*
+* Cast a perfected spell of death or destruction.
+* Set a ritual or great working into motion.
+* Reveal a preparation or plan already completed.
+--
 
 ==== Draugr
 
@@ -1627,49 +1688,30 @@ _Tag_.
 [monster]
 --
 *HP* 16.
-*Tier* II.
 _Solitary_, _Large_, _Intelligent_.
 
-.Hard Moves
-* **Claws & Bite** -
-  *Damage* 7.
-  *AP* 1.
-* **Tail Whip** -
-  *Damage* Moderate.
-* **Poisonous Barbs (miss)** -
-  *Poison Damage* Minor.
-
 *Instinct:* To seize prey and carry off.
+
+*Damage* 7, _Reach_.
+
+.Actions
+* *Bite.*
+* Swoop in.
+* Sting with poison.
 --
 
 .Kobold
 [monster]
 --
 *HP* 3.
-*Tier* I.
 _Minion_, _Small_, _Stealthy_, _Organized_.
 
-.Hard Moves
-* **Spear or Dagger** -
-  *Damage* Minor.
+*Instinct:* To serve a dragon.
 
-.Soft Moves
+*Damage* 3, _Close_.
+
+.Actions
 * Lay a trap.
 * Call on dragons or draconic allies.
 * Retreat and regroup.
-
-*Instinct:* To serve a dragon.
 --
-
-== Legal
-
-The material and content of {doctitle} is licensed under the link:LICENSE-CC-BY-SA-4.0[Creative Commons Attribution-ShareAlike 4.0 International license].
-The {repo-url}[source code of {doctitle}] is licensed under the link:LICENSE-AGPL[GNU Affero General Public license].
-
-{doctitle} uses the work of https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
-
-{doctitle} uses the work of https://www.ironswornrpg.com[Ironsworn] by Shawn Tomkin, licensed for our use under the https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License].
-
-{doctitle} uses the work of https://dungeon-world.com/[Dungeon World] by Sage LaTorra and Adam Koebel, licensed for our use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
-
-Spiked dragon head icon in the {doctitle} logo by https://delapouite.com/[Delapouite] under http://creativecommons.org/licenses/by/3.0/[CC BY 3.0].
