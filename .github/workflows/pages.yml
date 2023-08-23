@@ -1,21 +1,14 @@
 name: GitHub Pages Publish
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the main branch
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  prepare:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
@@ -25,10 +18,14 @@ jobs:
           cp -r fonts/* dist/fonts/
           cp -r images/* dist/images/
           cp {LICENSE-AGPL,LICENSE-CC-BY-SA-4.0} dist
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/asciidoctor/docker-asciidoctor:latest
+    needs: prepare
+    steps:
       - id: adocbuild
         name: Build book
-        container:
-          image: docker.io/asciidoctor/docker-asciidoctor:latest
         run: |
           gem install asciidoctor-multipage
           asciidoctor -a toc=left -o dist/index.html dragonhack.adoc
