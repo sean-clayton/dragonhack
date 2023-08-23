@@ -366,19 +366,6 @@ You spend [term]#surge# on [term]#surge moves#.
 Any [term]#surge# you do not use during the move, you do not maintain.
 --
 
-===== Critical Damage
-
-You always have access to the _Critical Damage_ [term]#surge move#.
-
-.Surge Move: Critical Damage (2 Surge)
-[move]
---
-[.lead]
-When you are dealing damage...
-
-You can [term]#roll &times;HD# and add that to your damage total.
---
-
 ==== GMs and the Dice
 
 If you are playing as a GM, you can focus on guiding the game and responding to your player's questions and actions.
@@ -707,33 +694,30 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
 == Character Creation
 
 . *Envision* your character
-. Choose a <<_kin,[term]#kin#>> and determine your [term]#age#.
-. Set your <<_attributes,[term]#attributes#>> by distributing these points across [term]#force#, [term]#edge#, [term]#shadow#, [term]#wits#, and [term]#heart#.
-  You cannot have more than 2 points in a single attribute.
-  * *Young adult:* 4 points.
-  * *Middle-aged:* 3 points.
-  * *Old:* 2 points.
-. Determine your max [term]#grit#, which is 4 + [term]#force#.
-. Determine your [term]#base grit cost# according to your attributes.
-.. *If your [term]#force# is 2*, your base grit cost is *4*.
-.. *If your [term]#wits# is 2*, your base grit cost is *8*.
-.. *In all other cases*, your base grit cost is *6*.
-. Choose <<_vices,[term]#vices#>> according to your age.
-  * *Young adult:* 1 vice.
-  * *Middle-aged/Old:* 2 vices.
+. Choose a <<_kin,[term]#kin#>>, determine your [term]#age#, and roll for your <<_origins,[term]#origin#>>.
+. Set your <<_attributes,[term]#attributes#>> by distributing these array of points across [term]#force#, [term]#edge#, [term]#shadow#, [term]#wits#, and [term]#heart#.
+  * *Young adult:* 2, 2, 1, 1, 0.
+  * *Middle-aged:* 2, 1, 1, 1, 0.
+  * *Old:* 2, 1, 1, 0, 0.
+. Set your max [term]#grit# to 4.
+. Determine your <<_harm_damage_and_death,harm>> stats.
+  * *Tier III* damage threshold is 8 + force or higher, and you begin with 1 box available.
+  * *Tier II* damage threshold is 4 + force or higher, and you begin with, and you begin with 1 + [term]#force# boxes available.
+  * *Tier I* damage threshold is 1 or higher, and you begin with, and you begin with 2 + [term]#force# boxes available.
+. Choose a <<_vices,[term]#vices#>>.
 . Choose your <<_core_paths,[term]#core path#>>, and then your <<_focus_paths,[term]#focus path#>> according to your age.
   * *Young adult:* No focus paths.
   * *Middle-aged/Old:* 1 focus path. Assume the narrative requirement of that path is in your character's backstory.
-. Gain XP according to your age that you can spend now if you wish, or keep for later.
-  * *Young adult:* 8XP.
-  * *Middle-aged:* 12XP.
-  * *Old:* 16XP.
 . Determine your <<_backgrounds,[term]#backgrounds#>>.
   * *Young adult:* Roll once on the backgrounds table.
   * *Middle-aged:* Pick twice on the backgrounds table.
   * *Old:* Pick three times on the backgrounds table.
+. Purchase any additional equipment and determine your <<_speed,[term]#speed#>>.
+  You begin with 10c in addition to all coin and equipment of your choice from your backgrounds. You also gain XP according to your age that you can spend now if you wish, or keep for later.
+  * *Young adult:* 8XP.
+  * *Middle-aged:* 12XP.
+  * *Old:* 16XP.
 . Fill out personal information such as your name and other details.
-. Purchase any additional equipment and determine your <<_speed,[term]#speed#>>. You begin with 10c in addition to all coin and equipment of your choice from your backgrounds.
 
 == Experience and the End of a Session
 
@@ -745,7 +729,7 @@ At the end of a session, have each person at the table go through the following 
 * XP for someone in the group discovering a settlement, dangerous site, or otherwise storied.
 * XP for someone in the group gaining the trust, gratitude, or other kind of allyship of an NPC.
 * XP for someone in the group making a new enemy who will now be acting against you.
-* XP for every 100 &times; HD (minimum 100) coin spent without any in-world gain on your <<_vice,[term]#vices#>> this session.
+* XP for every 50 &times; [term]#grit# coin spent and wasted without any in-world gain on your <<_vice,[term]#vices#>> this session.
 * XP for every <<_vice,[term]#vice#>> you succumbed to in a memorable way.
 
 <<_paths, [term]#Paths#>> also provide ways of gaining XP.
@@ -781,7 +765,7 @@ When an attribute has its associated condition marked, you take a -1D penalty to
 Grit represents the amount of effort, physical or mental, you can exert while adventuring.
 When you [term]#mark grit#, you add grit against your maximum grit.
 
-You begin with [term]#4 grit + force#.
+You begin with 4 grit.
 
 When you are at max grit and you have to [term]#mark grit#, you're [term]#broken# and can no longer act.
 This means you are either physically battered and unconscious, emotionally unavailable, mentally drained, or otherwise completely exhausted.
@@ -800,6 +784,10 @@ When you are at max grit, and you are still alive after w[2D] hours...
 
 You clear [term]#1 grit#.
 --
+
+=== Increasing Max Grit
+
+You can increase your max grit by spending XP.
 
 == Harm, Damage, and Death
 
@@ -936,6 +924,150 @@ Raven/crow/rook people.
 Young Adult:: 14–20
 Middle-Aged:: 21–34
 Old:: 35+
+
+== Origins
+
+Your [term]#origin# is the starting point of your character's life.
+
+.Origins
+|===
+|d66|Origin
+
+|11–13|Origin
+|14–16|Origin
+|21–23|Origin
+|24–26|Origin
+|31–33|Origin
+|34–36|Origin
+|41–43|Origin
+|44–46|Origin
+|51–53|Origin
+|54–56|Origin
+|61–63|Origin
+|64–66|Origin
+|===
+
+== Backgrounds
+
+Your backgrounds represent what you were doing before you decided to become an adventurer.
+They provide some starting [term]#coin#, [term]#equipment#, and a little detail on how your character has lived to this point.
+
+* *If you are a young adult*, roll once on the background table according to your [term]#origin#.
+* *If you are middle-aged*, pick twice on the background table according to your [term]#origin#.
+* *If you are old*, pick three times on the background table according to your [term]#origin#.
+
+.Backgrounds Table
+|===
+|d66|Background and starting gear
+
+|11
+|*Acolyte* candlestick, censer, incense, 1D coin.
+
+|12
+|*Background* stuff
+
+|13
+|*Background* stuff
+
+|14
+|*Background* stuff
+
+|15
+|*Background* stuff
+
+|16
+|*Background* stuff
+
+|21
+|*Background* stuff
+
+|22
+|*Background* stuff
+
+|23
+|*Background* stuff
+
+|24
+|*Background* stuff
+
+|25
+|*Background* stuff
+
+|26
+|*Background* stuff
+
+|31
+|*Background* stuff
+
+|32
+|*Background* stuff
+
+|33
+|*Background* stuff
+
+|34
+|*Background* stuff
+
+|35
+|*Background* stuff
+
+|36
+|*Background* stuff
+
+|41
+|*Background* stuff
+
+|42
+|*Background* stuff
+
+|43
+|*Background* stuff
+
+|44
+|*Background* stuff
+
+|45
+|*Background* stuff
+
+|46
+|*Background* stuff
+
+|51
+|*Background* stuff
+
+|52
+|*Background* stuff
+
+|53
+|*Background* stuff
+
+|54
+|*Background* stuff
+
+|55
+|*Background* stuff
+
+|56
+|*Background* stuff
+
+|61
+|*Background* stuff
+
+|62
+|*Background* stuff
+
+|63
+|*Background* stuff
+
+|64
+|*Background* stuff
+
+|65
+|*Background* stuff
+
+|66
+|*Background* stuff
+|===
 
 == Paths
 
@@ -1159,128 +1291,6 @@ endif::[]
 * *Talent name* - Description
 * *Talent name* - Description
 
-== Backgrounds
-
-Your backgrounds represent what you were doing before you decided to become an adventurer.
-They provide some starting [term]#coin# and [term]#equipment#.
-
-* *If you are a young adult*, roll once on the backgrounds table.
-* *If you are middle-aged*, pick twice on the backgrounds table.
-* *If you are old*, pick three times on the backgrounds table.
-
-.Backgrounds Table
-|===
-|d66|Background and starting gear
-
-|11
-|*Acolyte* candlestick, censer, incense, 1D coin.
-
-|12
-|*Background* stuff
-
-|13
-|*Background* stuff
-
-|14
-|*Background* stuff
-
-|15
-|*Background* stuff
-
-|16
-|*Background* stuff
-
-|21
-|*Background* stuff
-
-|22
-|*Background* stuff
-
-|23
-|*Background* stuff
-
-|24
-|*Background* stuff
-
-|25
-|*Background* stuff
-
-|26
-|*Background* stuff
-
-|31
-|*Background* stuff
-
-|32
-|*Background* stuff
-
-|33
-|*Background* stuff
-
-|34
-|*Background* stuff
-
-|35
-|*Background* stuff
-
-|36
-|*Background* stuff
-
-|41
-|*Background* stuff
-
-|42
-|*Background* stuff
-
-|43
-|*Background* stuff
-
-|44
-|*Background* stuff
-
-|45
-|*Background* stuff
-
-|46
-|*Background* stuff
-
-|51
-|*Background* stuff
-
-|52
-|*Background* stuff
-
-|53
-|*Background* stuff
-
-|54
-|*Background* stuff
-
-|55
-|*Background* stuff
-
-|56
-|*Background* stuff
-
-|61
-|*Background* stuff
-
-|62
-|*Background* stuff
-
-|63
-|*Background* stuff
-
-|64
-|*Background* stuff
-
-|65
-|*Background* stuff
-
-|66
-|*Background* stuff
-|===
-
 == Equipment
 
 The [term]#cost# of equipment is described in coin (Shortened to just [term]#c#).
@@ -1295,18 +1305,39 @@ When you have 100c, it takes up one slot.
 === Tags
 
 [horizontal]
+Applied:: Only useful when carefully applied to a person or object.
 Armor _Value_::
   Reduces damage to you by the value.
-  [term]#Armor-piercing (AP)# can ignore up to the value.
+  [term]#Piercing# ignores up to the value.
   Only the armor with the highest value counts.
++_Value_ Armor::
+  Increases your total armor by the value.
 Blast:: Deals damage to a target and everyone adjacent to it.
+Awkward:: Unwieldy and difficult to use.
 Bulwark _Value_:: Armor with this tag can be used as an armor with this value without counting against its uses.
 Bunch _Value_::
   You can have up to this [term]#quantity# of items with this trait and only take up 1 slot.
   If you wish to carry more of an item with this trait, it must occupy another slot.
+Close:: Can be used against something within arm's reach plus a foot or two.
+Clumsy:: -1D ongoing to [term]#take action# while using this item.
+Dangerous:: Easy to get in trouble with.
+±_Value_ Effect::
+  Modifies effectiveness according to the specified situation.
+Far:: Can be used against something within shouting distance.
+Forceful:: Can knock someone back a step or two--maybe even off their feet.
+Hand:: Can be used against something only within arm's reach.
 Heavy::
   You can only carry up to your [term]#force# in items with this tag.
-Two-Handed:: What it says on the tin. Requires two hands to wield.
+Near:: Can be used against something that you can "see the whites of their eyes.".
+Piercing _Value_:: Ignores _value_ of armor when dealing damage.
++_Value_ Piercing:: Increases [term]#piercing# by _value_ when dealing damage.
+Messy:: When doing damage, it does so destructively--ripping flesh and things apart.
+Reach:: Useful up to several feet awaywhen attacking--maybe as far as ten.
+Reload:: After attacking, you must take more than a moment before you can attack again.
+Slow:: Takes minutes or more to use.
+Stun:: When doing damage, do stun damage instead of normal.
+Thrown:: Can be easily thrown at something.
+Two-Handed:: Requires two hands to wield.
 Uses _Value_::
   You can use this item an amount of times equal to its value.
   It cannot be used further once you have used it that many times until it is repaired by an appropriate source.
@@ -1327,34 +1358,26 @@ Quantity _Value_::
 
 === Armor
 
-All worn armor has an [term]#armor# value.
-You can [term]#use# your armor to reduce damage by the armor value, but after doing so you mark a [term]#use# on your armor.
-
-Shields add a bonus value to the [term]#armor# value set by your worn armor.
-If you wield a shield without any worn armor, then treat the shield value as your armor value.
-
-[term]#Armor piercing (AP)# ignores [term]#armor# value.
-
 Armor can be repaired completely by visiting an armorsmith.
 Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor, with the risk of rendering the armor completely unrepairable.
 
 .Shields
-* *Buckler* - _Uses 3_ *Cost* 5c *Armor Bonus* +1 *Damage* 1D.
-* *Light Shield* - _Uses 6_, _Heavy_ *Cost* 10c *Armor Bonus* +1 *Damage* 1D.
-* *Heavy Shield* - _Uses 6_, _Bulwark 1_, _Heavy_ *Cost* 10c *Armor Bonus* +2 *Damage* 1D+1.
+* *Buckler* - _Uses 3_, _+1 Armor_, _Hand_ *Cost* 5c *Damage* 1D.
+* *Light Shield* - _Uses 6_, _+1 Armor_, _Heavy_ *Cost* 10c *Damage* 1D.
+* *Heavy Shield* - _Uses 6_, _+2 Armor_, _Bulwark 1_, _Heavy_ *Cost* 10c *Damage* 1D+1.
 
 .Worn Armor
 * *Leather Armor* - _Uses 3_, _Armor 1_ *Cost* 30c.
-* *Mail Armor* - _Uses 3_, _Heavy_, _Armor 2_ *Cost* 60c.
-* *Splint Armor* - _Uses 5_, _Bulwark 1_, _Heavy_, _Armor 3_ *Cost* 90c.
-* *Plate Armor* - _Uses 8_, _Bulwark 2_, _Heavy_, _Armor 3_ *Cost* 120c.
+* *Mail Armor* - _Uses 3_, _Armor 2_, _Heavy_ *Cost* 60c.
+* *Splint Armor* - _Uses 5_, _Armor 3_, _Bulwark 1_, _Heavy_ *Cost* 90c.
+* *Plate Armor* - _Uses 8_, _Armor 3_, _Bulwark 2_, _Heavy_ *Cost* 120c.
 
 === Adventuring Gear
 
 [horizontal]
 * *Chalk* - *Cost* 1c.
 * *Whetstone* - *Cost* 1c.
-* *Bandage* - *Cost* 2c. Heals 1HP.
+* *Bandage* - *Cost* 2c. Removes 1 [term]#tier I harm#.
 * *Crowbar* - _Two-Handed_ *Cost* 5c *Damage* 1D.
 * *Shovel* - _Two-Handed_ *Cost* 5c *Damage* 1D.
 * *Tent, Personal* - *Cost* 10c.
