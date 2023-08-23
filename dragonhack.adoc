@@ -359,11 +359,10 @@ You can spend that currency as the move describes it.
 [.lead]
 When you land a [term]#critical hit#...
 
-Take the lowest number of the dice you rolled, multiply it by 2.
-[term]#Hold that much Surge#.
-You spend [term]#surge# on [term]#surge moves#.
+[term]#Hold surge# in the amount of the number of dice with a 6 that you rolled, and multiplied by 2.
+You can spend [term]#surge# on [term]#surge moves#.
 
-Any [term]#surge# you do not use during the move, you do not maintain.
+Any [term]#surge# you do not use, you do not maintain.
 --
 
 ==== GMs and the Dice
@@ -695,7 +694,7 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
 
 . *Envision* your character
 . Choose a <<_kin,[term]#kin#>>, determine your [term]#age#, and roll for your <<_origins,[term]#origin#>>.
-. Set your <<_attributes,[term]#attributes#>> by distributing these array of points across [term]#force#, [term]#edge#, [term]#shadow#, [term]#wits#, and [term]#heart#.
+. Set your <<_attributes,[term]#attributes#>> by distributing an array of points across [term]#force#, [term]#edge#, [term]#shadow#, [term]#wits#, and [term]#heart#, as determined by your age.
   * *Young adult:* 2, 2, 1, 1, 0.
   * *Middle-aged:* 2, 1, 1, 1, 0.
   * *Old:* 2, 1, 1, 0, 0.
