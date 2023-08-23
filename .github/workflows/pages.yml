@@ -15,9 +15,6 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    container:
-      image: docker.io/asciidoctor/docker-asciidoctor:latest
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -29,6 +26,9 @@ jobs:
           cp -r images/* dist/images/
           cp {LICENSE-AGPL,LICENSE-CC-BY-SA-4.0} dist
       - id: adocbuild
+        name: Build book
+        container:
+          image: docker.io/asciidoctor/docker-asciidoctor:latest
         run: |
           gem install asciidoctor-multipage
           asciidoctor -a toc=left -o dist/index.html dragonhack.adoc
