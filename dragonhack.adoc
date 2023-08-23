@@ -216,7 +216,7 @@ A soft move ignored becomes a [term]#golden opportunity# for a hard move.
 ==== Hard Moves
 
 Hard moves have immediate consequences.
-[term]#Dealing damage# is a hard move because the HP loss is an immediate consequence.
+[term]#Dealing damage# is a hard move because the harm done is an immediate consequence.
 If you have an opportunity to make a hard move, that doesn't mean you can't make a soft move instead.
 
 .Examples of hard moves in combat
@@ -305,14 +305,12 @@ The core mechanic in {doctitle} is the challenge roll.
 To perform a challenge roll, you roll multiple dice at once and read the *single highest result*.
 The most dice you can roll in a challenge roll is 5.
 
-To create a dice pool for a challenge roll, you use an attribute or other number, called a [term]#stat#, and roll an amount of dice equal to its rating.
-For example, if you roll with the [term]#heart# attribute and its value is 3, this is written as "Roll [term]#+heart#" and you would add 3 to your dice pool.
+To create a dice pool for a challenge roll, you use attributes or other numbers, called a [term]#stat#, and roll an amount of dice equal to their rating.
+For example, if you roll with the [term]#heart# and [term]#wits# attributes and their value is 2 and 1 respectively, this is written as "Roll [term]#+heart+wits#" and you would roll 3D.
 
 [sidebar]
-If you ever need to roll but you have zero (or negative) dice, roll w[2D].
-You can't roll a critical when you have zero dice.
-
-The total of your action dice, your stat, and any additional bonuses is your action score.
+If you ever need to roll zero or negative dice, roll w[2D].
+You cannot roll a critical hit when you have zero dice.
 
 There are five possible results of a challenge roll:
 
@@ -769,7 +767,7 @@ You begin with 4 grit.
 When you are at max grit and you have to [term]#mark grit#, you're [term]#broken# and can no longer act.
 This means you are either physically battered and unconscious, emotionally unavailable, mentally drained, or otherwise completely exhausted.
 Regardless, when you are broken you are out of any scene you currently are in and all scenes going forward, and are susceptible to a [term]#coup de grace#, which means all damage done to you is quadrupled.
-You cannot perform a [term]#death move# if you are reduced to 0HP during a [term]#coup de grace#.
+You cannot perform a [term]#death move# if you are [term]#doomed# by a [term]#coup de grace#.
 
 You are broken until you clear [term]#grit# through the [term]#come to# move or some other way.
 
