@@ -702,7 +702,7 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
   * *Tier III* damage threshold is 8 + force or higher, and you begin with 1 box available.
   * *Tier II* damage threshold is 4 + force or higher, and you begin with, and you begin with 1 + [term]#force# boxes available.
   * *Tier I* damage threshold is 1 or higher, and you begin with, and you begin with 2 + [term]#force# boxes available.
-. Choose a <<_vices,[term]#vices#>>.
+. Choose a <<_vices,[term]#vice#>>.
 . Choose your <<_core_paths,[term]#core path#>>, and then your <<_focus_paths,[term]#focus path#>> according to your age.
   * *Young adult:* No focus paths.
   * *Middle-aged/Old:* 1 focus path. Assume the narrative requirement of that path is in your character's backstory.
