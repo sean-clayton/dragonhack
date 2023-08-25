@@ -692,7 +692,7 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
 == Character Creation
 
 . *Envision* your character
-. Choose a <<_kin,[term]#kin#>>, determine your [term]#age#, and roll for your <<_origins,[term]#origin#>>.
+. Choose a <<_kin,[term]#kin#>>, determine your [term]#age#, and pick an [term]#origin# from your kin or <<_origins,roll an [term]#origin#>>.
 . Set your <<_attributes,[term]#attributes#>> by distributing an array of points across [term]#force#, [term]#edge#, [term]#shadow#, [term]#wits#, and [term]#heart#, as determined by your age.
   * *Young adult:* 2, 2, 1, 1, 0.
   * *Middle-aged:* 2, 1, 1, 1, 0.
@@ -845,7 +845,11 @@ Unknown:: You seek the weird, foreign, taboo, and strange.
 
 === Human
 
-Human people.
+.Origins
+* *City*
+* *Farmlands*
+* *Hill Tribes*
+* *Wilderness*
 
 .Age ranges
 [horizontal]
@@ -857,6 +861,10 @@ Old:: 60+
 
 Small people.
 
+.Origins
+* *City*
+* *Farmlands*
+
 .Age ranges
 [horizontal]
 Young Adult:: 20–29
@@ -866,6 +874,11 @@ Old:: 70+
 === Goblin
 
 Small people with pointy ears.
+
+.Origins
+* *City*
+* *Wilderness*
+* *Hill Tribes*
 
 .Age ranges
 [horizontal]
@@ -877,6 +890,10 @@ Old:: 30+
 
 Small people with beards.
 
+.Origins
+* *City*
+* *Mountains*
+
 .Age ranges
 [horizontal]
 Young Adult:: 25–100
@@ -886,6 +903,10 @@ Old:: 200+
 === Vyrmit
 
 Mouse/rat/hamster people.
+
+.Origins
+* *City*
+* *Farmlands*
 
 .Age ranges
 [horizontal]
@@ -897,6 +918,10 @@ Old:: 30+
 
 Ancient human/dwarf people.
 
+.Origins
+* *Outer Regions*
+* *Wilderness*
+
 .Age ranges
 [horizontal]
 Young Adult:: 40–119
@@ -907,6 +932,11 @@ Old:: 250+
 
 Turtle/tortoise people.
 
+.Origins
+* *City*
+* *Wilderness*
+* *Outer Regions*
+
 .Age ranges
 [horizontal]
 Young Adult:: 50–150
@@ -916,6 +946,10 @@ Old:: 300+
 === Kyrfit
 
 Raven/crow/rook people.
+
+.Origins
+* *City*
+* *Wilderness*
 
 .Age ranges
 [horizontal]
@@ -928,8 +962,9 @@ Old:: 35+
 Your [term]#origin# is the starting point of your character's life.
 
 .Origins
+[cols="15,100"]
 |===
-|d66|Origin
+|3D|Origin
 
 |11–13|Origin
 |14–16|Origin
@@ -954,117 +989,120 @@ They provide some starting [term]#coin#, [term]#equipment#, and a little detail 
 * *If you are middle-aged*, pick twice on the background table according to your [term]#origin#.
 * *If you are old*, pick three times on the background table according to your [term]#origin#.
 
-.Backgrounds Table
+.City Backgrounds
+[cols="15,100"]
 |===
-|d66|Background and starting gear
+|d66|Background
 
-|11
-|*Acolyte* candlestick, censer, incense, 1D coin.
+|11–13|*Background* Stuff.
+|14–16|*Background* Stuff.
+|21–23|*Background* Stuff.
+|24–26|*Background* Stuff.
+|31–33|*Background* Stuff.
+|34–36|*Background* Stuff.
+|41–43|*Background* Stuff.
+|44–46|*Background* Stuff.
+|51–53|*Background* Stuff.
+|54–56|*Background* Stuff.
+|61–63|*Background* Stuff.
+|64|You moved to a farm. Pick or roll on the *Farmland Backgrounds*.
+|65|*Background* Stuff.
+|66|*Background* Stuff.
+|===
 
-|12
-|*Background* stuff
+.Farmland Backgrounds
+[cols="15,100"]
+|===
+|d66|Background
 
-|13
-|*Background* stuff
+|11–13|*Background* Stuff.
+|14–16|*Background* Stuff.
+|21–23|*Background* Stuff.
+|24–26|*Background* Stuff.
+|31–33|*Background* Stuff.
+|34–36|*Background* Stuff.
+|41–43|*Background* Stuff.
+|44–46|*Background* Stuff.
+|51–53|*Background* Stuff.
+|54–56|*Background* Stuff.
+|61–63|*Background* Stuff.
+|64–66|*Background* Stuff.
+|===
 
-|14
-|*Background* stuff
+.Wilderness Backgrounds
+[cols="15,100"]
+|===
+|d66|Background
 
-|15
-|*Background* stuff
+|11–13|*Background* Stuff.
+|14–16|*Background* Stuff.
+|21–23|*Background* Stuff.
+|24–26|*Background* Stuff.
+|31–33|*Background* Stuff.
+|34–36|*Background* Stuff.
+|41–43|*Background* Stuff.
+|44–46|*Background* Stuff.
+|51–53|*Background* Stuff.
+|54–56|*Background* Stuff.
+|61–63|*Background* Stuff.
+|64–66|*Background* Stuff.
+|===
 
-|16
-|*Background* stuff
+.Mountain Backgrounds
+[cols="15,100"]
+|===
+|d66|Background
 
-|21
-|*Background* stuff
+|11–13|*Background* Stuff.
+|14–16|*Background* Stuff.
+|21–23|*Background* Stuff.
+|24–26|*Background* Stuff.
+|31–33|*Background* Stuff.
+|34–36|*Background* Stuff.
+|41–43|*Background* Stuff.
+|44–46|*Background* Stuff.
+|51–53|*Background* Stuff.
+|54–56|*Background* Stuff.
+|61–63|*Background* Stuff.
+|64–66|*Background* Stuff.
+|===
 
-|22
-|*Background* stuff
+.Hill Tribe Backgrounds
+[cols="15,100"]
+|===
+|d66|Background
 
-|23
-|*Background* stuff
+|11–13|*Background* Stuff.
+|14–16|*Background* Stuff.
+|21–23|*Background* Stuff.
+|24–26|*Background* Stuff.
+|31–33|*Background* Stuff.
+|34–36|*Background* Stuff.
+|41–43|*Background* Stuff.
+|44–46|*Background* Stuff.
+|51–53|*Background* Stuff.
+|54–56|*Background* Stuff.
+|61–63|*Background* Stuff.
+|64–66|*Background* Stuff.
+|===
 
-|24
-|*Background* stuff
+.Outer Region Backgrounds
+[cols="15,100"]
+|===
+|d66|Background
 
-|25
-|*Background* stuff
-
-|26
-|*Background* stuff
-
-|31
-|*Background* stuff
-
-|32
-|*Background* stuff
-
-|33
-|*Background* stuff
-
-|34
-|*Background* stuff
-
-|35
-|*Background* stuff
-
-|36
-|*Background* stuff
-
-|41
-|*Background* stuff
-
-|42
-|*Background* stuff
-
-|43
-|*Background* stuff
-
-|44
-|*Background* stuff
-
-|45
-|*Background* stuff
-
-|46
-|*Background* stuff
-
-|51
-|*Background* stuff
-
-|52
-|*Background* stuff
-
-|53
-|*Background* stuff
-
-|54
-|*Background* stuff
-
-|55
-|*Background* stuff
-
-|56
-|*Background* stuff
-
-|61
-|*Background* stuff
-
-|62
-|*Background* stuff
-
-|63
-|*Background* stuff
-
-|64
-|*Background* stuff
-
-|65
-|*Background* stuff
-
-|66
-|*Background* stuff
+|11–13|*Background* Stuff.
+|14–16|*Background* Stuff.
+|21–23|*Background* Stuff.
+|24–26|*Background* Stuff.
+|31–33|*Background* Stuff.
+|34–36|*Background* Stuff.
+|41–43|*Background* Stuff.
+|44–46|*Background* Stuff.
+|51–53|*Background* Stuff.
+|54–56|*Background* Stuff.
+|61–63|*Background* Stuff.
+|64–66|*Background* Stuff.
 |===
 
 == Paths
@@ -1325,7 +1363,7 @@ Far:: Can be used against something within shouting distance.
 Forceful:: Can knock someone back a step or two--maybe even off their feet.
 Hand:: Can be used against something only within arm's reach.
 Heavy::
-  You can only carry up to your [term]#force# in items with this tag.
+  You can only carry up to 2 + [term]#force# items with this tag.
 Near:: Can be used against something that you can "see the whites of their eyes.".
 Piercing _Value_:: Ignores _value_ of armor when dealing damage.
 +_Value_ Piercing:: Increases [term]#piercing# by _value_ when dealing damage.
@@ -1342,17 +1380,21 @@ Uses _Value_::
   The better the source, the more uses you gain back.
 Quantity _Value_::
   After a scene in which you used something with quantity, make a <<_fortune_roll,[term]#fortune roll +quantity#>>.
-  *On a Miss*, reduce the quantity by 1.
+  *On a anything less than a Hit*, reduce the quantity by 1.
   When the quantity reaches zero, it is spent and is removed from your inventory.
+  Every quantity still takes up slots as normal.
 
 === Weapons
 
-* *Arrows* - _Quantity 1_, _Bunch 3_ *Cost* 5c.
-* *Small Weapon* - (Dagger, short sword, small hammer, etc) *Cost* 5c *Damage* 1D.
-* *Medium Weapon* - (Sword, spear, flail, etc) *Cost* 10c *Damage* 1D+1.
-* *Heavy Weapon* - (Greatsword, glaive, battle axe, etc) _Two-Handed_, _Heavy_ *Cost* 25c *Damage* 1D+2.
+* *Arrows* - _Quantity 1_ *Cost* 5c.
+* *Small Weapon* (Dagger, short sword, small hammer, etc) - *Cost* 5c *Damage* 1D.
+  _Hand_.
+* *Medium Weapon* (Sword, spear, flail, etc) - *Cost* 10c *Damage* 1D+1.
+  _Hand_.
+* *Heavy Weapon* (Greatsword, glaive, battle axe, etc) - *Cost* 25c *Damage* 1D+2.
+  _Two-Handed_, _Heavy_, _Reach_.
 * *Sling* - *Cost* 5c *Damage* d3.
-* *Quiver* - *Cost* 10c. Holds arrows (up to _Quantity 3_).
+* *Quiver* - *Cost* 10c. Holds arrows (up to _Quantity 3_), and ignore their slots.
 
 === Armor
 
@@ -1360,15 +1402,22 @@ Armor can be repaired completely by visiting an armorsmith.
 Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor, with the risk of rendering the armor completely unrepairable.
 
 .Shields
-* *Buckler* - _Uses 3_, _+1 Armor_, _Hand_ *Cost* 5c *Damage* 1D.
-* *Light Shield* - _Uses 6_, _+1 Armor_, _Heavy_ *Cost* 10c *Damage* 1D.
-* *Heavy Shield* - _Uses 6_, _+2 Armor_, _Bulwark 1_, _Heavy_ *Cost* 10c *Damage* 1D+1.
+* *Buckler* - *Cost* 5c *Damage* 1D.
+  _Uses 3_, _+1 Armor_, _Hand_.
+* *Light Shield* - *Cost* 10c *Damage* 1D
+  _Uses 6_, _+1 Armor_, _Heavy_, _Hand_.
+* *Heavy Shield* - *Cost* 10c *Damage* 1D+1.
+  _Uses 6_, _+2 Armor_, _Bulwark 1_, _Heavy_, _Hand_.
 
 .Worn Armor
-* *Leather Armor* - _Uses 3_, _Armor 1_ *Cost* 30c.
-* *Mail Armor* - _Uses 3_, _Armor 2_, _Heavy_ *Cost* 60c.
-* *Splint Armor* - _Uses 5_, _Armor 3_, _Bulwark 1_, _Heavy_ *Cost* 90c.
-* *Plate Armor* - _Uses 8_, _Armor 3_, _Bulwark 2_, _Heavy_ *Cost* 120c.
+* *Leather Armor* - *Cost* 30c.
+  _Uses 3_, _Armor 1_.
+* *Mail Armor* - *Cost* 60c.
+  _Uses 3_, _Armor 2_, _Heavy_.
+* *Splint Armor* - *Cost* 90c.
+  _Uses 5_, _Armor 3_, _Bulwark 1_, _Heavy_.
+* *Plate Armor* - *Cost* 120c.
+  _Uses 8_, _Armor 3_, _Bulwark 2_, _Heavy_.
 
 === Adventuring Gear
 
@@ -1376,8 +1425,10 @@ Mundane armor can be partially repaired with the proper tools and know-how by th
 * *Chalk* - *Cost* 1c.
 * *Whetstone* - *Cost* 1c.
 * *Bandage* - *Cost* 2c. Removes 1 [term]#tier I harm#.
-* *Crowbar* - _Two-Handed_ *Cost* 5c *Damage* 1D.
-* *Shovel* - _Two-Handed_ *Cost* 5c *Damage* 1D.
+* *Crowbar* - *Cost* 5c *Damage* 1D.
+  _Two-Handed_.
+* *Shovel* - *Cost* 5c *Damage* 1D.
+  _Two-Handed_.
 * *Tent, Personal* - *Cost* 10c.
 * *Tent, Fits 3* - *Cost* 30c.
 * *Waterskin* - *Cost* 2c.
@@ -1439,6 +1490,21 @@ Living spaces have [term]#slots# that can be used to store equipment.
 === Ritual Magic
 
 == Exposure to Chaos
+
+== Alvoqir
+
+=== The Story so Far
+
+Untold Years Ago (5000+)::
+  The world of Alvoqir was once full of magic and wonder.
+  Heroes adventured throughout the land, conquering evil foes that would rise in the fringes.
+  Scattered artefacts found throughout the world today are most of what remains of these times.
+Ages Ago (~5000 years)::
+  The sickening.
+  A deadly plague of pestilence and horror.
+  No one at the time predicted it, but the time of heroes came to a destructive and decisive end, and Alvoqir has never recovered.
+~200 Years Ago::
+  The current age.
 
 == Monsters and Foes
 
@@ -1759,3 +1825,6 @@ _Minion_, _Small_, _Stealthy_, _Organized_.
 * Call on dragons or draconic allies.
 * Retreat and regroup.
 --
+
+[appendix]
+== Alvoqir Gazetteer
