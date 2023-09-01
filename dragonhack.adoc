@@ -747,27 +747,18 @@ Shadow:: Sneakiness, deceptiveness, and cunning.
 Wits:: Focus, intellect, and perception.
 Heart:: Leadership, drive, and compassion.
 
-=== Conditions
-
-Each attribute can have a negative condition applied to it.
-When an attribute has its associated condition marked, you take a -1D penalty to all rolls which use that attribute.
-
-* *Weak* reduces your [term]#force#.
-* *Slow* reduces your [term]#edge#.
-* *Clumsy* reduces your [term]#shadow#.
-* *Shaken* reduces your [term]#wits#.
-* *Cold* reduces your [term]#heart#.
-
 == Grit
 
 Grit represents the amount of effort, physical or mental, you can exert while adventuring.
 When you [term]#mark grit#, you add grit against your maximum grit.
 
-You begin with 4 grit.
+You begin with 5 maximum grit.
 
 When you are at max grit and you have to [term]#mark grit#, you're [term]#broken# and can no longer act.
 This means you are either physically battered and unconscious, emotionally unavailable, mentally drained, or otherwise completely exhausted.
-Regardless, when you are broken you are out of any scene you currently are in and all scenes going forward, and are susceptible to a [term]#coup de grace#, which means all damage done to you is quadrupled.
+
+When you are broken you are out of any scene you currently are in and all scenes going forward, and are susceptible to a [term]#coup de grace#, which means all damage done to you is quadrupled.
+
 You cannot perform a [term]#death move# if you are [term]#doomed# by a [term]#coup de grace#.
 
 You are broken until you clear [term]#grit# through the [term]#come to# move or some other way.
