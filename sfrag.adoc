@@ -13,11 +13,10 @@ You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see https://www.gnu.org/licenses/.
 ////
 
-= Sean's Action-Adventure Fantasy Game Ruleset
+= Sean's Fantasy Ruleset for Adventuring Games
 Sean-Patrick Ortencio Clayton
 v1: PRE-ALPHA DRAFT
 :doctype: book
-:!showtitle:
 :!table-caption:
 :showcommentary:
 :icons: font
@@ -29,31 +28,20 @@ v1: PRE-ALPHA DRAFT
 :imagesdir: images
 :repo-url: https://github.com/sean-clayton/dragonhack
 
-[.lead]
-Created by Sean-Patrick Ortencio Clayton.
-
-'''
+== Credits and Acknowledgements
 
 The mechanics and content of this work is licensed under the link:LICENSE-CC-BY-SA-4.0[Creative Commons Attribution-ShareAlike 4.0 International license (CC-BY-SA)].
 
 The source code of this work is licensed under the link:LICENSE-AGPL[GNU Affero General Public license (AGPL)].
 
-'''
+This game includes material from the following works:
 
-This game includes material from:
-
-https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
-
-https://dungeon-world.com/[Dungeon World] by Sage LaTorra and Adam Koebel, licensed for our use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
-
-https://www.ironswornrpg.com[Ironsworn] by Shawn Tomkin, licensed for our use under the https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License].
-
-https://www.drivethrurpg.com/product/427272/Maze-World[Maze World] by Jasper Winters, licensed for our use under the https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International license].
+* https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
+* https://dungeon-world.com/[Dungeon World] by Sage LaTorra and Adam Koebel, licensed for our use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
+* https://www.ironswornrpg.com[Ironsworn] by Shawn Tomkin, licensed for our use under the https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License].
+* https://www.drivethrurpg.com/product/427272/Maze-World[Maze World] by Jasper Winters, licensed for our use under the https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International license].
 
 '''
-
-[preface]
-== Preface
 
 This game is inspired by _many_ other games.
 Here is a non-exhaustive list in alphabetical order:
@@ -415,7 +403,9 @@ When your character acts by taking a risk...
 
 State what your goal is and the approach your character will take to make it happen.
 
-Roll 1D for each point in the [term]#attributes# determined by the GM.
+* 1D for each point in the [term]#attributes# determined by the GM.
+* +1D if you have [term]#advantage#.
+* -1D if you have [term]#disadvantage#.
 
 '''
 
@@ -439,7 +429,7 @@ You act on your terms. You exploit a dominant advantage.
 Moderate Risk::
 +
 [.lead]
-You go head to head. You act under fire. You take a chance.
+You take a chance. You act to defy danger.
 +
 * **Critical Hit:**
   A success with [term]#increased reward#.
@@ -478,7 +468,7 @@ You overreach your capabilities. You're in serious trouble.
 [.lead]
 When you assist someone [term]#taking action#...
 
-You give them a +1D bonus to the roll, but you are succeptible to the consequences if there any.
+You give them [term]#advantage# to the roll, but you are succeptible to the consequences if there any.
 --
 
 === Fortune Roll
@@ -506,10 +496,10 @@ For example, making a fortune roll with heart, if its value is 3, it is written 
 
 '''
 
-* **Critical Hit**: Exceptional result / Major, extreme reward.
-* **Hit**: Good result / Moderate,  full reward.
-* **Partial Hit**: Mixed result / Minor, partial reward.
-* **Miss**: Bad result / Poor, little reward.
+* **Critical Hit**: Exceptional result / Major. Great reward.
+* **Hit**: Good result / Moderate. Full reward.
+* **Partial Hit**: Mixed result / Minor. Partial reward.
+* **Miss**: Bad result / Poor. Little or no reward.
 --
 
 === Surveying
@@ -518,7 +508,7 @@ For example, making a fortune roll with heart, if its value is 3, it is written 
 [move]
 --
 [.lead]
-When you search an area, read the situation, ask questions, conduct an investigation, or follow a track...
+When you assess the situation, ask questions, conduct an investigation, or follow a track...
 
 Roll [term]#fortune +wits#.
 Add your [term]#ability bonus# when using an appropriate ability.
@@ -540,121 +530,31 @@ After seeing the roll result when [term]#taking action#, you can choose to [term
 The GM will tell you which [term]#attribute# you will use.
 You determine what [term]#ability# you use.
 
-ifdef::showcommentary[]
-.Regarding rolling resist...
-[NOTE]
-These could be done much better.
-I don't know if I want every stat in play here.
-Maybe as monsters are made and more kinds of damage are revealed in the game, they'll make this clearer to handle.
-endif::[]
-
 .Resist
 [move]
 --
 [.lead]
-When your character resists the consequences of their actions...
+When your character resists consequences...
 
 [term]#Mark 1 grit#.
 
-The GM chooses two attributes.
-Roll 1D for each point in both attributes.
+The GM chooses what attributes apply.
+Roll 1D for each point in the attributes.
 
 [horizontal]
 * **Critical Hit:**
   You avoid all consequences and you are now in control of the situation.
   [term]#Gain 1 grit# back.
 * **Hit:**
-  The consequence is avoided.
+  The consequences are avoided.
 * **Weak Hit:**
-  The consequence is reduced.
+  The consequences are reduced.
   If taking damage, take half damage.
-  You can [term]#mark 1 grit# to avoid it completely.
+  You can [term]#mark 1 grit# to avoid them completely.
 * **Miss:**
-  The consequence still happens.
-  You can [term]#mark 1 grit# to avoid reduce (half damage if taking damage) it or [term]#mark 2 grit# to avoid it completely.
+  The consequences still happen.
+  You can [term]#mark 1 grit# to reduce them (half damage if taking damage) or [term]#mark 2 grit# to avoid them completely.
 --
-
-=== Progress Tracks
-
-A progress track is a multi-segment track.
-Draw a progress track when you need to track ongoing effort against an obstacle or the approach of impending trouble.
-
-Sneaking into the constables watch tower?
-Make a progress track to track the alert level of the patrolling guards.
-When the PCs suffer consequences from partial successes or missed rolls, fill in segments on the progress track until the alarm is raised.
-
-Generally, the more complex the problem, the more segments in the progress track.
-
-A complex obstacle is a 4-segment track.
-A more complicated obstacle is a 6-segment track.
-A daunting obstacle is an 8-segment track.
-
-When you create a progress track, make it about the obstacle, not the method.
-The progress tracks for an infiltration should be "`Interior Patrols`" and "`The Tower,`" not "`Sneak Past the Guards`" or "`Climb the Tower.`" The patrols and the tower are the obstacles--the PCs can attempt to overcome them in a variety of ways.
-
-Remember that a progress track tracks progress.
-It reflects the fictional situation, so the group can gauge how they're doing.
-A progress track is like a speedometer in a car.
-It shows the speed of the vehicle--it doesn't determine the speed.
-
-==== Simple Obstacles
-
-Not every situation and obstacle requires a progress track.
-Use progress tracks when a situation is complex or layered and you need to track something over time--otherwise, resolve the result of an action with a single roll.
-
-Examples of progress tracks follow.
-
-==== Danger Tracks
-
-The GM can use a progress track to represent a progressive danger, like suspicion growing during a seduction, the proximity of pursuers in a chase, or the alert level of roaming monsters in a dungeon.
-In this case, when a complication occurs, the GM ticks one, two, or three segments on the progress track, depending on the consequence level.
-When the progress track is full, the danger comes to fruition--the guards hunt down the intruders, activate an alarm, release the hounds, etc.
-
-==== Racing Tracks
-
-Create two opposed progress tracks to represent a race.
-The PCs might have a progress track called "`Escape`" while the city watch have a progress track called "`Cornered.`" If the PCs finish their progress track before the watch fill theirs, they get away.
-Otherwise, they're cornered and can't flee.
-If both complete at the same time, the PCs escape to a safe location, but the watch are right outside!
-
-You can also use racing progress tracks for an environmental hazard.
-Maybe the PCs are trying to complete the "`Search`" progress track to find the lockbox on the sinking ship before the GM fills the "`Sunk`" progress track and the vessel goes down.
-
-==== Linked Tracks
-
-You can make a progress track that unlocks another progress track once it's filled.
-For example, the GM might make a linked progress track called "`Trapped`" after an "`Alert`" progress track fills up.
-As always, the method of action is up to the players and the details of the fiction at hand.
-
-==== Mission Tracks
-
-The GM can make a progress track for a time-sensitive mission, to represent the window of opportunity you have to complete it.
-If the countdown runs out, the mission is scrubbed or changes--the target escapes, the household wakes up for the day, etc.
-Tug-of-war progress tracks
-
-You can make a progress track that can be filled and emptied by events, to represent a back-and-forth situation.
-You might make a "`Revolution!`" progress track that indicates when the refugees start to riot over poor treatment.
-Some events will tick the progress track up and some will tick it down.
-Once it fills, the revolution begins.
-A tug-of-war progress track is also perfect for an ongoing turf war between two crews or factions.
-
-==== Long-term Project
-
-Some projects will take a long time.
-A basic long-term project (like tinkering up a new feature for a device) is eight segments.
-Truly long-term projects (like creating a new designer drug) can be two, three, or even four progress tracks, representing all the phases of development, testing, and final completion.
-Add or subtract progress tracks depending on the details of the situation and complexity of the project.
-
-A long-term project is a good catch-all for dealing with any unusual player goal, including things that circumvent or change elements of the mechanics or the setting.
-
-==== Faction progress tracks
-
-Each faction has a long-term goal.
-When the PCs have downtime, the GM ticks forward the faction progress tracks that they're interested in.
-In this way, the world around the PCs is dynamic and things happen that they're not directly connected to, changing the overall situation in the city and creating new opportunities and challenges.
-
-The PCs may also directly affect NPC faction progress tracks, based on the missions and scores they pull off.
-Discuss known faction projects that they might aid or interfere with, and also consider how a PC operation might affect the NPC progress tracks, whether the players intended it or not.
 
 == The Flow of Play
 
@@ -690,11 +590,11 @@ Otherwise, you rely on your intuition and occasional oracle rolls to drive the n
   * *Young adult:* 2, 2, 1, 1, 0.
   * *Middle-aged:* 2, 1, 1, 1, 0.
   * *Old:* 2, 1, 1, 0, 0.
-. Set your max [term]#grit# to 4.
+. Set your max [term]#grit# to 5.
 . Determine your <<_harm_damage_and_death,harm>> stats.
-  * *Tier III* damage threshold is 8 + force or higher, and you begin with 1 box available.
-  * *Tier II* damage threshold is 4 + force or higher, and you begin with, and you begin with 1 + [term]#force# boxes available.
-  * *Tier I* damage threshold is 1 or higher, and you begin with, and you begin with 2 + [term]#force# boxes available.
+  * *Tier III* damage threshold is 8 higher, and you begin with 1 box available.
+  * *Tier II* damage threshold is 4 or higher and you begin with 1 + [term]#force# boxes available.
+  * *Tier I* damage threshold is 1 or higher, and you begin with 2 + [term]#force# boxes available.
 . Choose a <<_vices,[term]#vice#>>.
 . Choose your <<_core_paths,[term]#core path#>>, and then your <<_focus_paths,[term]#focus path#>> according to your age.
   * *Young adult:* No focus paths.
@@ -777,8 +677,8 @@ You suffer [term]#harm# when [term]#taking damage#.
 When you take damage, you compare that to the damage thresholds of your harm.
 The GM will tell you the type of harm you suffered.
 
-* *Tier III* harm is 8 + [term]#force# or higher.
-* *Tier II* harm is 4 + [term]#force# or higher.
+* *Tier III* harm is 8 or higher.
+* *Tier II* harm is 4 or higher.
 * *Tier I* harm is 1 or higher.
 
 The amount of harm you can take in each tier can change as you gain talents, but everyone starts with the following available boxes:
@@ -789,9 +689,9 @@ The amount of harm you can take in each tier can change as you gain talents, but
 
 When you take action apply penalties to the roll as appropriate.
 
-* *Lesser effect* Your rolls are less effective.
-* *-1D* You use 1 fewer die on affected rolls.
-* *Disabled* You cannot take any action unassisted without [term]#marking 2 grit#.
+* *Tier III: Disabled* You must [term]#mark 2 grit# and be [term]#aided# to [term]#take action#.
+* *Tier II: Disadvantage* You have [term]#disadvantage# on rolls to [term]#take action#.
+* *Tier I: Lesser effect* Your actions are less effective.
 
 If you have to take harm and there are no boxes available to fill, fill a box of a tier higher instead.
 If you take harm and cannot mark a box, you are [term]#doomed#.
@@ -812,18 +712,6 @@ When your allies take a look at your body within w[2D] hours of you becoming [te
 * *On a weak hit*, you are alive just enough to say some last words.
 * *On a miss*, you are dead.
 --
-
-== Vices
-
-Vices are not limited to the ones below, but these are a popular list of vices many choose.
-
-Drainage:: You seek the darkness and for no tomorrow.
-Ego:: You seek to display opulence.
-Gambling:: You seek thrills from chance.
-Idealism:: You seek serving an unseen force.
-Rebellion:: You seek to undermine authority.
-Pleasure:: You seek escape and gratification through flesh, food, drugs, and art.
-Unknown:: You seek the weird, foreign, taboo, and strange.
 
 == Kin
 
@@ -1088,6 +976,18 @@ They provide some starting [term]#coin#, [term]#equipment#, and a little detail 
 |61–63|*Background* Stuff.
 |64–66|*Background* Stuff.
 |===
+
+== Vices
+
+Vices are not limited to the ones below, but these are a popular list of vices many choose.
+
+Drainage:: You seek the darkness and for no tomorrow.
+Ego:: You seek to display opulence.
+Gambling:: You seek thrills from chance.
+Idealism:: You seek serving an unseen force.
+Rebellion:: You seek to undermine authority.
+Pleasure:: You seek escape and gratification through flesh, food, drugs, and art.
+Unknown:: You seek the weird, foreign, taboo, and strange.
 
 == Paths
 
@@ -1363,22 +1263,24 @@ Uses _Value_::
   It cannot be used further once you have used it that many times until it is repaired by an appropriate source.
   The better the source, the more uses you gain back.
 Quantity _Value_::
-  After a scene in which you used something with quantity, make a <<_fortune_roll,[term]#fortune roll +quantity#>>.
-  *On a anything less than a Hit*, reduce the quantity by 1.
-  When the quantity reaches zero, it is spent and is removed from your inventory.
+  After a scene in which you used something with quantity, make a <<_fortune_roll,[term]#1D fortune roll#>>.
+  *On a miss*, reduce the _value_ by 1.
+  When the _value_ reaches zero, it is spent and is removed from your inventory.
   Every quantity still takes up slots as normal.
 
 === Weapons
 
-* *Arrows* - _Quantity 1_ *Cost* 5c.
-* *Small Weapon* (Dagger, short sword, small hammer, etc) - *Cost* 5c *Damage* 1D.
+* *Light Arrows* - *Cost* 5c. _Quantity 1_.
+* *Heavy Arrows* - *Cost* 15c. *Damage* +1. _Quantity 1_, _Piercing 1_.
+* *Small Weapon* (Dagger, short sword, small hammer, etc) - *Cost* 5c.
   _Hand_.
-* *Medium Weapon* (Sword, spear, flail, etc) - *Cost* 10c *Damage* 1D+1.
-  _Hand_.
-* *Heavy Weapon* (Greatsword, glaive, battle axe, etc) - *Cost* 25c *Damage* 1D+2.
+* *Medium Weapon* (Long sword, spear, flail, etc) - *Cost* 10c *Damage* +1.
+  _Heavy_, _Hand_.
+* *Heavy Weapon* (Greatsword, glaive, battle axe, etc) - *Cost* 25c *Damage* +2.
   _Two-Handed_, _Heavy_, _Reach_.
-* *Sling* - *Cost* 5c *Damage* d3.
-* *Quiver* - *Cost* 10c. Holds arrows (up to _Quantity 3_), and ignore their slots.
+* *Sling* - *Cost* 5c.
+* *Light Quiver* - *Cost* 10c. Holds light arrows (up to _Quantity 3_), and ignore their slots.
+* *Heavy Quiver* - *Cost* 20c. Holds heavy arrows (up to _Quantity 2_), and ignore their slots.
 
 === Armor
 
@@ -1386,11 +1288,11 @@ Armor can be repaired completely by visiting an armorsmith.
 Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor, with the risk of rendering the armor completely unrepairable.
 
 .Shields
-* *Buckler* - *Cost* 5c *Damage* 1D.
+* *Buckler* - *Cost* 5c.
   _Uses 3_, _+1 Armor_, _Hand_.
-* *Light Shield* - *Cost* 10c *Damage* 1D
+* *Light Shield* - *Cost* 10c.
   _Uses 6_, _+1 Armor_, _Heavy_, _Hand_.
-* *Heavy Shield* - *Cost* 10c *Damage* 1D+1.
+* *Heavy Shield* - *Cost* 10c *Damage* +1.
   _Uses 6_, _+2 Armor_, _Bulwark 1_, _Heavy_, _Hand_.
 
 .Worn Armor
@@ -1401,7 +1303,7 @@ Mundane armor can be partially repaired with the proper tools and know-how by th
 * *Splint Armor* - *Cost* 90c.
   _Uses 5_, _Armor 3_, _Bulwark 1_, _Heavy_.
 * *Plate Armor* - *Cost* 120c.
-  _Uses 8_, _Armor 3_, _Bulwark 2_, _Heavy_.
+  _Uses 8_, _Armor 3_, _Bulwark 1_, _Heavy_.
 
 === Adventuring Gear
 
