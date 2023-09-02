@@ -2,7 +2,7 @@
 :cc-by-sa: https://creativecommons.org/licenses/by-sa/4.0/
 :imagesdir: images
 
-= Sean's Adventure Game Ruleset
+= Sean's Fantasy Ruleset for Adventure Games
 
 This game is a fantasy tabletop role-playing game where you delve in dungeons and destroy dragons.
 It is made with the following goals:
