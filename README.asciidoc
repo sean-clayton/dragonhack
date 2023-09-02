@@ -2,11 +2,9 @@
 :cc-by-sa: https://creativecommons.org/licenses/by-sa/4.0/
 :imagesdir: images
 
-= DragonHack
+= Sean's Adventure Game Ruleset
 
-image::dragonhack-logotype.svg[Static,480,align=center]
-
-{doctitle} is a fantasy tabletop role-playing game where you delve in dungeons and destroy dragons.
+This game is a fantasy tabletop role-playing game where you delve in dungeons and destroy dragons.
 It is made with the following goals:
 
 * Easy to pick up and run very quickly.

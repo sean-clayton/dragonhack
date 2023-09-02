@@ -13,7 +13,7 @@ You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see https://www.gnu.org/licenses/.
 ////
 
-= DragonHack
+= Sean's Action-Adventure Fantasy Game Ruleset
 Sean-Patrick Ortencio Clayton
 v1: PRE-ALPHA DRAFT
 :doctype: book
@@ -27,23 +27,20 @@ v1: PRE-ALPHA DRAFT
 :toc: right
 :toclevels: 4
 :imagesdir: images
-:favicon: images/dragonhack-logo.svg
 :repo-url: https://github.com/sean-clayton/dragonhack
-
-image::dragonhack-logotype.svg[Static,640,id=logo,alt=DragonHack]
 
 [.lead]
 Created by Sean-Patrick Ortencio Clayton.
 
 '''
 
-The entirety of {doctitle} is licensed under the link:LICENSE-CC-BY-SA-4.0[Creative Commons Attribution-ShareAlike 4.0 International license].
+The mechanics and content of this work is licensed under the link:LICENSE-CC-BY-SA-4.0[Creative Commons Attribution-ShareAlike 4.0 International license (CC-BY-SA)].
 
-The {repo-url}[source code of {doctitle}] is licensed under the link:LICENSE-AGPL[GNU Affero General Public license].
+The source code of this work is licensed under the link:LICENSE-AGPL[GNU Affero General Public license (AGPL)].
 
 '''
 
-{doctitle} includes material from:
+This game includes material from:
 
 https://www.bladesinthedark.com[Blades in the Dark] by John Harper, licensed for use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
 
@@ -53,14 +50,12 @@ https://www.ironswornrpg.com[Ironsworn] by Shawn Tomkin, licensed for our use un
 
 https://www.drivethrurpg.com/product/427272/Maze-World[Maze World] by Jasper Winters, licensed for our use under the https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International license].
 
-https://game-icons.net/1x1/delapouite/spiked-dragon-head.html[Spiked dragon head icon] in the {doctitle} logo by https://delapouite.com/[Delapouite], licensed for our use under the https://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution 3.0 Unported license].
-
 '''
 
 [preface]
 == Preface
 
-{doctitle} is inspired by several games.
+This game is inspired by _many_ other games.
 Here is a non-exhaustive list in alphabetical order:
 
 * https://www.bladesinthedark.com[Blades in the Dark] by John Harper.
@@ -72,16 +67,16 @@ Here is a non-exhaustive list in alphabetical order:
 * https://johnharper.itch.io/world-of-dungeons[World of Dungeons] by John Harper.
 * ... and the many games derived from those.
 
-If you enjoy {doctitle}, then be sure to check out these other games!
+Please check out these other games!
 
 == Rules
 
-=== Playing {doctitle}
+=== Playing the Game
 
-To play {doctitle}, you create your character, make some decisions about the world you inhabit, and set the story in motion.
+To play this game, you create your character, make some decisions about the world you inhabit, and set the story in motion.
 When you encounter something dangerous or otherwise act by taking risks, your choices and the dice determine the outcome.
 
-{doctitle} supports three modes of play.
+This game supports three modes of play.
 
 Guided::
   One or more players take the role of their characters, the protagonists in your story, while a guide/moderator/gamemaster (GM) moderates the session.
@@ -89,7 +84,6 @@ Guided::
 Cooperative (Co-Op)::
   You and one or more friends play together to overcome challenges and complete quests.
   A GM is not required.
-  The {doctitle} game system will help you explore the dramatic stories of your characters and their fateful vows.
 Solo::
   As with cooperative play, no GM is necessary.
   You portray a lone heroic character in a dangerous world.
@@ -97,13 +91,11 @@ Solo::
 
 [sidebar]
 --
-{doctitle} is primarily intended for small group play or solo.
+This game is primarily intended for small group play or solo.
 One to four players (plus a GM in guided mode) is ideal.
 --
 
 ==== What You Need to Play
-
-{doctitle} requires some materials. Here is what you'll need:
 
 * Several six-sided dice for each player.
   Five at the least, but more cannot hurt.
@@ -112,12 +104,11 @@ One to four players (plus a GM in guided mode) is ideal.
 
 ==== Mechanics and the Fiction
 
-{doctitle} uses various mechanics, such as rolling dice and managing the stats and resources on your character sheet.
+This game uses various mechanics such as rolling dice and managing the stats and resources on your character sheet.
 As a player, you will often make decisions based on a desired mechanical outcome.
 For example, you might choose a particular action to get a bonus or advantage on your die roll.
-The basic mechanics of {doctitle} are introduced in this chapter.
 
-{doctitle} is also heavily reliant on the fiction, which is the imagined characters, situations, and places within your game.
+This game is also heavily reliant on the fiction, which is the imagined characters, situations, and places within your game.
 You will play from the perspective of your character.
 You will interpret actions and events in a way that is consistent with the dramatic, fictional reality you have forged for your story and your world.
 
@@ -154,6 +145,8 @@ Fill in the blanks--for your character and your world--as you go.
 === GM Agenda
 
 === GM Principles
+
+* Portray a dangerous world.
 
 === GM Moves
 
@@ -240,7 +233,7 @@ If you have an opportunity to make a hard move, that doesn't mean you can't make
 
 === Rolling Dice
 
-The only dice used in {doctitle} are six-sided dice.
+The only dice used are six-sided dice.
 
 When we roll multiple dice, we shorten it to just the number of dice followed by a D, eg: Rolling two dice is 2D, and rolling 1 dice is 1D.
 
@@ -295,11 +288,11 @@ The GM will reduce the victim's HP by that amount (less armor) and either descri
 
 === Rounding
 
-In {doctitle}, always round down when faced with non-integer numbers, unless otherwise noted.
+Always round down when faced with non-integer numbers, unless otherwise noted.
 
 === The Challenge Roll
 
-The core mechanic in {doctitle} is the challenge roll.
+The core mechanic is the challenge roll.
 To perform a challenge roll, you roll multiple dice at once and read the *single highest result*.
 The most dice you can roll in a challenge roll is 5.
 
@@ -1540,10 +1533,10 @@ That means swinging a mundane sword at it will have extremely little [term]#rewa
 --
 Here's some advice on running encounters.
 
-You'll notice that monsters in {doctitle} don't have rules on _when_ they deal their damage.
+You'll notice that monsters don't have rules on _when_ they deal their damage.
 That's because it's really up to the tone of game you want to play.
 
-It can be a good idea for GMs new to {doctitle} to make <<_soft_moves,[term]#soft moves#>> at first during combat scenes when consequences are being suffered, and move towards using more <<_hard_moves,[term]#hard moves#>> to increase the tension.
+It can be a good idea for GMs new to this game to make <<_soft_moves,[term]#soft moves#>> at first during combat scenes when consequences are being suffered, and move towards using more <<_hard_moves,[term]#hard moves#>> to increase the tension.
 
 At some tables you may just want to make combat an incredibly dangerous choice.
 Feel free to use hard moves whenever a [term]#weak hit# or [term]#miss# occurs in that case.
