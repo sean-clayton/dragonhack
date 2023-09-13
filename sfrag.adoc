@@ -59,69 +59,6 @@ Please check out these other games!
 
 == Rules
 
-=== Playing the Game
-
-To play this game, you create your character, make some decisions about the world you inhabit, and set the story in motion.
-When you encounter something dangerous or otherwise act by taking risks, your choices and the dice determine the outcome.
-
-This game supports three modes of play.
-
-Guided::
-  One or more players take the role of their characters, the protagonists in your story, while a guide/moderator/gamemaster (GM) moderates the session.
-  The GM helps bring the world to life, portrays the people and creatures you encounter, and makes decisions about the outcome of your actions.
-Cooperative (Co-Op)::
-  You and one or more friends play together to overcome challenges and complete quests.
-  A GM is not required.
-Solo::
-  As with cooperative play, no GM is necessary.
-  You portray a lone heroic character in a dangerous world.
-  Good luck!
-
-[sidebar]
---
-This game is primarily intended for small group play or solo.
-One to four players (plus a GM in guided mode) is ideal.
---
-
-==== What You Need to Play
-
-* Several six-sided dice for each player.
-  Five at the least, but more cannot hurt.
-  These are used for [term]#action dice#, [term]#oracle dice#, and rolling things like [term]#damage#.
-* A character sheet for each player.
-
-==== Mechanics and the Fiction
-
-This game uses various mechanics such as rolling dice and managing the stats and resources on your character sheet.
-As a player, you will often make decisions based on a desired mechanical outcome.
-For example, you might choose a particular action to get a bonus or advantage on your die roll.
-
-This game is also heavily reliant on the fiction, which is the imagined characters, situations, and places within your game.
-You will play from the perspective of your character.
-You will interpret actions and events in a way that is consistent with the dramatic, fictional reality you have forged for your story and your world.
-
-==== Your Character
-
-You use your character sheet to track your stats, gear, and overall condition.
-
-However, your character is more than these mechanical bits.
-You are a character in a rich story.
-You have hopes and fears, virtues and failings.
-You have a history.
-You are, or were, part of a community.
-This is the fiction of your character.
-Consider a few of these details as you create your character, but don't sweat it--you'll evolve it through play.
-At the start of your game, put your character on stage to see what happens. 
-Fill in the blanks--for your character and your world--as you go.
-
-=== Player Agenda
-
-* Portray a motivated character.
-* Interact with the world and state your end goal.
-* When you want to do something, do it in the fiction.
-* Make your mark on the world.
-* Play to find out what happens.
-
 === Player Principles
 
 * Begin and end with the fiction.
@@ -130,137 +67,13 @@ Fill in the blanks--for your character and your world--as you go.
 * Celebrate success.
 * Don't hog the spotlight, but shine when it's on you.
 
-=== GM Agenda
-
 === GM Principles
 
 * Portray a dangerous world.
-
-=== GM Moves
-
-As a GM, when everyone looks at you to do something, you can make a move.
-On any [term]#miss#, you can make a move.
-When you are presented with a [term]#golden opportunity#, you can make a move.
-
-A move is something that occurs in the fiction--they mean literally what they say.
-Here are the moves you make as a GM.
-
-* Utilize your prep.
-* Reveal an unwelcome truth.
-* Show signs of an approaching threat.
-* Deal harm.
-* Use up their resources.
-* Turn their actions against them.
-* Separate them.
-* Offer an opportunity, with or without cost.
-* Put someone on the spot.
-
-==== Soft Moves
-
-Soft moves are moves that are not in favor of the PCs, but do not have immediate consequences.
-A soft move ignored becomes a [term]#golden opportunity# for a hard move.
-
-.Examples of soft moves in combat
-* Reveal a looming threat...
-** An enemy sounds an alarm or calls for reinforcements.
-* Utilize your prep...
-** Make a monster soft move.
-** Spring, but do not trigger, a trap.
-* Separate them...
-** Toss a PC across the combat area and close them off from their allies.
-** The ground cracks and a chasm or pit of lava sits between two groups of the party.
-* Put someone on the spot...
-** Shove a PC on the ground and have the monster wind up to attack them.
-** Push a PC against a ledge.
-
-.Examples of soft moves exploring a site
-* Reveal a looming threat...
-** A roar from down a passageway.
-* Utilize your prep...
-** A PC hears a _*click*_ and a trap is sprung, but not triggered.
-** Make a site move.
-
-.Examples of soft moves exploring the wilderness
-* Reveal a looming threat...
-* Utilize your prep...
-
-.Examples of soft moves in a settlement
-* Reveal a looming threat...
-* Utilize your prep...
-
-.Examples of soft moves in a social encounter
-* Reveal a looming threat...
-* Utilize your prep...
-
-==== Hard Moves
-
-Hard moves have immediate consequences.
-[term]#Dealing damage# is a hard move because the harm done is an immediate consequence.
-If you have an opportunity to make a hard move, that doesn't mean you can't make a soft move instead.
-
-.Examples of hard moves in combat
-* Use up their resources...
-** A PC's weapon flings across the room, losing access to attacking with it.
-** A PC's grimoire falls to the ground, losing access to those spells.
-
-.Examples of hard moves exploring a site
-* Use up their resources...
-** [term]#1 slot# worth of equipment falls to the depths below.
-
-.Examples of hard moves exploring the wilderness
-* Use up their resources...
-** A PC's max slots is reduced because their pack has a hole in it.
-
-.Examples of hard moves in a settlement
-* Use up their resources...
-** A PC loses coin or gear because someone stole it while they weren't looking.
-
-.Examples of hard moves in a social encounter
-* Use up their resources...
-** Mark grit for the stress induced by the other party.
-
-=== Rolling Dice
-
-The only dice used are six-sided dice.
-
-When we roll multiple dice, we shorten it to just the number of dice followed by a D, eg: Rolling two dice is 2D, and rolling 1 dice is 1D.
-
-Sometimes you add or subtract a number to the total of the dice.
-This has a + or - after the dice along with the number that is to be added or subtracted, respectively.
-For example, if we want to add 1 to the total of a 2D roll, it looks like 2D+1.
-If we want to subtract 1 from the total of a 2D roll, it looks like 2D-1.
-
-Sometimes we want to roll multiple dice and not add them together, but take the best or worst of the dice rolled.
-This is written as b[ ] or w[ ] with the number of dice in between the brackets.
-For example, if we want to roll 2D and keep only the best of the two, it looks like b[2D].
-If we want to roll 2D and keep only the worst of the two, it looks like w[2D].
-
-We can also take multiple of the best or multiple of the worst.
-This looks like the previous form, but with a number after the b or w, before the brackets.
-For example, if we want to roll 3D and take the best two, it looks like b2[3D].
-If we want to roll 3D and take the worst two, it looks like w2[3D].
-
-And like rolling dice normally, we can still add a number to the total to these best of/worst of forms.
-For example, b2[3D]+4 adds 4 to the total of the best two dice of the three rolled.
-w2[3D]-1 subtracts 1 from the total of the worst two dice of the three rolled.
-
-==== Other Dice Roll Notation
-
-[horizontal]
-d3::
-  Roll a dice.
-  *1/2* = 1.
-  *3/4* = 2.
-  *5/6* = 3.
-d66::
-  Roll a dice twice.
-  One roll is for the tens place and the other is for the ones.
-d666::
-  Roll like a d66, but with another roll for the hundreds place.
-d33::
-  Like a d66, but each roll is a d3.
-d333::
-  Like a d33, but with another roll for the hundreds place.
+* Play to find out what happens.
+* Do not over-prepare.
+* Do not pull punches.
+* Present problems without predetermined solutions.
 
 === Dealing Damage
 
@@ -282,23 +95,14 @@ Always round down when faced with non-integer numbers, unless otherwise noted.
 
 The core mechanic is the challenge roll.
 To perform a challenge roll, you roll multiple dice at once and read the *single highest result*.
-The most dice you can roll in a challenge roll is 5.
-
-To create a dice pool for a challenge roll, you use attributes or other numbers, called a [term]#stat#, and roll an amount of dice equal to their rating.
-For example, if you roll with the [term]#heart# and [term]#wits# attributes and their value is 2 and 1 respectively, this is written as "Roll [term]#+heart+wits#" and you would roll 3D.
-
-When rolling with attributes, it's possible to be asked for a single attribute twice.
-This means you would roll twice the amount of dice for that attribute.
 
 [sidebar]
-If you ever need to roll zero or negative dice, roll w[2D].
+If you ever need to roll zero or negative dice, roll 2D and take the lowest.
 You cannot roll a critical hit when you have zero dice.
-
-There are five possible results of a challenge roll:
 
 [horizontal]
 Critical Hit::
-  You roll *more than one 6*.
+  You roll *multiple 6s*.
 Strong Hit::
   The highest die is a *6*.
 Weak Hit::
@@ -306,7 +110,7 @@ Weak Hit::
 Miss::
   The highest die is a *1, 2, or 3*.
 
-There are four types of rolls that you'll use most often in the game:
+There are three types of rolls that you'll use most often in the game:
 
 Taking action::
   When a PC attempts an action that's dangerous or troublesome, you take an action to find out how it goes.
@@ -331,7 +135,7 @@ When a move gives you [term]#"`hold X Currency`"#...
 You can spend that currency as the move describes it.
 --
 
-==== Surge
+==== Crits
 
 .Surge
 [move]
@@ -339,7 +143,7 @@ You can spend that currency as the move describes it.
 [.lead]
 When you land a [term]#critical hit#...
 
-[term]#Hold surge# in the amount of the number of dice with a 6 that you rolled, and multiplied by 2.
+[term]#Hold surge# in the amount of the number of dice with a 6 beyond the first.
 You can spend [term]#surge# on [term]#surge moves#.
 
 Any [term]#surge# you do not use immediately, you do not maintain.
@@ -390,7 +194,7 @@ Major Reward::
 State what your goal is and the approach your character will take to make it happen.
 The GM will tell you the following:
 
-* The two [term]#attributes# you will use.
+* The [term]#approach# you will use.
 * The level of [term]#risk# the approach takes.
 * The level of [term]#reward# given if the approach succeeds.
 * Possible consequences if you fail and rewards if you succeed.
@@ -403,7 +207,7 @@ When your character acts by taking a risk...
 
 State what your goal is and the approach your character will take to make it happen.
 
-* 1D for each point in the [term]#attributes# determined by the GM.
+* 1D for each point in the [term]#approaches# determined by the GM.
 * +1D if you have [term]#advantage#.
 * -1D if you have [term]#disadvantage#.
 
@@ -502,16 +306,15 @@ For example, making a fortune roll with heart, if its value is 3, it is written 
 * **Miss**: Bad result / Poor. Little or no reward.
 --
 
-=== Surveying
+=== Survey
 
-.Surveying
+.Survey
 [move]
 --
 [.lead]
 When you assess the situation, ask questions, conduct an investigation, or follow a track...
 
-Roll [term]#fortune +wits#.
-Add your [term]#ability bonus# when using an appropriate ability.
+Roll [term]#fortune +insight#.
 
 * **Major**:
   You get exceptional details.
@@ -528,18 +331,18 @@ Add your [term]#ability bonus# when using an appropriate ability.
 
 After seeing the roll result when [term]#taking action#, you can choose to [term]#resist# the consequences.
 The GM will tell you which [term]#attribute# you will use.
-You determine what [term]#ability# you use.
 
 .Resist
 [move]
 --
 [.lead]
-When your character resists consequences...
+When your character resists the consequences of an action...
 
 [term]#Mark 1 grit#.
 
-The GM chooses what attributes apply.
-Roll 1D for each point in the attributes.
+The GM chooses which [term]#attribute# applies.
+Roll 1D for each point in the [term]#attribute#.
+Roll 1D for each point in your [term]#endure# action.
 
 [horizontal]
 * **Critical Hit:**
@@ -556,61 +359,41 @@ Roll 1D for each point in the attributes.
   You can [term]#mark 1 grit# to reduce them (half damage if taking damage) or [term]#mark 2 grit# to avoid them completely.
 --
 
-== The Flow of Play
-
-Like most roleplaying games, you play primarily from the perspective of your character.
-What are you doing?
-What are you trying to achieve?
-What opposition and challenges do you face?
-Your quests, and the characters and situations you encounter, will guide the fiction and the choices you make.
-
-When you have questions about what you find, how other characters in your world respond, or what happens next, you can go with what feels right (if you're playing solo or co-op), or ask your GM.
-When you are seeking inspiration or want to put it in the hands of fate, you want to consult an <<_oracles, oracle>>.
-Use the yes/no questions and random prompts to generate interesting twists and new complications you might not have thought of on your own.
-Above all, if it's interesting, dramatic and fits the fiction, make it happen.
-
-If you are doing something covered by a move, refer to the move to resolve your action.
-If it tells you to roll dice, do it.
-
-Scoring a strong hit on a move means you are in control.
-You're driving the narrative.
-What do you do next?
-
-A weak hit or a miss means you don't have control of the situation.
-Instead of acting, you react.
-What happens next?
-If you're playing with a GM, they'll determine how the world responds.
-Otherwise, you rely on your intuition and occasional oracle rolls to drive the narrative.
-
 == Character Creation
 
-. *Envision* your character
+. *Envision* your character and name them.
 . Choose a <<_kin,[term]#kin#>>, determine your [term]#age#, and pick an [term]#origin# from your kin or <<_origins,roll an [term]#origin#>>.
-. Set your <<_attributes,[term]#attributes#>> by distributing an array of points across [term]#force#, [term]#edge#, [term]#shadow#, [term]#wits#, and [term]#heart#, as determined by your age.
-  * *Young adult:* 2, 2, 1, 1, 0.
-  * *Middle-aged:* 2, 1, 1, 1, 0.
-  * *Old:* 2, 1, 1, 0, 0.
+  Determine your <<_attributes,[term]#attributes#>> according to your [term]#kin#.
+. Set your <<_approaches,[term]#approaches#>> by distributing an array of points across [term]#aggression#, [term]#precision#, [term]#insight#, and [term]#heart#, as determined by your age.
+  * *Young adult:* 2, 2, 1, 0.
+  * *Middle-aged:* 2, 1, 1, 0.
+  * *Old:* 2, 1, 0, 0.
+  Each attribute can have up to 2 points allocated total.
+  * *Young adult/middle-aged:* 3.
+  * *Old:* 2.
+. Distribute points across <<_actions,[term]#actions#>> as determined by your age.
+  Each action can have up to 2 points allocated total.
+  * *Young adult:* 6
+  * *Middle-aged:* 10
+  * *Old:* 12
 . Set your max [term]#grit# to 5.
 . Determine your <<_harm_damage_and_death,harm>> stats.
-  * *Tier III* damage threshold is 8 higher, and you begin with 1 box available.
-  * *Tier II* damage threshold is 4 or higher and you begin with 1 + [term]#force# boxes available.
-  * *Tier I* damage threshold is 1 or higher, and you begin with 2 + [term]#force# boxes available.
+  * *Fatal* damage is 13+.
+  * *Tier III* damage threshold is 9–12.
+  * *Tier II* damage threshold is 5–8.
+  * *Tier I* damage threshold is 1–4.
 . Choose a <<_vices,[term]#vice#>>.
-. Choose your <<_core_paths,[term]#core path#>>, and then your <<_focus_paths,[term]#focus path#>> according to your age.
-  * *Young adult:* No focus paths.
-  * *Middle-aged/Old:* 1 focus path. Assume the narrative requirement of that path is in your character's backstory.
 . Determine your <<_backgrounds,[term]#backgrounds#>>.
   * *Young adult:* Roll once on the backgrounds table.
   * *Middle-aged:* Pick twice on the backgrounds table.
   * *Old:* Pick three times on the backgrounds table.
 . Purchase any additional equipment and determine your <<_speed,[term]#speed#>>.
   You begin with 10c in addition to all coin and equipment of your choice from your backgrounds. You also gain XP according to your age that you can spend now if you wish, or keep for later.
-  * *Young adult:* 8XP.
+  * *Young adult:* 4XP.
   * *Middle-aged:* 12XP.
   * *Old:* 16XP.
-. Fill out personal information such as your name and other details.
 
-== Experience and the End of a Session
+== Experience
 
 At the end of a session, have each person at the table go through the following items and, unless otherwise noted, mark 1XP for each one that everyone agrees is true for them.
 
@@ -631,14 +414,56 @@ Additionally, you can change _one_ of these aspects of your character if the nar
 * Change one of your vices to a new one.
 * Refund one talent completely and obtain a new one at the same cost.
 
+== Approaches
+
+[horizontal]
+Aggression:: TBD
+Precision:: TBD
+Insight:: TBD
+Heart:: TBD
+
+== Actions
+
+Attune::
+  When you [term]#attune#, you .
+Convince::
+  When you [term]#convince#, you .
+Clash::
+  When you [term]#clash#, you .
+Craft::
+  When you [term]#craft#, you .
+Decieve::
+  When you [term]#decieve#, you .
+Endure::
+  When you [term]#endure#, you .
+Perform::
+  When you [term]#perform#, you .
+Prowl::
+  When you [term]#prowl#, you .
+Reconnoiter::
+  When you [term]#reconnoiter#, you .
+Rush::
+  When you [term]#rush#, you .
+Shoot::
+  When you [term]#shoot#, you .
+Study::
+  When you [term]#study#, you .
+Tinker::
+  When you [term]#tinker#, you .
+Traverse::
+  When you [term]#traverse#, you .
+Trick::
+  When you [term]#trick#, you .
+Wreck::
+  When you [term]#wreck#, you .
+
 == Attributes
 
 [horizontal]
-Force:: Aggression, might, and intimidation.
-Edge:: Speed, agility, and precision.
-Shadow:: Sneakiness, deceptiveness, and cunning.
-Wits:: Focus, intellect, and perception.
-Heart:: Leadership, drive, and compassion.
+Physique:: Your physical strength.
+Willpower:: Your mental strength.
+
+Your <<_kin,[term]#kin#>> determines these.
 
 == Grit
 
@@ -677,15 +502,17 @@ You suffer [term]#harm# when [term]#taking damage#.
 When you take damage, you compare that to the damage thresholds of your harm.
 The GM will tell you the type of harm you suffered.
 
-* *Tier III* harm is 8 or higher.
-* *Tier II* harm is 4 or higher.
-* *Tier I* harm is 1 or higher.
+* *Fatal* harm is 13+
+* *Tier III* harm is 9–12.
+* *Tier II* harm is 5–8.
+* *Tier I* harm is 1–4.
 
 The amount of harm you can take in each tier can change as you gain talents, but everyone starts with the following available boxes:
 
+* *Fatal:* 0.
 * *Tier III:* 1.
-* *Tier II:* 1 + [term]#force#.
-* *Tier I:* 2 + [term]#force#.
+* *Tier II:* 2.
+* *Tier I:* 2.
 
 When you take action apply penalties to the roll as appropriate.
 
@@ -702,9 +529,9 @@ When your character becomes [term]#doomed#, and they do not make a [term]#death 
 [move]
 --
 [.lead]
-When your allies take a look at your body within w[2D] hours of you becoming [term]#doomed#...
+When your allies take a look at your body within a few hours of you becoming [term]#doomed#...
 
-[term]#Roll fortune +heart#.
+[term]#Roll a 2D fortune#.
 
 * *On a critical hit*, you strongly gasp as they turn you over and you must explain to everyone how it wasn't as bad as it looked.
 * *On a strong hit*, you are barely breathing and are in dire need of aid.
@@ -717,11 +544,15 @@ When your allies take a look at your body within w[2D] hours of you becoming [te
 
 === Human
 
+Human people.
+
+*Physique* 1.
+*Willpower* 1.
+
 .Origins
-* *City*
-* *Farmlands*
-* *Hill Tribes*
-* *Wilderness*
+* *Civilized Society*
+* *Wilds*
+* *Tribal Society*
 
 .Age ranges
 [horizontal]
@@ -733,9 +564,11 @@ Old:: 60+
 
 Small people.
 
+*Physique* 0.
+*Willpower* 2.
+
 .Origins
-* *City*
-* *Farmlands*
+* *Civilized Society*
 
 .Age ranges
 [horizontal]
@@ -743,28 +576,16 @@ Young Adult:: 20–29
 Middle-Aged:: 30–69
 Old:: 70+
 
-=== Goblin
-
-Small people with pointy ears.
-
-.Origins
-* *City*
-* *Wilderness*
-* *Hill Tribes*
-
-.Age ranges
-[horizontal]
-Young Adult:: 11–15
-Middle-Aged:: 16–29
-Old:: 30+
-
 === Dwarf
 
 Small people with beards.
 
+*Physique* 1.
+*Willpower* 1.
+
 .Origins
-* *City*
-* *Mountains*
+* *Civilized Society*
+* *Mountain Society*
 
 .Age ranges
 [horizontal]
@@ -772,13 +593,17 @@ Young Adult:: 25–100
 Middle-Aged:: 101–199
 Old:: 200+
 
-=== Vyrmit
+=== Goblin
 
-Mouse/rat/hamster people.
+Small people with pointy ears.
+
+*Physique* 1.
+*Willpower* 1.
 
 .Origins
-* *City*
-* *Farmlands*
+* *Civilized Society*
+* *Wilds*
+* *Tribal Society*
 
 .Age ranges
 [horizontal]
@@ -786,13 +611,17 @@ Young Adult:: 11–15
 Middle-Aged:: 16–29
 Old:: 30+
 
-=== Kolussar
+=== Ogre
 
-Ancient human/dwarf people.
+Big goblin-like people.
+
+*Physique* 2.
+*Willpower* 0.
 
 .Origins
-* *Outer Regions*
-* *Wilderness*
+* *Civilized Society*
+* *Wilds*
+* *Tribal Society*
 
 .Age ranges
 [horizontal]
@@ -800,49 +629,21 @@ Young Adult:: 40–119
 Middle-Aged:: 120–249
 Old:: 250+
 
-=== Testadar
-
-Turtle/tortoise people.
-
-.Origins
-* *City*
-* *Wilderness*
-* *Outer Regions*
-
-.Age ranges
-[horizontal]
-Young Adult:: 50–150
-Middle-Aged:: 151–299
-Old:: 300+
-
-=== Kyrfit
-
-Raven/crow/rook people.
-
-.Origins
-* *City*
-* *Wilderness*
-
-.Age ranges
-[horizontal]
-Young Adult:: 14–20
-Middle-Aged:: 21–34
-Old:: 35+
-
 == Origins
 
 Your [term]#origin# is the starting point of your character's life.
+Your [term]#kin# can determine your origin, but you can also roll on the table below to determine your origin no matter your kin.
 
 .Origins
 [cols="15,100"]
 |===
-|3D|Origin
+|d66|Origin
 
-|11–13|Origin
-|14–16|Origin
-|21–23|Origin
-|24–26|Origin
-|31–33|Origin
+|11–13|*Civilized Society*
+|14–16|*Noxterra*
+|21–23|*Mountain Society*
+|24–26|*Tribal Society*
+|31–33|*Wilds*
 |34–36|Origin
 |41–43|Origin
 |44–46|Origin
@@ -989,235 +790,13 @@ Rebellion:: You seek to undermine authority.
 Pleasure:: You seek escape and gratification through flesh, food, drugs, and art.
 Unknown:: You seek the weird, foreign, taboo, and strange.
 
-== Paths
-
-There are two types of paths: Novice paths and focus paths.
-Your core path is the primary path your character takes.
-Focus paths are ways to shape your character into the concept you have in your mind.
-
-ifdef::showcommentary[]
-.Regarding path power
-[NOTE]
-Paths are not meant to be a _huge_ power boost to characters.
-Magic items are meant to be the biggest power boost a character can get--they break all the rules and even rewrite them.
-Paths are meant to be boosts, yes, but really they should increase versatility of a character.
-For example, the Mystic path gets new properties for their spells they cast.
-endif::[]
-
-=== Talents
-
-Your paths give you access to talents.
-Talents have two key things to note about them: Their [term]#tier# and their XP cost.
-
-== Novice Paths
-
-There are four novice paths: The warrior, the mystic, the scoundrel, and the devoted.
-
-=== The Warrior
-
-You start with 10 maximum [term]#grit#.
-
-.Warrior Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-=== The Mystic
-
-You start with 6 maximum [term]#grit#.
-
-You gain access to <<_mysticism, mysticism>>.
-
-.Mystic Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-=== The Scoundrel
-
-You start with 8 maximum [term]#grit#.
-
-.Scoundrel Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-=== The Devoted
-
-You start with 8 available [term]#grit#.
-
-.Devoted Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-== Focus Paths
-
-ifdef::showcommentary[]
-.Regarding focus paths
-[NOTE]
-Focus paths are the way to _really_ flesh out a character concept.
-Focus paths are a _great_ place to add homebrew content.
-These are like "subclasses" in other fantasy role-playing games.
-The goal of a focus path is to encourage roleplay by creating narrative requirements.
-This makes it really easy to understand the "why does my character have access to these new things?" question that can often arise when progressing characters mechanically.
-endif::[]
-
-There are also focus paths, which represent your character growing and changing in play.
-Focus paths have mechanical and narrative requirements in order for you to access them.
-For example, the Occultist focus path requires you to have witnessed or studied an occult ritual.
-The Cleric focus path requires you to have witnessed an act of chaos which causes you to devote your life and faith to a god.
-The Necromancer focus path requires you to have found the Tome of Skulls and studied it in the dead of night for several nights.
-There are many more focus paths, but they all give you access to a pool of moves in various tiers and skill unique to the focus path.
-
-A focus path almost always has a way of it being lost, called [term]#losing focus#.
-When you meet the conditions to [term]#lose focus# on a focus path, you immediately lose the focus path and all of the moves and other benefits of the path.
-You gain XP equal to half of the XP cost of the focus path divided by 2, rounding up.
-
-ifdef::showcommentary[]
-.Regarding losing focus paths
-[NOTE]
-Focus paths being able to be lost is a narrative enforcement, but also a gamey mechanic.
-Narratively, it makes sense for the paladin path to be lost when you forsake your oath.
-Mechanically, maybe you _really_ need XP and you don't feel like being a paladin makes sense for you anymore.
-The player can decide they want the XP and narratively make their character forsake their oath.
-The other players all get to enjoy a story of how a paladin has literally fell from grace and while the paladin player gets to enjoy the XP they wanted.
-Perhaps they really just wanted access to the Anti Paladin focus path which requires losing the paladin focus path?
-endif::[]
-
-=== Dungeoneer
-
-*Cost* 10XP.
-
-*Requirements* You have done at least 3 of the following in a single dungeon delve:
-
-* Went inside without hesitation.
-* Obtained a magical artefact inside.
-* Killed a deadly beast that lurked there.
-* Discovered the dark secrets of the dungeon.
-* Disarmed or otherwise rendered useless past a deadly trap.
-* Revealed and went through a hidden passageway.
-
-.Dungeoneer Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-=== Beserker
-
-*Cost* 15XP.
-
-*Requirements*
-
-.Beserker Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-=== Anti Paladin
-
-*Cost* 15XP.
-
-*Requirements* You have forsaken your paladin oath and broken ties with the organization that once honored you paladin title.
-
-.Anti Paladin Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-=== Paladin
-
-*Cost* 15XP.
-
-*Requirements* You have went to a place that honors holiness or some other form of servitude, went through the rituals to become its champion, and swore your oath.
-
-.Paladin Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-=== Cleric
-
-*Cost* 15XP.
-
-*Requirements*
-
-.Cleric Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-=== Blood Mage
-
-*Cost* 15XP.
-
-*Requirements* Mystic core path.
-
-.Blood Mage Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
-=== Necromancer
-
-*Cost* 15XP.
-
-*Requirements*
-
-.Occultist Tier Talents
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-* *Talent name* - Description
-
 == Equipment
 
 The [term]#cost# of equipment is described in coin (Shortened to just [term]#c#).
 
 === Slots
 
-You start with 12 + [term]#force# slots for equipment.
+You start with 12 + [term]#physique# slots for equipment.
 
 When you have 100c, it takes up one slot.
 100 more takes up another slot, and so on.
@@ -1247,7 +826,7 @@ Far:: Can be used against something within shouting distance.
 Forceful:: Can knock someone back a step or two--maybe even off their feet.
 Hand:: Can be used against something only within arm's reach.
 Heavy::
-  You can only carry up to 2 + [term]#force# items with this tag.
+  You can only carry up to 2 + [term]#aggression# items with this tag.
 Near:: Can be used against something that you can "see the whites of their eyes.".
 Piercing _Value_:: Ignores _value_ of armor when dealing damage.
 +_Value_ Piercing:: Increases [term]#piercing# by _value_ when dealing damage.
@@ -1270,15 +849,15 @@ Quantity _Value_::
 
 === Weapons
 
-* *Light Arrows* - *Cost* 5c. _Quantity 1_.
-* *Heavy Arrows* - *Cost* 15c. *Damage* +1. _Quantity 1_, _Piercing 1_.
-* *Small Weapon* (Dagger, short sword, small hammer, etc) - *Cost* 5c.
+* *Light Arrows* - *Cost* 5c. _Quantity 1_. *Damage* 3.
+* *Heavy Arrows* - *Cost* 15c. *Damage* 4. _Quantity 1_, _Piercing 1_.
+* *Small Weapon* (Dagger, short sword, small hammer, etc) - *Cost* 5c. *Damage* 3.
   _Hand_.
-* *Medium Weapon* (Long sword, spear, flail, etc) - *Cost* 10c *Damage* +1.
+* *Medium Weapon* (Long sword, spear, flail, etc) - *Cost* 10c *Damage* 4.
   _Heavy_, _Hand_.
-* *Heavy Weapon* (Greatsword, glaive, battle axe, etc) - *Cost* 25c *Damage* +2.
+* *Heavy Weapon* (Greatsword, glaive, battle axe, etc) - *Cost* 25c *Damage* 5.
   _Two-Handed_, _Heavy_, _Reach_.
-* *Sling* - *Cost* 5c.
+* *Sling* - *Cost* 5c. *Damage* 2.
 * *Light Quiver* - *Cost* 10c. Holds light arrows (up to _Quantity 3_), and ignore their slots.
 * *Heavy Quiver* - *Cost* 20c. Holds heavy arrows (up to _Quantity 2_), and ignore their slots.
 
@@ -1288,20 +867,20 @@ Armor can be repaired completely by visiting an armorsmith.
 Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor, with the risk of rendering the armor completely unrepairable.
 
 .Shields
-* *Buckler* - *Cost* 5c.
+* *Buckler* - *Cost* 5c. *Damage* 2.
   _Uses 3_, _+1 Armor_, _Hand_.
-* *Light Shield* - *Cost* 10c.
-  _Uses 6_, _+1 Armor_, _Heavy_, _Hand_.
-* *Heavy Shield* - *Cost* 10c *Damage* +1.
+* *Light Shield* - *Cost* 10c. *Damage* 2.
+  _Uses 4_, _+1 Armor_, _Heavy_, _Hand_.
+* *Heavy Shield* - *Cost* 30c *Damage* 3.
   _Uses 6_, _+2 Armor_, _Bulwark 1_, _Heavy_, _Hand_.
 
 .Worn Armor
-* *Leather Armor* - *Cost* 30c.
+* *Leather Armor* - *Cost* 10c.
   _Uses 3_, _Armor 1_.
 * *Mail Armor* - *Cost* 60c.
   _Uses 3_, _Armor 2_, _Heavy_.
 * *Splint Armor* - *Cost* 90c.
-  _Uses 5_, _Armor 3_, _Bulwark 1_, _Heavy_.
+  _Uses 4_, _Armor 3_, _Bulwark 1_, _Heavy_.
 * *Plate Armor* - *Cost* 120c.
   _Uses 8_, _Armor 3_, _Bulwark 1_, _Heavy_.
 
@@ -1310,7 +889,7 @@ Mundane armor can be partially repaired with the proper tools and know-how by th
 [horizontal]
 * *Chalk* - *Cost* 1c.
 * *Whetstone* - *Cost* 1c.
-* *Bandage* - *Cost* 2c. Removes 1 [term]#tier I harm#.
+* *Bandage* - *Cost* 2c.
 * *Crowbar* - *Cost* 5c *Damage* 1D.
   _Two-Handed_.
 * *Shovel* - *Cost* 5c *Damage* 1D.
@@ -1335,7 +914,7 @@ Vehicles have [term]#slots# that can be used to store equipment.
 * *Wagon* - *Slots* 30, *Cost* 100c.
 * *Stagecoach* - *Slots* 40, *Cost* 300c.
 * *Sailing ship* - *Slots* 100, *Cost* 5000c.
-* *Galleon* - *Slots* 300, *Cost* 10,000c.
+* *Galleon* - *Cost* 10,000c.
 
 === Services
 
@@ -1355,15 +934,16 @@ Vehicles have [term]#slots# that can be used to store equipment.
 
 === Housing
 
-Living spaces have [term]#slots# that can be used to store equipment.
+Taxes and upkeep for housing in civilized areas are 10% base cost per month.
+Upkeep for housing in non-civilized areas is 5% base cost per month.
 
-* *Hovel* - *Slots* 100 *Cost* 20c.
-* *Small cottage* - *Slots* 200 *Cost* 250c.
-* *House* - *Slots* 500 *Cost* 5,000c.
-* *Mansion* - *Slots* 1000 *Cost* 20,000c.
-* *Keep* - *Slots* 2000 *Cost* 150,000c.
-* *Castle* - *Slots* 5000 *Cost* 600,000c.
-* *Grand castle* - *Slots* 20,000 *Cost* 1,000,000c.
+* *Hovel* - *Cost* 20c.
+* *Small cottage* - *Cost* 250c.
+* *House* - *Cost* 5,000c.
+* *Mansion* - *Cost* 20,000c.
+* *Keep* - *Cost* 150,000c.
+* *Castle* - *Cost* 600,000c.
+* *Grand castle* - *Cost* 1,000,000c.
 
 == Alchemy
 
@@ -1377,340 +957,39 @@ Living spaces have [term]#slots# that can be used to store equipment.
 
 == Exposure to Chaos
 
-== Alvoqir
-
-=== The Story so Far
-
-Untold Years Ago (5000+)::
-  The world of Alvoqir was once full of magic and wonder.
-  Heroes adventured throughout the land, conquering evil foes that would rise in the fringes.
-  Scattered artefacts found throughout the world today are most of what remains of these times.
-Ages Ago (~5000 years)::
-  The sickening.
-  A deadly plague of pestilence and horror.
-  No one at the time predicted it, but the time of heroes came to a destructive and decisive end, and Alvoqir has never recovered.
-~200 Years Ago::
-  The current age.
-
-== Monsters and Foes
-
-Every monster has moves that describe its behavior and abilities.
-Just like the normal consequences, they're things that you do when there's a lull in the action or when the PCs give you a golden opportunity.
-
-Each monster has an instinct that describe its goals at a high level.
-Some monsters live for conquest, or treasure, or simply for blood.
-The monster's instinct is the guide to how to use it in the fiction.
-
-The monster's description is where all its other features come from.
-The description is how you know what the monster really is, the other elements just reflect the description.
-
-Moves dictate how much [term]#damage# the monster can inflict at once.
-A monster deals its damage to another monster or a PC whenever it causes them physical harm.
-Some moves are special, like ones that can only be triggered by a critical failure, or a progress track being completed.
-
-Each monster has tags that describe how it deals damage, including the range(s) of its abilities.
-When trying to attack something out of its range (too close or too far) the monster's out of luck, no damage.
-Any tag that can go on a weapon (like messy or slow) can also go on a monster.
-
-There are special tags that apply only to monsters.
-These tags, listed below, describe the key attributes of the monster--qualities that describe how big they are and how, if at all, they organize themselves.
-
-A monster's HP is a measure of how much damage it can take before it dies.
-At 0 HP it's dead or out of action, unless otherwise stated.
-
-Some monsters have progress tracks associated with them.
-Each track is different and have different effects, such as a timer until a special ability goes off.
-Sometimes it can represent a temporary vulnerability, like a troll when it is attacked by fire.
-
-Some monsters are lucky enough to enjoy armor.
-It's just like player armor: when a monster with armor takes damage it can mark a use of the armor to negate it.
-
-Special qualities describe innate aspects of the monster that are important to play.
-These are a guide to the fiction, and therefore the moves.
-A quality like intangible means just what it says: mundane stuff just passes through it.
-That means swinging a mundane sword at it will have extremely little [term]#reward#, and damage isn't a possibility for a start.
-
-.GM Advice
-[NOTE]
---
-Here's some advice on running encounters.
-
-You'll notice that monsters don't have rules on _when_ they deal their damage.
-That's because it's really up to the tone of game you want to play.
-
-It can be a good idea for GMs new to this game to make <<_soft_moves,[term]#soft moves#>> at first during combat scenes when consequences are being suffered, and move towards using more <<_hard_moves,[term]#hard moves#>> to increase the tension.
-
-At some tables you may just want to make combat an incredibly dangerous choice.
-Feel free to use hard moves whenever a [term]#weak hit# or [term]#miss# occurs in that case.
-Remember, though--let players know the consequences of their actions before they make them.
-This game is about making choices, not being "gotcha'd" by a GM.
---
-
-=== Tags
-
-.General Tags
-[horizontal]
-Amorphous:: Its anatomy and organs are bizarre and unnatural.
-Cautious:: It prizes survival over aggression.
-Construct:: It was made, not born
-Devious:: Its main danger lies beyond the simple clash of battle.
-Hoarder:: It almost certainly has treasure.
-Intelligent::
-  It's smart enough that some individuals pick up other skills.
-  The GM can adapt the monster by adding tags to reflect specific training, like a mage or warrior.
-Organized::
-  It has a group structure that aids it in survival.
-  Defeating one may cause the wrath of others.
-  One may sound an alarm.
-Planar:: It's from beyond this world.
-Terrifying:: Its presence and appearance evoke fear.
-
-.Tactics Tags
-[horizontal]
-Minion:: Very little HP. Usually seen in hordes.
-Troop:: Decent defenses, not a lot of damage. Seen often in smaller groups.
-Ranger:: A troop but with a ranged attack.
-Magical:: Magical in nature and makes magical attacks.
-Leader:: Makes its allies around it better or is better around its allies.
-Stealthy:: Avoids detection and prefers to attack with the element of surprise.
-Blocker:: Defends its allies primarily.
-Solitary:: Lives and fights alone.
-
-.Size Tags
-[horizontal]
-Tiny:: It's much smaller than a human child.
-Small:: It's about the size of a human child.
-Large:: It's much bigger than a human, about as big as a cart.
-Huge:: It's as big as a small house or larger
-
-[appendix]
-== Bestiary
-
-=== Dragons
-
-==== The Tyranical Dragon of Flame
-
-==== The Elder Dragon
-
-==== The Blood Dragon
-
-==== The Necrotic Dragon
-
-=== Animals
-
-==== Rats
-
-=== Animals, Ferocious
-
-==== Dire Animals
-
-==== Bear
-
-==== Wolf
-
-=== Demons
-
-=== Eldritch Horrors
-
-==== Occulug
-
-==== Shoggoth
-
-=== Fae
-
-=== Hilltribe Foes
-
-==== Bugbears
-
-==== Goblins
-
-==== Giants
-
-==== Hobgoblins
-
-==== Orcs
-
-==== Trolls
-
-=== Golems
-
-=== Mythical Creatures
-
-=== Oozes
-
-=== People, Mundane
-
-.Acolyte
-[monster]
---
-*HP* 6. *Armor* 0.
-_Troop_, _Intelligent_, _Organized_.
-
-[.lead]
-"`Can't all be the High Priest, they said. Can't all wield the White Spire, they said. Scrub the floor, they told me. The Cthonic Overgod don't want a messy floor, do he? They said it'd be enlightenment and magic. Feh. It's bruised knees and dishpan hands. If only I'd been a cleric, instead.`"
-
-'''
-
-*Instinct:* To serve a master.
-
-*Special Qualities:* --
-
-*Damage:* 2, _Close_
-
-.Actions
-* *Attack with dagger if threatened.*
-* Follow dogma.
-* Offer eternal reward for mortal deeds.
---
-
-.Bandit Lord
-[monster]
---
-*HP* 12. *Armor* 1.
-_Solitary_, _Intelligent_, _Organized_.
-
-[.lead]
-Better to rule in hell than serve in heaven.
-
-'''
-
-*Instinct:* To lead
-
-*Special Qualities:* --
-
-*Damage* 6, _Close_.
-
-.Actions
-* *Attack with his sharpened dagger.*
-* Make a demand.
-* Extort.
-* Topple power.
---
-
-.Guard
-[monster]
---
-*HP* 6. *Armor* 1.
-_Troop_, _Organized_.
-
-[.lead]
-Noble protector or merely drunken lout, it often makes no difference to these sorts.
-Falling shy of a noble knight, the proud town guard is an ancient profession nonetheless.
-These folks of the constabulary often dress in the colors of their lord (when you can see it under the mud) and, depending on the richness of that lord, might even have a decent weapon and some armor that fits.
-Those are the lucky ones.
-Even so, someone has to be there to keep an eye on the gate when the Black Riders have been spotted in the woods.
-Too many of us owe our lives to these souls--remember that the next time one is drunkenly insulting your mother, hmm?
-
-'''
-
-*Instinct:* To have an uneventful shift.
-
-*Special Qualities:* --
-
-*Damage* 4, _Close_, _Piercing 1_.
-
-.Actions
-* *Attack with spear.*
-* Uphold the law.
-* Make a profit.
---
-
-.Guard Captain
-[monster]
---
-*HP* 9. *Armor* 2.
-_Leader_, _Organized_.
-
-'''
-
-*Instinct:* To fight crime.
-
-*Special Qualities:* --
-
-*Damage* 6, _Close_.
-
-.Actions
-* *Attack with sword.*
-* Bark orders .
-* Make a profit.
---
-
-=== People, Magical
-
-=== Undead
-
-.Lich
-[monster]
---
-*HP* 16. *Armor* 5.
-_Solitary_, _Magical_, _Cautious_, _Intelligent_, _Hoarder_, _Construct_.
-
-'''
-
-*Instinct:* To un-live.
-
-*Special Qualities:* Unaffected by non-magical weapons, Animastus.
-
-*Damage* 8, ignore armor, _Near_, _Far_.
-
-.Actions
-* *Attack with magical force.*
-* Cast a perfected spell of death or destruction.
-* Set a ritual or great working into motion.
-* Reveal a preparation or plan already completed.
---
-
-==== Draugr
-
-==== Ghouls
-
-==== High Vampires
-
-==== Liches
-
-==== Skeletons
-
-==== Vampire Spawn
-
-==== Wraiths
-
-==== Zombies
-
-=== Spiders
-
-=== Wyrms
-
-.Wyvern
-[monster]
---
-*HP* 16.
-_Solitary_, _Large_, _Intelligent_.
-
-*Instinct:* To seize prey and carry off.
-
-*Damage* 7, _Reach_.
-
-.Actions
-* *Bite.*
-* Swoop in.
-* Sting with poison.
---
-
-.Kobold
-[monster]
---
-*HP* 3.
-_Minion_, _Small_, _Stealthy_, _Organized_.
-
-*Instinct:* To serve a dragon.
-
-*Damage* 3, _Close_.
-
-.Actions
-* Lay a trap.
-* Call on dragons or draconic allies.
-* Retreat and regroup.
---
-
-[appendix]
-== Alvoqir Gazetteer
+== Calendar
+
+There are 8 months in the year, with each month having 5 weeks, and each week containing 9 days, for a total of 360 days per year.
+
+There are 24 hours in each day.
+Each day is split into four
+
+The year contains four seasons, beginning with summer and proceeding to autumn, winter, and then spring.
+Each month represents the beginning and end of each of the four seasons.
+
+.Months
+. Sunsoar (Early Summer)
+. Suncrest (Late Summer)
+. Dewveil (Early Autumn)
+. Shadeharvest (Late Autumn)
+. Starwhisper (Early Winter)
+. Frostgrain (Late Winter)
+. Bloomgust (Early Spring)
+. Dunewake (Late Spring)
+
+.Weekdays
+. Duunday
+. Osiday
+. Sharday
+. Karday
+. Stelday
+. Kasday
+. Wirlday
+. Nirday
+. Ansday
+
+.Time of Day
+* Morning
+* Day
+* Evening
+* Night
