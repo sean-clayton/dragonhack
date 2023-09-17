@@ -359,20 +359,21 @@ Roll 1D for each point in your [term]#endure# action.
   You can [term]#mark 1 grit# to reduce them (half damage if taking damage) or [term]#mark 2 grit# to avoid them completely.
 --
 
+=== Special Resistance
+
+Every character begins with 1 special resistance that they mark when using an ability that lets them use a special resistance.
+Magical items can increase the number of special resistances a character has.
+
 == Character Creation
 
 . *Envision* your character and name them.
 . Choose a <<_kin,[term]#kin#>>, determine your [term]#age#, and pick an [term]#origin# from your kin or <<_origins,roll an [term]#origin#>>.
-  Determine your <<_attributes,[term]#attributes#>> according to your [term]#kin#.
-. Set your <<_approaches,[term]#approaches#>> by distributing an array of points across [term]#aggression#, [term]#precision#, [term]#insight#, and [term]#heart#, as determined by your age.
+. Set your <<_attributes,[term]#attributes#>> by distributing an array of points across [term]#strength#, [term]#dexterity#, [term]#wits#, and [term]#heart#, as determined by your age.
   * *Young adult:* 2, 2, 1, 0.
   * *Middle-aged:* 2, 1, 1, 0.
   * *Old:* 2, 1, 0, 0.
-  Each attribute can have up to 2 points allocated total.
-  * *Young adult/middle-aged:* 3.
-  * *Old:* 2.
-. Distribute points across <<_actions,[term]#actions#>> as determined by your age.
-  Each action can have up to 2 points allocated total.
+. Distribute points across <<_skills,[term]#skills#>> as determined by your age.
+  Each skill can have up to 2 points allocated total.
   * *Young adult:* 6
   * *Middle-aged:* 10
   * *Old:* 12
@@ -398,13 +399,12 @@ Roll 1D for each point in your [term]#endure# action.
 At the end of a session, have each person at the table go through the following items and, unless otherwise noted, mark 1XP for each one that everyone agrees is true for them.
 
 * XP for showing up to the session.
-* XP for someone in the group killing a monster or otherwise dangerous foe.
-* XP for someone in the group looting a magical artefact.
-* XP for someone in the group discovering a settlement, dangerous site, or otherwise storied.
-* XP for someone in the group gaining the trust, gratitude, or other kind of allyship of an NPC.
-* XP for someone in the group making a new enemy who will now be acting against you.
-* XP for every 50 &times; [term]#grit# coin spent and wasted without any in-world gain on your <<_vices,[term]#vices#>> this session.
-* XP for every <<_vices,[term]#vice#>> you succumbed to in a memorable way.
+* XP for killing a monster.
+* XP looting a magical artefact.
+* XP discovering a new site.
+* XP gaining the trust, gratitude, or other kind of allyship of an NPC.
+* XP making a new enemy who will now be acting against you.
+* XP for every 50 &times; [term]#max grit# coin spent and wasted without any in-world gain on your <<_vices,[term]#vices#>> this session.
 
 <<_paths, [term]#Paths#>> also provide ways of gaining XP.
 Only characters with those paths can gain XP in those ways.
@@ -414,83 +414,49 @@ Additionally, you can change _one_ of these aspects of your character if the nar
 * Change one of your vices to a new one.
 * Refund one talent completely and obtain a new one at the same cost.
 
-== Approaches
-
-[horizontal]
-Aggression:: TBD
-Precision:: TBD
-Insight:: TBD
-Heart:: TBD
-
-== Actions
-
-Attune::
-  When you [term]#attune#, you .
-Convince::
-  When you [term]#convince#, you .
-Clash::
-  When you [term]#clash#, you .
-Craft::
-  When you [term]#craft#, you .
-Decieve::
-  When you [term]#decieve#, you .
-Endure::
-  When you [term]#endure#, you .
-Perform::
-  When you [term]#perform#, you .
-Prowl::
-  When you [term]#prowl#, you .
-Reconnoiter::
-  When you [term]#reconnoiter#, you .
-Rush::
-  When you [term]#rush#, you .
-Shoot::
-  When you [term]#shoot#, you .
-Study::
-  When you [term]#study#, you .
-Tinker::
-  When you [term]#tinker#, you .
-Traverse::
-  When you [term]#traverse#, you .
-Trick::
-  When you [term]#trick#, you .
-Wreck::
-  When you [term]#wreck#, you .
-
 == Attributes
 
 [horizontal]
-Physique:: Your physical strength.
-Willpower:: Your mental strength.
+Strength:: TBD
+Agility:: TBD
+Wits:: TBD
+Heart:: TBD
 
-Your <<_kin,[term]#kin#>> determines these.
+== Skills
+
+Attuning (Wits):: TBD
+Convince (Heart):: TBD
+Clashing (Strength):: TBD
+Crafting (Wits):: TBD
+Endurance (Strength):: TBD
+Manipulation (Heart):: TBD
+Performing (Heart):: TBD
+Prowling (Agility):: TBD
+Reconnaissance (Wits):: TBD
+Survival (Wits):: TBD
+Marksmanship (Agility):: TBD
+Athletics (Strength):: TBD
+Studying (Wits):: TBD
+Tinkering (Wits):: TBD
+Traversing (Wits):: TBD
+Wrecking (Strength):: TBD
 
 == Grit
 
 Grit represents the amount of effort, physical or mental, you can exert while adventuring.
 When you [term]#mark grit#, you add grit against your maximum grit.
 
-You begin with 5 maximum grit.
+You begin with 5 + [term]#heart# maximum grit.
 
 When you are at max grit and you have to [term]#mark grit#, you're [term]#broken# and can no longer act.
-This means you are either physically battered and unconscious, emotionally unavailable, mentally drained, or otherwise completely exhausted.
 
-When you are broken you are out of any scene you currently are in and all scenes going forward, and are susceptible to a [term]#coup de grace#, which means all damage done to you is quadrupled.
+=== Push Yourself
 
-You cannot perform a [term]#death move# if you are [term]#doomed# by a [term]#coup de grace#.
+[term]#Mark 2 grit# to give yourself one of the following benefits:
 
-You are broken until you clear [term]#grit# through the [term]#come to# move or some other way.
-
-=== Come To
-
-.Come To
-[move]
---
-[.lead]
-When you are at max grit, and you are still alive after w[2D] hours...
-
-You clear [term]#1 grit#.
---
+* [term]#Advantage# in a roll.
+* +1 level to your [term]#effect#.
+* [term]#Take action# while suffering from a [term]#tier 3# harm.
 
 === Increasing Max Grit
 
@@ -790,13 +756,23 @@ Rebellion:: You seek to undermine authority.
 Pleasure:: You seek escape and gratification through flesh, food, drugs, and art.
 Unknown:: You seek the weird, foreign, taboo, and strange.
 
+== Talents
+
+Desperate Times:: When [term]#taking action# with [term]#desperate# position, take +1D to the roll. If you [term]#resist# the consequences, take -1D.
+Focused:: When [term]#pushing yourself# in ranged combat or following the tracks a target, you can mark your [term]#special resistance# instead of marking grit.
+Greater Fortitude:: +1D when rolling to recover from your wounds.
+Greater Will:: When [term]#resisting# mental effects, you can mark your [term]#special resistance# to completely avoid them. You clear your special resistance when [term]#resting#.
+Heavy Specialist:: Increase your max [term]#heavy# equipment by 1.
+Mule:: Increase your max equipment slots by 2.
+Natural camo:: When [term]#resisting# detection, you can mark your [term]#special resistance# to completely avoid it. You clear your special resistance when [term]#resting#.
+
 == Equipment
 
 The [term]#cost# of equipment is described in coin (Shortened to just [term]#c#).
 
 === Slots
 
-You start with 12 + [term]#physique# slots for equipment.
+You start with 9 + [term]#strength# slots for equipment.
 
 When you have 100c, it takes up one slot.
 100 more takes up another slot, and so on.
@@ -826,7 +802,7 @@ Far:: Can be used against something within shouting distance.
 Forceful:: Can knock someone back a step or two--maybe even off their feet.
 Hand:: Can be used against something only within arm's reach.
 Heavy::
-  You can only carry up to 2 + [term]#aggression# items with this tag.
+  You can only carry up to 1 + [term]#strength# items with this tag.
 Near:: Can be used against something that you can "see the whites of their eyes.".
 Piercing _Value_:: Ignores _value_ of armor when dealing damage.
 +_Value_ Piercing:: Increases [term]#piercing# by _value_ when dealing damage.
@@ -864,7 +840,7 @@ Quantity _Value_::
 === Armor
 
 Armor can be repaired completely by visiting an armorsmith.
-Mundane armor can be partially repaired with the proper tools and know-how by the PCs, [term]#taking action# trying to repair the armor, with the risk of rendering the armor completely unrepairable.
+Mundane armor can be partially repaired with the proper tools, know-how, and time by the PCs, [term]#taking action# trying to repair the armor, with the risk of rendering the armor completely unrepairable.
 
 .Shields
 * *Buckler* - *Cost* 5c. *Damage* 2.
@@ -879,9 +855,9 @@ Mundane armor can be partially repaired with the proper tools and know-how by th
   _Uses 3_, _Armor 1_.
 * *Mail Armor* - *Cost* 60c.
   _Uses 3_, _Armor 2_, _Heavy_.
-* *Splint Armor* - *Cost* 90c.
+* *Splint Armor* - *Cost* 120c.
   _Uses 4_, _Armor 3_, _Bulwark 1_, _Heavy_.
-* *Plate Armor* - *Cost* 120c.
+* *Plate Armor* - *Cost* 300c.
   _Uses 8_, _Armor 3_, _Bulwark 1_, _Heavy_.
 
 === Adventuring Gear
@@ -890,9 +866,9 @@ Mundane armor can be partially repaired with the proper tools and know-how by th
 * *Chalk* - *Cost* 1c.
 * *Whetstone* - *Cost* 1c.
 * *Bandage* - *Cost* 2c.
-* *Crowbar* - *Cost* 5c *Damage* 1D.
+* *Crowbar* - *Cost* 5c.
   _Two-Handed_.
-* *Shovel* - *Cost* 5c *Damage* 1D.
+* *Shovel* - *Cost* 5c.
   _Two-Handed_.
 * *Tent, Personal* - *Cost* 10c.
 * *Tent, Fits 3* - *Cost* 30c.

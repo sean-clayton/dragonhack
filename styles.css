@@ -16,6 +16,86 @@ along with this program. If not, see https://www.gnu.org/licenses/.
 @import "https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css";
 
 @font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/alegreya-sc-v25-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/alegreya-sc-v25-latin-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/alegreya-sc-v25-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 500;
+  src: url("fonts/alegreya-sc-v25-latin-500italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/alegreya-sc-v25-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/alegreya-sc-v25-latin-700italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 800;
+  src: url("fonts/alegreya-sc-v25-latin-800.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 800;
+  src: url("fonts/alegreya-sc-v25-latin-800italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 900;
+  src: url("fonts/alegreya-sc-v25-latin-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 900;
+  src: url("fonts/alegreya-sc-v25-latin-900italic.woff2") format("woff2");
+}
+
+@font-face {
   font-family: "Crimson Pro";
   src: url("fonts/CrimsonPro-Italic.woff2") format("woff2 supports variations"),
     url("fonts/CrimsonPro-Italic.woff2") format("woff2-variations");
@@ -35,15 +115,13 @@ along with this program. If not, see https://www.gnu.org/licenses/.
 
 :root {
   --crimson-pro-font-family: "Crimson Pro";
-  --fdi-altmeister-b-font-family: "FDI Altmeister B";
-  --alegreya-font-family: "Alegreya";
   --alegreya-sc-font-family: "Alegreya SC";
 
   --display-font-family: var(--crimson-pro-font-family);
   --heading-font-family: var(--crimson-pro-font-family);
   --heading-secondary-font-family: var(--crimson-pro-font-family);
   --primary-font-family: var(--crimson-pro-font-family);
-  --term-font-family: var(--crimson-pro-font-family);
+  --term-font-family: var(--alegreya-sc-font-family);
 }
 
 html {
@@ -97,6 +175,7 @@ dt {
 
 :is(
     .hdlist,
+    .dlist,
     .ulist,
     .olist,
     .monster > .content,
